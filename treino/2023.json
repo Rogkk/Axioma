@@ -1,0 +1,1963 @@
+{
+  "metadata": {
+    "limit": 45,
+    "offset": 136,
+    "total": 183,
+    "hasMore": true
+  },
+  "questions": [
+    {
+      "title": "Questão 136 - ENEM 2023",
+      "index": 136,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/136/565c2d5a-96a0-4468-9bb1-2710707a40fd.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.198,8",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1.296,0",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "1.360,8",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4.665,6",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "4.860,0",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 137 - ENEM 2023",
+      "index": 137,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/137/fc161c5c-10e9-46d8-a75d-09c59b21d5a4.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2.000,00.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "2.500,00.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3.250,00.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "4.500,00.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "9.000,00.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 138 - ENEM 2023",
+      "index": 138,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "20",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "60",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "64",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "68",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "80",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 139 - ENEM 2023",
+      "index": 139,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "O gerente de uma fábrica pretende comparar a evolução das vendas de dois produtos similares (I e II). Para isso, passou a verificar o número de unidades vendidas de cada um desses produtos em cada mês. Os resultados dessa verificação, para os meses de abril a junho, são apresentados na tabela.\n\n![](https://enem.dev/2023/questions/139/abba5cb1-da9d-4899-bda7-97099ca51147.png)\n\nO gerente estava decidido a cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II.  \nSuponha que a variação na quantidade de unidades vendidas dos produtos I e II se manteve, mês a mês, como no período representado na tabela.",
+      "files": [
+        "https://enem.dev/2023/questions/139/abba5cb1-da9d-4899-bda7-97099ca51147.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Em qual mês o produto II parou de ser produzido?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Junho.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Julho.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Agosto.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Setembro.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Outubro.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 140 - ENEM 2023",
+      "index": 140,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/140/846c1155-c9f0-48ad-a862-f9bf883c3935.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 141 - ENEM 2023",
+      "index": 141,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": null,
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/141/e698edb1-adc0-416b-9370-c20a7e878259.jpg",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/141/b5f5bdf5-2251-4326-9877-ce9c2d831600.jpg",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/141/d241fadb-6516-4ca8-aa9b-e72fff314881.jpg",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/141/1dcce683-4ef7-4862-b554-3e3c66de54c3.jpg",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/141/7b4de18d-92ca-488f-8419-ec95d852a135.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 142 - ENEM 2023",
+      "index": 142,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": null,
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "50",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "60",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "80",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "140",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "150",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 143 - ENEM 2023",
+      "index": 143,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "10",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "11",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "12",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "30",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "33",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 144 - ENEM 2023",
+      "index": 144,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/144/c606403f-fd10-4c02-8e46-736fece94b85.png",
+        "https://enem.dev/2023/questions/144/2107cabc-64d0-4a1f-9eab-fa7dce0e9ac2.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "0,3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "0,5",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "0,9",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "1,8",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "2,7",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 145 - ENEM 2023",
+      "index": 145,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/145/f338280e-33fe-4896-b296-cfb94ca78430.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 146 - ENEM 2023",
+      "index": 146,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "![](https://enem.dev/2023/questions/146/74e0c851-b2af-410d-9f19-3348dd8f883a.jpg)",
+      "files": [
+        ""
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 147 - ENEM 2023",
+      "index": 147,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": null,
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "7",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "8",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 148 - ENEM 2023",
+      "index": 148,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/148/c6c6b6c4-3fba-4a68-99c6-014bb190c456.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 149 - ENEM 2023",
+      "index": 149,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/149/a88a534d-3ee0-4b70-aba7-1b3e7c46b5f3.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 150 - ENEM 2023",
+      "index": 150,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 151 - ENEM 2023",
+      "index": 151,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/151/276495a3-e5f2-4e4c-83b0-3473512a5274.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "7",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "9",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 152 - ENEM 2023",
+      "index": 152,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/152/30b0ee85-ac44-4eca-a7c9-54bd70f9c069.png",
+        "https://enem.dev/2023/questions/152/40f43a4f-f8da-44a9-a02c-f20ba89a48ce.png",
+        "https://enem.dev/2023/questions/152/13f26008-1dcf-404f-b3cf-aae104a036c1.png",
+        "https://enem.dev/2023/questions/152/717fdd2f-5eef-48c9-9211-8f62bdb2639c.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "III.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 153 - ENEM 2023",
+      "index": 153,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "III.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 154 - ENEM 2023",
+      "index": 154,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2023,
+      "context": "As figuras pintadas no quadro da sala de estar de uma residência representam as silhuetas de parte das torres de um castelo e, ao fundo, a de uma lua cheia. A lua foi pintada na forma de um círculo, e o telhado da torre mais alta, na forma de triângulo equilátero, foi pintado sobrepondo parte da lua. O centro da lua coincide com um dos vértices do telhado da torre mais alta.\n\n![](https://enem.dev/2023/questions/154/d39268bf-82aa-4063-8bcf-dfdafa4a3aa8.png)",
+      "files": [
+        "https://enem.dev/2023/questions/154/d39268bf-82aa-4063-8bcf-dfdafa4a3aa8.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Nesse quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Cone.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Setor circular.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Segmento circular.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Triângulo isósceles.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Arco de circunferência.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 155 - ENEM 2023",
+      "index": 155,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m.\n\n![](https://enem.dev/2023/questions/155/05746583-c107-4dd6-8a3b-7e7d0da99377.png)",
+      "files": [
+        "https://enem.dev/2023/questions/155/05746583-c107-4dd6-8a3b-7e7d0da99377.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual é a medida da área, em metro quadrado, ocupada pela calçada?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.000",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "900",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "600",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "500",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "400",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 156 - ENEM 2023",
+      "index": 156,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:\n\n![](https://enem.dev/2023/questions/156/e9e0b793-5535-48e6-87c6-5516e6d7c8cd.png)",
+      "files": [
+        "https://enem.dev/2023/questions/156/e9e0b793-5535-48e6-87c6-5516e6d7c8cd.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Por quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "6",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "8",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "10",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "14",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "24",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 157 - ENEM 2023",
+      "index": 157,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/157/13cfbc97-0034-4904-9100-ff5ca3f6504e.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "10",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "20",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "30",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "50",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "70",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 158 - ENEM 2023",
+      "index": 158,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 159 - ENEM 2023",
+      "index": 159,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "6",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "12",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "18",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 160 - ENEM 2023",
+      "index": 160,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/160/a2d565c2-f39f-4b43-b261-087e349850fe.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 161 - ENEM 2023",
+      "index": 161,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "6,7%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "10%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "20%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "21,5%",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "23,3%",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 162 - ENEM 2023",
+      "index": 162,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 163 - ENEM 2023",
+      "index": 163,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/163/ff0caefb-56e7-4c17-bae7-b65b91037e9c.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 164 - ENEM 2023",
+      "index": 164,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "O gráfico expõe alguns números da gripe A-H1N1. Entre as categorias que estão em processo de imunização, uma já está completamente imunizada, a dos trabalhadores da saúde.\n\n![](https://enem.dev/2023/questions/164/194cf28a-b40d-493d-b106-8f71aee57f51.png)\n\nÉpoca, 26 abr. 2010 (adaptado).",
+      "files": [
+        "https://enem.dev/2023/questions/164/194cf28a-b40d-493d-b106-8f71aee57f51.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "De acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Indígenas.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Gestantes.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Doentes crônicos.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Adultos entre 20 e 29 anos.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Crianças de 6 meses a 2 anos.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 165 - ENEM 2023",
+      "index": 165,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas.\n\n![](https://enem.dev/2023/questions/165/bf369224-eb93-4bba-98c4-ff7d1e17df36.png)\n\nNessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica.",
+      "files": [
+        "https://enem.dev/2023/questions/165/bf369224-eb93-4bba-98c4-ff7d1e17df36.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "A área a ser revestida em cerâmica, em metro quadrado, mede",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1,20.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1,35.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1,65.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "1,80.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "1,95.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 166 - ENEM 2023",
+      "index": 166,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/166/80863c14-e426-4ae6-9ff0-03f5b3c71160.png",
+        "https://enem.dev/2023/questions/166/e3d70b62-2929-4694-ba58-cf45c0ac1374.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 167 - ENEM 2023",
+      "index": 167,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": ".",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 168 - ENEM 2023",
+      "index": 168,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/168/a5689a77-7cbd-4f5f-b548-eef2a3fee87f.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/168/67248715-8948-439d-9770-a652c76ac110.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/168/4d9a67e0-9136-42e4-855e-c72b0b876d28.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/168/24184847-9c76-40d3-9c78-44a35f0600e8.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/168/adeb932f-030f-4190-9b20-33a4a5f968f5.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 169 - ENEM 2023",
+      "index": 169,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/169/76239f15-d46d-4067-bb38-bb40ca2f87c0.png",
+        "https://enem.dev/2023/questions/169/3af229c8-e385-4ca2-891a-22bdf6b2d593.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/169/0ad62fa9-ccdd-40b7-95e6-024319a5c9bc.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/169/74afb699-867b-4b47-8fa9-9c0fddd6db14.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/169/23fe5ab4-dc1d-4693-8a62-c17abdd5c5cb.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/169/9394f679-b291-4e10-9384-b1f2c2dba975.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2023/questions/169/5037e73b-aa7f-43fd-baa8-4f70d9f0f498.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 170 - ENEM 2023",
+      "index": 170,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/170/369b24e4-258e-4faf-b7df-0c2e3da3c22a.png",
+        "https://enem.dev/2023/questions/170/b158b079-eaf5-4f8c-84b1-99db8076a950.png",
+        "https://enem.dev/2023/questions/170/e7404490-a2b4-46e1-b1e6-3a8c828050fe.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Ótimo.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Bom.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Normal.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Ruim.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Péssimo.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 171 - ENEM 2023",
+      "index": 171,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "De acordo com as informações fornecidas, durante quantos anos Tzolkim aquela comunidade maia foi governada por tal família?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "741",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1 040",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1 460",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "2 100",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5 200",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 172 - ENEM 2023",
+      "index": 172,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "Sejam _a_, _b_ e _c_ as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores _a_, _b_ e _c_ são, respectivamente, os diâmetros dos círculos _C1_ , _C2_ e _C3_, como apresentados na figura.\n\n![](https://enem.dev/2023/questions/172/dcdd2743-6ad6-44e8-94ae-d2adec3a3400.png)\n\nObserve que essa construção assegura, pelo teorema de Pitágoras, que área (C1) = área (C2) + área (C3).\n\nUm professor de matemática era conhecedor dessa construção e, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo correspondente à pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas. O professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura.\n\n![](https://enem.dev/2023/questions/172/8bd02f79-d5fb-4b8d-9321-c57434be3374.png)\n\nA partir da medida do ângulo a, o professor afirmou que a área de sua pizza é maior do que a soma das áreas das outras duas pizzas.",
+      "files": [
+        "https://enem.dev/2023/questions/172/dcdd2743-6ad6-44e8-94ae-d2adec3a3400.png",
+        "https://enem.dev/2023/questions/172/8bd02f79-d5fb-4b8d-9321-c57434be3374.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 173 - ENEM 2023",
+      "index": 173,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 175 - ENEM 2023",
+      "index": 175,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "4,68",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "6,30",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "9,30",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "10,50",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "10,65",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 176 - ENEM 2023",
+      "index": 176,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/176/d21e916b-a5fc-441e-b782-d2d4aca3522b.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "59",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "83",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "86",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "89",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "92",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 177 - ENEM 2023",
+      "index": 177,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/177/27c49bd5-ad8c-450c-9f56-970b9ca9c53c.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 178 - ENEM 2023",
+      "index": 178,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 179 - ENEM 2023",
+      "index": 179,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [
+        "https://enem.dev/2023/questions/179/d2b83dd3-33ef-40d6-944a-b98d17f6411b.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 180 - ENEM 2023",
+      "index": 180,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2023,
+      "context": "",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Outubro.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Novembro.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Dezembro.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Janeiro.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Fevereiro.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
