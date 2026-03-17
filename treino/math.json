@@ -2321,6 +2321,191 @@
     },
     "tags": ["Aritmética", "Proporcionalidade", "Otimização", "Análise de Dados"],
     "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_174",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "As figuras pintadas no quadro da sala de estar de uma residência representam as silhuetas de parte das torres de um castelo e, ao fundo, a de uma lua cheia. A lua foi pintada na forma de um círculo, e o telhado da torre mais alta, na forma de triângulo equilátero, foi pintado sobrepondo parte da lua. O centro da lua coincide com um dos vértices do telhado da torre mais alta.\n\n![](https://enem.dev/2023/questions/154/d39268bf-82aa-4063-8bcf-dfdafa4a3aa8.png)(A imagem apresenta um ícone ou ilustração minimalista composta por formas geométricas sólidas dentro de uma moldura quadrada de borda dupla. O desenho central é formado por três silhuetas cinza-escuras que lembram casas ou setas largas apontando para cima, posicionadas lado a lado. A figura central é ligeiramente mais alta que as duas laterais, criando uma composição simétrica e ascendente. Atrás dessas três formas, sobrepõe-se um grande círculo em tom de cinza-claro, que remete a um sol ou uma lua ao fundo, centralizado na parte superior. O conjunto visual é limpo, utiliza uma paleta de cores monocromática (tons de cinza e branco) e sugere conceitos como crescimento, mercado imobiliário ou uma paisagem urbana estilizada. A moldura externa possui linhas finas que dão profundidade, como se fosse um quadro ou uma janela.)\n\nNesse quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um",
+    "choices": [
+      { "id": "A", "text": "Cone." },
+      { "id": "B", "text": "Setor circular" },
+      { "id": "C", "text": "Segmento circular." },
+      { "id": "D", "text": "Triângulo isósceles." },
+      { "id": "E", "text": "Arco de circunferência." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as figuras geométricas envolvidas: a lua é um círculo e o telhado da torre central é um triângulo equilátero.",
+        "2. O enunciado afirma que o centro do círculo coincide com um dos vértices do triângulo equilátero.",
+        "3. Visualizamos a sobreposição: os dois lados do triângulo que partem desse vértice funcionam como dois raios (ou segmentos de reta que partem do centro) que delimitam uma fatia do círculo.",
+        "4. Definimos a região: a parte do círculo delimitada por dois raios e um arco de circunferência é chamada, na geometria plana, de setor circular.",
+        "5. Como o telhado é um triângulo equilátero, sabemos inclusive que esse setor circular possui um ângulo central de 60°."
+      ],
+      "final_reason": "Ao posicionar o vértice de um triângulo no centro de um círculo, a área do círculo que fica 'coberta' pelo ângulo desse vértice é delimitada por dois raios e pelo arco correspondente. Essa forma geométrica é definida como um setor circular."
+    },
+    "tags": ["Geometria Plana", "Círculos", "Setor Circular", "Figuras Geométricas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_175",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m.\n\n![](https://enem.dev/2023/questions/155/05746583-c107-4dd6-8a3b-7e7d0da99377.png)(A imagem apresenta uma planta baixa esquemática de uma área de lazer, composta por dois quadrados concêntricos. O quadrado interno é de cor azul ciano e contém a palavra Piscina escrita centralizada em preto. Ao redor desse quadrado interno, há uma borda uniforme de cor cinza claro, identificada por duas setas indicativas com a palavra Calçada. O esquema detalha as dimensões dessa borda através de quatro setas de cota de ponta dupla, posicionadas nos quatro lados (superior, inferior, esquerdo e direito), todas acompanhadas da medida 5 m. Isso indica que a calçada possui uma largura constante de 5 metros em todo o perímetro da piscina. O desenho utiliza linhas pretas finas para os contornos e uma tipografia simples, assemelhando-se a um problema de geometria ou um diagrama técnico básico de arquitetura.)\n\nQual é a medida da área, em metro quadrado, ocupada pela calçada?",
+    "choices": [
+      { "id": "A", "text": "1.000." },
+      { "id": "B", "text": "900" },
+      { "id": "C", "text": "600." },
+      { "id": "D", "text": "500." },
+      { "id": "E", "text": "400." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o lado da piscina quadrada: Se a área real é 400 m², o lado (L) é a raiz quadrada de 400. Portanto, L = 20 m.",
+        "2. Calculamos o lado do quadrado maior (piscina + calçada): A calçada tem 5 m de largura em todos os lados. Logo, adicionamos 5 m à esquerda e 5 m à direita (20 + 5 + 5 = 30 m). O mesmo ocorre na vertical.",
+        "3. Calculamos a área total ocupada pelo conjunto (piscina e calçada): Area_total = 30 m * 30 m = 900 m².",
+        "4. Para encontrar a área apenas da calçada, subtraímos a área da piscina da área total: Area_calcada = 900 m² - 400 m².",
+        "5. O resultado é 500 m²."
+      ],
+      "final_reason": "Ao encontrar o lado da piscina (20 m) e adicionar a largura da calçada em ambos os lados, obtemos um quadrado maior de 30 m de lado. A diferença entre a área desse quadrado maior (900 m²) e a área da piscina (400 m²) resulta na área da calçada, que é 500 m²."
+    },
+    "tags": ["Geometria Plana", "Área de Quadrado", "Cálculo de Áreas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_176",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:\n\n![](https://enem.dev/2023/questions/156/e9e0b793-5535-48e6-87c6-5516e6d7c8cd.png)(O gráfico ilustra a variação da intensidade do sinal de internet no eixo vertical em função do tempo em minutos (min) no eixo horizontal, sobre uma grade quadriculada pontilhada. A linha do gráfico é preta e sólida, apresentando um comportamento oscilatório composto por diversos segmentos lineares entre os instantes 0 e 30 minutos. O sinal inicia em um nível alto e constante entre 0 e 2 minutos (5 unidades da grade). Do minuto 2 ao 6, ocorre uma queda linear até o nível 2 da grade, onde o sinal permanece estável até o minuto 8. Entre os minutos 8 e 10, há uma nova queda até o nível zero, permanecendo sem sinal até o minuto 12. No intervalo de 12 a 14 minutos, o sinal sobe rapidamente até o nível 4, caindo logo em seguida de volta ao zero no minuto 16. O sinal permanece nulo por um período prolongado, do minuto 16 ao 20. A partir do minuto 20, inicia-se uma recuperação: o sinal sobe até o nível 3 no minuto 22, mantém-se estável até o minuto 24, sofre uma leve queda para o nível 2 no minuto 26 e, finalmente, sobe de forma acentuada até retornar ao nível máximo (5 unidades) no minuto 28, onde permanece constante até o minuto 30. O eixo horizontal possui marcações numéricas de 2 em 2 unidades, enquanto o eixo vertical utiliza as linhas da grade como referência de intensidade.)\n\nPor quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet?",
+    "choices": [
+      { "id": "A", "text": "6." },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "10." },
+      { "id": "D", "text": "14." },
+      { "id": "E", "text": "24." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos que o celular fica 'sem sinal de internet' nos intervalos de tempo em que a linha do gráfico toca o eixo horizontal (intensidade igual a zero).",
+        "2. Analisamos o primeiro intervalo sem sinal: O gráfico atinge o nível zero no minuto 10 e permanece sobre o eixo até o minuto 12. Duração = 12 - 10 = 2 minutos.",
+        "3. Analisamos o segundo intervalo sem sinal: O sinal volta a zero no minuto 16 e permanece nulo até o minuto 20. Duração = 20 - 16 = 4 minutos.",
+        "4. Verificamos o restante do gráfico: A partir do minuto 20, o sinal sobe e não retorna mais ao nível zero até o final da caminhada (30 min).",
+        "5. Somamos os períodos de ausência de sinal: 2 minutos (primeiro intervalo) + 4 minutos (segundo intervalo) = 6 minutos."
+      ],
+      "final_reason": "Ao observar os pontos em que a intensidade do sinal é nula no gráfico, identificamos dois períodos distintos: entre os minutos 10 e 12 (2 minutos) e entre os minutos 16 e 20 (4 minutos). A soma desses intervalos resulta em um total de 6 minutos sem sinal."
+    },
+    "tags": ["Análise de Gráficos", "Função Real", "Interpretação de Dados"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_177",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O gráfico expõe alguns números da gripe A-H1N1. Entre as categorias que estão em processo de imunização, uma já está completamente imunizada, a dos trabalhadores da saúde.\n\n![](https://enem.dev/2023/questions/164/194cf28a-b40d-493d-b106-8f71aee57f51.png)(A imagem apresenta um gráfico de barras horizontais intitulado Números da campanha contra a gripe A-H1N1. O gráfico compara a cobertura vacinal de seis grupos distintos, com os nomes dos grupos listados no eixo vertical à esquerda e a escala percentual de 0,0% a 100,0% no eixo horizontal inferior, com marcações a cada 10,0%. As barras são de cor cinza e estão dispostas em ordem crescente de cobertura de cima para baixo. Os dados representados visualmente são: Adultos entre 20 e 29 anos com aproximadamente 41%; Gestantes com cerca de 54%; Doentes crônicos com aproximadamente 56%; Indígenas com cerca de 65%; Crianças de 6 meses a 2 anos com aproximadamente 87%; e Trabalhadores da saúde atingindo a marca de 100%. O gráfico utiliza linhas verticais sólidas pretas para delimitar cada intervalo de 10% da escala, permitindo uma leitura precisa dos valores proporcionais.)\n\nÉpoca, 26 abr. 2010 (adaptado). De acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
+    "choices": [
+      { "id": "A", "text": "Indígenas." },
+      { "id": "B", "text": "Gestantes" },
+      { "id": "C", "text": "Doentes crônicos." },
+      { "id": "D", "text": "Adultos entre 20 e 29 anos." },
+      { "id": "E", "text": "Crianças de 6 meses a 2 anos." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos a lógica do problema: a categoria 'mais exposta' ao vírus é aquela que possui o menor percentual de imunização (vacinação) entre as opções listadas.",
+        "2. Analisamos o gráfico de barras horizontais, observando o comprimento de cada barra em relação à escala percentual no eixo horizontal.",
+        "3. Identificamos os valores aproximados para cada categoria (excluindo os trabalhadores da saúde, que já estão 100% imunizados):\n   - Adultos entre 20 e 29 anos: ~41%\n   - Gestantes: ~54%\n   - Doentes crônicos: ~56%\n   - Indígenas: ~65%\n   - Crianças de 6 meses a 2 anos: ~87%",
+        "4. Comparamos os valores para encontrar o menor: a categoria de 'Adultos entre 20 e 29 anos' possui a barra mais curta, indicando a menor cobertura vacinal.",
+        "5. Concluímos que, por possuir menos pessoas vacinadas proporcionalmente, este grupo é o que está mais exposto ao vírus."
+      ],
+      "final_reason": "Ao interpretar o gráfico, observa-se que a categoria 'Adultos entre 20 e 29 anos' apresenta o menor índice de imunização (aproximadamente 41%). Na lógica da saúde pública, quanto menor a cobertura vacinal de um grupo, maior é a sua vulnerabilidade ou exposição ao vírus."
+    },
+    "tags": ["Análise de Gráficos", "Estatística", "Interpretação de Dados"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_178",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas.\n\n![](https://enem.dev/2023/questions/165/bf369224-eb93-4bba-98c4-ff7d1e17df36.png)(A imagem apresenta um desenho em perspectiva isométrica de uma escada com três degraus, situada em um canto de ambiente com paredes azuis e piso cinza, dando acesso a uma porta de madeira clara com maçaneta preta. A escada é representada com faces cinzas e superfícies superiores brancas, acompanhada de legendas técnicas e cotas de dimensionamento. Cada degrau é composto por uma superfície horizontal identificada como Piso e uma face vertical identificada como Espelho. As cotas indicam que cada um dos três espelhos possui uma altura de 0,20 m, e cada um dos três pisos possui uma profundidade de 0,25 m. A largura total da escada é indicada como 1,0 m na base do último degrau. Uma seta aponta para a lateral da estrutura com a legenda Parede lateral, enfatizando a vista em corte ou perfil da escada. O desenho utiliza linhas pretas sólidas para os contornos e linhas pontilhadas cinzas para as linhas de chamada das medidas, seguindo o padrão de uma ilustração técnica de arquitetura ou construção civil.)\n\nNessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica. A área a ser revestida em cerâmica, em metro quadrado, mede",
+    "choices": [
+      { "id": "A", "text": "1,20." },
+      { "id": "B", "text": "1,35" },
+      { "id": "C", "text": "1,65." },
+      { "id": "D", "text": "1,80." },
+      { "id": "E", "text": "1,95." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a área dos pisos (partes horizontais): Existem 3 pisos, cada um com 1,0 m de largura e 0,25 m de profundidade. Área_pisos = 3 * (1,0 * 0,25) = 0,75 m².",
+        "2. Calculamos a área dos espelhos (partes verticais): Existem 3 espelhos, cada um com 1,0 m de largura e 0,20 m de altura. Área_espelhos = 3 * (1,0 * 0,20) = 0,60 m².",
+        "3. Calculamos a área de uma parede lateral: A lateral pode ser vista como a soma de 3 retângulos (ou degraus vistos de perfil):\n   - O primeiro (base): 0,25 * 0,20\n   - O segundo (meio): (0,25 * 2) * 0,20\n   - O terceiro (topo): (0,25 * 3) * 0,20\n   Alternativamente, somamos as áreas de 'colunas' de 0,25 m de largura: (1 * 0,20) + (2 * 0,20) + (3 * 0,20) = 0,25 * (0,20 + 0,40 + 0,60) = 0,25 * 1,20 = 0,30 m².",
+        "4. Como a escada possui duas paredes laterais idênticas, a área lateral total é 2 * 0,30 = 0,60 m².",
+        "5. Somamos todas as áreas para obter o total de revestimento: 0,75 (pisos) + 0,60 (espelhos) + 0,60 (laterais) = 1,95 m²."
+      ],
+      "final_reason": "Para encontrar a área total de revestimento, somamos as áreas dos três pisos (0,75 m²), dos três espelhos (0,60 m²) e das duas paredes laterais (0,30 m² cada). A soma total resulta em 1,95 m²."
+    },
+    "tags": ["Geometria Espacial", "Cálculo de Áreas", "Geometria Plana", "Arquitetura"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2023_mat_179",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma pessoa comprou um ingresso para o cinema em cuja entrada está afixado um mapa com a representação bidimensional do posicionamento das poltronas, conforme a figura. Essa pessoa, após consultar o mapa, começou a subir uma das escadas e parou na posição indicada pela estrela, direcionada para o norte. Ela conferiu seu bilhete e observou que, para encontrar sua poltrona, deveria partir do ponto onde estava, continuar subindo a escada na direção norte por mais quatro fileiras e olhar à sua direita, e sua poltrona será a terceira.\n\n![](A imagem apresenta um mapa técnico de assentos de uma sala de cinema, visualizado de cima, organizado em um sistema de coordenadas de fileiras e posições. No topo da imagem, a Tela é representada por um retângulo horizontal longo. Logo abaixo da tela, há uma barra de Posições numerada de 1 a 12. À esquerda, as Fileiras são identificadas por letras de A a J, em ordem alfabética de baixo para cima. O conjunto de poltronas é dividido em três blocos principais por dois corredores verticais identificados como Escada. O bloco da esquerda contém as posições 1, 2 e 3; o bloco central, que é o mais largo, contém as posições de 4 a 9; e o bloco da direita contém as posições 10, 11 e 12. Na escada entre o primeiro e o segundo bloco, na altura da fileira E, há o ícone de uma estrela cinza. À esquerda do mapa, uma seta indica a Entrada da sala. No lado direito, há uma rosa dos ventos indicando as direções Norte (N), Sul (S), Leste (L) e Oeste (O), onde a tela está posicionada ao Norte em relação aos assentos. Todas as poltronas são representadas por pequenos quadrados brancos com contorno preto, e o layout totaliza 10 fileiras por 12 colunas, totalizando 120 espaços de assento, subtraindo-se as áreas ocupadas pelas escadas.)\n\nNesse cinema, as poltronas são identificadas por uma letra, que indica a fileira, e um número, que fornece a posição da poltrona na fileira, respectivamente. A poltrona dessa pessoa é a identificada por",
+    "choices": [
+      { "id": "A", "text": "A6." },
+      { "id": "B", "text": "H1" },
+      { "id": "C", "text": "H6." },
+      { "id": "D", "text": "I1." },
+      { "id": "E", "text": "I6." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Localizamos a posição inicial do cliente: a estrela está sobre a escada, exatamente na altura da Fileira E.",
+        "2. Seguimos a primeira instrução: 'continuar subindo a escada na direção norte por mais quatro fileiras'. Partindo da fileira E, contamos quatro para cima: F (1), G (2), H (3), I (4). O cliente agora está na altura da Fileira I.",
+        "3. Seguimos a segunda instrução: 'olhar à sua direita'. De acordo com a rosa dos ventos, a direita de quem olha para o Norte é a direção Leste (L).",
+        "4. Contamos as poltronas para identificar o assento: 'sua poltrona será a terceira'. No bloco à direita da escada onde o cliente está (bloco central), as posições começam em 4. Contamos três poltronas: posição 4 (1ª), posição 5 (2ª) e posição 6 (3ª).",
+        "5. Cruzamos os dados de Fileira e Posição: Fileira I e Posição 6. Portanto, a identificação é I6."
+      ],
+      "final_reason": "Ao deslocar-se quatro fileiras ao Norte a partir da fileira E, o cliente chega à fileira I. Ao contar a terceira poltrona à sua direita (Leste) no bloco adjacente, partindo do corredor, ele encontra a poltrona de número 6. Assim, a poltrona correta é a I6."
+    },
+    "tags": ["Geometria Plana", "Localização e Orientação", "Plano Cartesiano", "Visão Espacial"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2023_mat_180",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos. Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
+    "choices": [
+      { "id": "A", "text": "4,68." },
+      { "id": "B", "text": "6,30" },
+      { "id": "C", "text": "9,30." },
+      { "id": "D", "text": "10,50." },
+      { "id": "E", "text": "10,65." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Definimos as variáveis: seja 'A' o preço de uma cartela azul e 'V' o preço de uma cartela vermelha. Sabemos que 2A + 1V = 32,40.",
+        "2. Interpretamos a relação entre os tíquetes individuais. Seja 'a' o preço de um azul e 'v' o de um vermelho. O enunciado diz: a - v = v + 0,05.",
+        "3. Simplificamos essa relação para encontrar o preço individual do azul em função do vermelho: a = 2v + 0,05.",
+        "4. Como cada cartela tem 9 tíquetes, multiplicamos toda a equação por 9 para termos a relação entre as cartelas: 9a = 2*(9v) + 9*(0,05). Ou seja, A = 2V + 0,45.",
+        "5. Substituímos a expressão de A na primeira equação do sistema: 2*(2V + 0,45) + V = 32,40.",
+        "6. Resolvemos a equação: 4V + 0,90 + V = 32,40 -> 5V = 31,50.",
+        "7. Dividimos para encontrar o valor de V: V = 31,50 / 5 = 6,30.",
+        "8. O preço de uma cartela de tíquetes vermelhos é R$ 6,30."
+      ],
+      "final_reason": "Ao modelar o problema como um sistema de equações lineares, descobrimos que o valor de uma cartela azul equivale ao dobro de uma vermelha mais 45 centavos. Substituindo essa relação no custo total de R$ 32,40, isolamos o valor da cartela vermelha, resultando em R$ 6,30."
+    },
+    "tags": ["Álgebra", "Sistemas de Equações", "Problemas de 1º Grau", "Matemática Financeira"],
+    "difficulty": "medium"
   }
 ] 
 
