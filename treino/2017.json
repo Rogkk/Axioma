@@ -1,0 +1,2015 @@
+{
+  "metadata": {
+    "limit": 45,
+    "offset": 136,
+    "total": 185,
+    "hasMore": true
+  },
+  "questions": [
+    {
+      "title": "Questão 136 - ENEM 2017",
+      "index": 136,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/136/095d9fee-b0a3-4486-a6f7-5905be8a8aee.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/136/9b318931-f44c-47f6-bde1-7629aaf7b6e2.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/136/2a676854-c439-49bc-8187-107963dc04ef.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/136/0338bf3c-70fc-4cb5-b6d5-28ee0508731e.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/136/07869d30-eb4d-4450-a76a-ea0654e459f8.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 137 - ENEM 2017",
+      "index": 137,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/137/e7e3ca34-7beb-43f1-bef0-8691dd8922f5.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "12",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "14",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "15",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "16",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "17",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 138 - ENEM 2017",
+      "index": 138,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/138/7d715e4d-7f9b-43a6-8f5e-4f0e1e782780.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "33%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "50%",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "57%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "70%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "86%",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 139 - ENEM 2017",
+      "index": 139,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/139/cae1675d-9ef1-41d5-b0c6-f0a0df4b56b7.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "4.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "2.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "1.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "0.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 140 - ENEM 2017",
+      "index": 140,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "\n\n![](https://enem.dev/2017/questions/140/40dd65c7-1ff1-420a-a8b1-27f26691f08b.png)",
+      "files": [
+        "https://enem.dev/2017/questions/140/40dd65c7-1ff1-420a-a8b1-27f26691f08b.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "192.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "300.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "304.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "320.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "400.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 141 - ENEM 2017",
+      "index": 141,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": ".",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 142 - ENEM 2017",
+      "index": 142,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "4.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 143 - ENEM 2017",
+      "index": 143,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/143/c62c83ca-4ab4-4be7-b882-cedb9116763a.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "64",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "46",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 144 - ENEM 2017",
+      "index": 144,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "28,80.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "32,25.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "49,50.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 145 - ENEM 2017",
+      "index": 145,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Um instituto de pesquisas eleitorais recebe uma encomenda na qual a margem de erro deverá ser de, no máximo, 2 pontos percentuais (0,02).\n\nO instituto tem 5 pesquisas recentes, P1 a P5, sobre o tema objeto da encomenda e irá usar a que tiver o erro menor que o pedido.\n\nOs dados sobre as pesquisas são os seguintes:\n\n![](https://enem.dev/2017/questions/145/2cf08ed8-74ba-469c-9e95-8e264b79394b.png)\n\nem que σ é um parâmetro e N é o número de pessoas  \nentrevistadas pela pesquisa.",
+      "files": [
+        "https://enem.dev/2017/questions/145/2cf08ed8-74ba-469c-9e95-8e264b79394b.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual pesquisa deverá ser utilizada?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "P1.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "P2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "P3.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "P4.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "P5.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 146 - ENEM 2017",
+      "index": 146,
+      "discipline": "ciencias-natureza",
+      "language": null,
+      "year": 2017,
+      "context": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 1,5 minuto e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ele cruza com o bondinho B, que havia saído do topo da montanha.",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Quantos segundos após a partida do bondinho B partiu o bondinho A?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "5.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "10.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "15.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "20.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "25.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 147 - ENEM 2017",
+      "index": 147,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade h, registrada às 13 horas, não foi anotada e, a partir de h, cada unidade sobre o eixo vertical representa um metro.\n\n![](https://enem.dev/2017/questions/147/285302d4-e938-4376-a2f3-3f320be38b8c.png)\n\nFoi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%.",
+      "files": [
+        "https://enem.dev/2017/questions/147/285302d4-e938-4376-a2f3-3f320be38b8c.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "18.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "20.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "24.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "36.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "40.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 148 - ENEM 2017",
+      "index": 148,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza\n\n![](https://enem.dev/2017/questions/148/aff2b260-7282-4164-b347-1cd2ebdf4951.png)",
+      "files": [
+        "https://enem.dev/2017/questions/148/aff2b260-7282-4164-b347-1cd2ebdf4951.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "A forma geométrica da superfície cujas arestas estão representadas na Figura 2 é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Tetraedro.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Pirâmide retangular.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Tronco de pirâmide retangular.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Prisma quadrangular reto.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Prisma triangular reto.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 149 - ENEM 2017",
+      "index": 149,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "A figura ilustra uma partida de Campo Minado, o jogo presente em praticamente todo computador pessoal. Quatro quadrados em um tabuleiro 16 x 16 foram abertos, e os números em suas faces indicam quantos dos seus 8 vizinhos contêm minas (a serem evitadas). O número 40 no canto inferior direito é o número total de minas no tabuleiro, cujas posições foram escolhidas ao acaso, de forma uniforme, antes de se abrir qualquer quadrado.\n\n![](https://enem.dev/2017/questions/149/d94daac4-0e76-47a6-bdec-90200af5b3c0.png)\n\nEm sua próxima jogada, o jogador deve escolher dentre os quadrados marcados com as letras P, Q, R, S e T um para abrir, sendo que deve escolher aquele com a menor probabilidade de conter uma mina.",
+      "files": [
+        "https://enem.dev/2017/questions/149/d94daac4-0e76-47a6-bdec-90200af5b3c0.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "O jogador deverá abrir o quadrado marcado com a letra",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "P.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Q.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "R.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "S.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "T.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 150 - ENEM 2017",
+      "index": 150,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/150/e2c89b3e-9c0a-4707-86d9-ea6b70f3cd11.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 151 - ENEM 2017",
+      "index": 151,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/151/deda154b-bdf4-471b-b4a7-85c1dfae90c1.png",
+        "https://enem.dev/2017/questions/151/7ea7b9c7-5a2c-4d4e-899d-834c2b5f4af2.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "7,00.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "7,38.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "7,50.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "8,25.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "9,00.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 152 - ENEM 2017",
+      "index": 152,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "A água para o abastecimento de um prédio é armazenada em um sistema formado por dois reservatórios idênticos, em formato de bloco retangular, ligados entre si por um cano igual ao cano de entrada, conforme ilustra a figura.\n\n![](https://enem.dev/2017/questions/152/8a5c8c84-dc4a-434c-95d8-ac7e8a188f0b.png)\n\nA água entra no sistema pelo cano de entrada no Reservatório 1 a uma vazão constante e, ao atingir o nível do cano de ligação, passa a abastecer o Reservatório 2. Suponha que, inicialmente, os dois reservatórios estejam vazios.",
+      "files": [
+        "https://enem.dev/2017/questions/152/8a5c8c84-dc4a-434c-95d8-ac7e8a188f0b.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual dos gráficos melhor descreverá a altura h do nível da água no Reservatório 1, em função do volume V de água no sistema?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/152/f4cd2fd5-8ffc-4cb7-91ae-2c3bd3f73900.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/152/da408f74-0165-4374-94f7-4efc3ba68756.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/152/73c9ec1b-6c30-4e0e-8c6a-baf78b10dbb8.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/152/29e329de-44fe-4da6-8f85-d63e8b31cadd.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/152/f4376ddd-f5cb-46ff-b7d6-f95ac887e91c.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 153 - ENEM 2017",
+      "index": 153,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "A manchete demonstra que o transporte de grandes cargas representa cada vez mais preocupação quando feito em vias urbanas.\n\n**Caminhão entala em viaduto no Centro**\n\nUm caminhão de grande porte entalou embaixo do viaduto no cruzamento das avenidas Borges de Medeiros e Loureiro da Silva no sentido Centro-Bairro, próximo à Ponte de Pedra, na capital. Esse veículo vinha de São Paulo para Porto Alegre e transportava três grandes tubos, conforme ilustrado na foto.\n\n![](https://enem.dev/2017/questions/153/fab0cf9a-a91f-4842-8d0b-ea7d9cf7dab3.png)\n\nConsidere que o raio externo de cada cano da imagem seja 0,60 m e que eles estejam em cima de uma carroceria cuja parte superior está a 1,30 m do solo. O desenho representa a vista traseira do empilhamento dos canos.\n\n![](https://enem.dev/2017/questions/153/e76c0b65-e180-4f4a-9bd0-aef3b42965d8.png)\n\nA margem de segurança recomendada para que um veículo passe sob um viaduto é que a altura total do veículo com a carga seja, no mínimo, 0,50 m menor do que a altura do vão do viaduto.\n\nConsidere 1,7 como aproximação para (3)1/2",
+      "files": [
+        "https://enem.dev/2017/questions/153/fab0cf9a-a91f-4842-8d0b-ea7d9cf7dab3.png",
+        "https://enem.dev/2017/questions/153/e76c0b65-e180-4f4a-9bd0-aef3b42965d8.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual deveria ser a altura mínima do viaduto, em metro, para que esse caminhão pudesse passar com segurança sob seu vão?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2,82.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3,52.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3,70.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4,02.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "4,20.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 154 - ENEM 2017",
+      "index": 154,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Um menino acaba de se mudar para um novo bairro e deseja ir à padaria. Pediu ajuda a um amigo que lhe forneceu um mapa com pontos numerados, que representam cinco locais de interesse, entre os quais está a padaria. Além disso, o amigo passou as seguintes instruções: a partir do ponto em que você se encontra, representado pela letra X, ande para oeste, vire à direita na primeira rua que encontrar, siga em frente e vire à esquerda na próxima rua. A padaria estará logo a seguir\n\n![](https://enem.dev/2017/questions/154/e003f9f9-7641-401e-9a08-2226bde38679.png)",
+      "files": [
+        "https://enem.dev/2017/questions/154/e003f9f9-7641-401e-9a08-2226bde38679.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "A padaria está representada pelo ponto numerado com",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 155 - ENEM 2017",
+      "index": 155,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Três alunos, X, Y e Z, estão matriculados em um curso de inglês. Para avaliar esses alunos, o professor optou por fazer cinco provas. Para que seja aprovado nesse curso, o aluno deverá ter a média aritmética das notas das cinco provas maior ou igual a 6. Na tabela, estão dispostas as notas que cada aluno tirou em cada prova.\n\n![](https://enem.dev/2017/questions/155/fb7df640-ed2c-4e7f-99d5-93815129aa75.png)",
+      "files": [
+        "https://enem.dev/2017/questions/155/fb7df640-ed2c-4e7f-99d5-93815129aa75.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Com base nos dados da tabela e nas informações dadas, ficará(ão) reprovado(s)",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Apenas o aluno Y",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Apenas o aluno Z",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Apenas os alunos x e y",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Apenas os alunos x e z",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Os alunos x, y, z",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 156 - ENEM 2017",
+      "index": 156,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Uma desenhista projetista deverá desenhar uma tampa de panela em forma circular. Para realizar esse desenho, ela dispõe, no momento, de apenas um compasso, cujo comprimento das hastes é de 10 cm, um transferidor e uma folha de papel com um plano cartesiano. Para esboçar o desenho dessa tampa, ela afastou as hastes do compasso de forma que o ângulo formado por elas fosse de 120o. A ponta seca está representada pelo ponto C, a ponta do grafite está representada pelo ponto B e a cabeça do compasso está representada pelo ponto A conforme a figura.\n\n![](https://enem.dev/2017/questions/156/85a380fd-271f-48cc-99fd-ebb68a0032bc.png)\n\nApós concluir o desenho, ela o encaminha para o setor de produção. Ao receber o desenho com a indicação do raio da tampa, verificará em qual intervalo este se encontra e decidirá o tipo de material a ser utilizado na sua fabricação, de acordo com os dados.\n\n![](https://enem.dev/2017/questions/156/9fbeb0c5-eaec-4613-89d7-585bc786b147.png)",
+      "files": [
+        "https://enem.dev/2017/questions/156/85a380fd-271f-48cc-99fd-ebb68a0032bc.png",
+        "https://enem.dev/2017/questions/156/9fbeb0c5-eaec-4613-89d7-585bc786b147.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "O tipo de material a ser utilizado pelo setor de produção será",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "V",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 157 - ENEM 2017",
+      "index": 157,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Uma pessoa ganhou uma pulseira formada por pérolas esféricas, na qual faltava uma das pérolas. A figura indica a posição em que estaria faltando esta pérola.\n\n![](https://enem.dev/2017/questions/157/a3037c5e-69fb-4c42-8587-ba4c6c0f81b4.png)\n\nEla levou a jóia a um joalheiro que verificou que a medida do diâmetro dessas pérolas era 4 milímetros. Em seu estoque, as pérolas do mesmo tipo e formato, disponíveis para reposição, tinham diâmetros iguais a: 4,025 mm; 4,100 mm; 3,970 mm; 4,080 mm e 3,099 mm.\n\nO joalheiro então colocou na pulseira a pérola cujo diâmetro era o mais próximo do diâmetro das pérolas originais.",
+      "files": [
+        "https://enem.dev/2017/questions/157/a3037c5e-69fb-4c42-8587-ba4c6c0f81b4.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "A pérola colocada na pulseira pelo joalheiro tem diâmetro, em milímetro, igual a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "3,099.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3,970.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "4,025.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "4,080.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "4,100.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 158 - ENEM 2017",
+      "index": 158,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1: 400, e que seu volume é de 25 cm3.",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "O volume do monumento original, em metro cúbico, é de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "100",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "400",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1600",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "6250",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "10000",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 159 - ENEM 2017",
+      "index": 159,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Uma bicicleta do tipo mountain bike tem uma coroa com 3 engrenagens e uma catraca com 6 engrenagens, que, combinadas entre si, determinam 18 marchas (número de engrenagens da coroa vezes o número de engrenagens da catraca).\n\n![](https://enem.dev/2017/questions/159/c66f38e4-cac9-40bd-ab40-dcc28709d1f2.png)\n\nOs números de dentes das engrenagens das coroas e das catracas dessa bicicleta estão listados no quadro.\n\n![](https://enem.dev/2017/questions/159/71fe199d-31a3-491a-9ed1-4f4266bcec67.png)\n\nSabe-se que o número de voltas efetuadas pela roda traseira a cada pedalada é calculado dividindo-se a quantidade de dentes da coroa pela quantidade de dentes da catraca.\n\nDurante um passeio em uma bicicleta desse tipo, deseja-se fazer um percurso o mais devagar possível, escolhendo, para isso, uma das seguintes combinações de engrenagens (coroa x catraca):\n\n![](https://enem.dev/2017/questions/159/1e1958eb-584c-47db-9aff-348f62def6d6.png)",
+      "files": [
+        "https://enem.dev/2017/questions/159/c66f38e4-cac9-40bd-ab40-dcc28709d1f2.png",
+        "https://enem.dev/2017/questions/159/71fe199d-31a3-491a-9ed1-4f4266bcec67.png",
+        "https://enem.dev/2017/questions/159/1e1958eb-584c-47db-9aff-348f62def6d6.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "A combinação escolhida para realizar esse passeio da forma desejada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "V",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 160 - ENEM 2017",
+      "index": 160,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "O comitê organizador da Copa do Mundo 2014 criou a logomarca da Copa, composta de uma figura plana e o slogan “Juntos num só ritmo”, com mãos que se unem formando a taça Fifa. Considere que o comitê organizador resolvesse utilizar todas as cores da bandeira nacional (verde, amarelo, azul e branco) para colorir a logomarca, de forma que regiões vizinhas tenham cores diferentes.\n\n![](https://enem.dev/2017/questions/160/f334ade2-9e0c-4a56-b232-855e5320a966.png)",
+      "files": [
+        "https://enem.dev/2017/questions/160/f334ade2-9e0c-4a56-b232-855e5320a966.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "De quantas maneiras diferentes o comitê organizador da Copa poderia pintar a logomarca com as cores citadas?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "15",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "30",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "108",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "360",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "972",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 161 - ENEM 2017",
+      "index": 161,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Viveiros de lagostas são construídos, por cooperativas locais de pescadores, em formato de prismas reto-retangulares, fixados ao solo e com telas flexíveis de mesma altura, capazes de suportar a corrosão marinha. Para cada viveiro a ser construído, a cooperativa utiliza integralmente 100 metros lineares dessa tela, que é usada apenas nas laterais.\n\n![](https://enem.dev/2017/questions/161/1ab19169-92f4-402e-9e53-2eedef827715.png)",
+      "files": [
+        "https://enem.dev/2017/questions/161/1ab19169-92f4-402e-9e53-2eedef827715.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Quais devem ser os valores de X e de Y, em metro, para que a área da base do viveiro seja máxima?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1 e 49",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1 e 99",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "10 e 10",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "25 E 25",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "50 E 50",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 162 - ENEM 2017",
+      "index": 162,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "O fisiologista inglês Archibald Vivian Hill propôs, em seus estudos, que a velocidade V de contração de um músculo ao ser submetido a um peso p é dada pela equação (p + a) (v +b) = K, com a, b e K constantes.\n\nUm fisioterapeuta, com o intuito de maximizar o efeito benéfico dos exercícios que recomendaria a um de seus pacientes, quis estudar essa equação e a classificou desta forma:\n\n##### **TIPO DE CURVA**\n\n**Semirreta oblíqua**\n\n**Semirreta horizontal**\n\n**Ramo de parábola**\n\n**Arco de circunferência**\n\n**Ramo de hipérbola**\n\nO fisioterapeuta analisou a dependência entre v e p na equação de Hill e a classificou de acordo com sua representação geométrica no plano cartesiano, utilizando o par de coordenadas (p. V). Admita que K> 0.\n\nDisponível em: http://rspb.royalsocietypublishing.org. Acesso em: 14jul2015 (adaptado).",
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "O gráfico da equação que o fisioterapeuta utilizou para maximizar o efeito dos exercícios é do tipo",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Semirreta oblíqua.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Semirreta horizontal.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Ramo de parábola.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Arco de circunferência.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Ramo de hipérbole.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 163 - ENEM 2017",
+      "index": 163,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/163/b4c6dcfc-5f86-46af-9f78-dd94358a2301.png)\n\nO acesso aos elevadores tem os seguintes custos:  \n• Subir pelo elevador 1: R$ 0,15;  \n• Subir pelo elevador 2: R$ 1,80;  \n• Descer pelo elevador 1: R$ 0,10;  \n• Descer pelo elevador 2: R$ 2,30.\n\nO custo da passagem do teleférico partindo do topo do mirante 1 para o topo do mirante 2 é de R$ 2,00, e do topo do mirante 2 para o topo do mirante 1 é de R$ 2,50.",
+      "files": [
+        "https://enem.dev/2017/questions/163/b4c6dcfc-5f86-46af-9f78-dd94358a2301.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Qual é o menor custo, em real, para uma pessoa visitar os topos dos dois mirantes e retornar ao solo?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2,25",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3,90",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "4,35",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "4,40",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "4,45",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 164 - ENEM 2017",
+      "index": 164,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "A mensagem digitada no celular, enquanto você dirige, tira a sua atenção e, por isso, deve ser evitada. Pesquisas mostram que um motorista que dirige um carro a uma velocidade constante percorre “às cegas” (isto é, sem ter visão da pista) uma distância proporcional ao tempo gasto ao olhar para o celular durante a digitação da mensagem. Considere que isso de fato aconteça. Suponha que dois motoristas (_X_ e _Y_) dirigem com a mesma velocidade constante e digitam a mesma mensagem em seus celulares. Suponha, ainda, que o tempo gasto pelo motorista _X_ olhando para seu celular enquanto digita a mensagem corresponde a 25% do tempo gasto pelo motorista _Y_ para executar a mesma tarefa.\n\nDisponível em: http://g1.globo.com. Acesso em: 21 jul. 2012 (adaptado).",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "A razão entre as distâncias percorridas às cegas por X e Y, nessa ordem, é igual a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "5/4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1/4",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "4/3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4/1",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "3/4",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 165 - ENEM 2017",
+      "index": 165,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/165/c4d1bd98-124e-4136-9db8-7df0ddc7fdde.png)\n\nAo ser divulgado esse resultado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2.\n\n![](https://enem.dev/2017/questions/165/6200b8f9-1e5e-46a5-8516-7e24a6a79bd8.png)\n\nApesar de os valores apresentados estarem corretos e a largura das colunas ser a mesma, muitos leitores criticaram o formato do Gráfico 2 impresso no jornal, alegando que houve prejuízo visual para o candidato B.",
+      "files": [
+        "https://enem.dev/2017/questions/165/c4d1bd98-124e-4136-9db8-7df0ddc7fdde.png",
+        "https://enem.dev/2017/questions/165/6200b8f9-1e5e-46a5-8516-7e24a6a79bd8.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "0.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1/2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1/5.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "2/15.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "8/35.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 166 - ENEM 2017",
+      "index": 166,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/166/41a14ec3-8c43-4dc3-b116-be74098827c0.png)",
+      "files": [
+        "https://enem.dev/2017/questions/166/41a14ec3-8c43-4dc3-b116-be74098827c0.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "A função P(t) obtida, por este cientista, ao analisar o caso específico foi",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "P(t) = 99 + 21cos(3πt)",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "P(t) = 78 + 42cos(3πt)",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "P(t) = 99 + 21cos(2πt)",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "P(t) = 99 + 21cos(t)",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "P(t) = 78 + 42cos(t)",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 167 - ENEM 2017",
+      "index": 167,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/167/7bf9f382-d44e-49aa-b785-8f24191c1fb5.png)",
+      "files": [
+        "https://enem.dev/2017/questions/167/7bf9f382-d44e-49aa-b785-8f24191c1fb5.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Para atingir todos os seus objetivos, o chefe deverá cortar a calota do melão numa altura h, em centímetro, igual a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "5 - √91/2",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "10 - √91",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 168 - ENEM 2017",
+      "index": 168,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/168/24aef861-9c64-4357-ab76-d58d4bf20931.png)",
+      "files": [
+        "https://enem.dev/2017/questions/168/24aef861-9c64-4357-ab76-d58d4bf20931.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual a medida da altura H, em metro, indicada na Figura 2?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "16/3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "31/5",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "25/4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "25/3",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "75/2",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 169 - ENEM 2017",
+      "index": 169,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/169/2a8f5ab3-e6e4-4457-8cb4-1fefac4ab935.png)",
+      "files": [
+        "https://enem.dev/2017/questions/169/2a8f5ab3-e6e4-4457-8cb4-1fefac4ab935.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Analisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "X.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "Y.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Z.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "W.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "U.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 170 - ENEM 2017",
+      "index": 170,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Neste modelo de termômetro, os filetes na cor preta registram as temperaturas mínima e máxima do dia anterior e os filetes na cor cinza registram a temperatura ambiente atual, ou seja, no momento da leitura do termômetro.\n\n![](https://enem.dev/2017/questions/170/7264cbc1-0ae7-4f5d-976a-228c6d2e1184.png)\n\nPor isso ele tem duas colunas. Na da esquerda, os números estão em ordem crescente, de cima para baixo, de -30 °C até 50 °C. Na coluna da direita, os números estão ordenados de forma crescente, de baixo para cima, de -30 °C até 50 °C.\n\nA leitura é feita da seguinte maneira:  \n• a temperatura mínima é indicada pelo nível inferior do filete preto na coluna da esquerda;  \n• a temperatura máxima é indicada pelo nível inferior do filete preto na coluna da direita;  \n• a temperatura atual é indicada pelo nível superior dos filetes cinza nas duas colunas.\n\nDisponível em: www.if.ufrgs.br. Acesso em: 28 ago. 2014 (adaptado).",
+      "files": [
+        "https://enem.dev/2017/questions/170/7264cbc1-0ae7-4f5d-976a-228c6d2e1184.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Qual é a temperatura máxima mais aproximada registrada nesse termômetro?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "5 °C",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "7 °C",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "13 °C",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "15 °C",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "19 °C",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 171 - ENEM 2017",
+      "index": 171,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/171/3bb8824e-3a19-4855-a081-9cc594573f03.png)\n\nUm pivô de três torres (T1, T2 e T3) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T1 são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa em 25 horas. Use 3 como aproximação para π.",
+      "files": [
+        "https://enem.dev/2017/questions/171/3bb8824e-3a19-4855-a081-9cc594573f03.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Para atingir seu objetivo, as velocidades das torres T1, T2 e T3 devem ser, em metro por hora, de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "12, 24 e 36.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "6, 12 e 18.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "2, 4 e 6.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "300, 1200 e 2700.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "600, 2400 e 5400.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 172 - ENEM 2017",
+      "index": 172,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/172/3cab013f-abdc-4a51-8c74-6c0771ab0c6e.png)",
+      "files": [
+        "https://enem.dev/2017/questions/172/3cab013f-abdc-4a51-8c74-6c0771ab0c6e.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "O número de horas em que os dois reservatórios contêm a mesma quantidade de água é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "4.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "5.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "6.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 173 - ENEM 2017",
+      "index": 173,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "Para uma temporada das corridas de Fórmula 1, a capacidade do tanque de combustível de cada carro passou a ser de 100 kg de gasolina. Uma equipe optou por utilizar uma gasolina com densidade de 750 gramas por litro, iniciando a corrida com o tanque cheio. Na primeira parada de reabastecimento, um carro dessa equipe apresentou um registro em seu computador de bordo acusando o consumo de quatro décimos da gasolina originalmente existente no tanque. Para minimizar o peso desse carro e garantir o término da corrida, a equipe de apoio reabasteceu o carro com a terça parte do que restou no tanque na chegada ao reabastecimento.\n\nDisponível em: www.superdanilof1page.com.br. Acesso em: 6 jul. 2015 (adaptado).",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "A quantidade de gasolina utilizada, em litro, no reabastecimento foi",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "20/0,075",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "20/0,75",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "20/7,5",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "20 x 0,075",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "20 x 0,75",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 174 - ENEM 2017",
+      "index": 174,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "![](https://enem.dev/2017/questions/174/8da9e00a-e25a-4467-8f2f-53488edb0a1f.png)\n\nIBGE. Pesquisa mensal de emprego. Disponível em: www.ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado).",
+      "files": [
+        "https://enem.dev/2017/questions/174/8da9e00a-e25a-4467-8f2f-53488edb0a1f.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "8,1%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "8,0%",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "7,9%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "7,7%",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "7,6%",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 175 - ENEM 2017",
+      "index": 175,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": null,
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Qual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/175/76855355-588b-40de-adfa-78c67373b3cd.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/175/f0b54cb7-a0b0-4661-a2e2-afda4b8d2135.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/175/b7396163-6b89-41cf-b08b-473d800ef585.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/175/486162c7-f43b-49a2-9476-dddf8af7bdf4.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2017/questions/175/744d3069-d18a-4930-9697-45171bee53b2.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 176 - ENEM 2017",
+      "index": 176,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "A energia solar vai abastecer parte da demanda de energia do _campus_ de uma universidade brasileira. A instalação de painéis solares na área dos estacionamentos e na cobertura do hospital pediátrico será aproveitada nas instalações universitárias e também ligada na rede da companhia elétrica distribuidora de energia.  \nO projeto inclui 100 m2 de painéis solares que ficarão instalados nos estacionamentos, produzindo energia elétrica e proporcionando sombra para os carros. Sobre o hospital pediátrico serão colocados aproximadamente 300 m2 de painéis, sendo 100 m2 para gerar energia elétrica utilizada no _campus_, e 200 m2 para geração de energia térmica, produzindo aquecimento de água utilizada nas caldeiras do hospital.  \nSuponha que cada metro quadrado de painel solar para energia elétrica gere uma economia de 1 kWh por dia e cada metro quadrado produzindo energia térmica permita economizar 0,7 kWh por dia para a universidade. Em uma segunda fase do projeto, será aumentada em 75% a área coberta pelos painéis solares que geram energia elétrica. Nessa fase também deverá ser ampliada a área de cobertura com painéis para geração de energia térmica.\n\nDisponível em: http://agenciabrasil.ebc.com.br. Acesso em: 30 out. 2013 (adaptado).",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Para se obter o dobro da quantidade de energia economizada diariamente, em relação à primeira fase, a área total dos painéis que geram energia térmica, em metro quadrado, deverá ter o valor mais próximo de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "231.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "431.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "472.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "523.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "672.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 177 - ENEM 2017",
+      "index": 177,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "\n\n",
+      "files": [
+        "https://enem.dev/2017/questions/177/56a01150-592b-4611-8550-81876ca345ec.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "III.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 178 - ENEM 2017",
+      "index": 178,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": "",
+      "files": [
+        "https://enem.dev/2017/questions/178/9f831180-9696-4e04-9744-29b02d88f8e8.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "64",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "56",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "49",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "36",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "28",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 179 - ENEM 2017",
+      "index": 179,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": null,
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 180 - ENEM 2017",
+      "index": 180,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2017,
+      "context": null,
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

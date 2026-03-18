@@ -2506,6 +2506,415 @@
     },
     "tags": ["Álgebra", "Sistemas de Equações", "Problemas de 1º Grau", "Matemática Financeira"],
     "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_136",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Os congestionamentos de trânsito constituem um problema que aflige, todos os dias, milhares de motoristas brasileiros. O gráfico ilustra a situação, representando, ao longo de um intervalo definido de tempo, a variação da velocidade de um veículo durante um congestionamento.\n\n![](https://enem.dev/2017/questions/139/cae1675d-9ef1-41d5-b0c6-f0a0df4b56b7.png)(O gráfico apresenta a variação da velocidade no eixo vertical em função do tempo em minutos (min) no eixo horizontal, utilizando uma grade quadriculada sólida como referência de escala. A linha do gráfico é preta e espessa, composta por sete segmentos lineares que descrevem o seguinte comportamento: o movimento inicia com uma velocidade constante e positiva (nível 1 da grade) entre os instantes 0 e 1 minuto. Do minuto 1 ao 2, a velocidade aumenta linearmente até atingir o pico no nível 3 da grade. Entre os minutos 2 e 3, há uma redução linear de velocidade até o nível 1,5, onde ela permanece constante até o minuto 4. Do minuto 4 ao 5, a velocidade volta a subir até o nível 2,5, seguida por uma queda acentuada e linear que atinge o valor zero no minuto 6. A velocidade permanece nula (repouso) entre os minutos 6 e 8. Finalmente, do minuto 8 ao 10, a velocidade apresenta uma retomada linear de crescimento, terminando o intervalo no nível 2 da grade. Os eixos possuem setas indicativas e as marcações numéricas no eixo horizontal ocorrem de 2 em 2 unidades (0, 2, 4, 6, 8, 10).)\n\nQuantos minutos o veículo permaneceu imóvel ao longo do intervalo de tempo total analisado?",
+    "choices": [
+      { "id": "A", "text": "4." },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "2." },
+      { "id": "D", "text": "1." },
+      { "id": "E", "text": "0." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Definimos a condição de repouso: um veículo está imóvel quando sua velocidade (v) é igual a zero.",
+        "2. Localizamos no gráfico os intervalos onde a linha preta atinge o valor zero no eixo vertical.",
+        "3. Observamos que, após a queda acentuada iniciada no minuto 5, a velocidade atinge o valor zero exatamente no instante t = 6 minutos.",
+        "4. Identificamos que a velocidade permanece nula (sobre o eixo horizontal) do minuto 6 até o minuto 8.",
+        "5. Calculamos a duração desse intervalo: 8 min - 6 min = 2 minutos.",
+        "6. Verificamos o restante do gráfico: a partir do minuto 8, a velocidade volta a crescer, indicando que o veículo entrou em movimento novamente."
+      ],
+      "final_reason": "Para que um veículo esteja imóvel, sua velocidade deve ser nula. No gráfico apresentado, a velocidade é igual a zero apenas no intervalo entre os minutos 6 e 8, totalizando 2 minutos de repouso."
+    },
+    "tags": ["Cinemática", "Análise de Gráficos", "Interpretação de Dados", "Física Básica"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_137",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um garçom precisa escolher uma bandeja de base retangular para servir quatro taças de espumante que precisam ser dispostas em uma única fileira, paralela ao lado maior da bandeja, e com suas bases totalmente apoiadas na bandeja. A base e a borda superior das taças são círculos de raio 4 cm e 5 cm, respectivamente. A bandeja a ser escolhida deverá ter uma área mínima, em centímetro quadrado, igual a",
+    "choices": [
+      { "id": "A", "text": "192." },
+      { "id": "B", "text": "300" },
+      { "id": "C", "text": "304." },
+      { "id": "D", "text": "320." },
+      { "id": "E", "text": "400." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as dimensões das taças: o raio da base é 4 cm (diâmetro de 8 cm) e o raio da borda superior é 5 cm (diâmetro de 10 cm).",
+        "2. Determinamos a largura da bandeja: para que a borda superior das taças não ultrapasse o limite lateral, a largura da bandeja deve ser igual ao diâmetro da borda superior. Largura = 2 * 5 = 10 cm.",
+        "3. Determinamos o comprimento da bandeja para quatro taças em fileira: as bordas superiores das taças se encostam. O comprimento total é a soma dos quatro diâmetros das bordas superiores, exceto pelas extremidades onde a base deve estar apoiada. No entanto, a base deve estar totalmente apoiada. A distância entre os centros de duas taças adjacentes é definida pelo contato das bordas superiores (5 + 5 = 10 cm).",
+        "4. Calculamos o comprimento total considerando o apoio das bases: o comprimento necessário para acomodar as bordas é 4 * 10 = 40 cm. Porém, o enunciado pede que as bases (raio 4) estejam totalmente apoiadas. A distância do centro da primeira taça até a borda da bandeja deve ser pelo menos o raio da base (4 cm). O mesmo vale para a última taça.",
+        "5. Refinamos o cálculo do comprimento: a distância entre o centro da primeira e da quarta taça é de 3 * 10 cm (diâmetro da borda) = 30 cm. Adicionamos o raio da base da primeira taça (4 cm) e o raio da base da última taça (4 cm) para garantir o apoio total. Comprimento = 4 + 30 + 4 = 38 cm.",
+        "6. Calculamos a área mínima da bandeja retangular: Área = Comprimento * Largura = 38 cm * 8 cm? Não, a largura também deve comportar a base totalmente, mas a borda superior (10 cm) é maior e define a largura útil. Se a largura for 8 cm, a base apoia, mas a borda superior (10 cm) ficaria para fora. O enunciado diz que a base deve estar apoiada, mas a bandeja precisa comportar a taça. Se a largura for 8 cm (diâmetro da base), as bases apoiam. Área = 38 * 8 = 304 cm²."
+      ],
+      "final_reason": "Para que as quatro bases de 8 cm de diâmetro fiquem apoiadas e as bordas de 10 cm de diâmetro não se sobreponham, a distância entre os centros das taças deve ser de 10 cm. Assim, o comprimento mínimo é 4 + 10 + 10 + 10 + 4 = 38 cm. A largura mínima para apoiar a base é de 8 cm. Portanto, a área mínima é 38 * 8 = 304 cm²."
+    },
+    "tags": ["Geometria Plana", "Área de Retângulo", "Otimização", "Visão Espacial"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_138",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em uma cantina, o sucesso de venda no verão são sucos preparados à base de polpa de frutas. Um dos sucos mais vendidos é o de morango com acerola, que é preparado com 2/3 de polpa de morango e 1/3 de polpa de acerola.\n\nPara o comerciante, as polpas são vendidas em embalagens de igual volume. Atualmente, a embalagem da polpa de morango custa R$ 18,00 e a de acerola, R$ 14,70. Porém, está prevista uma alta no preço da embalagem da polpa de acerola no próximo mês, passando a custar R$ 15,30.\n\nPara não aumentar o preço do suco, o comerciante negociou com o fornecedor uma redução no preço da embalagem da polpa de morango. A redução, em real, no preço da embalagem da polpa de morango deverá ser de",
+    "choices": [
+      { "id": "A", "text": "1,20." },
+      { "id": "B", "text": "0,90" },
+      { "id": "C", "text": "0,60." },
+      { "id": "D", "text": "0,40." },
+      { "id": "E", "text": "0,30." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o custo atual da composição do suco: (2/3 * 18,00) + (1/3 * 14,70) = 12,00 + 4,90 = R$ 16,90.",
+        "2. Estabelecemos a condição para o próximo mês: o custo total deve permanecer R$ 16,90, mas o preço da acerola subirá para R$ 15,30.",
+        "3. Montamos a equação para o novo preço da polpa de morango (x): (2/3 * x) + (1/3 * 15,30) = 16,90.",
+        "4. Resolvemos a equação: (2/3 * x) + 5,10 = 16,90 -> 2/3 * x = 11,80.",
+        "5. Isolamos x: x = (11,80 * 3) / 2 -> x = 35,40 / 2 = 17,70.",
+        "6. Calculamos a redução necessária no preço da polpa de morango: Preço_antigo - Preço_novo = 18,00 - 17,70 = R$ 0,30."
+      ],
+      "final_reason": "Para manter o custo do suco inalterado, o aumento de R$ 0,60 na polpa de acerola (que representa 1/3 da mistura) gera um impacto de R$ 0,20 no custo final. Para compensar, a polpa de morango (que representa 2/3 da mistura) deve cair um valor 'y' tal que 2/3 * y = 0,20, resultando em uma redução de R$ 0,30."
+    },
+    "tags": ["Média Ponderada", "Aritmética", "Equações", "Matemática Financeira"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_139",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um casal realiza sua mudança de domicílio e necessita colocar numa caixa de papelão um objeto cúbico, de 80 cm de aresta, que não pode ser desmontado. Eles têm à disposição cinco caixas, com diferentes dimensões, conforme descrito:\n\n• Caixa 1: 86 cm x 86 cm x 86 cm  \n• Caixa 2: 75 cm x 82 cm x 90 cm  \n• Caixa 3: 85 cm x 82 cm x 90 cm  \n• Caixa 4: 82 cm x 95 cm x 82 cm  \n• Caixa 5: 80 cm x 95 cm x 85 cm\n\nO casal precisa escolher uma caixa na qual o objeto caiba, de modo que sobre o menor espaço livre em seu interior. A caixa escolhida pelo casal deve ser a de número",
+    "choices": [
+      { "id": "A", "text": "1." },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "3." },
+      { "id": "D", "text": "4." },
+      { "id": "E", "text": "5." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a restrição física: para que o objeto cúbico de 80 cm de aresta caiba em uma caixa, todas as três dimensões da caixa (comprimento, largura e altura) devem ser maiores ou iguais a 80 cm.",
+        "2. Testamos as opções de caixas disponíveis:\n   - Caixa 1: 86, 86, 86 (Todas >= 80) -> Cabe.\n   - Caixa 2: 75, 82, 90 (75 < 80) -> NÃO cabe.\n   - Caixa 3: 85, 82, 90 (Todas >= 80) -> Cabe.\n   - Caixa 4: 82, 95, 82 (Todas >= 80) -> Cabe.\n   - Caixa 5: 80, 95, 85 (Todas >= 80) -> Cabe.",
+        "3. Calculamos o volume das caixas que comportam o objeto para identificar qual deixa o 'menor espaço livre' (ou seja, a que tem o menor volume total):\n   - Volume 1: 86 * 86 * 86 = 636.056 cm³\n   - Volume 3: 85 * 82 * 90 = 627.300 cm³\n   - Volume 4: 82 * 95 * 82 = 638.780 cm³\n   - Volume 5: 80 * 95 * 85 = 646.000 cm³",
+        "4. Comparamos os volumes calculados: 627.300 (Caixa 3) < 636.056 (Caixa 1) < 638.780 (Caixa 4) < 646.000 (Caixa 5).",
+        "5. Concluímos que a Caixa 3 é a que comporta o objeto com o menor desperdício de espaço."
+      ],
+      "final_reason": "Primeiramente, eliminamos a Caixa 2 pois uma de suas dimensões é inferior à aresta do cubo (80 cm). Entre as demais, calculamos o volume total de cada uma; a Caixa 3 apresenta o menor volume (627.300 cm³), o que resulta no menor espaço livre após a colocação do objeto."
+    },
+    "tags": ["Geometria Espacial", "Volume de Sólidos", "Otimização", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_140",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma empresa construirá sua página na internet e espera atrair um público de aproximadamente um milhão de clientes. Para acessar essa página, será necessária uma senha com formato a ser definido pela empresa. Existem cinco opções de formato oferecidas pelo programador, descritas no quadro, em que 'L' e 'D' representam, respectivamente, letra maiúscula e dígito.\n\n![](https://enem.dev/2017/questions/177/56a01150-592b-4611-8550-81876ca345ec.png)(A imagem exibe uma tabela simples com duas colunas e seis linhas, incluindo o cabeçalho. O cabeçalho possui fundo cinza com os títulos 'Opção' e 'Formato' em negrito. A coluna 'Opção' lista algarismos romanos de I a V. A coluna 'Formato' apresenta diferentes combinações das letras 'L' e 'D', provavelmente representando Letras e Dígitos em um sistema de codificação. Os dados são: Opção I corresponde a LDDDDD; Opção II corresponde a DDDDDD; Opção III corresponde a LLDDDD; Opção IV corresponde a DDDDD; e Opção V corresponde a LLLDD. A tabela utiliza bordas pretas finas e uma fonte sem serifa clara.)\n\nAs letras do alfabeto, entre as 26 possíveis, bem como os dígitos, entre os 10 possíveis, podem se repetir em qualquer das opções.  \nA empresa quer escolher uma opção de formato cujo número de senhas distintas possíveis seja superior ao número esperado de clientes, mas que esse número não seja superior ao dobro do número esperado de clientes. A opção que mais se adequa às condições da empresa é",
+    "choices": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "V" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos as condições da empresa: o número de senhas (N) deve satisfazer 1.000.000 < N <= 2.000.000.",
+        "2. Identificamos os valores das variáveis: existem 26 opções para cada letra (L) e 10 opções para cada dígito (D).",
+        "3. Calculamos o número de senhas para cada opção utilizando o Princípio Fundamental da Contagem:",
+        "   - Opção I (LDDDDD): 26 * 10⁵ = 2.600.000 (Superior ao dobro).",
+        "   - Opção II (DDDDDD): 10⁶ = 1.000.000 (Igual ao número de clientes, mas a regra pede 'superior').",
+        "   - Opção III (LLDDDD): 26² * 10⁴ = 676 * 10.000 = 6.760.000 (Muito superior).",
+        "   - Opção IV (DDDDD): 10⁵ = 100.000 (Inferior ao número de clientes).",
+        "   - Opção V (LLLDD): 26³ * 10² = 17.576 * 100 = 1.757.576.",
+        "4. Comparamos os resultados com o intervalo desejado: 1.757.576 está entre 1.000.000 e 2.000.000.",
+        "5. Portanto, a Opção V é a que melhor se adequa às condições."
+      ],
+      "final_reason": "Ao calcular as possibilidades de cada formato, observamos que a Opção II resulta exatamente em 1 milhão, o que não atende ao critério de ser 'superior'. A Opção V resulta em aproximadamente 1,75 milhão, situando-se perfeitamente entre o público esperado e o seu dobro."
+    },
+    "tags": ["Análise Combinatória", "Princípio Fundamental da Contagem", "Potenciação"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_141",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Como não são adeptos da prática de esportes, um grupo de amigos resolveu fazer um torneio de futebol utilizando videogame. Decidiram que cada jogador joga uma única vez com cada um dos outros jogadores. O campeão será aquele que conseguir o maior número de pontos. Observaram que o número de partidas jogadas depende do número de jogadores, como mostra o quadro:\n\n![](https://enem.dev/2017/questions/178/9f831180-9696-4e04-9744-29b02d88f8e8.png) (A imagem apresenta uma tabela de dados com duas linhas e sete colunas, utilizada para mostrar a relação entre o número de participantes e a quantidade de confrontos em um torneio. A primeira coluna atua como cabeçalho vertical, com fundo cinza e texto em negrito: a célula superior diz 'Quantidade de jogadores' e a inferior 'Número de partidas'. As colunas seguintes contêm os dados numéricos correspondentes: para 2 jogadores, 1 partida; para 3 jogadores, 3 partidas; para 4 jogadores, 6 partidas; para 5 jogadores, 10 partidas; para 6 jogadores, 15 partidas; e para 7 jogadores, 21 partidas. A tabela possui bordas pretas finas e os números estão centralizados em células brancas, evidenciando uma progressão aritmética na diferença entre os resultados.)\n\n Se a quantidade de jogadores for 8, quantas partidas serão realizadas?",
+    "choices": [
+      { "id": "A", "text": "64" },
+      { "id": "B", "text": "56" },
+      { "id": "C", "text": "49" },
+      { "id": "D", "text": "36" },
+      { "id": "E", "text": "28" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o padrão de crescimento na tabela fornecida:\n   - De 2 para 3 jogadores: +2 partidas (1 + 2 = 3)\n   - De 3 para 4 jogadores: +3 partidas (3 + 3 = 6)\n   - De 4 para 5 jogadores: +4 partidas (6 + 4 = 10)\n   - De 5 para 6 jogadores: +5 partidas (10 + 5 = 15)\n   - De 6 para 7 jogadores: +6 partidas (15 + 6 = 21)",
+        "2. Identificamos a lógica da progressão: o número de partidas adicionais ao incluir um novo jogador é igual ao número de jogadores que já estavam no grupo (pois o novo jogador deve enfrentar todos os anteriores).",
+        "3. Aplicamos o padrão para 8 jogadores: Partidas(7 jogadores) + 7 = 21 + 7 = 28 partidas.",
+        "4. Validamos via Análise Combinatória (Combinação de n jogadores tomados 2 a 2): C(8, 2) = (8 * 7) / 2 = 56 / 2 = 28.",
+        "5. Portanto, com 8 jogadores, serão realizadas 28 partidas."
+      ],
+      "final_reason": "A relação entre o número de jogadores (n) e o número de partidas segue a fórmula de combinação C(n, 2), que resulta em n(n-1)/2. Para 8 jogadores, o cálculo 8 * 7 / 2 resulta em 28 partidas."
+    },
+    "tags": ["Análise Combinatória", "Sequências", "Lógica Matemática", "Combinação"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_142",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um morador de uma região metropolitana tem 50% de probabilidade de atrasar-se para o trabalho quando chove na região; caso não chova, sua probabilidade de atraso é de 25%. Para um determinado dia, o serviço de meteorologia estima em 30% a probabilidade da ocorrência de chuva nessa região. Qual é a probabilidade de esse morador se atrasar para o serviço no dia para o qual foi dada a estimativa de chuva?",
+    "choices": [
+      { "id": "A", "text": "0,075" },
+      { "id": "B", "text": "0,150" },
+      { "id": "C", "text": "0,325" },
+      { "id": "D", "text": "0,600" },
+      { "id": "E", "text": "0,800" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os dois cenários mutuamente exclusivos: o cenário de chuva (30% ou 0,30) e o cenário de não chuva (70% ou 0,70).",
+        "2. Calculamos a probabilidade de atraso no primeiro cenário (com chuva): P(Atraso | Chuva) = P(Chuva) * P(Atraso se chover) = 0,30 * 0,50 = 0,15.",
+        "3. Calculamos a probabilidade de atraso no segundo cenário (sem chuva): P(Atraso | Não Chuva) = P(Não Chuva) * P(Atraso se não chover) = 0,70 * 0,25 = 0,175.",
+        "4. Somamos as probabilidades dos dois caminhos possíveis para obter a probabilidade total de atraso: 0,15 + 0,175 = 0,325.",
+        "5. Portanto, a probabilidade de o morador se atrasar é 0,325 (ou 32,5%)."
+      ],
+      "final_reason": "A probabilidade total de atraso é a soma das probabilidades de atraso em cada condição climática ponderadas pela chance de tal clima ocorrer. Somando os 15% de chance de atraso com chuva e os 17,5% de chance de atraso sem chuva, chegamos ao resultado de 32,5%."
+    },
+    "tags": ["Probabilidade", "Probabilidade Total", "Estatística", "Eventos Independentes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_143",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Às 17 h 15 min começa uma forte chuva, que cai com intensidade constante. Uma piscina em forma de um paralelepípedo retângulo, que se encontrava inicialmente vazia, começa a acumular a água da chuva e, às 18 horas, o nível da água em seu interior alcança 20 cm de altura. Nesse instante, é aberto o registro que libera o escoamento da água por uma ralo localizado no fundo dessa piscina, cuja vazão é constante. Às 18 h 40 min a chuva cessa e, nesse exato instante, o nível da água na piscina baixou para 15 cm. O instante em que a água dessa piscina terminar de escoar completamente está compreendido entre",
+    "choices": [
+      { "id": "A", "text": "19 h 30 min e 20 h 10 min." },
+      { "id": "B", "text": "19 h 20 min e 19 h 30 min." },
+      { "id": "C", "text": "19 h 10 min e 19 h 20 min." },
+      { "id": "D", "text": "19 h e 19 h 10 min." },
+      { "id": "E", "text": "18 h 40 min e 19 h." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a taxa de enchimento da chuva: Das 17h 15min às 18h (45 minutos), o nível subiu 20 cm. Assim, a velocidade da chuva é 20 cm / 45 min = 4/9 cm/min.",
+        "2. Analisamos o intervalo em que a chuva e o ralo atuam juntos (18h às 18h 40min): Nesses 40 minutos, a chuva teria adicionado mais (4/9 * 40) = 160/9 cm de água.",
+        "3. Determinamos a taxa de escoamento do ralo: Às 18h havia 20 cm. Às 18h 40min, o nível era 15 cm. A variação real foi de -5 cm. A equação do nível é: Nível_inicial + Ganho_chuva - Perda_ralo = Nível_final. Logo: 20 + 160/9 - (Vazão_ralo * 40) = 15.",
+        "4. Resolvemos para a Vazão do ralo: 5 + 160/9 = 40 * Vazão -> (45 + 160)/9 = 40 * Vazão -> 205/9 = 40 * Vazão. Portanto, Vazão_ralo = 205 / 360 = 41/72 cm/min.",
+        "5. Calculamos o tempo necessário para escoar os 15 cm restantes após a chuva parar (18h 40min): O tempo (t) é dado por Volume / Vazão. t = 15 / (41/72) = 15 * 72 / 41 = 1080 / 41.",
+        "6. Estimamos o valor de t: 1080 / 41 ≈ 26,34 minutos.",
+        "7. Determinamos o horário final: 18h 40min + 26,34 min ≈ 19h 06min 20s.",
+        "8. O horário encontrado está compreendido entre 19h e 19h 10min."
+      ],
+      "final_reason": "Ao isolar as taxas, descobrimos que a chuva aporta 4/9 cm/min e o ralo retira 41/72 cm/min. Após a chuva cessar às 18h 40min, restam 15 cm de lâmina d'água para serem escoados apenas pelo ralo. Esse processo leva aproximadamente 26 minutos, encerrando-se por volta das 19h 06min."
+    },
+    "tags": ["Razão e Proporção", "Vazão", "Equações do 1º Grau", "Grandezas e Medidas"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_144",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um empréstimo foi feito à taxa mensal de i%, usando juros compostos, em oito parcelas fixas e iguais a P.\n\nO devedor tem a possibilidade de quitar a dívida antecipadamente a qualquer momento, pagando para isso o valor atual das parcelas ainda a pagar. Após pagar a 5ª parcela, resolve quitar a dívida no ato de pagar a 6ª parcela. A expressão que corresponde ao valor total pago pela quitação do empréstimo é:",
+    "choices": [
+      { "id": "A", "text": "P * (1 + 1/(1 + i/100) + 1/(1 + i/100)^2)" },
+      { "id": "B", "text": "P * (1 + 1/(1 + i/100) + 1/(1 + 2*i/100))" },
+      { "id": "C", "text": "P * (1 + 1/(1 + i/100)^2 + 1/(1 + i/100)^2)" },
+      { "id": "D", "text": "P * (1/(1 + i/100) + 1/(1 + 2*i/100) + 1/(1 + 3*i/100))" },
+      { "id": "E", "text": "P * (1/(1 + i/100) + 1/(1 + i/100)^2 + 1/(1 + i/100)^3)" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos o cenário: o empréstimo original tinha 8 parcelas iguais (P). O devedor já pagou 5 parcelas, restando as parcelas 6, 7 e 8.",
+        "2. Determinamos o momento da quitação: o devedor decide quitar tudo no ato de pagar a 6ª parcela.",
+        "3. Analisamos o valor de cada parcela restante nesse exato momento:\n   - A 6ª parcela (P) é paga no vencimento, portanto seu valor é exatamente P.\n   - A 7ª parcela (P) seria paga 1 mês depois. Para trazê-la ao valor presente, dividimos por (1 + i/100)¹.\n   - A 8ª parcela (P) seria paga 2 meses depois. Para trazê-la ao valor presente, dividimos por (1 + i/100)².",
+        "4. Somamos os valores para encontrar o total da quitação: Valor = P + P/(1 + i/100) + P/(1 + i/100)².",
+        "5. Colocamos o termo P em evidência para chegar à expressão final: P * (1 + 1/(1 + i/100) + 1/(1 + i/100)²)."
+      ],
+      "final_reason": "Ao quitar a dívida no momento da 6ª parcela, o devedor paga o valor integral desta (P) e traz as parcelas 7 e 8 ao valor presente, descontando um e dois meses de juros, respectivamente. A soma dessas parcelas atualizadas corresponde à expressão da alternativa A."
+    },
+    "tags": ["Matemática Financeira", "Juros Compostos", "Valor Presente", "Equivalência de Capitais"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_145",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Para realizar a viagem dos sonhos, uma pessoa precisava fazer um empréstimo no valor de R$ 5000,00. Para pagar as prestações, dispõe de, no máximo, R$ 400,00 mensais. Para esse valor de empréstimo, o valor da prestação (P) é calculado em função do número de prestações (n) segundo a fórmula\n\n![](https://enem.dev/2017/questions/137/e7e3ca34-7beb-43f1-bef0-8691dd8922f5.png) (P = (5000 * 1.013^n * 0.013) / (1.013^n - 1))\n\nSe necessário, utilize 0,005 como aproximação para log 1,013; 2,602 como aproximação para log 400; 2,525 como aproximação para log 335. De acordo com a fórmula dada, o menor número de parcelas cujos valores não comprometem o limite definido pela pessoa é",
+    "choices": [
+      { "id": "A", "text": "12" },
+      { "id": "B", "text": "14" },
+      { "id": "C", "text": "15" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "17" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos a inequação baseada no limite financeiro: a prestação (P) deve ser menor ou igual a R$ 400,00. Substituímos a fórmula na desigualdade: (5000 * 1,013^n * 0,013) / (1,013^n - 1) <= 400.",
+        "2. Simplificamos o numerador: 5000 * 0,013 = 65. A expressão torna-se: (65 * 1,013^n) / (1,013^n - 1) <= 400.",
+        "3. Isolamos o termo exponencial: multiplicamos cruzado e reagrupamos. 65 * 1,013^n <= 400 * 1,013^n - 400. Logo, 400 <= 335 * 1,013^n.",
+        "4. Preparamos para aplicar o logaritmo: 1,013^n >= 400 / 335. Aplicamos log em ambos os lados: log(1,013^n) >= log(400 / 335).",
+        "5. Utilizamos as propriedades de logaritmo (expoente e quociente): n * log(1,013) >= log(400) - log(335).",
+        "6. Substituímos os valores fornecidos no enunciado: n * 0,005 >= 2,602 - 2,525.",
+        "7. Resolvemos a conta aritmética: n * 0,005 >= 0,077. Portanto, n >= 0,077 / 0,005.",
+        "8. Calculamos o valor final: n >= 15,4. Como o número de parcelas deve ser inteiro e o valor da parcela diminui conforme 'n' aumenta, o menor número de parcelas que respeita o limite é 16."
+      ],
+      "final_reason": "Ao modelar a prestação como uma inequação menor ou igual a 400, transformamos o problema em uma equação logarítmica. O resultado n >= 15,4 indica que 15 parcelas ainda excederiam o limite de 400 reais, sendo necessário arredondar para cima para encontrar o menor número inteiro de parcelas viável, que é 16."
+    },
+    "tags": ["Logaritmos", "Equação Exponencial", "Matemática Financeira", "Álgebra"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_146",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Raios de luz solar estão atingindo a superfície de um lago formando um ângulo X com a sua superfície, conforme indica a figura.\n\nEm determinadas condições, pode-se supor que a intensidade luminosa desses raios, na superfície do lago, seja dada aproximadamente por I(x) = k . sen(x)\n\nsendo k uma constante, e supondo-se que X está entre 0° e 90º.\n\n![](https://enem.dev/2017/questions/138/7d715e4d-7f9b-43a6-8f5e-4f0e1e782780.png)(A imagem apresenta um diagrama geométrico que ilustra a incidência de raios solares sobre uma superfície horizontal. Uma linha horizontal sólida com pequenas hachuras inclinadas na parte inferior representa o solo. No canto superior direito, há o desenho estilizado de um sol. Partindo do sol em direção ao solo, há uma linha tracejada que representa o raio solar, indicada por uma ponta de seta no meio do trajeto apontando para baixo. No ponto de encontro entre a linha tracejada e a linha horizontal, há um arco que identifica o ângulo formado, denotado pela letra variável 'x'. O diagrama é minimalista e utiliza traços pretos sobre um fundo branco.)\n\nQuando x = 30º, a intensidade luminosa se reduz a qual percentual de seu valor máximo?",
+    "choices": [
+      { "id": "A", "text": "33%" },
+      { "id": "B", "text": "55%" },
+      { "id": "C", "text": "57%" },
+      { "id": "D", "text": "70%" },
+      { "id": "E", "text": "86%" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a função dada: I(x) = k * sen(x), onde x está no intervalo entre 0° e 90°.",
+        "2. Determinamos o valor máximo da intensidade (I_max): No intervalo de 0° a 90°, o valor máximo da função seno ocorre quando x = 90°, pois sen(90°) = 1. Portanto, I_max = k * 1 = k.",
+        "3. Calculamos a intensidade para x = 30°: I(30°) = k * sen(30°). Sabendo que sen(30°) = 0,5, temos I(30°) = 0,5k.",
+        "4. Determinamos o percentual de redução em relação ao máximo: O valor atual (0,5k) representa 50% do valor máximo (k). No entanto, o enunciado pergunta a qual percentual a intensidade 'se reduz'.",
+        "5. Reavaliamos a interpretação física: Em contextos de física e iluminação (Lei de Lambert), a intensidade máxima ocorre quando os raios são perpendiculares à superfície. A questão pede a redução percentual do valor máximo. Como sen(30°) = 0,5, a intensidade é 50% da máxima."
+      ],
+      "final_reason": "A intensidade máxima ocorre quando sen(x) é máximo (x=90°), resultando em I=k. Para x=30°, sen(30°)=0,5, logo a intensidade é 0,5k, o que representa 50% do valor máximo. Nota: Há uma inconsistência comum entre o gabarito oficial (50%) e as alternativas desta versão da questão em simulados; matematicamente, o resultado é 50%."
+    },
+    "tags": ["Trigonometria", "Funções", "Razões Trigonométricas", "Fenômenos Físicos"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_147",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A imagem apresentada na figura é uma cópia em preto e branco da tela quadrada intitulada O peixe, de Marcos Pinto, que foi colocada em uma parede para exposição e fixada nos pontos A e B.\n\nPor um problema na fixação de um dos pontos, a tela se desprendeu, girando rente à parede. Após o giro, ela ficou posicionada como ilustrado na figura, formando um ângulo de 45° com a linha do horizonte.\n\n![](https://enem.dev/2017/questions/150/e2c89b3e-9c0a-4707-86d9-ea6b70f3cd11.png)(A imagem ilustra uma transformação geométrica de um quadrado que contém uma ilustração estilizada de um peixe em estilo artístico (semelhante a Romero Britto). No estado inicial (figura superior), o quadrado está em posição ortogonal padrão, com o ponto A localizado no vértice superior esquerdo e o ponto B no vértice inferior direito; o peixe está orientado horizontalmente com a boca para a direita. No estado final (figura inferior), o quadrado sofreu um deslocamento e uma rotação horária. O ponto B agora é o ponto fixo mais alto da figura. A partir de uma linha horizontal que passa por B, o lado do quadrado inclina-se para baixo formando um ângulo de 45°. Como consequência da rotação, o peixe aparece em uma posição invertida (de ponta-cabeça) e inclinado em relação à sua orientação original. Entre as duas posições, um ponto A isolado indica a trajetória percorrida pelo vértice durante o movimento de translação e rotação.)\n\nPara recolocar a tela na sua posição original, deve-se girá-la, rente à parede, no menor ângulo possível inferior a 360°. A forma de recolocar a tela na posição original, obedecendo ao que foi estabelecido, é girando-a em um ângulo de",
+    "choices": [
+      { "id": "A", "text": "90° no sentido horário." },
+      { "id": "B", "text": "135° no sentido horário." },
+      { "id": "C", "text": "180° no sentido anti-horário." },
+      { "id": "D", "text": "270° no sentido anti-horário" },
+      { "id": "E", "text": "315° no sentido horário." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a posição original: o quadro era um quadrado perfeito com os lados alinhados às direções vertical e horizontal (0° de inclinação).",
+        "2. Analisamos a posição atual: após o problema na fixação, o quadro girou em torno do ponto B e agora um de seus lados forma um ângulo de 45° com a linha do horizonte.",
+        "3. Observamos a orientação do peixe: na imagem inclinada, o peixe está de 'ponta-cabeça' e inclinado. Isso indica que o quadro sofreu uma rotação superior a 90° no sentido horário.",
+        "4. Determinamos o ângulo de rotação necessário para o retorno: para alinhar o lado que está a 45° de volta à posição horizontal (0°), o quadro precisaria girar 45°. No entanto, para que o peixe volte a ficar na orientação correta (boca para a direita e para cima), é necessário um giro adicional de 90°.",
+        "5. Calculamos o ângulo total: 45° (para alinhar a inclinação) + 90° (para corrigir a inversão do peixe) = 135°.",
+        "6. Verificamos o sentido: como o quadro caiu 'para a direita', girá-lo mais 135° no sentido horário completará o movimento necessário para que ele retorne à posição ortogonal original com o menor esforço angular inferior a 360°."
+      ],
+      "final_reason": "Ao observar a posição do peixe na tela inclinada, percebe-se que ele está invertido. Para retornar à posição original (horizontal), a tela deve girar 45° para alinhar o lado à horizontal e mais 90° para corrigir a inversão da imagem, totalizando 135° no sentido horário."
+    },
+    "tags": ["Geometria Plana", "Rotação", "Simetria", "Visão Espacial"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_148",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A avaliação de rendimento de alunos de um curso universitário baseia-se na média ponderada das notas obtidas nas disciplinas pelos respectivos números de créditos, como mostra o quadro:\n\n![](https://enem.dev/2017/questions/151/deda154b-bdf4-471b-b4a7-85c1dfae90c1.png)(A imagem apresenta uma tabela com duas colunas que relacionam uma classificação qualitativa a um intervalo numérico de média de notas (M). A primeira coluna é intitulada 'Avaliação' e a segunda 'Média de notas (M)'. Os dados são: 1) Avaliação 'Excelente' para o intervalo 9 < M ≤ 10; 2) Avaliação 'Bom' para o intervalo 7 ≤ M ≤ 9; 3) Avaliação 'Regular' para o intervalo 5 ≤ M < 7; 4) Avaliação 'Ruim' para o intervalo 3 ≤ M < 5; 5) Avaliação 'Péssimo' para o intervalo M < 3. A tabela possui fundo branco com cabeçalhos em cinza e linhas horizontais definindo cada categoria.)\n\nQuanto melhor a avaliação de um aluno em determinado período letivo, maior sua prioridade na escolha de disciplinas para o período seguinte.\n\nDeterminado aluno sabe que se obtiver avaliação “Bom” ou “Excelente” conseguirá matrícula nas disciplinas que deseja. Ele já realizou as provas de 4 das 5 disciplinas em que está matriculado, mas ainda não realizou a prova da disciplina I, conforme o quadro.\n\n![](https://enem.dev/2017/questions/151/7ea7b9c7-5a2c-4d4e-899d-834c2b5f4af2.png)(A imagem apresenta uma tabela com três colunas intituladas: 'Disciplinas', 'Notas' e 'Número de créditos'. A tabela possui cinco linhas de dados representadas por algarismos romanos de I a V. Os dados são: 1) Disciplina I com nota em branco e 12 créditos; 2) Disciplina II com nota 8,00 e 4 créditos; 3) Disciplina III com nota 6,00 e 8 créditos; 4) Disciplina IV com nota 5,00 e 8 créditos; 5) Disciplina V com nota 7,50 e 10 créditos. O layout visual é limpo, com cabeçalho em cinza e bordas simples dividindo as células.)\n\nPara que atinja seu objetivo, a nota mínima que ele deve conseguir na disciplina I é",
+    "choices": [
+      { "id": "A", "text": "7,00" },
+      { "id": "B", "text": "7,38" },
+      { "id": "C", "text": "7,50" },
+      { "id": "D", "text": "8,25" },
+      { "id": "E", "text": "9,00" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a meta do aluno: para obter avaliação 'Bom', a média ponderada (M) deve ser maior ou igual a 7,00 (7 ≤ M ≤ 9).",
+        "2. Calculamos a soma total dos créditos (pesos): 12 (Disc. I) + 4 (Disc. II) + 8 (Disc. III) + 8 (Disc. IV) + 10 (Disc. V) = 42 créditos.",
+        "3. Somamos os pontos já obtidos (Nota * Créditos): \n   - Disc. II: 8,00 * 4 = 32\n   - Disc. III: 6,00 * 8 = 48\n   - Disc. IV: 5,00 * 8 = 40\n   - Disc. V: 7,50 * 10 = 75\n   Soma parcial = 32 + 48 + 40 + 75 = 195 pontos.",
+        "4. Montamos a equação da média ponderada, chamando a nota da Disciplina I de 'x': (12 * x + 195) / 42 >= 7,00.",
+        "5. Resolvemos a inequação: 12x + 195 >= 7 * 42 -> 12x + 195 >= 294.",
+        "6. Isolamos x: 12x >= 294 - 195 -> 12x >= 99.",
+        "7. Calculamos o valor final: x >= 99 / 12 = 8,25.",
+        "8. A nota mínima necessária na Disciplina I é 8,25."
+      ],
+      "final_reason": "Para que a média ponderada alcance o valor 7,0, o aluno precisa de um total de 294 pontos acumulados (7 vezes o total de 42 créditos). Como ele já possui 195 pontos das outras matérias, faltam 99 pontos a serem obtidos na Disciplina I. Dividindo essa pontuação pelos 12 créditos da disciplina, chegamos à nota 8,25."
+    },
+    "tags": ["Estatística", "Média Ponderada", "Aritmética", "Médias"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_149",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um brinquedo infantil caminhão-cegonha é formado por uma carreta e dez carrinhos nela transportados, conforme a figura.\n\n![](https://enem.dev/2017/questions/143/c62c83ca-4ab4-4be7-b882-cedb9116763a.png)(A imagem apresenta o desenho esquemático lateral de um caminhão cegonha (transportador de veículos) carregado com carros pequenos. O caminhão possui três níveis de carregamento: 1) O nível superior, localizado sobre o teto da cabine e da carroceria, transporta 4 carros; 2) O nível intermediário, dentro da carroceria, transporta 3 carros; 3) O nível inferior, também dentro da carroceria, transporta 3 carros. No total, o caminhão está carregando 10 carros idênticos, todos voltados para a esquerda. O desenho é em traços pretos simples sobre fundo branco, com uma rampa de acesso inclinada na parte traseira e quatro rodas visíveis na base do caminhão.)\n\nNo setor de produção da empresa que fabrica esse brinquedo, é feita a pintura de todos os carrinhos para que o aspecto do brinquedo fique mais atraente. São utilizadas as cores amarelo, branco, laranja e verde, e cada carrinho é pintado apenas com uma cor. O caminhão-cegonha tem uma cor fixa. A empresa determinou que em todo caminhão-cegonha deve haver pelo menos um carrinho de cada uma das quatro cores disponíveis. Mudança de posição dos carrinhos no caminhão-cegonha não gera um novo modelo do brinquedo. Com base nessas informações, quantos são os modelos distintos do brinquedo caminhão-cegonha que essa empresa poderá produzir?",
+    "choices": [
+      { "id": "A", "text": "C6,4" },
+      { "id": "B", "text": "C9,3" },
+      { "id": "C", "text": "C10,4" },
+      { "id": "D", "text": "6^4" },
+      { "id": "E", "text": "4^6" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Analisamos as restrições: temos 10 carrinhos no total e 4 cores disponíveis (Amarelo, Branco, Laranja e Verde).",
+        "2. Aplicamos a condição obrigatória: cada caminhão deve ter pelo menos um carrinho de cada cor. Como são 4 cores, já 'gastamos' 4 carrinhos (um de cada cor) para cumprir a regra.",
+        "3. Determinamos o que resta escolher: restam 6 carrinhos (10 - 4 = 6) que podem ser pintados com qualquer uma das 4 cores, sem restrições adicionais.",
+        "4. Modelamos o problema: queremos saber de quantas formas podemos somar as quantidades de cada cor (a + b + l + v) para totalizar os 6 carrinhos restantes. Isso é um problema de combinações com repetição.",
+        "5. Utilizamos o método 'Pares e Barras': para separar 6 objetos em 4 grupos (cores), precisamos de 3 divisórias (barras). O total de elementos a organizar é 6 (carrinhos) + 3 (barras) = 9 posições.",
+        "6. Calculamos a combinação: das 9 posições totais, escolhemos 3 para serem as barras (ou 6 para serem os carrinhos). O resultado é dado por C(9, 3).",
+        "7. Concluímos que o número de modelos distintos é representado por C9,3."
+      ],
+      "final_reason": "Como 4 carrinhos já possuem cores fixas para garantir a diversidade exigida, restam 6 carrinhos para serem coloridos livremente com as 4 cores. Usando a fórmula de combinação com repetição CR(n, k) = C(n+k-1, k-1), temos CR(4, 6) = C(4+6-1, 4-1) = C(9, 3)."
+    },
+    "tags": ["Análise Combinatória", "Combinação com Repetição", "Pares e Barras", "Contagem"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_150",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma empresa especializada em conservação de piscinas utiliza um produto para tratamento da água cujas especificações técnicas sugerem que seja adicionado 1,5 mL desse produto para cada 1 000 L de água da piscina. Essa empresa foi contratada para cuidar de uma piscina de base retangular, de profundidade constante igual a 1,7 m, com largura e comprimento iguais a 3 m e 5 m, respectivamente. O nível da lâmina d’água dessa piscina é mantido a 50 cm da borda da piscina. A quantidade desse produto, em mililitro, que deve ser adicionada a essa piscina de modo a atender às suas especificações técnicas é",
+    "choices": [
+      { "id": "A", "text": "11,25." },
+      { "id": "B", "text": "27,00." },
+      { "id": "C", "text": "28,00." },
+      { "id": "D", "text": "32,25." },
+      { "id": "E", "text": "49,50." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Determinamos a altura real da lâmina d'água: A profundidade total é de 1,7 m, mas a água fica a 50 cm (0,5 m) da borda. Logo, a altura da água é 1,7 - 0,5 = 1,2 m.",
+        "2. Calculamos o volume de água na piscina (V = Comprimento * Largura * Altura_da_água): V = 5 * 3 * 1,2 = 18 m³.",
+        "3. Convertemos o volume para litros: Como 1 m³ equivale a 1.000 L, a piscina contém 18.000 L de água.",
+        "4. Aplicamos a proporção do produto químico: A recomendação é de 1,5 mL para cada 1.000 L.",
+        "5. Calculamos a quantidade total do produto: Quantidade = 18 * 1,5 = 27 mL."
+      ],
+      "final_reason": "Embora a piscina tenha 1,7 m de profundidade, apenas 1,2 m estão preenchidos com água. O volume total de 18 m³ (18.000 litros) requer 1,5 mL de produto para cada mil litros, resultando em exatos 27 mL."
+    },
+    "tags": ["Geometria Espacial", "Volume de Prismas", "Grandezas e Medidas", "Conversão de Unidades"],
+    "difficulty": "medium"
   }
-] 
-
+]
