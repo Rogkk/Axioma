@@ -409,12 +409,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2017,
-      "context": "Um instituto de pesquisas eleitorais recebe uma encomenda na qual a margem de erro deverá ser de, no máximo, 2 pontos percentuais (0,02).\n\nO instituto tem 5 pesquisas recentes, P1 a P5, sobre o tema objeto da encomenda e irá usar a que tiver o erro menor que o pedido.\n\nOs dados sobre as pesquisas são os seguintes:\n\n![](https://enem.dev/2017/questions/145/2cf08ed8-74ba-469c-9e95-8e264b79394b.png)\n\nem que σ é um parâmetro e N é o número de pessoas  \nentrevistadas pela pesquisa.",
+      "context": "",
       "files": [
         "https://enem.dev/2017/questions/145/2cf08ed8-74ba-469c-9e95-8e264b79394b.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Qual pesquisa deverá ser utilizada?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -454,10 +454,10 @@
       "discipline": "ciencias-natureza",
       "language": null,
       "year": 2017,
-      "context": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 1,5 minuto e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ele cruza com o bondinho B, que havia saído do topo da montanha.",
+      "context": "",
       "files": [],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Quantos segundos após a partida do bondinho B partiu o bondinho A?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -497,12 +497,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2017,
-      "context": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade h, registrada às 13 horas, não foi anotada e, a partir de h, cada unidade sobre o eixo vertical representa um metro.\n\n![](https://enem.dev/2017/questions/147/285302d4-e938-4376-a2f3-3f320be38b8c.png)\n\nFoi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%.",
+      "context": "",
       "files": [
         "https://enem.dev/2017/questions/147/285302d4-e938-4376-a2f3-3f320be38b8c.png"
       ],
       "correctAlternative": "A",
-      "alternativesIntroduction": "Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -542,12 +542,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2017,
-      "context": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza\n\n![](https://enem.dev/2017/questions/148/aff2b260-7282-4164-b347-1cd2ebdf4951.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2017/questions/148/aff2b260-7282-4164-b347-1cd2ebdf4951.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "A forma geométrica da superfície cujas arestas estão representadas na Figura 2 é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",

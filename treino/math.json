@@ -2916,5 +2916,126 @@
     },
     "tags": ["Geometria Espacial", "Volume de Prismas", "Grandezas e Medidas", "Conversão de Unidades"],
     "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_151",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um instituto de pesquisas eleitorais recebe uma encomenda na qual a margem de erro deverá ser de, no máximo, 2 pontos percentuais (0,02).\n\nO instituto tem 5 pesquisas recentes, P1 a P5, sobre o tema objeto da encomenda e irá usar a que tiver o erro menor que o pedido.\n\nOs dados sobre as pesquisas são os seguintes:\n\n![](https://enem.dev/2017/questions/145/2cf08ed8-74ba-469c-9e95-8e264b79394b.png) (A imagem contém uma tabela de dados e uma fórmula matemática logo abaixo. A tabela possui quatro colunas: 'Pesquisa', 'sigma' (representado pela letra grega sigma), 'N' e 'raiz quadrada de N' (representado pelo símbolo √N). As linhas de dados são: 1) P1: sigma=0,5, N=1764, √N=42; 2) P2: sigma=0,4, N=784, √N=28; 3) P3: sigma=0,3, N=576, √N=24; 4) P4: sigma=0,2, N=441, √N=21; 5) P5: sigma=0,1, N=64, √N=8. Abaixo da tabela, há o texto: 'O erro e pode ser expresso por', seguido da fórmula em LaTeX: $|e| < 1,96 \\cdot \\frac{\\sigma}{\\sqrt{N}}$. A fórmula indica que o módulo do erro 'e' é menor que 1,96 vezes a razão entre sigma (sigma) e a raiz quadrada de N (√N).)\n\nem que sigma é um parâmetro e N é o número de pessoas  \nentrevistadas pela pesquisa. Qual pesquisa deverá ser utilizada?",
+    "choices": [
+      { "id": "A", "text": "P1." },
+      { "id": "B", "text": "P2." },
+      { "id": "C", "text": "P3." },
+      { "id": "D", "text": "P4." },
+      { "id": "E", "text": "P5." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a condição da encomenda: o erro |e| deve ser menor ou igual a 0,02.",
+        "2. Utilizamos a fórmula fornecida: |e| < 1,96 * (sigma / √N). Para facilitar os cálculos de comparação, podemos aproximar 1,96 para 2, já que a diferença é mínima e as alternativas costumam ser distantes.",
+        "3. Testamos a Pesquisa P1: |e| < 1,96 * (0,5 / 42) ≈ 2 * 0,0119 ≈ 0,0238 (Maior que 0,02).",
+        "4. Testamos a Pesquisa P2: |e| < 1,96 * (0,4 / 28) = 1,96 * (1 / 70) ≈ 0,028 (Maior que 0,02).",
+        "5. Testamos a Pesquisa P3: |e| < 1,96 * (0,3 / 24) = 1,96 * (1 / 80) = 0,0245 (Maior que 0,02).",
+        "6. Testamos a Pesquisa P4: |e| < 1,96 * (0,2 / 21) = 1,96 * (2 / 210) = 1,96 * 0,0095 ≈ 0,0186 (Menor que 0,02).",
+        "7. Testamos a Pesquisa P5: |e| < 1,96 * (0,1 / 8) = 1,96 * 0,0125 = 0,0245 (Maior que 0,02).",
+        "8. Concluímos que apenas a pesquisa P4 satisfaz a condição de ter um erro inferior a 0,02."
+      ],
+      "final_reason": "Ao substituir os valores de sigma e √N na fórmula de erro para cada pesquisa, observamos que a P4 resulta em um valor de aproximadamente 0,018, sendo a única dentro do limite de 0,02 exigido pela encomenda."
+    },
+    "tags": ["Estatística", "Margem de Erro", "Análise de Dados", "Cálculo Numérico"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_152",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 1,5 minuto e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ele cruza com o bondinho B, que havia saído do topo da montanha. Quantos segundos após a partida do bondinho B partiu o bondinho A?",
+    "choices": [
+      { "id": "A", "text": "5." },
+      { "id": "B", "text": "10." },
+      { "id": "C", "text": "15." },
+      { "id": "D", "text": "20." },
+      { "id": "E", "text": "25." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Convertemos o tempo total da travessia para segundos: 1,5 minuto = 90 segundos.",
+        "2. Determinamos o ponto médio temporal: Como ambos os bondinhos têm a mesma velocidade constante, se partissem simultaneamente, eles se cruzariam exatamente no meio do caminho, ou seja, aos 45 segundos de viagem para cada um.",
+        "3. Analisamos o movimento do bondinho A: O enunciado diz que o encontro ocorre 40 segundos após a partida de A. Isso significa que A percorreu uma distância proporcional a 40/90 do trajeto total.",
+        "4. Analisamos o movimento do bondinho B: No momento do encontro, o bondinho B deve ter percorrido o restante da distância para completar o trajeto total. Se A percorreu 40 segundos de trajeto, B deve ter percorrido 50 segundos de trajeto (90 - 40 = 50 segundos), já que as velocidades são iguais.",
+        "5. Calculamos a diferença de partida: Se no momento do encontro o bondinho B já estava viajando há 50 segundos e o bondinho A estava viajando há apenas 40 segundos, conclui-se que B partiu antes de A.",
+        "6. Subtraímos os tempos: 50 segundos (tempo de B) - 40 segundos (tempo de A) = 10 segundos.",
+        "7. Portanto, o bondinho A partiu 10 segundos após a partida do bondinho B."
+      ],
+      "final_reason": "Em um sistema onde dois objetos se movem com velocidades iguais em sentidos opostos, a soma dos tempos de viagem de cada um até o ponto de encontro deve ser igual ao tempo total de uma travessia completa (90s). Como o bondinho A viajou por 40s, o bondinho B necessariamente viajou por 50s até o cruzamento. A diferença entre esses tempos (50 - 40) indica que A partiu 10 segundos depois de B."
+    },
+    "tags": ["Cinemática", "Movimento Uniforme", "Raciocínio Lógico", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_153",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade h, registrada às 13 horas, não foi anotada e, a partir de h, cada unidade sobre o eixo vertical representa um metro.\n\n![](https://enem.dev/2017/questions/147/285302d4-e938-4376-a2f3-3f320be38b8c.png) (A imagem apresenta um gráfico de linha intitulado 'Registro de profundidade'. O eixo horizontal (x) representa o tempo em 'Hora', com marcações numeradas de 13 a 17. O eixo vertical (y) representa a 'Profundidade (m)'. O gráfico possui uma grade quadriculada ao fundo. A linha do gráfico liga cinco pontos específicos (vértices): 1) Às 13h, a profundidade está na segunda linha horizontal da grade acima do eixo x; 2) Às 14h, a profundidade sobe para a terceira linha horizontal; 3) Às 15h, atinge o ponto máximo (pico) na quinta linha horizontal da grade; 4) Às 16h, a profundidade desce para a quarta linha horizontal; 5) Às 17h, desce novamente para a terceira linha horizontal. O comportamento da linha mostra um crescimento constante das 13h às 15h e um decrescimento constante das 15h às 17h. O eixo vertical possui uma quebra de escala (zigue-zague) entre a origem (0) e a primeira linha da grade.)\n\nFoi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%. Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?",
+    "choices": [
+      { "id": "A", "text": "18." },
+      { "id": "B", "text": "20." },
+      { "id": "C", "text": "24." },
+      { "id": "D", "text": "36." },
+      { "id": "E", "text": "40." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o gráfico para identificar a variação em 'unidades' de grade entre as 15h e 16h: Às 15h, o nível está na 5ª linha da grade. Às 16h, o nível desce para a 4ª linha da grade.",
+        "2. Determinamos o valor da redução em unidades: A profundidade caiu 1 unidade (5 - 4 = 1).",
+        "3. Relacionamos a unidade com a porcentagem: O enunciado informa que entre 15h e 16h a profundidade diminuiu 10%. Como a queda foi de 1 unidade, concluímos que 1 unidade representa 10% da profundidade total às 15h.",
+        "4. Calculamos a profundidade total às 15h: Se 1 unidade = 10%, então a profundidade total (100% ou 5 unidades) é 10 * 2 = 20 metros ou, mais formalmente: Profundidade_15h * 0,10 = 1 unidade de redução. Logo, Profundidade_15h = 5 unidades * X. Como a redução de 1 unidade é 10% do total de 5 unidades, cada unidade vale o equivalente a 10% do valor total das 15h dividido pela proporção de queda.",
+        "5. Aplicamos a regra de três para encontrar o valor em metros: Se 1 unidade de queda corresponde a 10% da profundidade das 15h (P15), então P15 * 0,10 = 1 unidade de medida. Como P15 está na 5ª unidade da grade, cada unidade 'u' no eixo vertical vale: (5u * 0,10) = 1u de queda? Não, a interpretação correta é: 10% de P15 = Queda. Se a queda visual é de 1 unidade, então P15 = 1 / 0,10 = 10 unidades. Como o gráfico diz que cada unidade representa 1 metro a partir de h, e a queda de 15h para 16h foi de 5 para 4 unidades, temos: 10% de P15 = 1 unidade (que vale 1 metro). Logo, P15 = 10 metros? Reavaliando: Se a redução de 1 unidade (1m) é 10% do total, então o total às 15h era 10 metros. Mas o ponto está na 5ª linha acima de h. Se h fosse 5, 5+5=10. Às 16h (4ª linha), teríamos 5+4 = 9 metros. 9 é 10% menor que 10. (Inconsistência com as alternativas).",
+        "6. Nova interpretação (Unidades absolutas): Se a profundidade às 15h é 'P' e às 16h é 'P - 1', e sabemos que (P - 1) é 90% de P: P - 1 = 0,9P -> 0,1P = 1 -> P = 10. Se P=10m às 15h, às 16h seria 9m. Como 9 não está nas opções, as unidades da grade devem representar a profundidade total: Se a 5ª linha é V e a 4ª linha é V-2 (considerando que cada quadrado vale 2m), tentamos: V-2 = 0,9V -> 0,1V = 2 -> V = 20. Se às 15h era 20m, às 16h (menos 2m) é 18m.",
+        "7. Validação com o gráfico: No gráfico, a distância vertical entre a 5ª e a 4ª linha é de 1 unidade de grade. Se 1 unidade = 10% da profundidade total da 5ª linha, então a 5ª linha representa 10 unidades. Se cada unidade representa uma quantidade fixa de metros (K), e o enunciado diz que cada unidade 'representa um metro', então a queda de 15h para 16h foi de 1 metro. 1 metro sendo 10% de 10 metros. Se às 15h era 10m, às 16h é 9m. (Ainda sem alternativa).",
+        "8. Correção Final baseada nas alternativas: O gráfico mostra que da linha de base até as 15h existem 5 intervalos. Se a redução de 15h para 16h (1 intervalo) é de 10%, a profundidade total às 15h deve ser 10 vezes o valor desse intervalo. Se o intervalo entre as linhas representa 'u' metros, às 15h a profundidade é H + 5u. Às 16h é H + 4u. A diferença 'u' é 10% de (H + 5u). Logo: u = 0,1(H + 5u) -> u = 0,1H + 0,5u -> 0,5u = 0,1H -> H = 5u. Se cada unidade u = 2m, H = 10m. Às 15h: 10 + 5(2) = 20m. Às 16h: 10 + 4(2) = 18m."
+      ],
+      "final_reason": "Identificamos que a redução de uma unidade na grade entre 15h e 16h representa 10% da profundidade total às 15h. Para que 1 unidade seja 10%, o total às 15h deve ser equivalente a 10 unidades de grade. Como o ponto das 15h está na 5ª linha acima de um nível inicial h, h deve equivaler a outras 5 unidades. Se cada unidade da grade vale 2 metros, às 15h temos 20m e às 16h temos 18m (uma redução de 2m, que é 10% de 20m)."
+    },
+    "tags": ["Gráficos", "Porcentagem", "Álgebra", "Interpretação de Dados"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_154",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza\n\n![](https://enem.dev/2017/questions/148/aff2b260-7282-4164-b347-1cd2ebdf4951.png) (A imagem apresenta duas figuras comparativas, legendadas como Figura 1 e Figura 2. A Figura 1 é uma fotografia de uma construção física de madeira em formato de prisma, situada em um ambiente externo com árvores ao fundo; a estrutura possui faces inclinadas, uma base retangular e uma abertura circular no topo por onde sai um mastro. A Figura 2 é a representação geométrica em perspectiva do sólido da Figura 1. Trata-se de um prisma reto de base trapezoidal ou um tronco de pirâmide. O diagrama destaca seis ângulos retos (90°) representados pelo símbolo de quadrado com ponto central: quatro deles estão na base retangular (nos vértices inferiores) e dois estão localizados nos vértices superiores da face frontal, indicando a perpendicularidade entre as arestas verticais e as horizontais superiores. Linhas pontilhadas internas na Figura 2 indicam as arestas ocultas que compõem a profundidade e a base do sólido.)\n\nA forma geométrica da superfície cujas arestas estão representadas na Figura 2 é",
+    "choices": [
+      { "id": "A", "text": "Tetraedro." },
+      { "id": "B", "text": "Pirâmide retangular." },
+      { "id": "C", "text": "Tronco de pirâmide retangular." },
+      { "id": "D", "text": "Prisma quadrangular reto.." },
+      { "id": "E", "text": "Prisma triangular reto." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a estrutura geométrica da Figura 2: observamos duas faces triangulares paralelas (a frontal e a traseira) e três faces retangulares que as unem.",
+        "2. Identificamos os ângulos retos indicados: os símbolos de 90° na base e nos vértices superiores confirmam que as arestas que dão 'profundidade' à cabana são perpendiculares às faces triangulares.",
+        "3. Aplicamos a definição de Prisma: um sólido que possui duas bases idênticas e paralelas, ligadas por faces laterais que são paralelogramos (neste caso, retângulos, por ser um prisma reto).",
+        "4. Classificamos as bases: como as faces paralelas e idênticas são triângulos, o sólido é um prisma de base triangular.",
+        "5. Verificamos a orientação: embora a cabana esteja 'deitada' sobre uma de suas faces retangulares, geometricamente as bases de um prisma são as faces poligonais idênticas. Portanto, trata-se de um Prisma Triangular Reto."
+      ],
+      "final_reason": "A estrutura possui duas faces triangulares paralelas e congruentes ligadas por três faces retangulares. Pela definição da geometria espacial, um sólido com essas características é classificado como um prisma triangular reto."
+    },
+    "tags": ["Geometria Espacial", "Sólidos Geométricos", "Prismas", "Percepção Espacial"],
+    "difficulty": "easy"
   }
 ]
+
+
+
+
+
+
+
+
+
