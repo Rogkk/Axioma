@@ -3028,9 +3028,116 @@
     },
     "tags": ["Geometria Espacial", "Sólidos Geométricos", "Prismas", "Percepção Espacial"],
     "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_155",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A figura ilustra uma partida de Campo Minado, o jogo presente em praticamente todo computador pessoal. Quatro quadrados em um tabuleiro 16 x 16 foram abertos, e os números em suas faces indicam quantos dos seus 8 vizinhos contêm minas (a serem evitadas). O número 40 no canto inferior direito é o número total de minas no tabuleiro, cujas posições foram escolhidas ao acaso, de forma uniforme, antes de se abrir qualquer quadrado.\n\n![](https://enem.dev/2017/questions/149/d94daac4-0e76-47a6-bdec-90200af5b3c0.png) (A imagem mostra uma grade de um jogo de Campo Minado, composta por 16 colunas e 16 linhas de quadrados cinzas. A maioria dos quadrados está fechada. Existem cinco quadrados específicos identificados com letras e números: 1) No canto superior esquerdo, o quadrado 'P' tem o número '2' acima dele; 2) À direita de P, o quadrado 'Q' tem o número '1' acima dele; 3) Na região central esquerda, há um quadrado identificado apenas pela letra 'R'; 4) No canto inferior esquerdo, o quadrado 'S' tem o número '4' acima dele; 5) No canto inferior direito, o quadrado 'T' tem o número '3' acima dele. Na base da moldura do jogo, há um cronômetro marcando '109' à esquerda e um contador de bombas marcando '40' à direita ao lado de um ícone de mina. A imagem é em tons de cinza e foca na disposição espacial dessas letras em relação aos números, que indicam quantas bombas existem nos oito quadrados adjacentes a cada número.)\n\nEm sua próxima jogada, o jogador deve escolher dentre os quadrados marcados com as letras P, Q, R, S e T um para abrir, sendo que deve escolher aquele com a menor probabilidade de conter uma mina. O jogador deverá abrir o quadrado marcado com a letra",
+    "choices": [
+      { "id": "A", "text": "P." },
+      { "id": "B", "text": "Q." },
+      { "id": "C", "text": "R." },
+      { "id": "D", "text": "S" },
+      { "id": "E", "text": "T" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a probabilidade para os quadrados P, Q, S e T com base nos números adjacentes revelados:\n   - Quadrado P: O número '2' acima dele indica que há 2 minas em 8 vizinhos. Probabilidade = 2/8 = 0,25 (25%).\n   - Quadrado Q: O número '1' acima dele indica que há 1 mina em 8 vizinhos. Probabilidade = 1/8 = 0,125 (12,5%).\n   - Quadrado S: O número '4' acima dele indica que há 4 minas em 8 vizinhos. Probabilidade = 4/8 = 0,5 (50%).\n   - Quadrado T: O número '3' acima dele indica que há 3 minas em 8 vizinhos. Probabilidade = 3/8 = 0,375 (37,5%).",
+        "2. Analisamos a probabilidade para o quadrado R (Probabilidade Global):\n   - O quadrado R não possui nenhum número adjacente revelado. Portanto, sua probabilidade é baseada no total de minas restantes no tabuleiro.\n   - Total de quadrados: 16 * 16 = 256.\n   - Foram abertos 4 quadrados (com números), restando 252 quadrados fechados.\n   - O total de minas é 40. Logo, a probabilidade global de um quadrado qualquer conter uma mina é 40/252 ≈ 0,158 (15,8%).",
+        "3. Comparamos todas as probabilidades encontradas:\n   - P: 25%\n   - Q: 12,5%\n   - R: 15,8%\n   - S: 50%\n   - T: 37,5%",
+        "4. Identificamos o menor valor: A menor probabilidade de conter uma mina é a do quadrado Q (12,5%).",
+        "5. Concluímos que o jogador deve abrir o quadrado Q."
+      ],
+      "final_reason": "Ao comparar as probabilidades locais fornecidas pelos números revelados com a probabilidade global do tabuleiro, verificamos que o quadrado Q, com apenas 12,5% de chance de conter uma mina (1 em 8), é a opção mais segura para a próxima jogada."
+    },
+    "tags": ["Probabilidade", "Análise de Dados", "Raciocínio Lógico", "Matemática Discreta"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_156",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A água para o abastecimento de um prédio é armazenada em um sistema formado por dois reservatórios idênticos, em formato de bloco retangular, ligados entre si por um cano igual ao cano de entrada, conforme ilustra a figura.\n\n![](https://enem.dev/2017/questions/152/8a5c8c84-dc4a-434c-95d8-ac7e8a188f0b.png) (A imagem apresenta um esquema técnico de dois reservatórios de água conectados em série. Existem dois sólidos geométricos em formato de paralelepípedo retângulos, rotulados frontalmente como 'Reservatório 1' (à esquerda) e 'Reservatório 2' (à direita). Um tubo horizontal, identificado como 'Cano de entrada', está conectado à face lateral superior esquerda do Reservatório 1. Um segundo tubo horizontal conecta a face lateral direita do Reservatório 1 à face lateral esquerda do Reservatório 2. Este tubo de conexão está posicionado em uma altura intermediária, abaixo do topo e acima da base dos reservatórios. O desenho é um esquema em perspectiva simples, com linhas pretas e sombreamento cinza nas faces laterais para indicar profundidade.)\n\nA água entra no sistema pelo cano de entrada no Reservatório 1 a uma vazão constante e, ao atingir o nível do cano de ligação, passa a abastecer o Reservatório 2. Suponha que, inicialmente, os dois reservatórios estejam vazios. Qual dos gráficos melhor descreverá a altura h do nível da água no Reservatório 1, em função do volume V de água no sistema?",
+    "choices": [
+      { "id": "A", "text": "https://enem.dev/2017/questions/152/f4cd2fd5-8ffc-4cb7-91ae-2c3bd3f73900.png (A imagem apresenta um gráfico cartesiano de uma função linear. O eixo vertical (y) é rotulado com a letra 'h' e o eixo horizontal (x) é rotulado com a letra 'V'. O gráfico possui uma grade quadriculada de fundo composta por linhas tracejadas. Uma linha sólida preta parte da origem (0,0) e sobe de forma constante e retilínea para a direita. A inclinação da reta é tal que, para cada 3 unidades percorridas no eixo horizontal (V), a reta sobe 2 unidades no eixo vertical (h). A reta termina antes de atingir as extremidades superiores da grade. Os eixos são representados por setas indicando a direção de crescimento positivo.)" },
+      { "id": "B", "text": "https://enem.dev/2017/questions/152/da408f74-0165-4374-94f7-4efc3ba68756.png (A imagem apresenta um gráfico cartesiano em uma grade quadriculada de fundo, onde o eixo vertical é rotulado como 'h' e o horizontal como 'V'. O gráfico mostra uma curva sólida que parte da origem (0,0) e é dividida em três comportamentos distintos: 1) Um arco inicial côncavo para cima (crescimento acelerado) que vai da origem até a quarta linha vertical e quarta linha horizontal da grade; 2) Um segmento quase horizontal, com uma inclinação muito suave, que se estende da quarta até a nona linha vertical; 3) Um novo arco côncavo para cima que retoma o crescimento acelerado a partir da nona linha vertical até o final da curva. Visualmente, a curva lembra o formato de um 'S' alongado e inclinado, indicando variações na taxa de crescimento de h em relação a V.)" },
+      { "id": "C", "text": "https://enem.dev/2017/questions/152/73c9ec1b-6c30-4e0e-8c6a-baf78b10dbb8.png (A imagem mostra um processo de rotação de um quadrado contendo a figura estilizada de um peixe. No estado inicial (topo), o quadrado está em posição ortogonal; o ponto A está no vértice superior esquerdo e o ponto B no vértice inferior direito. O peixe está na horizontal, voltado para a direita. Abaixo, há um ponto A isolado indicando uma posição intermediária. No estado final (base), o quadrado foi rotacionado e transladado, estando agora apoiado pelo vértice B, que se tornou o ponto mais alto da figura. Uma linha horizontal tracejada parte de B, e o lado do quadrado forma um ângulo de 45° abaixo dessa linha. O peixe agora aparece inclinado e de ponta-cabeça em relação à sua orientação original.)" },
+      { "id": "D", "text": "https://enem.dev/2017/questions/152/29e329de-44fe-4da6-8f85-d63e8b31cadd.png (Um gráfico de linha em um plano cartesiano com um sistema de coordenadas de malha quadriculada. O eixo vertical é rotulado como 'h' (representando a altura) e o eixo horizontal é rotulado como 'V' (representando o volume). A origem é o ponto (0,0). A linha do gráfico é composta por três segmentos distintos que descrevem o comportamento de preenchimento de um recipiente: 1. O primeiro segmento parte da origem (0,0) e sobe de forma constante e inclinada até atingir a terceira linha horizontal da malha e a terceira linha vertical, indicando um crescimento linear e rápido da altura em relação ao volume. 2. O segundo segmento é uma linha horizontal perfeitamente plana que se estende da terceira até a sétima linha vertical da malha, mantendo-se na altura constante da terceira linha horizontal; isso indica um intervalo onde o volume aumenta, mas a altura permanece inalterada. 3. O terceiro segmento volta a subir de forma inclinada, partindo do final do segmento horizontal (coluna 7, linha 3) até atingir a nona linha vertical e a quinta linha horizontal da malha, representando uma nova subida linear da altura, porém com uma inclinação menos acentuada do que o primeiro segmento.)" },
+      { "id": "E", "text": "https://enem.dev/2017/questions/152/f4376ddd-f5cb-46ff-b7d6-f95ac887e91c.png (Um gráfico de linha em um plano cartesiano com malha quadriculada, onde o eixo vertical é rotulado como 'h' e o eixo horizontal como 'V'. A origem é o ponto (0,0). O gráfico apresenta uma curva côncava para baixo que cresce de forma não linear. A curva inicia na origem (0,0) com uma inclinação acentuada e vai se tornando cada vez menos inclinada à medida que o volume (V) aumenta. Observando os cruzamentos na malha: a curva passa aproximadamente pelo ponto onde a primeira linha vertical cruza a terceira linha horizontal; segue para o ponto próximo à terceira linha vertical e sexta linha horizontal; e continua suavizando sua subida até quase se estabilizar (tornar-se horizontal) ao atingir a nona linha vertical na altura da oitava linha horizontal. Esse comportamento descreve um crescimento que desacelera continuamente, sugerindo um recipiente que se alarga à medida que a altura aumenta.)" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Primeiro Estágio: A água entra apenas no Reservatório 1. Como ele tem formato de bloco retangular (seção constante), a altura 'h' cresce de forma linear e constante em relação ao volume V. No gráfico, isso é representado por uma reta inclinada partindo da origem.",
+        "2. Segundo Estágio: O nível da água atinge a altura do cano de ligação. Nesse momento, toda a água nova que entra no Reservatório 1 escoa imediatamente para o Reservatório 2 através do cano.",
+        "3. Comportamento do nível: Enquanto o Reservatório 2 está sendo preenchido até a altura do cano, o nível 'h' no Reservatório 1 permanece constante (estacionado). No gráfico, isso se traduz em um patamar horizontal (uma linha reta paralela ao eixo V).",
+        "4. Terceiro Estágio: Quando o nível no Reservatório 2 também atinge a altura do cano de ligação, os dois reservatórios passam a encher juntos, como um único sistema de área maior.",
+        "5. Inclinação final: Como agora a água precisa preencher a área da base dos dois reservatórios simultaneamente, a altura 'h' volta a crescer linearmente, porém de forma mais lenta (menos inclinada) do que no primeiro estágio.",
+        "6. Conclusão: O gráfico que apresenta uma subida linear, seguida de um patamar horizontal e finaliza com uma nova subida menos inclinada é o da alternativa D."
+      ],
+      "final_reason": "O preenchimento ocorre em três fases: inicialmente a altura sobe linearmente no reservatório 1; quando a água atinge o cano de ligação, ela estabiliza enquanto o reservatório 2 enche; por fim, ambos enchem juntos, fazendo a altura subir novamente, mas com uma velocidade menor devido ao dobro da área da base."
+    },
+    "tags": ["Gráficos de Funções", "Vazão", "Geometria Espacial", "Interpretação Cinemática"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_157",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A manchete demonstra que o transporte de grandes cargas representa cada vez mais preocupação quando feito em vias urbanas.\n\n**Caminhão entala em viaduto no Centro**\n\nUm caminhão de grande porte entalou embaixo do viaduto no cruzamento das avenidas Borges de Medeiros e Loureiro da Silva no sentido Centro-Bairro, próximo à Ponte de Pedra, na capital. Esse veículo vinha de São Paulo para Porto Alegre e transportava três grandes tubos, conforme ilustrado na foto.\n\n![](https://enem.dev/2017/questions/153/fab0cf9a-a91f-4842-8d0b-ea7d9cf7dab3.png) (Uma fotografia em preto e branco mostrando a vista lateral e traseira de um caminhão de carga (carreta) estacionado sob um viaduto ou túnel. A carga do caminhão consiste em três grandes tubos cilíndricos idênticos e de grande diâmetro, empilhados de forma triangular: dois tubos estão posicionados lado a lado diretamente sobre a carroceria do caminhão (base), e o terceiro tubo está centralizado e apoiado sobre os dois primeiros (topo). Os tubos são ocos e possuem uma estrutura interna em formato de cruz ('+') em suas extremidades abertas. O topo do tubo superior está muito próximo ou encostando na estrutura de concreto do viaduto acima dele, sugerindo um problema de altura máxima permitida. Abaixo da imagem, há um texto de fonte indicando: 'Disponível em: www.caminhoes-e-carretas.com. Acesso em: 21 maio 2012 (adaptado).)\n\nConsidere que o raio externo de cada cano da imagem seja 0,60 m e que eles estejam em cima de uma carroceria cuja parte superior está a 1,30 m do solo. O desenho representa a vista traseira do empilhamento dos canos.\n\n![](https://enem.dev/2017/questions/153/e76c0b65-e180-4f4a-9bd0-aef3b42965d8.png) (Um diagrama geométrico representando a seção transversal de três cilindros (círculos) idênticos empilhados sobre uma superfície horizontal plana (representada por uma linha preta grossa na base). Dois círculos estão na base, tocando a linha horizontal e sendo tangentes entre si no centro. O terceiro círculo está centralizado no topo, apoiado sobre os dois círculos da base e sendo tangente a ambos. Do centro do círculo superior, parte uma seta de raio que aponta para a sua borda, com o valor '0,60 m' escrito ao lado. Os centros dos três círculos, se conectados, formariam um triângulo equilátero de lado igual a duas vezes o raio (1,20 m).)\n\nA margem de segurança recomendada para que um veículo passe sob um viaduto é que a altura total do veículo com a carga seja, no mínimo, 0,50 m menor do que a altura do vão do viaduto.\n\nConsidere 1,7 como aproximação para (3)1/2. Qual deveria ser a altura mínima do viaduto, em metro, para que esse caminhão pudesse passar com segurança sob seu vão?",
+    "choices": [
+      { "id": "A", "text": "2,82." },
+      { "id": "B", "text": "3,52." },
+      { "id": "C", "text": "3,70." },
+      { "id": "D", "text": "4,02." },
+      { "id": "E", "text": "4,20." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os componentes da altura total (H_total): Altura da carroceria + Altura do empilhamento dos tubos.",
+        "2. Analisamos a geometria do empilhamento: ao conectar os centros dos três tubos (raio R = 0,60 m), formamos um triângulo equilátero de lado L = 1,20 m (R + R).",
+        "3. Calculamos a altura (h) desse triângulo equilátero: h = (L * √3) / 2. Usando L = 1,20 e √3 ≈ 1,7, temos h = (1,20 * 1,7) / 2 = 1,02 m.",
+        "4. Determinamos a altura total da carga a partir do solo: H_carga = Altura_carroceria (1,30 m) + Raio_inferior (0,60 m) + Altura_triângulo (1,02 m) + Raio_superior (0,60 m).",
+        "5. Somamos os valores: H_carga = 1,30 + 0,60 + 1,02 + 0,60 = 3,52 m.",
+        "6. Aplicamos a margem de segurança: o enunciado pede que a altura do viaduto seja, no mínimo, 0,50 m maior que a altura total do veículo. Altura_viaduto = 3,52 + 0,50 = 4,02 m."
+      ],
+      "final_reason": "A altura do caminhão carregado é composta pela distância da carroceria ao solo, o diâmetro de um tubo e a altura do triângulo equilátero formado entre os centros dos tubos. Somando esses valores (3,52 m) à margem de segurança de 0,50 m, obtemos a altura mínima de 4,02 m para o viaduto."
+    },
+    "tags": ["Geometria Plana", "Triângulo Equilátero", "Teorema de Pitágoras", "Aplicações Práticas"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_158",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um menino acaba de se mudar para um novo bairro e deseja ir à padaria. Pediu ajuda a um amigo que lhe forneceu um mapa com pontos numerados, que representam cinco locais de interesse, entre os quais está a padaria. Além disso, o amigo passou as seguintes instruções: a partir do ponto em que você se encontra, representado pela letra X, ande para oeste, vire à direita na primeira rua que encontrar, siga em frente e vire à esquerda na próxima rua. A padaria estará logo a seguir\n\n![](https://enem.dev/2017/questions/154/e003f9f9-7641-401e-9a08-2226bde38679.png) (Um mapa esquemático de um bairro organizado em uma grade regular de 4x4, totalizando 16 blocos cinzas retangulares numerados de 'Quadra 1' a 'Quadra 16'. As quadras estão dispostas em quatro linhas e quatro colunas. As ruas horizontais são identificadas de cima para baixo como: Rua A, Rua B, Rua C, Rua D e Rua E. As ruas verticais são identificadas da esquerda para a direita como: Rua 1, Rua 2, Rua 3, Rua 4 e Rua 5. Existem marcadores específicos nos cruzamentos das ruas: um círculo com um 'X' está localizado no cruzamento da Rua C com a Rua 3. Além disso, existem cinco círculos numerados de 1 a 5 em outros cruzamentos: o '1' está na Rua B com a Rua 2; o '2' na Rua B com a Rua 3; o '3' na Rua B com a Rua 4; o '4' na Rua D com a Rua 3; e o '5' na Rua D com a Rua 4. À direita do mapa, há uma rosa dos ventos indicando as direções cardeais: N (Norte) para cima, S (Sul) para baixo, L (Leste) para a direita e O (Oeste) para a esquerda.)\n\nA padaria está representada pelo ponto numerado com",
+    "choices": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "3" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Localizamos o ponto de partida: o menino está no ponto X, situado no cruzamento da Rua C com a Rua 3.",
+        "2. Executamos o primeiro comando (Oeste): a rosa dos ventos indica que Oeste (O) é para a esquerda. O menino caminha pela Rua C em direção à Rua 2.",
+        "3. Identificamos a primeira conversão: ao chegar no primeiro cruzamento (Rua C com Rua 2), ele deve 'virar à direita'. Como ele está caminhando para a esquerda (Oeste), virar à direita significa passar a caminhar para o Norte (subir no mapa).",
+        "4. Executamos o movimento para o Norte: ele segue em frente pela Rua 2 até encontrar a próxima rua horizontal, que é a Rua B.",
+        "5. Executamos a segunda conversão: no cruzamento da Rua 2 com a Rua B, ele deve 'virar à esquerda'. Como ele está subindo (Norte), virar à esquerda significa caminhar novamente para o Oeste (para a esquerda no mapa).",
+        "6. Finalizamos o trajeto: após virar à esquerda na Rua B e seguir um pouco à frente, encontramos o ponto numerado 1.",
+        "7. Concluímos que a padaria está representada pelo ponto 1."
+      ],
+      "final_reason": "Seguindo as instruções a partir de X: andar para a esquerda (Oeste) até a Rua 2, subir (Norte) pela Rua 2 até a Rua B e, finalmente, virar para a esquerda (Oeste) na Rua B, chegamos ao ponto 1."
+    },
+    "tags": ["Orientação Espacial", "Geometria de Posição", "Rosa dos Ventos", "Raciocínio Lógico"],
+    "difficulty": "easy"
   }
 ]
-
 
 
 
