@@ -3136,8 +3136,495 @@
     },
     "tags": ["Orientação Espacial", "Geometria de Posição", "Rosa dos Ventos", "Raciocínio Lógico"],
     "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_159",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Três alunos, X, Y e Z, estão matriculados em um curso de inglês. Para avaliar esses alunos, o professor optou por fazer cinco provas. Para que seja aprovado nesse curso, o aluno deverá ter a média aritmética das notas das cinco provas maior ou igual a 6. Na tabela, estão dispostas as notas que cada aluno tirou em cada prova.\n\n![](https://enem.dev/2017/questions/155/fb7df640-ed2c-4e7f-99d5-93815129aa75.png) (Uma tabela de dados com 4 linhas e 6 colunas, apresentando as notas de três alunos em cinco provas consecutivas. A primeira linha (cabeçalho) possui fundo cinza escuro e identifica as colunas como: 'Aluno', '1ª Prova', '2ª Prova', '3ª Prova', '4ª Prova' e '5ª Prova'. As três linhas seguintes contêm os dados: 1. Na linha do Aluno X, as notas são 5, 5, 5, 10 e 6. 2. Na linha do Aluno Y, as notas são 4, 9, 3, 9 e 5. 3. Na linha do Aluno Z, as notas são 5, 5, 8, 5 e 6. As células são separadas por linhas pretas finas e o texto está centralizado.)\n\nCom base nos dados da tabela e nas informações dadas, ficará(ão) reprovado(s)",
+    "choices": [
+      { "id": "A", "text": "Apenas o aluno Y" },
+      { "id": "B", "text": "Apenas o aluno Z" },
+      { "id": "C", "text": "Apenas os alunos x e y" },
+      { "id": "D", "text": "Apenas os alunos x e z" },
+      { "id": "E", "text": "Os alunos x, y, z" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Definimos o critério de aprovação: a soma das 5 notas deve ser maior ou igual a 30 (pois 30 / 5 = 6).",
+        "2. Calculamos a situação do Aluno X: Soma = 5 + 5 + 5 + 10 + 6 = 31. Média = 31 / 5 = 6,2. O aluno X está aprovado.",
+        "3. Calculamos a situação do Aluno Y: Soma = 4 + 9 + 3 + 9 + 5 = 30. Média = 30 / 5 = 6,0. O aluno Y está aprovado.",
+        "4. Calculamos a situação do Aluno Z: Soma = 5 + 5 + 8 + 5 + 6 = 29. Média = 29 / 5 = 5,8. O aluno Z está reprovado.",
+        "5. Comparamos os resultados: apenas o aluno Z não atingiu a média mínima 6."
+      ],
+      "final_reason": "Ao somar as notas de cada aluno, observamos que X totalizou 31 pontos e Y totalizou 30 pontos, ambos atingindo ou superando a média 6. O aluno Z, porém, somou apenas 29 pontos, resultando em uma média de 5,8, o que o torna o único reprovado."
+    },
+    "tags": ["Estatística", "Média Aritmética", "Aritmética", "Análise de Tabelas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_160",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O fisiologista inglês Archibald Vivian Hill propôs, em seus estudos, que a velocidade V de contração de um músculo ao ser submetido a um peso p é dada pela equação (p + a) (v +b) = K, com a, b e K constantes.\n\nUm fisioterapeuta, com o intuito de maximizar o efeito benéfico dos exercícios que recomendaria a um de seus pacientes, quis estudar essa equação e a classificou desta forma:\n\n##### **TIPO DE CURVA**\n\n**Semirreta oblíqua**\n\n**Semirreta horizontal**\n\n**Ramo de parábola**\n\n**Arco de circunferência**\n\n**Ramo de hipérbola**\n\nO fisioterapeuta analisou a dependência entre v e p na equação de Hill e a classificou de acordo com sua representação geométrica no plano cartesiano, utilizando o par de coordenadas (p. V). Admita que K> 0.\n\nDisponível em: http://rspb.royalsocietypublishing.org. Acesso em: 14jul2015 (adaptado). O gráfico da equação que o fisioterapeuta utilizou para maximizar o efeito dos exercícios é do tipo",
+    "choices": [
+      { "id": "A", "text": "Semirreta oblíqua." },
+      { "id": "B", "text": "Semirreta horizontal." },
+      { "id": "C", "text": "Ramo de parábola." },
+      { "id": "D", "text": "Arco de circunferência." },
+      { "id": "E", "text": "Ramo de hipérbole." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a equação de Hill fornecida: (p + a)(v + b) = K, onde a, b e K são constantes positivas.",
+        "2. Isolamos a variável v (velocidade de contração) em função de p (peso/carga): v + b = K / (p + a).",
+        "3. Finalizamos o isolamento de v: v = [K / (p + a)] - b.",
+        "4. Identificamos a estrutura da função: a expressão v = K / (p + a) - b é uma variação da função recíproca fundamental f(x) = 1/x.",
+        "5. Relacionamos com as cônicas: equações onde o produto de duas variáveis (ou de translações delas) resulta em uma constante (xy = K) descrevem, geometricamente, uma hipérbole.",
+        "6. Concluímos a classificação: como estamos tratando de grandezas físicas positivas (velocidade e peso), o gráfico no plano cartesiano (p, v) corresponde a um dos ramos dessa curva."
+      ],
+      "final_reason": "Ao isolar a variável v, obtemos uma função racional do tipo v(p) = K/(p+a) - b. Na geometria analítica, equações que apresentam essa relação de proporcionalidade inversa entre as variáveis descrevem uma hipérbole. Portanto, o gráfico é um ramo de hipérbole."
+    },
+    "tags": ["Funções", "Geometria Analítica", "Hipérbole", "Modelagem Matemática"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_161",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em um parque há dois mirantes de alturas distintas que são acessados por elevador panorâmico. O topo do mirante 1 é acessado pelo elevador 1, enquanto o topo do mirante 2 é acessado pelo elevador 2. Eles encontram-se a uma distância possível de ser percorrida a pé, e entre os mirantes há um teleférico que os liga que pode ou não ser utilizado pelo visitante.\n\n![](https://enem.dev/2017/questions/163/b4c6dcfc-5f86-46af-9f78-dd94358a2301.png) (Um diagrama esquemático representando dois mirantes cilíndricos de alturas diferentes conectados por um cabo. À esquerda, há o 'Mirante 1', que é um cilindro mais baixo com uma porta na base. À direita, há o 'Mirante 2', um cilindro significativamente mais alto, também com uma porta na base. Um cabo retilíneo inclinado conecta o topo do 'Mirante 1' ao topo do 'Mirante 2'. Suspenso por esse cabo, há um pequeno bonde ou teleférico retangular posicionado aproximadamente no primeiro terço do trajeto a partir do mirante mais baixo. O diagrama sugere um problema de geometria envolvendo triângulos retângulos ou semelhança de triângulos para calcular a altura de um dos mirantes ou o comprimento do cabo.)\n\nO acesso aos elevadores tem os seguintes custos:  \n• Subir pelo elevador 1: R$ 0,15;  \n• Subir pelo elevador 2: R$ 1,80;  \n• Descer pelo elevador 1: R$ 0,10;  \n• Descer pelo elevador 2: R$ 2,30.\n\nO custo da passagem do teleférico partindo do topo do mirante 1 para o topo do mirante 2 é de R$ 2,00, e do topo do mirante 2 para o topo do mirante 1 é de R$ 2,50. Qual é o menor custo, em real, para uma pessoa visitar os topos dos dois mirantes e retornar ao solo?",
+    "choices": [
+      { "id": "A", "text": "2,25" },
+      { "id": "B", "text": "3,90" },
+      { "id": "C", "text": "4,35" },
+      { "id": "D", "text": "4,40" },
+      { "id": "E", "text": "4,45" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Mapeamos as opções de entrada e saída do sistema: o visitante deve obrigatoriamente subir nos dois topos e terminar no solo.",
+        "2. Analisamos a Trajetória 1 (Independente): Subir e descer o Mirante 1 (0,15 + 0,10) e depois subir e descer o Mirante 2 (1,80 + 2,30). Custo = 0,25 + 4,10 = R$ 4,35.",
+        "3. Analisamos a Trajetória 2 (Via Teleférico 1->2): Subir o Mirante 1 (0,15), pegar o teleférico para o Mirante 2 (2,00) e descer pelo elevador 2 (2,30). Custo = 0,15 + 2,00 + 2,30 = R$ 4,45.",
+        "4. Analisamos a Trajetória 3 (Via Teleférico 2->1): Subir o Mirante 2 (1,80), pegar o teleférico para o Mirante 1 (2,50) e descer pelo elevador 1 (0,10). Custo = 1,80 + 2,50 + 0,10 = R$ 4,40.",
+        "5. Comparamos os resultados obtidos: R$ 4,35 (Opção 1), R$ 4,45 (Opção 2) e R$ 4,40 (Opção 3).",
+        "6. Concluímos que o menor custo possível é R$ 4,35."
+      ],
+      "final_reason": "Ao testar as combinações de percurso, percebe-se que utilizar o teleférico encarece a visita em relação ao uso individual dos elevadores. O trajeto mais barato consiste em visitar cada mirante separadamente, subindo e descendo pelos seus respectivos elevadores, totalizando R$ 4,35."
+    },
+    "tags": ["Aritmética", "Otimização", "Raciocínio Lógico", "Matemática Financeira"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_162",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A mensagem digitada no celular, enquanto você dirige, tira a sua atenção e, por isso, deve ser evitada. Pesquisas mostram que um motorista que dirige um carro a uma velocidade constante percorre “às cegas” (isto é, sem ter visão da pista) uma distância proporcional ao tempo gasto ao olhar para o celular durante a digitação da mensagem. Considere que isso de fato aconteça. Suponha que dois motoristas (_X_ e _Y_) dirigem com a mesma velocidade constante e digitam a mesma mensagem em seus celulares. Suponha, ainda, que o tempo gasto pelo motorista _X_ olhando para seu celular enquanto digita a mensagem corresponde a 25% do tempo gasto pelo motorista _Y_ para executar a mesma tarefa.\n\nDisponível em: http://g1.globo.com. Acesso em: 21 jul. 2012 (adaptado). A razão entre as distâncias percorridas às cegas por X e Y, nessa ordem, é igual a",
+    "choices": [
+      { "id": "A", "text": "5/4" },
+      { "id": "B", "text": "1/4" },
+      { "id": "C", "text": "4/3" },
+      { "id": "D", "text": "4/1" },
+      { "id": "E", "text": "3/4" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos a relação matemática: O enunciado afirma que a distância (d) percorrida 'às cegas' é proporcional ao tempo (t) gasto olhando para o celular. Como a velocidade (v) é constante para ambos, temos a fórmula d = v * t.",
+        "2. Definimos as variáveis para o motorista Y: Vamos chamar o tempo gasto por Y de t_y e a distância percorrida por ele de d_y.",
+        "3. Definimos as variáveis para o motorista X com base em Y: O tempo gasto por X (t_x) é 25% do tempo de Y. Portanto, t_x = 0,25 * t_y (ou 1/4 * t_y).",
+        "4. Expressamos a distância de X: Como a velocidade é a mesma, d_x = v * t_x. Substituindo t_x, temos d_x = v * (1/4 * t_y).",
+        "5. Montamos a razão solicitada (X/Y): Razão = d_x / d_y = [v * (1/4 * t_y)] / [v * t_y].",
+        "6. Simplificamos a expressão: Cancelamos a velocidade (v) e o tempo (t_y) em ambos os termos da fração, restando apenas 1/4.",
+        "7. Concluímos que a razão entre as distâncias percorridas por X e Y é 1/4."
+      ],
+      "final_reason": "Como a distância percorrida a uma velocidade constante é diretamente proporcional ao tempo, a razão entre as distâncias percorridas pelos motoristas será idêntica à razão entre os tempos gastos por eles. Dado que X gasta 25% (1/4) do tempo de Y, a distância percorrida por X também será 1/4 da distância percorrida por Y."
+    },
+    "tags": ["Proporcionalidade", "Razão e Proporção", "Cinemática", "Aritmética"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_163",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma desenhista projetista deverá desenhar uma tampa de panela em forma circular. Para realizar esse desenho, ela dispõe, no momento, de apenas um compasso, cujo comprimento das hastes é de 10 cm, um transferidor e uma folha de papel com um plano cartesiano. Para esboçar o desenho dessa tampa, ela afastou as hastes do compasso de forma que o ângulo formado por elas fosse de 120o. A ponta seca está representada pelo ponto C, a ponta do grafite está representada pelo ponto B e a cabeça do compasso está representada pelo ponto A conforme a figura.\n\n![](https://enem.dev/2017/questions/156/85a380fd-271f-48cc-99fd-ebb68a0032bc.png) (Um diagrama geométrico em um plano cartesiano com eixos x e y e origem em (0,0). O desenho mostra um compasso e uma circunferência. A circunferência tem seu centro no ponto C, cujas coordenadas são indicadas por linhas pontilhadas como (3, 1) no plano. O compasso tem sua ponta seca fixada no centro C e a ponta com grafite no ponto B, que pertence à circunferência; o segmento CB representa o raio. O compasso está aberto em um ângulo de 120°, indicado por um arco entre suas hastes metálicas. O topo do compasso é rotulado com a letra A. As hastes do compasso formam um triângulo isósceles ABC (considerando a distância entre as pontas), onde a base é o raio da circunferência. O diagrama é essencial para problemas que relacionam a abertura do compasso (ângulo e comprimento das hastes) com a equação da circunferência ou coordenadas de pontos específicos.)\n\nApós concluir o desenho, ela o encaminha para o setor de produção. Ao receber o desenho com a indicação do raio da tampa, verificará em qual intervalo este se encontra e decidirá o tipo de material a ser utilizado na sua fabricação, de acordo com os dados.\n\n![](https://enem.dev/2017/questions/156/9fbeb0c5-eaec-4613-89d7-585bc786b147.png) (Uma tabela de dados com 6 linhas e 2 colunas. A primeira linha é o cabeçalho com fundo cinza e texto em negrito: 'Tipo de material' e 'Intervalo de valores do raio (cm)'. As cinco linhas seguintes listam os materiais de I a V e seus respectivos intervalos para o raio R: 1. Material I: 0 < R ≤ 5. 2. Material II: 5 < R ≤ 10. 3. Material III: 10 < R ≤ 15. 4. Material IV: 15 < R ≤ 21. 5. Material V: 21 < R ≤ 40. Abaixo da tabela, há uma instrução de texto adicional: 'Considere 1,7 como aproximação para √3.' Esta informação é crucial para resolver cálculos trigonométricos que envolvam ângulos notáveis de 30, 60 ou 120 graus.)\n\nO tipo de material a ser utilizado pelo setor de produção será",
+    "choices": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "V" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos o triângulo formado pelo compasso: As hastes representam os lados AB e AC, ambos medindo 10 cm. A distância entre as pontas (grafite e ponta seca) é o segmento BC, que corresponde ao raio R da tampa.",
+        "2. Analisamos o ângulo de abertura: O ângulo entre as hastes (no vértice A) é de 120°.",
+        "3. Aplicamos a Lei dos Cossenos para encontrar R: R² = AB² + AC² - 2 * AB * AC * cos(120°).",
+        "4. Substituímos os valores (sabendo que cos(120°) = -0,5): R² = 10² + 10² - 2 * 10 * 10 * (-0,5).",
+        "5. Resolvemos a equação: R² = 100 + 100 + 100 = 300. Logo, R = √300 = 10√3.",
+        "6. Utilizamos a aproximação fornecida (√3 ≈ 1,7): R = 10 * 1,7 = 17 cm.",
+        "7. Consultamos a tabela de materiais: O valor R = 17 cm encontra-se no intervalo 15 < R ≤ 21, que corresponde ao Material IV."
+      ],
+      "final_reason": "Ao modelar o compasso como um triângulo isósceles de lados 10 cm e ângulo de 120°, calculamos o raio através da Lei dos Cossenos ou trigonometria básica, resultando em aproximadamente 17 cm. Este valor enquadra-se no intervalo definido para o Material IV."
+    },
+    "tags": ["Trigonometria", "Lei dos Cossenos", "Geometria Plana", "Análise de Tabelas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_164",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma pessoa ganhou uma pulseira formada por pérolas esféricas, na qual faltava uma das pérolas. A figura indica a posição em que estaria faltando esta pérola.\n\n![](https://enem.dev/2017/questions/157/a3037c5e-69fb-4c42-8587-ba4c6c0f81b4.png) (Uma fotografia aproximada de uma pulseira de pérolas artificial, composta por três fileiras horizontais paralelas de pequenas pérolas brancas brilhantes. Entre cada par de pérolas, há um pequeno espaçador metálico cravejado com um cristal (strass), criando um padrão alternado de pérola e brilho ao longo de toda a extensão circular. A pulseira está apoiada sobre uma superfície escura e reflexiva. Na parte frontal superior da pulseira, há uma seta branca desenhada apontando para uma pérola específica na fileira de cima, que foi editada e substituída por um círculo branco sólido e sem brilho, destacando-a das demais para fins de identificação em um problema de contagem ou sequência lógica.)\n\nEla levou a jóia a um joalheiro que verificou que a medida do diâmetro dessas pérolas era 4 milímetros. Em seu estoque, as pérolas do mesmo tipo e formato, disponíveis para reposição, tinham diâmetros iguais a: 4,025 mm; 4,100 mm; 3,970 mm; 4,080 mm e 3,099 mm.\n\nO joalheiro então colocou na pulseira a pérola cujo diâmetro era o mais próximo do diâmetro das pérolas originais. A pérola colocada na pulseira pelo joalheiro tem diâmetro, em milímetro, igual a",
+    "choices": [
+      { "id": "A", "text": "3,099." },
+      { "id": "B", "text": "3,970." },
+      { "id": "C", "text": "4,025." },
+      { "id": "D", "text": "4,080." },
+      { "id": "E", "text": "4,100." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos o valor de referência: o diâmetro original da pérola é 4,000 mm.",
+        "2. Calculamos a diferença (em valor absoluto) para cada opção disponível no estoque:",
+        "   - Opção A (3,099): |4,000 - 3,099| = 0,901 mm",
+        "   - Opção B (3,970): |4,000 - 3,970| = 0,030 mm",
+        "   - Opção C (4,025): |4,000 - 4,025| = 0,025 mm",
+        "   - Opção D (4,080): |4,000 - 4,080| = 0,080 mm",
+        "   - Opção E (4,100): |4,000 - 4,100| = 0,100 mm",
+        "3. Comparamos os resultados das diferenças: 0,901; 0,030; 0,025; 0,080; 0,100.",
+        "4. Identificamos o menor valor: a menor diferença é 0,025 mm, que corresponde ao diâmetro de 4,025 mm.",
+        "5. Concluímos que a pérola mais próxima é a de 4,025 mm."
+      ],
+      "final_reason": "Ao calcular a distância numérica de cada opção em relação a 4,000 mm, verificamos que 4,025 mm está a apenas 0,025 unidades de distância, enquanto a segunda opção mais próxima (3,970 mm) está a 0,030 unidades. Portanto, 4,025 mm é o valor mais próximo."
+    },
+    "tags": ["Aritmética", "Números Decimais", "Comparação de Valores", "Raciocínio Lógico"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2017_mat_165",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1: 400, e que seu volume é de 25 cm3. O volume do monumento original, em metro cúbico, é de",
+    "choices": [
+      { "id": "A", "text": "100" },
+      { "id": "B", "text": "400" },
+      { "id": "C", "text": "1600" },
+      { "id": "D", "text": "6250" },
+      { "id": "E", "text": "10000" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a escala linear (k): a razão entre as dimensões do objeto e o original é k = 1 / 400.",
+        "2. Estabelecemos a relação entre escalas lineares e volumétricas: se a escala linear é k, a escala de volume é k³. Logo, Volume_peça / Volume_original = (1 / 400)³.",
+        "3. Montamos a equação para o Volume original (V_orig): V_orig = Volume_peça * 400³. Substituindo o valor dado: V_orig = 25 * 400 * 400 * 400.",
+        "4. Realizamos o cálculo em cm³: V_orig = 25 * 64.000.000 = 1.600.000.000 cm³.",
+        "5. Convertemos cm³ para m³: sabemos que 1 m = 100 cm, logo 1 m³ = (100)³ cm³ = 1.000.000 cm³.",
+        "6. Finalizamos a conversão: V_orig = 1.600.000.000 / 1.000.000 = 1.600 m³."
+      ],
+      "final_reason": "Ao elevar a escala linear (400) ao cubo, descobrimos que o volume original é 64 milhões de vezes maior que o da miniatura. Multiplicando esse fator pelos 25 cm³ e convertendo o resultado para metros cúbicos, chegamos ao valor de 1.600 m³."
+    },
+    "tags": ["Razão e Proporção", "Escalas", "Geometria Espacial", "Conversão de Unidades"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_166",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma bicicleta do tipo mountain bike tem uma coroa com 3 engrenagens e uma catraca com 6 engrenagens, que, combinadas entre si, determinam 18 marchas (número de engrenagens da coroa vezes o número de engrenagens da catraca).\n\n![](https://enem.dev/2017/questions/159/c66f38e4-cac9-40bd-ab40-dcc28709d1f2.png) (Um diagrama técnico simplificado em tons de cinza mostrando o sistema de transmissão de uma bicicleta. À esquerda, há um conjunto de duas engrenagens maiores de diâmetros diferentes, rotuladas por uma seta como 'Coroas'. À direita, há um conjunto de várias engrenagens menores (cassete) de diâmetros progressivos, rotuladas por uma seta como 'Catracas'. Uma corrente de elos conecta uma das coroas à esquerda a uma das catracas à direita, formando um circuito fechado inclinado. O diagrama ilustra como a variação entre o tamanho da coroa (conectada aos pedais) e da catraca (conectada à roda traseira) altera a relação de marcha, velocidade e torque do sistema.)\n\nOs números de dentes das engrenagens das coroas e das catracas dessa bicicleta estão listados no quadro.\n\n![](https://enem.dev/2017/questions/159/71fe199d-31a3-491a-9ed1-4f4266bcec67.png) (Uma tabela de dados com 3 linhas e 7 colunas comparando o número de dentes em diferentes configurações de engrenagem de uma bicicleta. A primeira linha (cabeçalho) tem fundo cinza e identifica as colunas de 1ª a 6ª marcha. A segunda linha, rotulada como 'Nº de dentes da coroa', apresenta os valores: 46 (1ª), 36 (2ª), 26 (3ª) e traços indicando ausência de dados para as marchas 4ª, 5ª e 6ª. A terceira linha, rotulada como 'Nº de dentes da catraca', apresenta os valores decrescentes: 24 (1ª), 22 (2ª), 20 (3ª), 18 (4ª), 16 (5ª) e 14 (6ª). A tabela mostra uma relação onde, conforme as marchas progridem da 1ª para a 6ª, o número de dentes da catraca diminui, o que impacta diretamente na velocidade final e no esforço do ciclista.)\n\nSabe-se que o número de voltas efetuadas pela roda traseira a cada pedalada é calculado dividindo-se a quantidade de dentes da coroa pela quantidade de dentes da catraca.\n\nDurante um passeio em uma bicicleta desse tipo, deseja-se fazer um percurso o mais devagar possível, escolhendo, para isso, uma das seguintes combinações de engrenagens (coroa x catraca):\n\n![](https://enem.dev/2017/questions/159/1e1958eb-584c-47db-9aff-348f62def6d6.png) (Uma tabela de dados com 2 linhas e 5 colunas, rotuladas de I a V em algarismos romanos. O cabeçalho possui fundo cinza e as colunas são: 'I', 'II', 'III', 'IV' e 'V'. A segunda linha descreve combinações de engrenagens no formato '(marcha da coroa) x (marcha da catraca)'. As combinações são: na coluna I, '1ª x 1ª'; na coluna II, '1ª x 6ª'; na coluna III, '2ª x 4ª'; na coluna IV, '3ª x 1ª'; e na coluna V, '3ª x 6ª'. Esta tabela serve para que o estudante utilize os valores numéricos de dentes das tabelas anteriores e calcule a razão de transmissão para cada uma dessas cinco opções específicas.)\n\nA combinação escolhida para realizar esse passeio da forma desejada é",
+    "choices": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "V" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos a lógica do movimento: Para andar o 'mais devagar possível', precisamos da menor razão entre o número de dentes da coroa e da catraca (Coroa / Catraca).",
+        "2. Extraímos os dados das tabelas para as 5 combinações propostas:",
+        "   - I (1ª Coroa x 1ª Catraca): 46 / 24 ≈ 1,91",
+        "   - II (1ª Coroa x 6ª Catraca): 46 / 14 ≈ 3,28",
+        "   - III (2ª Coroa x 4ª Catraca): 36 / 18 = 2,00",
+        "   - IV (3ª Coroa x 1ª Catraca): 26 / 24 ≈ 1,08",
+        "   - V (3ª Coroa x 6ª Catraca): 26 / 14 ≈ 1,85",
+        "3. Comparamos os resultados: Os valores obtidos são aproximadamente 1,91; 3,28; 2,00; 1,08 e 1,85.",
+        "4. Identificamos o menor valor: A razão 1,08 (combinação IV) é a menor de todas.",
+        "5. Concluímos que a combinação IV é a que permite o deslocamento mais lento."
+      ],
+      "final_reason": "Para minimizar a velocidade, devemos escolher a menor coroa (menor número de dentes no pedal) combinada com a maior catraca (maior número de dentes na roda). A combinação IV utiliza a 3ª coroa (26 dentes) e a 1ª catraca (24 dentes), resultando na menor relação de transmissão entre as opções apresentadas."
+    },
+    "tags": ["Razão e Proporção", "Grandezas Inversamente Proporcionais", "Mecânica", "Análise de Tabelas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_167",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O comitê organizador da Copa do Mundo 2014 criou a logomarca da Copa, composta de uma figura plana e o slogan “Juntos num só ritmo”, com mãos que se unem formando a taça Fifa. Considere que o comitê organizador resolvesse utilizar todas as cores da bandeira nacional (verde, amarelo, azul e branco) para colorir a logomarca, de forma que regiões vizinhas tenham cores diferentes.\n\n![](https://enem.dev/2017/questions/160/f334ade2-9e0c-4a56-b232-855e5320a966.png) (Uma ilustração em preto e branco composta por linhas de contorno finas que formam o desenho estilizado de um troféu ou taça. A base da figura é estreita e curva, abrindo-se em direção ao topo para formar uma esfera. Essa esfera é composta pela sobreposição de várias mãos humanas cujos dedos se entrelaçam para dar o formato arredondado ao topo da taça. Logo abaixo do desenho, há a frase escrita em letras maiúsculas: 'JUNTOS NUM SÓ RITMO'. Na parte inferior da imagem, consta a fonte: 'Disponível em: www.pt.fifa.com. Acesso em: 19 nov. 2013 (adaptado)'. A imagem utiliza o conceito de unidade e cooperação representado pelas mãos para formar um objeto icônico do esporte.)\n\nDe quantas maneiras diferentes o comitê organizador da Copa poderia pintar a logomarca com as cores citadas?",
+    "choices": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "30" },
+      { "id": "C", "text": "108" },
+      { "id": "D", "text": "360" },
+      { "id": "E", "text": "972" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a estrutura da logomarca: a figura é composta por 6 regiões distintas que se conectam em sequência (formando a taça).",
+        "2. Identificamos o número de cores disponíveis: Verde, Amarelo, Azul e Branco (total de 4 cores).",
+        "3. Aplicamos o Princípio Fundamental da Contagem para a primeira região: temos 4 opções de cores.",
+        "4. Analisamos a segunda região: ela é vizinha da primeira, portanto não pode ter a mesma cor. Restam 3 opções (4 - 1).",
+        "5. Analisamos a terceira região: ela é vizinha da segunda, mas não da primeira. Portanto, ela só não pode repetir a cor da segunda. Restam 3 opções.",
+        "6. Seguimos o mesmo raciocínio para as regiões restantes (4ª, 5ª e 6ª): cada uma delas tem apenas uma região vizinha imediata já colorida no fluxo do desenho, o que deixa sempre 3 opções de cores para cada uma.",
+        "7. Calculamos o produto total das possibilidades: 4 * 3 * 3 * 3 * 3 * 3 = 4 * 3⁵.",
+        "8. Finalizamos a conta: 4 * 243 = 972 maneiras diferentes."
+      ],
+      "final_reason": "Para a primeira parte da logo, temos 4 cores possíveis. Para cada uma das 5 partes subsequentes, como elas apenas fazem fronteira com a parte colorida imediatamente anterior, temos sempre 3 opções de cores (as 4 totais menos a cor da vizinha). Multiplicando as possibilidades (4 × 3 × 3 × 3 × 3 × 3), chegamos a 972."
+    },
+    "tags": ["Análise Combinatória", "Princípio Fundamental da Contagem", "Coloração de Mapas", "Probabilidade e Estatística"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_168",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Viveiros de lagostas são construídos, por cooperativas locais de pescadores, em formato de prismas reto-retangulares, fixados ao solo e com telas flexíveis de mesma altura, capazes de suportar a corrosão marinha. Para cada viveiro a ser construído, a cooperativa utiliza integralmente 100 metros lineares dessa tela, que é usada apenas nas laterais.\n\n![](https://enem.dev/2017/questions/161/1ab19169-92f4-402e-9e53-2eedef827715.png) (Um diagrama esquemático de um paralelepípedo retângulo (um reservatório ou bloco) representado em perspectiva. O sólido está parcialmente preenchido com um fluido, indicado por uma área cinza que ocupa a maior parte de sua altura. Na base, a largura frontal é rotulada com a letra maiúscula 'X' e a profundidade lateral é rotulada com a letra maiúscula 'Y'. No topo, uma seta horizontal aponta para a superfície do fluido com o texto descritivo 'Nível do mar'. O diagrama é desenhado com linhas pretas finas e as arestas posteriores do sólido são visíveis, criando um efeito de transparência. O foco da imagem é estabelecer as variáveis de base (X e Y) para um problema que provavelmente envolve o cálculo de volume ou variação de altura do nível do fluido.)\n\nQuais devem ser os valores de X e de Y, em metro, para que a área da base do viveiro seja máxima?",
+    "choices": [
+      { "id": "A", "text": "1 e 49" },
+      { "id": "B", "text": "1 e 99" },
+      { "id": "C", "text": "10 e 10" },
+      { "id": "D", "text": "25 E 25" },
+      { "id": "E", "text": "50 E 50" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Interpretamos o enunciado: os 100 metros de tela são usados apenas nas laterais do viveiro, o que corresponde ao perímetro (P) da base retangular.",
+        "2. Montamos a equação do perímetro: P = 2X + 2Y = 100. Simplificando por 2, temos a relação X + Y = 50, ou Y = 50 - X.",
+        "3. Definimos a função da Área (A): A = X * Y. Substituindo Y, obtemos uma função do segundo grau: A(X) = X * (50 - X) = -X² + 50X.",
+        "4. Identificamos o ponto de máximo: como a função é uma parábola com concavidade voltada para baixo, o valor máximo ocorre no vértice. O X do vértice é dado por Xv = -b / 2a = -50 / (2 * -1) = 25.",
+        "5. Calculamos o valor de Y: se X = 25 e X + Y = 50, então Y = 25.",
+        "6. Concluímos que para maximizar a área com um perímetro fixo, o retângulo deve ser um quadrado (X = Y = 25)."
+      ],
+      "final_reason": "Geometricamente, para um perímetro constante, a área de um retângulo é maximizada quando suas dimensões são iguais, transformando-o em um quadrado. Com 100 metros de tela para cercar os quatro lados, cada lado deve medir 25 metros (100 / 4 = 25)."
+    },
+    "tags": ["Geometria Plana", "Função do 2º Grau", "Otimização", "Área e Perímetro"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_169",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Para uma temporada das corridas de Fórmula 1, a capacidade do tanque de combustível de cada carro passou a ser de 100 kg de gasolina. Uma equipe optou por utilizar uma gasolina com densidade de 750 gramas por litro, iniciando a corrida com o tanque cheio. Na primeira parada de reabastecimento, um carro dessa equipe apresentou um registro em seu computador de bordo acusando o consumo de quatro décimos da gasolina originalmente existente no tanque. Para minimizar o peso desse carro e garantir o término da corrida, a equipe de apoio reabasteceu o carro com a terça parte do que restou no tanque na chegada ao reabastecimento.\n\nDisponível em: www.superdanilof1page.com.br. Acesso em: 6 jul. 2015 (adaptado). A quantidade de gasolina utilizada, em litro, no reabastecimento foi",
+    "choices": [
+      { "id": "A", "text": "20/0,075" },
+      { "id": "B", "text": "20/0,75" },
+      { "id": "C", "text": "20/7,5" },
+      { "id": "D", "text": "20 x 0,075" },
+      { "id": "E", "text": "20 x 0,75" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a quantidade inicial de combustível: o tanque começa com 100 kg de gasolina.",
+        "2. Calculamos o consumo até a primeira parada: foram consumidos quatro décimos (4/10 ou 0,4) de 100 kg. Logo, 0,4 * 100 = 40 kg consumidos.",
+        "3. Determinamos quanto restou no tanque: 100 kg - 40 kg = 60 kg restantes.",
+        "4. Calculamos o volume de reabastecimento em massa (kg): a equipe reabasteceu com a terça parte (1/3) do que restou. Logo, 1/3 * 60 = 20 kg de gasolina.",
+        "5. Relacionamos massa, densidade e volume: a fórmula da densidade é d = m / V. Para encontrar o volume em litros, usamos V = m / d.",
+        "6. Ajustamos as unidades: a massa é 20 kg (20.000 g) e a densidade é 750 g/L (ou 0,75 kg/L).",
+        "7. Montamos a expressão final em litros: V = 20 / 0,75."
+      ],
+      "final_reason": "Após consumir 40 kg, restaram 60 kg no tanque. O reabastecimento de um terço desse valor resultou em 20 kg de combustível novo. Para converter essa massa em volume (litros), dividimos a massa pela densidade expressa em kg/L (0,75), resultando na expressão 20 / 0,75."
+    },
+    "tags": ["Densidade", "Razão e Proporção", "Grandezas e Medidas", "Física Aplicada"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_170",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegra.\n\n![](https://enem.dev/2017/questions/174/8da9e00a-e25a-4467-8f2f-53488edb0a1f.png) (Um gráfico de linha intitulado 'Taxa de desemprego (%)' que mostra a variação percentual do desemprego ao longo de um período de 14 meses. O eixo horizontal (tempo) indica meses e anos, começando em '03/08' (março de 2008) e terminando em '04' (abril de 2009). A linha é composta por pontos marcados com valores numéricos acima ou abaixo de cada marcador circular cinza. Os valores em ordem cronológica são: 8,6; 8,5; 7,9; 7,9; 8,1; 7,6; 7,7; 7,5; 7,6; 6,8 (mínimo no mês 12); 8,2; 8,5; 9,0 (máximo no mês 03/09) e 8,9. O gráfico revela uma tendência de queda gradual ao longo de 2008, atingindo o ponto mais baixo em dezembro, seguida por uma subida acentuada no início de 2009.)\n\nIBGE. Pesquisa mensal de emprego. Disponível em: www.ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado). A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de",
+    "choices": [
+      { "id": "A", "text": "8,1%" },
+      { "id": "B", "text": "8,0%" },
+      { "id": "C", "text": "7,9%" },
+      { "id": "D", "text": "7,7%" },
+      { "id": "E", "text": "7,6%" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Coletamos todos os dados apresentados no gráfico cronologicamente (de março/2008 a abril/2009): 8,6; 8,5; 7,9; 7,9; 8,1; 7,6; 7,5; 7,6; 6,8; 8,2; 8,5; 9,0; 8,9. Notamos que há 14 valores no total (referentes aos 14 meses do período).",
+        "2. Organizamos os dados em ordem crescente (Rol): 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,9; 9,0.",
+        "3. Identificamos a posição da mediana: Como o número de elementos (n = 14) é par, a mediana será a média aritmética dos dois termos centrais.",
+        "4. Localizamos os termos centrais: Em uma lista de 14 itens, os termos centrais ocupam a 7ª e a 8ª posição.",
+        "5. Consultamos o Rol para encontrar esses valores: O 7º termo é 7,9 e o 8º termo é 8,1.",
+        "6. Calculamos a média entre eles: (7,9 + 8,1) / 2 = 16,0 / 2 = 8,0.",
+        "7. Concluímos que a mediana da taxa de desemprego é 8,0%."
+      ],
+      "final_reason": "Para encontrar a mediana de um conjunto com número par de elementos, organizamos os dados em ordem crescente e calculamos a média dos dois valores que ocupam o centro da série. Neste caso, os valores centrais são 7,9 e 8,1, resultando em uma mediana de 8,0%."
+    },
+    "tags": ["Estatística", "Mediana", "Análise de Gráficos", "Média Aritmética"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_171",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Numa avenida existem 10 semáforos. Por causa de uma pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acusar a cor verde é 2/3 e a de acusar a cor vermelha é de 1/3. Uma pessoa percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáforos. Qual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde?",
+    "choices": [
+      { "id": "A", "text": "(10*2)/(3^10)" },
+      { "id": "B", "text": "(10*2^9)/(3^10)" },
+      { "id": "C", "text": "(2^10)/(3^100)" },
+      { "id": "D", "text": "(2^90)/(3^100)" },
+      { "id": "E", "text": "2/(3^10)" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as probabilidades individuais: a probabilidade de um semáforo estar verde (sucesso) é P(V) = 2/3, e a de estar vermelho (fracasso) é P(R) = 1/3.",
+        "2. Analisamos o cenário solicitado: a pessoa deve observar exatamente 1 semáforo verde e, consequentemente, 9 semáforos vermelhos.",
+        "3. Calculamos a probabilidade de uma sequência específica (ex: o primeiro ser verde e os demais vermelhos): (2/3)¹ * (1/3)⁹ = 2 / 3¹⁰.",
+        "4. Consideramos as diferentes posições possíveis: o semáforo verde não precisa ser necessariamente o primeiro. Ele pode ser qualquer um dos 10 semáforos da avenida.",
+        "5. Aplicamos a combinação: o número de maneiras de escolher 1 semáforo entre 10 para ser o verde é dado pela Combinação C(10, 1) = 10.",
+        "6. Montamos a expressão final: Probabilidade Total = 10 * (2 / 3¹⁰) = (10 * 2) / 3¹⁰."
+      ],
+      "final_reason": "Para que exatamente um semáforo esteja verde, devemos multiplicar a probabilidade de uma configuração específica (um verde e nove vermelhos) pelo número de posições diferentes que o semáforo verde pode ocupar (10 posições). Isso resulta na expressão (10 * 2) / 3¹⁰."
+    },
+    "tags": ["Probabilidade", "Distribuição Binomial", "Combinatória", "Raciocínio Lógico"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_172",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A energia solar vai abastecer parte da demanda de energia do _campus_ de uma universidade brasileira. A instalação de painéis solares na área dos estacionamentos e na cobertura do hospital pediátrico será aproveitada nas instalações universitárias e também ligada na rede da companhia elétrica distribuidora de energia.  \nO projeto inclui 100 m2 de painéis solares que ficarão instalados nos estacionamentos, produzindo energia elétrica e proporcionando sombra para os carros. Sobre o hospital pediátrico serão colocados aproximadamente 300 m2 de painéis, sendo 100 m2 para gerar energia elétrica utilizada no _campus_, e 200 m2 para geração de energia térmica, produzindo aquecimento de água utilizada nas caldeiras do hospital.  \nSuponha que cada metro quadrado de painel solar para energia elétrica gere uma economia de 1 kWh por dia e cada metro quadrado produzindo energia térmica permita economizar 0,7 kWh por dia para a universidade. Em uma segunda fase do projeto, será aumentada em 75% a área coberta pelos painéis solares que geram energia elétrica. Nessa fase também deverá ser ampliada a área de cobertura com painéis para geração de energia térmica.\n\nDisponível em: http://agenciabrasil.ebc.com.br. Acesso em: 30 out. 2013 (adaptado). Para se obter o dobro da quantidade de energia economizada diariamente, em relação à primeira fase, a área total dos painéis que geram energia térmica, em metro quadrado, deverá ter o valor mais próximo de",
+    "choices": [
+      { "id": "A", "text": "231" },
+      { "id": "B", "text": "431." },
+      { "id": "C", "text": "472" },
+      { "id": "D", "text": "523" },
+      { "id": "E", "text": "672" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a economia na Fase 1 para Energia Elétrica (EE): Área total = 100 m² (estacionamento) + 100 m² (hospital) = 200 m². Economia = 200 m² * 1 kWh/m² = 200 kWh/dia.",
+        "2. Calculamos a economia na Fase 1 para Energia Térmica (ET): Área total = 200 m². Economia = 200 m² * 0,7 kWh/m² = 140 kWh/dia.",
+        "3. Determinamos a economia total da Fase 1: 200 + 140 = 340 kWh/dia.",
+        "4. Estabelecemos a meta da Fase 2: O enunciado pede o dobro da economia da Fase 1. Meta = 340 * 2 = 680 kWh/dia.",
+        "5. Calculamos a nova economia de Energia Elétrica na Fase 2: A área de EE aumenta 75%. Nova área = 200 * 1,75 = 350 m². Nova economia EE = 350 * 1 = 350 kWh/dia.",
+        "6. Calculamos a necessidade de Energia Térmica na Fase 2: Meta total (680) - Economia EE (350) = 330 kWh/dia que devem vir da energia térmica.",
+        "7. Encontramos a nova área de painéis térmicos: Área_térmica * 0,7 = 330. Logo, Área_térmica = 330 / 0,7 ≈ 471,42 m².",
+        "8. Comparamos com as alternativas: O valor mais próximo é 472 m²."
+      ],
+      "final_reason": "Para dobrar a economia diária de 340 kWh para 680 kWh, considerando o aumento de 75% na área de painéis elétricos (que passam a economizar 350 kWh), restam 330 kWh a serem economizados via painéis térmicos. Dividindo essa necessidade pela eficiência de 0,7 kWh/m², obtemos aproximadamente 472 m²."
+    },
+    "tags": ["Aritmética", "Porcentagem", "Equações", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_173",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Dois reservatórios A e B são alimentados por bombas distintas por um período de 20 horas. A quantidade de água contida em cada reservatório nesse período pode ser visualizada na figura.\n\n![](https://enem.dev/2017/questions/172/3cab013f-abdc-4a51-8c74-6c0771ab0c6e.png) (Um gráfico de linhas intitulado 'Quantidade de água armazenada - Volume (L)' que compara dois reservatórios (A e B) ao longo de 20 horas. O gráfico possui três eixos verticais: o da esquerda para o 'Reservatório A' (escala de 0 a 180.000 L, em intervalos de 10.000) e o da direita para o 'Reservatório B' (escala de 0 a 90.000 L, em intervalos de 5.000). O eixo horizontal representa o 'Tempo (h)' de 0 a 20. O Reservatório A (marcado com círculos brancos) sobe linearmente até 60.000 L às 4h, desce até 30.000 L às 8h, permanece constante até as 9h e depois sobe linearmente até atingir 180.000 L às 19h. O Reservatório B (marcado com triângulos pretos) sobe linearmente até 30.000 L às 4h, permanece constante (platô) até as 10h e depois sobe linearmente até atingir seu volume máximo de 90.000 L às 20h. As linhas se cruzam visualmente em vários pontos devido às escalas diferentes, exigindo atenção aos valores correspondentes em cada eixo lateral.)\n\nO número de horas em que os dois reservatórios contêm a mesma quantidade de água é",
+    "choices": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2." },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "5" },
+      { "id": "E", "text": "6" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos a leitura do gráfico: O reservatório A deve ser lido no eixo da esquerda (0 a 180.000) e o reservatório B no eixo da direita (0 a 90.000).",
+        "2. Analisamos o intervalo de 0h a 4h: Ambos crescem linearmente. No tempo t=4h, o reservatório A tem 60.000 L e o reservatório B tem 30.000 L. Antes disso, eles nunca foram iguais (exceto no t=0).",
+        "3. Analisamos o intervalo de 4h a 8h: O reservatório B permanece constante em 30.000 L. O reservatório A está diminuindo e atinge exatamente 30.000 L no tempo t=8h. Temos aqui a primeira igualdade (t=8h).",
+        "4. Analisamos o intervalo de 8h a 9h: O reservatório A permanece constante em 30.000 L e o reservatório B também permanece em 30.000 L. Logo, durante esse intervalo de 1 hora, os volumes são iguais.",
+        "5. Analisamos o intervalo de 9h a 10h: O reservatório A começa a subir (passando de 30.000 L), enquanto o B continua parado em 30.000 L até t=10h. Não há igualdade aqui.",
+        "6. Analisamos o período de 10h a 20h: Ambos crescem. Para serem iguais, como a escala de A é o dobro da escala de B (A=180k, B=90k), a linha de A teria que estar na mesma altura visual que a de B. No entanto, a partir das 10h, a taxa de enchimento de A é muito superior e ele se mantém sempre acima dos valores de B.",
+        "7. Concluímos que a única igualdade ocorre entre as 8h e as 9h, totalizando 1 hora."
+      ],
+      "final_reason": "Embora as linhas se cruzem visualmente em outros pontos, a igualdade real de valores (Volume A = Volume B) só ocorre no intervalo entre a 8ª e a 9ª hora, quando ambos os reservatórios mantêm exatamente 30.000 litros de água."
+    },
+    "tags": ["Análise de Gráficos", "Leitura de Escalas", "Interpretação de Dados", "Funções"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_174",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Neste modelo de termômetro, os filetes na cor preta registram as temperaturas mínima e máxima do dia anterior e os filetes na cor cinza registram a temperatura ambiente atual, ou seja, no momento da leitura do termômetro.\n\n![](https://enem.dev/2017/questions/170/7264cbc1-0ae7-4f5d-976a-228c6d2e1184.png) (Um diagrama técnico de um termômetro de máxima e mínima em formato de 'U' invertido ou capela. Existem duas colunas verticais com escalas numéricas e marcadores internos (filetes). A coluna da esquerda possui uma escala que cresce de cima para baixo, variando de -30 no topo até 50 na base; nela, há um marcador preto na parte superior (entre -30 e -5) e um marcador cinza na parte inferior (entre 10 e 50). A coluna da direita possui uma escala que cresce de baixo para cima, variando de -30 na base até 50 no topo; nela, há um marcador preto na parte superior (entre 20 e 50) e um marcador cinza na parte inferior (entre -30 e 10). As escalas são espelhadas e invertidas entre si, permitindo a leitura das temperaturas extremas registradas em um período.)\n\nPor isso ele tem duas colunas. Na da esquerda, os números estão em ordem crescente, de cima para baixo, de -30 °C até 50 °C. Na coluna da direita, os números estão ordenados de forma crescente, de baixo para cima, de -30 °C até 50 °C.\n\nA leitura é feita da seguinte maneira:  \n• a temperatura mínima é indicada pelo nível inferior do filete preto na coluna da esquerda;  \n• a temperatura máxima é indicada pelo nível inferior do filete preto na coluna da direita;  \n• a temperatura atual é indicada pelo nível superior dos filetes cinza nas duas colunas.\n\nDisponível em: www.if.ufrgs.br. Acesso em: 28 ago. 2014 (adaptado). Qual é a temperatura máxima mais aproximada registrada nesse termômetro?",
+    "choices": [
+      { "id": "A", "text": "5 °C" },
+      { "id": "B", "text": "7 °C" },
+      { "id": "C", "text": "13 °C" },
+      { "id": "D", "text": "15 °C" },
+      { "id": "E", "text": "19 °C" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Identificamos o objetivo da questão: encontrar a temperatura máxima registrada.",
+        "2. Seguimos a instrução de leitura para a máxima: o enunciado afirma que ela é indicada pelo 'nível inferior do filete preto na coluna da direita'.",
+        "3. Analisamos a escala da coluna da direita: os números crescem de baixo para cima. Observamos as marcações entre 10, 20 e 30.",
+        "4. Localizamos o filete preto na coluna da direita: ele está posicionado acima da marca de 10 e abaixo da marca de 20.",
+        "5. Verificamos o nível inferior (a base) desse filete: a base do filete preto está encostada na linha que representa o número 19 (logo abaixo da linha de 20).",
+        "6. Validamos a leitura: como a escala sobe de 1 em 1 unidade, o traço imediatamente abaixo do 20 corresponde a 19 °C.",
+        "7. Concluímos que a temperatura máxima aproximada é 19 °C."
+      ],
+      "final_reason": "De acordo com as instruções do termômetro, a temperatura máxima é lida na base do filete preto da coluna da direita. Observando a imagem, essa base está alinhada com a marcação de 19 °C, situada logo abaixo do número 20."
+    },
+    "tags": ["Grandezas e Medidas", "Leitura de Instrumentos", "Escalas Numéricas", "Física"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_175",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Pivô central é um sistema de irrigação muito usado na agricultura, em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram, sobre rodas, em torno do centro do pivô, também chamado de base, conforme mostram as figuras. Cada torre move-se com velocidade constante.\n\n![](https://enem.dev/2017/questions/171/3bb8824e-3a19-4855-a081-9cc594573f03.png) (A imagem é composta por duas partes: uma fotografia real e um diagrama esquemático. 1. A fotografia superior mostra um sistema de irrigação por pivô central em um campo agrícola sob um céu nublado. Destaca-se uma torre metálica piramidal em primeiro plano (a base), conectada a um longo braço articulado que se estende pelo horizonte, sustentado por torres móveis menores. 2. O diagrama inferior representa a vista aérea do movimento desse sistema. Há um ponto central rotulado como 'BASE', de onde parte uma linha sólida (o braço do pivô). Sobre essa linha, estão marcados três pontos: 'T1' (mais próximo à base), 'T2' (intermediário) e 'T3' (na extremidade). Três círculos concêntricos pontilhados partem da base e passam por cada um desses pontos, indicando a trajetória circular percorrida pelas torres. Uma seta curva acima do diagrama indica o sentido de rotação anti-horário do sistema.)\n\nUm pivô de três torres (T1, T2 e T3) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T1 são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa em 25 horas. Use 3 como aproximação para π. Para atingir seu objetivo, as velocidades das torres T1, T2 e T3 devem ser, em metro por hora, de",
+    "choices": [
+      { "id": "A", "text": "12, 24 e 36." },
+      { "id": "B", "text": "6, 12 e 18." },
+      { "id": "C", "text": "2, 4 e 6." },
+      { "id": "D", "text": "300, 1200 e 2700." },
+      { "id": "E", "text": "600, 2400 e 5400." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Determinamos os raios das trajetórias de cada torre: Como as distâncias entre a base e T1, e entre as torres consecutivas são de 50 m, temos: R1 = 50 m; R2 = 100 m (50 + 50); R3 = 150 m (50 + 50 + 50).",
+        "2. Calculamos o comprimento da circunferência (C = 2πR) percorrida por cada torre em uma volta completa, utilizando π ≈ 3:",
+        "   - C1 = 2 * 3 * 50 = 300 metros.",
+        "   - C2 = 2 * 3 * 100 = 600 metros.",
+        "   - C3 = 2 * 3 * 150 = 900 metros.",
+        "3. Aplicamos a fórmula da velocidade (V = ΔS / Δt), sabendo que o tempo (Δt) para uma volta completa é de 25 horas para todas as torres:",
+        "   - V1 = 300 m / 25 h = 12 m/h.",
+        "   - V2 = 600 m / 25 h = 24 m/h.",
+        "   - V3 = 900 m / 25 h = 36 m/h.",
+        "4. Verificamos as alternativas: As velocidades encontradas são 12, 24 e 36 m/h."
+      ],
+      "final_reason": "Como a velocidade em um movimento circular é diretamente proporcional ao raio da trajetória para um mesmo período de tempo, calculamos o perímetro de cada círculo (2πR) e dividimos pelo tempo total de 25 horas. Com raios de 50, 100 e 150 metros, obtemos as velocidades de 12, 24 e 36 m/h, respectivamente."
+    },
+    "tags": ["Geometria Plana", "Circunferência", "Cinemática", "Movimento Circular"],
+    "difficulty": "medium"
   }
 ]
+
+
+
+
+
+
+
 
 
 
