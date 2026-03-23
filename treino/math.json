@@ -3603,7 +3603,7 @@
       "steps": [
         "1. Determinamos os raios das trajetórias de cada torre: Como as distâncias entre a base e T1, e entre as torres consecutivas são de 50 m, temos: R1 = 50 m; R2 = 100 m (50 + 50); R3 = 150 m (50 + 50 + 50).",
         "2. Calculamos o comprimento da circunferência (C = 2πR) percorrida por cada torre em uma volta completa, utilizando π ≈ 3:",
-        "   - C1 = 2 * 3 * 50 = 300 metros.",
+        "   - C1 = 2 * 3 * 50 = 300 metros .",
         "   - C2 = 2 * 3 * 100 = 600 metros.",
         "   - C3 = 2 * 3 * 150 = 900 metros.",
         "3. Aplicamos a fórmula da velocidade (V = ΔS / Δt), sabendo que o tempo (Δt) para uma volta completa é de 25 horas para todas as torres:",
@@ -3616,19 +3616,280 @@
     },
     "tags": ["Geometria Plana", "Circunferência", "Cinemática", "Movimento Circular"],
     "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_176",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localixada na Lagoa da Pampulha, em Belo Horizonte, possui abóbodas parabólicas. A seta na Figura 1 ilustra uma das abóbodas na entrada principal da capela. A Figura 2 fornece uma vista frontal desta abóboda, com medidas hipotéticas para simplificar os cálculos.\n\n![](https://enem.dev/2017/questions/168/24aef861-9c64-4357-ab76-d58d4bf20931.png) (A imagem é dividida em duas partes que relacionam arquitetura e matemática. A 'Figura 1' (à esquerda) mostra o desenho em perspectiva de uma edificação com telhados em formato de abóbadas parabólicas (Igreja da Pampulha), com uma linha pontilhada destacando o contorno de uma das parábolas frontais. A 'Figura 2' (à direita) apresenta um modelo geométrico dessa parábola em um plano bidimensional. A parábola é simétrica em relação a um eixo vertical central e possui uma altura total rotulada como 'H metros'. Dentro da parábola, há um retângulo inscrito; a distância do eixo central até a extremidade lateral do retângulo é de '4 metros', e a altura dessa extremidade até o solo é de '3 metros'. A base total da parábola, do centro até a extremidade inferior, é rotulada como '5 metros'. O diagrama fornece os dados necessários para determinar a equação da parábola e calcular a altura máxima H.)\n\nQual a medida da altura H, em metro, indicada na Figura 2?",
+    "choices": [
+      { "id": "A", "text": "16/3" },
+      { "id": "B", "text": "31/5" },
+      { "id": "C", "text": "25/4" },
+      { "id": "D", "text": "25/3" },
+      { "id": "E", "text": "75/2" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos um sistema de eixos cartesianos: colocamos a origem (0,0) no ponto médio da base da abóboda. Assim, as extremidades da base (largura de 10 m) ficam nos pontos (-5, 0) e (5, 0).",
+        "2. Identificamos a lei da função: como a parábola é simétrica em relação ao eixo y e tem raízes em -5 e 5, sua equação é do tipo y = a(x - 5)(x + 5), ou y = a(x² - 25).",
+        "3. Utilizamos um ponto conhecido para encontrar o coeficiente 'a': o enunciado indica que a uma distância de 4 m do centro (x = 3 ou x = -3), a altura é de 3 m. Usando o ponto (3, 3): 3 = a(3² - 25) -> 3 = a(9 - 25) -> 3 = -16a.",
+        "4. Calculamos o valor de 'a': a = -3/16.",
+        "5. Determinamos a altura máxima H: a altura máxima ocorre no vértice, onde x = 0. Substituímos na equação: H = (-3/16) * (0² - 25).",
+        "6. Finalizamos o cálculo: H = (-3/16) * (-25) = 75/16. (Nota: Revisando os dados da figura original do ENEM, a largura total é 10m e a 4m do centro a altura é 3m. O cálculo correto para as opções dadas segue a proporção do vértice).",
+        "7. Reajuste conforme a Figura 2 do ENEM: Na figura oficial, a base total é 10m e a altura de 3m ocorre a 1m da extremidade (x=4). Aplicando (4, 3): 3 = a(16-25) -> 3 = -9a -> a = -1/3. Logo, H = -1/3 * (0-25) = 25/3."
+      ],
+      "final_reason": "Ao modelar a abóboda como uma parábola y = ax² + H e utilizar o ponto (4, 3) fornecido pela Figura 2, encontramos o coeficiente de abertura a = -1/3. Substituindo x = 0 para encontrar o ponto mais alto da estrutura, obtemos a altura H = 25/3 metros."
+    },
+    "tags": ["Função do 2º Grau", "Parábola", "Geometria Analítica", "Modelagem Matemática"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_177",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Quanto tempo você fica conectado à internet? Para responder a essa pergunta foi criado um miniaplicativo de computador que roda na área de trabalho, para gerar automáticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado, nos cinco sites mais acessados. A seguir, temos os dados do miniaplicativo para esses dias.\n\n![](https://enem.dev/2017/questions/169/2a8f5ab3-e6e4-4457-8cb4-1fefac4ab935.png) (A imagem apresenta dois gráficos de setores (pizza) comparativos, intitulados 'Tempo de acesso na sexta-feira (minuto)' e 'Tempo de acesso no sábado (minuto)'. Ambos os gráficos mostram a distribuição de tempo entre cinco sites diferentes (U, X, Y, Z e W), identificados por diferentes cores e padrões de preenchimento. No gráfico da sexta-feira, os valores são: Site U (40 min, preto), Site X (12 min, círculos), Site Y (30 min, branco), Site Z (10 min, quadrados) e Site W (38 min, cinza). No gráfico do sábado, há um aumento geral no tempo de acesso: Site U (56 min), Site X (21 min), Site Y (51 min), Site Z (11 min) e Site W (57 min). A comparação visual e numérica permite analisar o crescimento do engajamento nos sites durante o final de semana, com destaque para o Site W, que se torna o mais acessado no sábado.)\n\nAnalisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site",
+    "choices": [
+      { "id": "A", "text": "X" },
+      { "id": "B", "text": "Y" },
+      { "id": "C", "text": "Z" },
+      { "id": "D", "text": "W" },
+      { "id": "E", "text": "U" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Entendemos o conceito de taxa de aumento: a taxa é dada pela razão entre o aumento absoluto (Valor Sábado - Valor Sexta) e o valor inicial (Valor Sexta).",
+        "2. Calculamos a taxa para o Site U: (56 - 40) / 40 = 16 / 40 = 0,40 ou 40%.",
+        "3. Calculamos a taxa para o Site X: (21 - 12) / 12 = 9 / 12 = 0,75 ou 75%.",
+        "4. Calculamos a taxa para o Site Y: (51 - 30) / 30 = 21 / 30 = 0,70 ou 70%.",
+        "5. Calculamos a taxa para o Site Z: (11 - 10) / 10 = 1 / 10 = 0,10 ou 10%.",
+        "6. Calculamos a taxa para o Site W: (57 - 38) / 38 = 19 / 38 = 0,50 ou 50%.",
+        "7. Comparamos os resultados: as taxas encontradas foram 40%, 75%, 70%, 10% e 50%.",
+        "8. Concluímos que a maior taxa de aumento ocorreu no Site X."
+      ],
+      "final_reason": "Embora o Site Y tenha tido o maior aumento absoluto em minutos (21 min), a taxa de aumento leva em conta o valor de partida. O Site X partiu de 12 minutos e saltou para 21, o que representa um crescimento de 75%, a maior variação percentual entre todos os sites analisados."
+    },
+    "tags": ["Estatística", "Porcentagem", "Análise de Gráficos", "Razão e Proporção"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_178",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O resultado de uma pesquisa eleitoral, sobre a preferência dos eleitores em relação a dois candidatos, foi representado por meio do Gráfico 1.\n\n![](https://enem.dev/2017/questions/165/c4d1bd98-124e-4136-9db8-7df0ddc7fdde.png) (Um gráfico de colunas intitulado 'Gráfico 1' que apresenta a porcentagem de eleitores para dois candidatos, A e B. O eixo vertical representa a porcentagem de 'Eleitores (%)' com escala de 0 a 70, marcada em intervalos de 10 unidades por linhas horizontais pontilhadas. O eixo horizontal indica o 'Candidato'. A coluna referente ao Candidato A é de cor preta e atinge exatamente a marca de 70%. A coluna referente ao Candidato B é de cor cinza e atinge exatamente a marca de 30%. O gráfico mostra uma diferença clara de 40 pontos percentuais entre os dois candidatos, representando uma distribuição total de 100% das intenções de voto entre eles.)\n\nAo ser divulgado esse resultado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2.\n\n![](https://enem.dev/2017/questions/165/6200b8f9-1e5e-46a5-8516-7e24a6a79bd8.png) (Um gráfico de colunas intitulado 'Produção de grãos' que compara o desempenho de cinco produtos agrícolas (Arroz, Milho, Soja, Trigo e Outros) em dois períodos: a safra 2001/2002 (colunas pretas) e a safra 2002/2003 (colunas cinza claro). O eixo vertical indica a produção em 'Milhões de toneladas' com escala de 0 a 60. O eixo horizontal lista os produtos. Observa-se que: 1. A Soja lidera a produção, saltando de aproximadamente 42 para 52 milhões de toneladas. 2. O Milho é o segundo maior, com leve crescimento de 36 para 40 milhões. 3. O Arroz mantém-se estável em cerca de 10 milhões. 4. O Trigo apresenta um crescimento proporcional significativo, subindo de 3 para 6 milhões. 5. A categoria 'Outros' permanece constante em 5 milhões. O gráfico destaca o domínio da soja e do milho na produção total de grãos do período.)\n\nApesar de os valores apresentados estarem corretos e a largura das colunas ser a mesma, muitos leitores criticaram o formato do Gráfico 2 impresso no jornal, alegando que houve prejuízo visual para o candidato B. A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é",
+    "choices": [
+      { "id": "A", "text": "0" },
+      { "id": "B", "text": "1/2" },
+      { "id": "C", "text": "1/5" },
+      { "id": "D", "text": "2/15" },
+      { "id": "E", "text": "8/35" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o Gráfico 1: A escala começa em 0. A altura da coluna A é 70 e a da coluna B é 30. A razão (B/A) no Gráfico 1 é R1 = 30 / 70 = 3/7.",
+        "2. Analisamos o Gráfico 2: Notamos que o eixo vertical foi cortado e começa em 20. A altura visual das colunas agora é a diferença em relação à base 20.",
+        "3. Calculamos as alturas visuais no Gráfico 2: Altura_A = 70 - 20 = 50; Altura_B = 30 - 20 = 10.",
+        "4. Determinamos a nova razão (B/A) no Gráfico 2: R2 = 10 / 50 = 1/5.",
+        "5. Calculamos a diferença entre as razões pedidas (R1 - R2): Diferença = 3/7 - 1/5.",
+        "6. Resolvemos a subtração de frações usando o MMC (35): (15/35) - (7/35) = 8/35.",
+        "7. Concluímos que a diferença entre as razões das alturas das colunas B e A nos dois gráficos é 8/35."
+      ],
+      "final_reason": "No primeiro gráfico, a razão entre as alturas é 30/70 (3/7). No segundo gráfico, como a base foi deslocada para o valor 20, as alturas percebidas passam a ser 10 e 50, resultando na razão 1/5. A diferença entre essas duas proporções (3/7 - 1/5) resulta em 8/35."
+    },
+    "tags": ["Razão e Proporção", "Análise de Gráficos", "Estatística", "Aritmética"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2017_mat_179",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um cientista, em seus estudos para modelar a pressão arterial de uma pessoa, utiliza uma função do tipo P(t) = A + Bcos(kt) em que A, B e K são constantes reais positivas e t representa a variável tempo, medida em segundo. Considere que um batimento cardíaco representa o intervalo de tempo entre duas sucessivas pressões máximas.\n\n![](https://enem.dev/2017/questions/166/41a14ec3-8c43-4dc3-b116-be74098827c0.png) (Uma tabela simples de dados médicos composta por 3 linhas e 2 colunas, apresentada em preto e branco. A primeira coluna contém as descrições dos parâmetros medidos e a segunda coluna contém os respectivos valores numéricos. Na primeira linha, 'Pressão mínima' com o valor '78'. Na segunda linha, 'Pressão máxima' com o valor '120'. Na terceira linha, 'Número de batimentos cardíacos por minuto' com o valor '90'. Os dados representam sinais vitais típicos de um exame de rotina, indicando uma pressão arterial de 120 por 78 mmHg e uma frequência cardíaca de 90 bpm.)\n\nA função P(t) obtida, por este cientista, ao analisar o caso específico foi",
+    "choices": [
+      { "id": "A", "text": "P(t) = 99 + 21cos(3πt)" },
+      { "id": "B", "text": "P(t) = 78 + 42cos(3πt)" },
+      { "id": "C", "text": "P(t) = 99 + 21cos(2πt)" },
+      { "id": "D", "text": "P(t) = 99 + 21cos(t)" },
+      { "id": "E", "text": "P(t) = 78 + 42cos(t)" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Determinamos as constantes A e B através dos valores máximo e mínimo da pressão: A função cosseno varia entre -1 e 1. Assim, o valor máximo é A + B e o valor mínimo é A - B.",
+        "2. Montamos o sistema de equações: A + B = 120 e A - B = 78.",
+        "3. Resolvemos para A e B: Somando as equações, 2A = 198, logo A = 99. Subtraindo as equações, 2B = 42, logo B = 21.",
+        "4. Determinamos a constante k através do período (T): O enunciado diz que um batimento é o intervalo entre pressões máximas sucessivas, o que define o período da função cosseno.",
+        "5. Calculamos o período em segundos: Se a pessoa tem 90 batimentos em 60 segundos (1 minuto), o tempo de um batimento é T = 60 / 90 = 2/3 de segundo.",
+        "6. Relacionamos o período com a constante k: A fórmula do período para funções trigonométricas é T = 2π / k.",
+        "7. Resolvemos para k: 2/3 = 2π / k -> 2k = 6π -> k = 3π.",
+        "8. Montamos a função final: Substituindo os valores encontrados, temos P(t) = 99 + 21cos(3πt)."
+      ],
+      "final_reason": "Ao calcular a média entre a pressão máxima e mínima, encontramos o deslocamento vertical (A=99). A amplitude da oscilação (B=21) é a diferença entre o máximo e a média. Por fim, como ocorrem 90 batimentos por minuto, o período é de 2/3 de segundo, o que resulta em uma frequência angular k de 3π."
+    },
+    "tags": ["Trigonometria", "Funções Periódicas", "Modelagem Matemática", "Análise de Dados"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2017_mat_180",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Para decorar uma mesa de festa infantil, um chefe de cozinha usará um melão esférico com diâmetro medindo 10 cm, o qual servirá de suporte para espetar diversos doces. Ele irá retirar uma calota esférica do melão, conforme ilustra a figura, e, para garantir a estabilidade deste suporte, dificultando que o melão role sobre a mesa, o chefe fará o corte de modo que o raio r da seção circular de corte seja de pelo menos 3 cm. Por outro lado, o chefe desejará dispor da maior área possível da região em que serão afixados os doces.\n\n![](https://enem.dev/2017/questions/167/7bf9f382-d44e-49aa-b785-8f24191c1fb5.png) (Um diagrama geométrico de uma esfera com centro no ponto 'O'. A esfera possui elementos rotulados para um problema de aplicação prática: 1. Uma linha tracejada do centro 'O' até um ponto 'B' na superfície representa o raio 'r'. 2. Uma seção transversal circular horizontal (hachurada com linhas diagonais) é identificada como 'A parte hachurada será apoiada na mesa', com seu centro no ponto 'A'. 3. O segmento de reta 'OA' é perpendicular ao raio da base da seção ('AB'), formando um ângulo reto. 4. A parte inferior da esfera, abaixo da base hachurada, é rotulada como 'Calota a ser cortada e eliminada', com sua altura vertical indicada pela letra minúscula 'h'. 5. A superfície curva superior da esfera é rotulada como 'Região onde serão afixados os doces'. O diagrama serve para calcular a área da superfície esférica remanescente ou o volume após o corte da calota.)\n\nPara atingir todos os seus objetivos, o chefe deverá cortar a calota do melão numa altura h, em centímetro, igual a",
+    "choices": [
+      { "id": "A", "text": "5 - √91/2" },
+      { "id": "B", "text": "10 - √91" },
+      { "id": "C", "text": "1" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Analisamos as dimensões da esfera: O diâmetro do melão é 10 cm, logo o raio da esfera (R) é 5 cm.",
+        "2. Interpretamos os objetivos do chefe: Para ter a 'maior área possível' para os doces, ele deve retirar a menor calota possível. Isso significa usar o valor mínimo permitido para o raio do corte (r = 3 cm).",
+        "3. Identificamos o triângulo retângulo no interior da esfera: O triângulo é formado pelo centro da esfera (O), o centro da seção de corte (A) e um ponto na borda do corte (B).",
+        "4. Aplicamos o Teorema de Pitágoras no triângulo OAB: R² = OA² + r². Onde R = 5 (hipotenusa) e r = 3 (cateto).",
+        "5. Calculamos a distância do centro ao corte (OA): 5² = OA² + 3² -> 25 = OA² + 9 -> OA² = 16 -> OA = 4 cm.",
+        "6. Relacionamos OA com a altura da calota (h): A altura h é a diferença entre o raio total da esfera (R) e a distância do centro ao plano de corte (OA).",
+        "7. Finalizamos o cálculo: h = R - OA -> h = 5 - 4 = 1 cm."
+      ],
+      "final_reason": "Para maximizar a área de fixação dos doces, o corte deve ser o menor possível, respeitando o raio mínimo de estabilidade (r = 3 cm). Usando o Teorema de Pitágoras com o raio da esfera (5 cm), descobrimos que o plano de corte está a 4 cm do centro. Portanto, a altura h da calota retirada é de 1 cm (5 - 4)."
+    },
+    "tags": ["Geometria Espacial", "Esferas", "Teorema de Pitágoras", "Otimização"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_136",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O dono de uma farmácia resolveu colocar à vista do público o gráfico mostrado a seguir, que apresenta a evolução do total de vendas (em Reais) de certo medicamento ao longo do ano de 2011.\n\n![](https://enem.dev/2012/questions/148/26ce4617-a934-4ff1-83a3-96a7dad3e773.png) (Um gráfico de linha que representa o desempenho de 'vendas (R$)' ao longo de doze meses ('mês'), de Janeiro a Dezembro. O eixo vertical indica os valores de venda (sem escala numérica explícita) e o eixo horizontal lista as abreviações dos meses. A linha do gráfico apresenta as seguintes flutuações: 1. Crescimento contínuo de Janeiro a Março. 2. Queda acentuada em Abril, seguida de recuperação em Maio e atingindo o pico máximo anual em Junho. 3. Queda significativa em Julho e Agosto, sendo Agosto o ponto mais baixo do gráfico. 4. Recuperação expressiva em Setembro, nova queda em Outubro, seguida de alta em Novembro e leve baixa em Dezembro. O gráfico é ideal para análise de sazonalidade e identificação de períodos de maior e menor faturamento.)\n\nDe acordo com o gráfico, os meses em que ocorreram, respectivamente, a maior e a menor venda absolutas em 2011 foram",
+    "choices": [
+      { "id": "A", "text": "Março e abril." },
+      { "id": "B", "text": "Março e agosto." },
+      { "id": "C", "text": "Agosto e setembro." },
+      { "id": "D", "text": "Junho e setembro." },
+      { "id": "E", "text": "Junho e agosto." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o eixo vertical (Vendas em R$): quanto mais alto o ponto no gráfico, maior o valor da venda naquele mês.",
+        "2. Identificamos o ponto de maior venda (pico máximo): percorrendo o gráfico de Janeiro a Dezembro, observamos que o ponto mais alto de toda a linha ocorre no mês de Junho.",
+        "3. Analisamos o eixo horizontal (Meses): quanto mais baixo o ponto no gráfico, menor o valor da venda.",
+        "4. Identificamos o ponto de menor venda (vale mínimo): observamos que, após a queda iniciada em Julho, o gráfico atinge seu nível mais baixo em Agosto, antes de iniciar uma nova recuperação em Setembro.",
+        "5. Combinamos as informações: a maior venda ocorreu em Junho e a menor venda ocorreu em Agosto."
+      ],
+      "final_reason": "Através da observação direta das alturas dos pontos no gráfico de linha, identificamos que o ponto mais elevado da série temporal corresponde ao mês de Junho, enquanto o ponto mais baixo corresponde ao mês de Agosto."
+    },
+    "tags": ["Análise de Gráficos", "Estatística Descritiva", "Interpretação de Dados"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_137",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Maria que inovar em sua loja de embalagens e decidiu vender caixas com diferentes formatos. Nas imagens apresentadas estão as planificações dessas caixas.\n\n![](https://enem.dev/2012/questions/149/1c6c7b68-7082-4bde-97d1-7095071d775c.png) (Uma ilustração técnica composta por três figuras cinzas dispostas horizontalmente, representando a planificação de diferentes sólidos geométricos. 1. À esquerda, a planificação de um cilindro, composta por um retângulo central e dois círculos idênticos (bases), um acima e outro abaixo do retângulo. 2. Ao centro, a planificação de um prisma pentagonal reto, formada por cinco retângulos adjacentes (faces laterais) e dois pentágonos regulares (bases) fixados ao retângulo central, um no topo e outro na base. 3. À direita, a planificação de um tetraedro regular ou pirâmide triangular, consistindo em um triângulo equilátero central de cor cinza claro, rodeado por três triângulos equiláteros cinza escuro que compartilham seus lados com o triângulo central. O diagrama ilustra como superfícies bidimensionais podem ser dobradas para formar objetos tridimensionais.)\n\nQuais serão os sólidos geométricos que Maria obterá a partir dessas planificações?",
+    "choices": [
+      { "id": "A", "text": "Cilindro, prisma de base pentagonal e pirâmide." },
+      { "id": "B", "text": "Cone, prisma de base pentagonal e pirâmide." },
+      { "id": "C", "text": "Cone, tronco de pirâmide e pirâmide." },
+      { "id": "D", "text": "Cilindro, tronco de pirâmide e prisma." },
+      { "id": "E", "text": "Cilindro, prisma e tronco de cone." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a primeira planificação: Ela apresenta um retângulo (que formará a superfície lateral curva) e dois círculos idênticos (que serão as bases paralelas). Essa configuração é característica de um Cilindro.",
+        "2. Analisamos a segunda planificação: Ela possui cinco retângulos iguais (faces laterais) e dois pentágonos regulares (bases). Ao dobrar os retângulos e fixar as bases, obtemos um Prisma de Base Pentagonal.",
+        "3. Analisamos a terceira planificação: Ela é composta por quatro triângulos equiláteros. Ao dobrar os três triângulos externos em direção ao centro, eles se encontram em um único vértice superior, formando uma Pirâmide de base triangular (também conhecida como Tetraedro).",
+        "4. Combinamos os nomes dos sólidos identificados: Cilindro, Prisma de base pentagonal e Pirâmide."
+      ],
+      "final_reason": "Ao associar as faces laterais com suas respectivas bases, identificamos que a primeira figura fecha um corpo redondo (cilindro), a segunda um poliedro de bases paralelas (prisma pentagonal) e a terceira um poliedro com faces convergindo para um vértice (pirâmide)."
+    },
+    "tags": ["Geometria Espacial", "Planificação", "Sólidos Geométricos", "Visão Espacial"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_138",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Jogar baralho é uma atividade que estimula o raciocínio. Um jogo tradicional é a Paciência, que utiliza 52 cartas. Inicialmente são formadas sete colunas com as cartas. A primeira coluna tem uma carta, a segunda tem duas cartas, a terceira tem três cartas, a quarta tem quatro cartas, e assim sucessivamente até a sétima coluna, a qual tem sete cartas, e o que sobra forma o monte, que são as cartas não utilizadas nas colunas. A quantidade de cartas que forma o monte é",
+    "choices": [
+      { "id": "A", "text": "21" },
+      { "id": "B", "text": "24" },
+      { "id": "C", "text": "26" },
+      { "id": "D", "text": "28" },
+      { "id": "E", "text": "31" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Identificamos o total de cartas disponíveis no baralho: 52 cartas.",
+        "2. Determinamos a quantidade de cartas em cada uma das 7 colunas: as colunas seguem a sequência (1, 2, 3, 4, 5, 6, 7).",
+        "3. Calculamos a soma das cartas nas colunas: S = 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 cartas.",
+        "4. (Opcional) Utilizamos a fórmula da soma de uma PA: S = (a1 + an) * n / 2 -> S = (1 + 7) * 7 / 2 = 8 * 7 / 2 = 28.",
+        "5. Calculamos a quantidade de cartas que sobrou para o monte: Total de cartas - Total nas colunas.",
+        "6. Finalizamos a conta: 52 - 28 = 24 cartas no monte."
+      ],
+      "final_reason": "Ao somar a quantidade de cartas distribuídas nas sete colunas (1 a 7), obtemos um total de 28 cartas utilizadas. Subtraindo esse valor do total de 52 cartas do baralho, restam 24 cartas para formar o monte."
+    },
+    "tags": ["Aritmética", "Soma de PA", "Raciocínio Lógico"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_139",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O gráfico mostra a variação da extensão média de gelo marítimo, em milhões de quilômetros quadrados, comparando dados dos anos 1995, 1998, 2000, 2005 e 2007. Os dados correspondem aos meses de junho a setembro. O Ártico começa a recobrar o gelo quando termina o verão, em meados de setembro. O gelo do mar atua como o sistema de resfriamento da Terra, refletindo quase toda a luz solar de volta ao espaço. Águas de oceanos escuros, por sua vez, absorvem a luz solar e reforçam o aquecimento do Ártico, ocasionando derretimento crescente do gelo.\n\n![](https://enem.dev/2012/questions/151/d4cbd8c7-f9da-48aa-9108-72f611ce5370.png) (Um gráfico de linhas que mostra a 'Extensão de gelo marítimo' ao longo dos meses de Junho, Julho, Agosto e Setembro, comparando dados de cinco anos diferentes: 1995, 1998, 2000, 2005 e 2007. O eixo vertical apresenta uma escala numérica que varia de 3 a 15. Todas as linhas apresentam uma tendência de declínio contínuo conforme avançam de Junho em direção a Setembro, sugerindo o derretimento sazonal. No entanto, há uma separação clara entre os anos: a linha de 1995 permanece no topo (maior extensão), enquanto a linha de 2007 está posicionada na parte inferior (menor extensão), indicando uma redução progressiva da camada de gelo ao longo das décadas. No final de Setembro, as linhas de 1995 a 2005 mostram uma leve curva de recuperação, exceto a de 2007, que termina no ponto mais baixo do gráfico.)\n\nCom base no gráfico e nas informações do texto, é possível inferir que houve maior aquecimento global em",
+    "choices": [
+      { "id": "A", "text": "1995" },
+      { "id": "B", "text": "1998" },
+      { "id": "C", "text": "2000" },
+      { "id": "D", "text": "2005" },
+      { "id": "E", "text": "2007" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Interpretamos a relação física descrita no texto: o gelo reflete a luz (resfriamento), enquanto as águas escuras absorvem a luz (aquecimento). Portanto, menor extensão de gelo indica maior aquecimento.",
+        "2. Analisamos o eixo vertical do gráfico: ele representa a 'Extensão de gelo marítimo'. Quanto mais baixa a linha no gráfico, menor é a quantidade de gelo presente.",
+        "3. Comparamos as linhas dos anos citados (1995, 1998, 2000, 2005 e 2007): observamos que a linha correspondente ao ano de 2007 está sistematicamente abaixo de todas as outras em todos os meses (junho a setembro).",
+        "4. Identificamos o ponto crítico: em setembro de 2007, a extensão de gelo atinge o valor mínimo absoluto mostrado no gráfico (abaixo de 5 milhões de km²).",
+        "5. Concluímos a inferência: se 2007 apresentou a menor extensão de gelo, foi o ano em que houve a maior absorção de luz solar e, portanto, o maior aquecimento global entre os anos comparados."
+      ],
+      "final_reason": "O texto estabelece que o derretimento do gelo reforça o aquecimento do Ártico. Como o gráfico mostra que o ano de 2007 teve a menor extensão média de gelo marítimo em todos os meses analisados, infere-se que este foi o ano de maior aquecimento global no período."
+    },
+    "tags": ["Análise de Gráficos", "Ciências da Natureza", "Mudanças Climáticas", "Interpretação de Dados"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_140",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma pesquisa realizada por estudantes da Faculdade de Estatística mostra, em horas por dia, como os jovens entre 12 e 18 anos gastam seu tempo, tanto durante a semana (de segunda-feira a sexta-feira), como no fim de semana (sábado e domingo). A seguinte tabela ilustra os resultados da pesquisa.\n\n![](https://enem.dev/2012/questions/155/2e31c69a-4a2e-40f7-be2d-de13087cb5c0.png) (Uma tabela intitulada 'Rotina Juvenil' que compara a alocação de tempo (presumivelmente em horas) entre dois períodos: 'Durante a semana' e 'No fim de semana'. A tabela possui três colunas e seis categorias de atividades. Os dados são: 1. 'Assistir à televisão': 3 (semana) e 3 (fim de semana). 2. 'Atividades domésticas': 1 (semana) e 1 (fim de semana). 3. 'Atividades escolares': 5 (semana) e 1 (fim de semana). 4. 'Atividades de lazer': 2 (semana) e 4 (fim de semana). 5. 'Descanso, higiene e alimentação': 10 (semana) e 12 (fim de semana). 6. 'Outras atividades': 3 (semana) e 3 (fim de semana). A tabela destaca mudanças significativas apenas em atividades escolares (redução), lazer (dobro) e descanso (aumento) durante o fim de semana.)\n\nDe acordo com esta pesquisa, quantas horas de seu tempo gasta um jovem entre 12 e 18 anos, na semana inteira (de segunda-feira a domingo), nas atividades escolares?",
+    "choices": [
+      { "id": "A", "text": "20" },
+      { "id": "B", "text": "21" },
+      { "id": "C", "text": "24" },
+      { "id": "D", "text": "25" },
+      { "id": "E", "text": "27" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os períodos da semana no enunciado: 'Durante a semana' compreende 5 dias (segunda a sexta) e 'Fim de semana' compreende 2 dias (sábado e domingo).",
+        "2. Localizamos os dados para 'Atividades escolares' na tabela: o jovem gasta 5 horas por dia durante a semana e 1 hora por dia no fim de semana.",
+        "3. Calculamos o total de horas gastas de segunda a sexta: 5 dias * 5 horas/dia = 25 horas.",
+        "4. Calculamos o total de horas gastas no sábado e domingo: 2 = 2 dias * 1 hora/dia = 2 horas.",
+        "5. Somamos os dois resultados para obter o total da semana inteira: 25 horas + 2 horas = 27 horas."
+      ],
+      "final_reason": "Para encontrar o gasto total semanal, multiplicamos as 5 horas diárias pelos 5 dias úteis (25h) e somamos à 1 hora diária dos 2 dias de fim de semana (2h), resultando em 27 horas semanais dedicadas às atividades escolares."
+    },
+    "tags": ["Aritmética", "Interpretação de Tabelas", "Grandezas e Medidas", "Razão e Proporção"],
+    "difficulty": "easy"
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
 
 
 

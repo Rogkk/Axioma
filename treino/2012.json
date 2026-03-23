@@ -1,0 +1,1997 @@
+{
+  "metadata": {
+    "limit": 45,
+    "offset": 136,
+    "total": 185,
+    "hasMore": true
+  },
+  "questions": [
+    {
+      "title": "Questão 136 - ENEM 2012",
+      "index": 136,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "O esporte de alta competição da atualidade produziu uma questão ainda sem resposta: Qual é o limite do corpo humano? O maratonista original, o grego da lenda, morreu de fadiga por ter corrido 42 quilômetros. O americano Dean Karnazes, cruzando sozinho as planícies da Califórnia, conseguiu correr dez vezes mais em 75 horas.  \nUm professor de Educação Física, ao discutir com a turma o texto sobre a capacidade do maratonista americano, desenhou na lousa uma pista reta de 60 centímetros, que representaria o percurso referido.\n\n_Disponível em: http://veja.abril.com.br. Acesso em: 25 jun. 2011 (adaptado)._",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Se o percurso de Dean Karnazes fosse também em uma pista reta, qual seria a escala entre a pista feita pelo professor e a percorrida pelo atleta?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1:700",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1:7 000",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1:70 000",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "1:700 000",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "1:7 000 000",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 137 - ENEM 2012",
+      "index": 137,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/137/5720ed4d-1330-4139-8e45-4161901d1ed3.png)\n\nDobrando-se o raio de duas das circunferências centradas em vértices opostos do losango e ainda mantendo-se a configuração das tangências, obtém-se uma situação conforme ilustrada pela Figura 2.\n\n![](https://enem.dev/2012/questions/137/232bcbe6-caaa-44af-a96a-317187b14850.png)",
+      "files": [
+        "https://enem.dev/2012/questions/137/5720ed4d-1330-4139-8e45-4161901d1ed3.png",
+        "https://enem.dev/2012/questions/137/232bcbe6-caaa-44af-a96a-317187b14850.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "O perímetro do losango da Figura 2, quando comparado ao perímetro do losango da Figura 1, teve um aumento de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "300%.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "200%.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "150%.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "100%.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "50%.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 138 - ENEM 2012",
+      "index": 138,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": null,
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Sabendo-se que um deles levou 50 laranjas a mais no segundo trajeto, qual a quantidade de laranjas que José, Carlos e Paulo, nessa ordem, transportaram na segunda parte do trajeto?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "600, 550, 350",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "300, 300, 150",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "300, 250, 200",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "200, 200, 100",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "100, 100, 50",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 139 - ENEM 2012",
+      "index": 139,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "O gráfico a seguir apresenta o resultado da enquete.\n\n![](https://enem.dev/2012/questions/139/d676f9b1-2c82-461a-9863-f38aacafed80.png)\n\nO administrador do _blog_ irá sortear um livro entre os visitantes que opinaram na postagem “Contos de Halloween”.",
+      "files": [
+        "https://enem.dev/2012/questions/139/d676f9b1-2c82-461a-9863-f38aacafed80.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Sabendo que nenhum visitante votou mais de uma vez, a probabilidade de uma pessoa escolhida ao acaso entre as que opinaram ter assinalado que o conto “Contos de Halloween” é “Chato” é mais aproximada por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "0,09.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "0,12.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "0,14.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "0,15.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "0,18.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 140 - ENEM 2012",
+      "index": 140,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2012,
+      "context": "Arthur deseja comprar um terreno de Cléber, que lhe oferece as seguintes possibilidades de pagamento:\n\n• Opção 1: Pagar à vista, por R$ 55 000,00;\n\n• Opção 2: Pagar a prazo, dando uma entrada de R$ 30 000,00, e mais uma prestação de R$ 26 000,00 para dali a 6 meses.\n\n• Opção 3: Pagar a prazo, dando uma entrada de R$ 20 000,00, mais uma prestação de R$ 20 000,00, para dali a 6 meses e outra de R$ 18 000,00 para dali a 12 meses da data da compra.\n\n• Opção 4: Pagar a prazo dando uma entrada de R$ 15 000,00 e o restante em 1 ano da data da compra, pagando R$ 39 000,00.\n\n• Opção 5: pagar a prazo, dali a um ano, o valor de R$ 60 000,00.\n\nArthur tem o dinheiro para pagar à vista, mas avalia se não seria melhor aplicar o dinheiro do valor à vista (ou até um valor menor) em um investimento, com rentabilidade de 10% ao semestre, resgatando os valores à medida que as prestações da opção escolhida fossem vencendo.",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Após avaliar a situação do ponto de vista financeiro e das condições apresentadas, Arthur concluiu que era mais vantajoso financeiramente escolher a opção:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "5.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 141 - ENEM 2012",
+      "index": 141,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/141/e150aff4-41c0-4f6b-9a19-232d978fc497.png)",
+      "files": [
+        "https://enem.dev/2012/questions/141/e150aff4-41c0-4f6b-9a19-232d978fc497.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Nestas condições, a área perdida do forro, após a primeira lavagem, será expressa por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2xy",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "15 − 3x",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "15 − 5y",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "−5y − 3x",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5y + 3x − xy",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 142 - ENEM 2012",
+      "index": 142,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "A capacidade mínima, em BTU/h, de um aparelho de ar-condicionado, para ambientes sem exposição ao sol, pode ser determinada da seguinte forma:\n\n• 600 BTU/h por m2 , considerando-se até duas pessoas no ambiente;\n\n• para cada pessoa adicional nesse ambiente, acrescentar 600 BTU/h;\n\n• acrescentar mais 600 BTU/h para cada equipamento eletroeletrônico em funcionamento no ambiente.\n\nSerá instalado um aparelho de ar-condicionado em uma sala, sem exposição ao sol, de dimensões 4 m x 5 m, em que permaneçam quatro pessoas e possua um aparelho de televisão em funcionamento.",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "A capacidade mínima, em BTU/h, desse aparelho de arcondicionado deve ser",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "12 000.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "12 600.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "13 200.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "13 800.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "15 000.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 143 - ENEM 2012",
+      "index": 143,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/143/29dbd2b9-ef4e-4af8-8de5-2a651c4935c4.png)",
+      "files": [
+        "https://enem.dev/2012/questions/143/29dbd2b9-ef4e-4af8-8de5-2a651c4935c4.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "A expressão que traduz a resistência S dessa viga de madeira é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/143/fef35e1c-c502-4670-9b8c-cb591dce50d8.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/143/887c79e5-b54f-4164-84df-4b6150b6b726.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/143/ea36520c-f0fd-4346-824f-8027c18a169c.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/143/c637c2e1-f94b-4d64-a420-d27b03a11fdc.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/143/dd92ffbd-5cc1-48a6-9d20-5d948d58abd5.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 144 - ENEM 2012",
+      "index": 144,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "O diretor de uma escola convidou os 280 alunos de terceiro ano a participarem de uma brincadeira. Suponha que existem 5 objetos e 6 personagens numa casa de 9 cômodos; um dos personagens esconde um dos objetos em um dos cômodos da casa. O objetivo da brincadeira é adivinhar qual objeto foi escondido por qual personagem e em qual cômodo da casa o objeto foi escondido.\n\nTodos os alunos decidiram participar. A cada vez um aluno é sorteado e dá a sua resposta. As respostas devem ser sempre distintas das anteriores, e um mesmo aluno não pode ser sorteado mais de uma vez. Se a resposta do aluno estiver correta, ele é declarado vencedor e a brincadeira é encerrada.",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "O diretor sabe que algum aluno acertará a resposta porque há",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "10 alunos a mais do que possíveis respostas distintas.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "20 alunos a mais do que possíveis respostas distintas.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "119 alunos a mais do que possíveis respostas distintas.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "260 alunos a mais do que possíveis respostas distintas.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "270 alunos a mais do que possíveis respostas distintas.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 145 - ENEM 2012",
+      "index": 145,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/145/6e2e626f-d7f8-4615-bd32-13151f6cc0be.png)",
+      "files": [
+        "https://enem.dev/2012/questions/145/6e2e626f-d7f8-4615-bd32-13151f6cc0be.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Qual é a árvore que apresenta a maior altura real?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "V",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 146 - ENEM 2012",
+      "index": 146,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/146/f3712744-381c-4ed8-8f20-86b3e9a52be9.png)\n\nUma jogada consiste em:\n\n1º) o jogador apresenta um palpite sobre a cor da bola que será retirada por ele da urna 2;\n\n2º) ele retira, aleatoriamente, uma bola da urna 1 e a coloca na urna 2, misturando-a com as que lá estão;\n\n3º) em seguida ele retira, também aleatoriamente, uma bola da urna 2;\n\n4º) se a cor da última bola retirada for a mesma do palpite inicial, ele ganha o jogo.",
+      "files": [
+        "https://enem.dev/2012/questions/146/f3712744-381c-4ed8-8f20-86b3e9a52be9.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Qual cor deve ser escolhida pelo jogador para que ele tenha a maior probabilidade de ganhar?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Azul.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Amarela.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Branca.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Verde.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Vermelha.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 147 - ENEM 2012",
+      "index": 147,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/147/04304914-c660-44ee-a7a0-ee9be4ae9d9c.png)",
+      "files": [
+        "https://enem.dev/2012/questions/147/04304914-c660-44ee-a7a0-ee9be4ae9d9c.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Considerando as informações indicadas na figura, o consumo total de água registrado nesse hidrômetro, em litros, é igual a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "3 534,85.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3 544,20.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3 534 850,00.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "3 534 859,35.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "3 534 850,39.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 148 - ENEM 2012",
+      "index": 148,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "",
+      "files": [
+        "https://enem.dev/2012/questions/148/26ce4617-a934-4ff1-83a3-96a7dad3e773.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 149 - ENEM 2012",
+      "index": 149,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "",
+      "files": [
+        "https://enem.dev/2012/questions/149/1c6c7b68-7082-4bde-97d1-7095071d775c.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 150 - ENEM 2012",
+      "index": 150,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "21.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "24.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "26.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "28.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "31.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 151 - ENEM 2012",
+      "index": 151,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "",
+      "files": [
+        "https://enem.dev/2012/questions/151/d4cbd8c7-f9da-48aa-9108-72f611ce5370.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1995.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "1998.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "2000.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "2005.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "2007.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 152 - ENEM 2012",
+      "index": 152,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Em exposições de artes plásticas, é usual que estátuas sejam expostas sobre plataformas giratórias. Uma medida de segurança é que a base da escultura esteja integralmente apoiada sobre a plataforma. Para que se providencie o equipamento adequado, no caso de uma base quadrada que será fixada sobre uma plataforma circular, o auxiliar técnico do evento deve estimar a medida _R_ do raio adequado para a plataforma em termos da medida _L_ do lado da base da estátua.",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Qual relação entre R e L o auxiliar técnico deverá apresentar de modo que a exigência de segurança seja cumprida?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/152/1dc33ce8-535d-4502-917d-b1d1ca52d5ab.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/152/66e7c13b-a7c4-431d-a72c-9f63b3b4f1f9.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/152/32ffdfbb-dd66-41a9-b2c2-cc6ed1cc2668.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/152/0b5a0e31-232e-4214-a9f3-cd4fff19cc9d.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/152/9026b0e8-1acb-4887-ada6-e1889a31ff04.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 153 - ENEM 2012",
+      "index": 153,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/153/fa4fd7b5-9f57-4575-b0d7-efd5da168ad2.png)\n\nNa Figura 2, o ponto A está no plano do chão onde está colocado o globo da morte e o segmento AB passa pelo centro da esfera e é perpendicular ao plano do chão. Suponha que há um foco de luz direcionado para o chão colocado no ponto B e que um motoqueiro faça um trajeto dentro da esfera, percorrendo uma circunferência que passa pelos pontos A e B.",
+      "files": [
+        "https://enem.dev/2012/questions/153/fa4fd7b5-9f57-4575-b0d7-efd5da168ad2.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "A imagem do trajeto feito pelo motoqueiro no plano do chão é melhor representada por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/153/4407a6d1-8bea-4593-a271-4d67fae4f8ea.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/153/c5a84103-a02d-4576-9326-bb4cc62998e1.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/153/4442f0fa-2803-46d7-bf5c-6e73037f198e.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/153/568e9422-3b06-416a-9021-dbd0345427cc.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/153/6485f40e-a5f1-4426-9075-1bc63b0c4a87.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 154 - ENEM 2012",
+      "index": 154,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/154/81fbfbc5-0f6b-40ed-a17e-9afc89d413fa.png)",
+      "files": [
+        "https://enem.dev/2012/questions/154/81fbfbc5-0f6b-40ed-a17e-9afc89d413fa.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Uma proposta substitutiva, relativa às alturas de tomadas e interruptores, respectivamente, que atenderá àquele potencial comprador é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "0,20 m e 1,45 m.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "0,20 m e 1,40 m.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "0,25 m e 1,35 m.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "0,25 m e 1,30 m.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "0,45 m e 1,20 m.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 155 - ENEM 2012",
+      "index": 155,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "",
+      "files": [
+        "https://enem.dev/2012/questions/155/2e31c69a-4a2e-40f7-be2d-de13087cb5c0.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "20",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "21",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "24",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "25",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "27",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 156 - ENEM 2012",
+      "index": 156,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": null,
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Com essas informações, o gráfico que melhor representa a relação entre salário e o número de produtos vendidos é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/156/4e2c0e03-b523-4518-aaef-fb4734e8ad69.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/156/f19a221b-7715-49be-a78c-0554583108f7.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/156/35d71a7f-1928-470f-b151-e475785e7579.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/156/7ab9d513-032b-4753-81cc-95bcd632fb4d.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/156/0df218fe-bdcd-42f6-8188-5cc32405b48e.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 157 - ENEM 2012",
+      "index": 157,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Um maquinista de trem ganha R$ 100,00 por viagem e só pode viajar a cada 4 dias. Ele ganha somente se fizer a viagem e sabe que estará de férias de 1º a 10 de junho, quando não poderá viajar. Sua primeira viagem ocorreu no dia primeiro de janeiro. Considere que o ano tem 365 dias.",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Se o maquinista quiser ganhar o máximo possível, quantas viagens precisará fazer?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "37",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "51",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "88",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "89",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "91",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 158 - ENEM 2012",
+      "index": 158,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/158/1f4ff459-e739-491b-abba-8350d8dd458b.png)",
+      "files": [
+        "https://enem.dev/2012/questions/158/1f4ff459-e739-491b-abba-8350d8dd458b.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "O que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm³?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "O nível subiria 0,2 cm, fazendo a água ficar com 20,2 cm de altura.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "O nível subiria 1 cm, fazendo a água ficar com 21 cm de altura.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "O nível subiria 2 cm, fazendo a água ficar com 22 cm de altura.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "O nível subiria 8 cm, fazendo a água transbordar.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "O nível subiria 20 cm, fazendo a água transbordar.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 159 - ENEM 2012",
+      "index": 159,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/159/4889b43a-36e3-4b29-91b2-ab87fda455d7.png)",
+      "files": [
+        "https://enem.dev/2012/questions/159/4889b43a-36e3-4b29-91b2-ab87fda455d7.png"
+      ],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Avaliando-se todas as informações, serão necessários",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Quatro unidades do tipo A e nenhuma unidade do tipo B.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Três unidades do tipo A e uma unidade do tipo B.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Duas unidades do tipo A e duas unidades do tipo B.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Uma unidade do tipo A e três unidades do tipo B.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Nenhuma unidade do tipo A e quatro unidades do tipo B.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 160 - ENEM 2012",
+      "index": 160,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/160/c6742e65-6a0c-4579-b559-5327fa9d1a4c.png)\n\nNesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m², e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m².",
+      "files": [
+        "https://enem.dev/2012/questions/160/c6742e65-6a0c-4579-b559-5327fa9d1a4c.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "De acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "R$ 22,50",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "R$ 35,00",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "R$ 40,00",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "R$ 42,50",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "R$ 45,00",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 161 - ENEM 2012",
+      "index": 161,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "João decidiu contratar os serviços de uma empresa por telefone através do SAC (Serviço de Atendimento ao Consumidor). O atendente ditou para João o número de protocolo de atendimento da ligação e pediu que ele anotasse. Entretanto, João não entendeu um dos algarismos ditados pelo atendente e anotou o número 1 3 \\_ 9 8 2 0 7, sendo que o espaço vazio é o do algarismo que João não entendeu.",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "De acordo com essas informações, a posição ocupada pelo algarismo que falta no número de protocolo é a de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Centena.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Dezena de milhar.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Centena de milhar.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Milhão.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Centena de milhão.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 162 - ENEM 2012",
+      "index": 162,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/162/bd217549-d00a-441a-8605-f2ae4d33bd87.png)\n\nNeste dia, cinco investidores compraram e venderam o mesmo volume de ações, porém em horários diferentes, de acordo com a seguinte tabela.\n\n![](https://enem.dev/2012/questions/162/669dd1ca-6db2-4e87-a39c-808c517fc32e.png)",
+      "files": [
+        "https://enem.dev/2012/questions/162/bd217549-d00a-441a-8605-f2ae4d33bd87.png",
+        "https://enem.dev/2012/questions/162/669dd1ca-6db2-4e87-a39c-808c517fc32e.png"
+      ],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Com relação ao capital adquirido na compra e venda das ações, qual investidor fez o melhor negócio?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 163 - ENEM 2012",
+      "index": 163,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/163/75b75570-0067-4c97-98b4-9742aaccb113.png)\n\nO gerente de atendimento deseja identificar os dias da semana em que o nível de eficiência pode ser considerado muito bom, ou seja, os dias em que o número de reclamações resolvidas excede o número de reclamações recebidas.\n\n_Disponível em: http://blog.bibliotecaunix.org. Acesso em: 21 jan. 2012 (adaptado)._",
+      "files": [
+        "https://enem.dev/2012/questions/163/75b75570-0067-4c97-98b4-9742aaccb113.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "O gerente de atendimento pôde concluir, baseado no conceito de eficiência utilizado na empresa e nas informações do gráfico, que o nível de eficiência foi muito bom na",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Segunda e na terça-feira.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Terça e na quarta-feira.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Terça e na quinta-feira.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Quinta-feira, no sábado e no domingo.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "Segunda, na quinta e na sexta-feira.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 164 - ENEM 2012",
+      "index": 164,
+      "discipline": "ciencias-humanas",
+      "language": null,
+      "year": 2012,
+      "context": "Uma mãe recorreu à bula para verificar a dosagem de um remédio que precisava dar a seu filho. Na bula, recomendava-se a seguinte dosagem: 5 gotas para cada 2 kg de massa corporal a cada 8 horas.",
+      "files": [],
+      "correctAlternative": "A",
+      "alternativesIntroduction": "Se a mãe ministrou corretamente 30 gotas do remédio a seu filho a cada 8 horas, então a massa corporal dele é de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "12 kg.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "16 kg.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "24 kg.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "36 kg.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "75 kg.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 165 - ENEM 2012",
+      "index": 165,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/165/3fbde9b0-ee25-43f8-8514-0b3b42bd2adc.png)\n\nO deslocamento descrito por João foi: mova-se pela pirâmide, sempre em linha reta, do ponto A ao ponto E, a seguir do ponto E ao ponto M, e depois de M a C.",
+      "files": [
+        "https://enem.dev/2012/questions/165/3fbde9b0-ee25-43f8-8514-0b3b42bd2adc.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "O desenho que Bruno deve fazer é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/165/8889758c-e418-4553-8e26-b602b0862a7e.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/165/38082c65-4727-4561-8ea3-0de04aa0346b.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/165/8b2481ca-b8ca-4958-8eec-be9f7ce78448.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/165/2adf001e-6960-46c9-91bc-fa1ca2b925f9.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/165/1332407d-5c97-49e1-b94a-2a46220809ac.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 166 - ENEM 2012",
+      "index": 166,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/166/acff0d62-4e1d-4eb6-b58a-a91804ba997c.png)\n\nem que QO é quantidade de oferta, QD é a quantidade de demanda e P é o preço do produto.\n\nA partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando QO e QD se igualam.",
+      "files": [
+        "https://enem.dev/2012/questions/166/acff0d62-4e1d-4eb6-b58a-a91804ba997c.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Para a situação descrita, qual o valor do preço de equilíbrio?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "5",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "11",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "13",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "23",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "33",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 167 - ENEM 2012",
+      "index": 167,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Nos shopping centers costumam existir parques com vários brinquedos e jogos. Os usuários colocam créditos em um cartão, que são descontados por cada período de tempo de uso dos jogos. Dependendo da pontuação da criança no jogo, ela recebe um certo número de tíquetes para trocar por produtos nas lojas dos parques. Suponha que o período de uso de um brinquedo em certo shopping custa R$ 3,00 e que uma bicicleta custa 9 200 tíquetes.",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Para uma criança que recebe 20 tíquetes por período de tempo que joga, o valor, em reais, gasto com créditos para obter a quantidade de tíquetes para trocar pela bicicleta é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "153.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "460.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "1 218.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "1 380.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "3 066.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 168 - ENEM 2012",
+      "index": 168,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Dentre outros objetos de pesquisa, a Alometria estuda a relação entre medidas de diferentes partes do corpo humano. Por exemplo, segundo a Alometria, a área A da superfície corporal de uma pessoa relaciona-se com a sua massa m pela fórmula A = _k_⋅m2/3, em que _k_ é uma constante positiva.",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Se no período que vai da infância até a maioridade de um indivíduo sua massa é multiplicada por 8, por quanto será multiplicada a área da superfície corporal?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "∛16",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "√24",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "8",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "64",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 169 - ENEM 2012",
+      "index": 169,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/169/b957b116-b45b-4ac5-8ee8-3a2519ae6e1f.png)",
+      "files": [
+        "https://enem.dev/2012/questions/169/b957b116-b45b-4ac5-8ee8-3a2519ae6e1f.png"
+      ],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "Para obter essas médias, ele multiplicou a matriz obtida a partir da tabela por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/169/ac49b2a2-c8b9-47db-aa0b-e3c194aa1553.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/169/f19cc62d-cb14-407a-bbd9-20d5c116cb11.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/169/07f396c3-1c1c-46aa-bbef-156e0aa6e668.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/169/943f11ff-0f7b-4ad1-8dea-915abf2ed0e7.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/169/c2bcaf1c-20e6-43b6-801f-19302b2260bb.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 170 - ENEM 2012",
+      "index": 170,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Existem no mercado chuveiros elétricos de diferentes potências, que representam consumos e custos diversos. A potência (P) de um chuveiro elétrico é dada pelo produto entre sua resistência elétrica (R) e o quadrado da corrente elétrica (i) que por ele circula. O consumo de energia elétrica (E), por sua vez, é diretamente proporcional à potência do aparelho.",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Considerando as características apresentadas, qual dos gráficos a seguir representa a relação entre a energia consumida (E) por um chuveiro elétrico e a corrente elétrica (i) que circula por ele?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/170/715a4076-666c-46a9-ae05-2a83d355296e.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/170/4ac7fc20-5185-4cae-9a82-77ae7491d0ab.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/170/4c3ff5e4-57b9-480b-be2f-3753e095d212.png",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/170/d73bdaba-0aea-49f9-89e1-74929848eba9.png",
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": null,
+          "file": "https://enem.dev/2012/questions/170/4680b091-1ae6-4487-a721-e8fcc1265f13.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 171 - ENEM 2012",
+      "index": 171,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Em 20 de fevereiro de 2011 ocorreu a grande erupção do vulcão Bulusan nas Filipinas. A sua localização geográfica no globo terrestre é dada pelo GPS (sigla em inglês para Sistema de Posicionamento Global) com longitude de 124° 3’ 0” a leste do Meridiano de Greenwich.\n\nDado: 1° equivale a 60’ e 1’ equivale a 60”.\n\nPAVARIN, G. Galileu, fev. 2012 (adaptado).",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "A representação angular da localização do vulcão com relação a sua longitude na forma decimal é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "124,02°.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "124,05°.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "124,20°.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "124,30°.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "124,50°.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 172 - ENEM 2012",
+      "index": 172,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/172/a1bd4967-d16c-4d09-b0c0-cd11524f5d94.png)",
+      "files": [
+        "https://enem.dev/2012/questions/172/a1bd4967-d16c-4d09-b0c0-cd11524f5d94.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Com base nessas informações, a menor distância que o asteroide YU 55 passou da superfície da Terra é igual a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "3,25 × 102 km.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3,25 × 103 km.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "3,25 × 104 km.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "3,25 × 105 km.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "3,25 × 106 km.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 173 - ENEM 2012",
+      "index": 173,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Há, em virtude da demanda crescente de economia de água, equipamentos e utensílios como, por exemplo, as bacias sanitárias ecológicas, que utilizam 6 litros de água por descarga em vez dos 15 litros utilizados por bacias sanitárias não ecológicas, conforme dados da Associação Brasileira de Normas Técnicas (ABNT).",
+      "files": [],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Qual será a economia diária de água obtida por meio da substituição de uma bacia sanitária não ecológica, que gasta cerca de 60 litros por dia com a descarga, por uma bacia sanitária ecológica?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "24 litros",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "36 litros",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "40 litros",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "42 litros",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "50 litros",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 174 - ENEM 2012",
+      "index": 174,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/174/c9dc1c65-f17e-44ce-85fc-f4a36584a37f.png)\n\nUm investidor deseja comprar duas das empresas listadas na tabela. Para tal, ele calcula a média da receita bruta anual dos últimos três anos (de 2009 até 2011) e escolhe as duas empresas de maior média anual.",
+      "files": [
+        "https://enem.dev/2012/questions/174/c9dc1c65-f17e-44ce-85fc-f4a36584a37f.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "As empresas que este investidor escolhe comprar são",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Balas W e Pizzaria Y.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Chocolates X e Tecelagem Z.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Pizzaria Y e Alfinetes V.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Pizzaria Y e Chocolates X.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Tecelagem Z e Alfinetes V.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 175 - ENEM 2012",
+      "index": 175,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/175/8362025d-b302-483a-93b8-d628c12c46ae.png)\n\nUm paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%.",
+      "files": [
+        "https://enem.dev/2012/questions/175/8362025d-b302-483a-93b8-d628c12c46ae.png"
+      ],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Ao calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Hipoglicemia.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Normal.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Pré-diabetes.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Diabetes melito.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Hiperglicemia.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 176 - ENEM 2012",
+      "index": 176,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "Um produtor de café irrigado em Minas Gerais recebeu um relatório de consultoria estatística, constando, entre outras informações, o desvio padrão das produções de uma safra dos talhões de sua propriedade. Os talhões têm a mesma área de 30 000 m² e o valor obtido para o desvio padrão foi de 90 kg/talhão. O produtor deve apresentar as informações sobre a produção e a variância dessas produções em sacas de 60 kg por hectare (10 000 m²).",
+      "files": [],
+      "correctAlternative": "E",
+      "alternativesIntroduction": "A variância das produções dos talhões expressa em (sacas/hectare)² é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "20,25.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "4,50.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "0,71.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "0,50.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "0,25.",
+          "file": null,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questão 177 - ENEM 2012",
+      "index": 177,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "O _designer_ português Miguel Neiva criou um sistema de símbolos que permite que pessoas daltônicas identifiquem cores. O sistema consiste na utilização de símbolos que identificam as cores primárias (azul, amarelo e vermelho). Além disso, a justaposição de dois desses símbolos permite identificar cores secundárias (como o verde, que é o amarelo combinado com o azul). O preto e o branco são identificados por pequenos quadrados: o que simboliza o preto é cheio, enquanto o que simboliza o branco é vazio. Os símbolos que representam preto e branco também podem estar associados aos símbolos que identificam cores, significando se estas são claras ou escuras.\n\n_Folha de São Paulo. Disponível em: www1.folha.uol.com.br. Acesso em: 18 fev. 2012 (adaptado)._",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "De acordo com o texto, quantas cores podem ser representadas pelo sistema proposto?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "14",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "18",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "20",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "21",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "23",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 178 - ENEM 2012",
+      "index": 178,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "José, Paulo e Antônio estão jogando dados não viciados, nos quais, em cada uma das seis faces, há um número de 1 a 6. Cada um deles jogará dois dados simultaneamente. José acredita que, após jogar seus dados, os números das faces voltadas para cima lhe darão uma soma igual a 7. Já Paulo acredita que sua soma será igual a 4 e Antônio acredita que sua soma será igual a 8.",
+      "files": [],
+      "correctAlternative": "D",
+      "alternativesIntroduction": "Com essa escolha, quem tem a maior probabilidade de acertar sua respectiva soma é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Antônio, já que sua soma é a maior de todas as escolhidas.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "José e Antônio, já que há 6 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 4 possibilidades para a escolha de Paulo.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "José e Antônio, já que há 3 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 2 possibilidades para a escolha de Paulo.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "José, já que há 6 possibilidades para formar sua soma, 5 possibilidades para formar a soma de Antônio e apenas 3 possibilidades para formar a soma de Paulo.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "E",
+          "text": "Paulo, já que sua soma é a menor de todas.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 179 - ENEM 2012",
+      "index": 179,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "![](https://enem.dev/2012/questions/179/19738eb9-509c-4c48-8ea2-cd4ec4a9116c.png)",
+      "files": [
+        "https://enem.dev/2012/questions/179/19738eb9-509c-4c48-8ea2-cd4ec4a9116c.png"
+      ],
+      "correctAlternative": "B",
+      "alternativesIntroduction": "Com base no gráfico, o valor da parte inteira da mediana dos empregos formais surgidos no período é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "212 952.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "229 913.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "240 621.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "255 496.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "298 041.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questão 180 - ENEM 2012",
+      "index": 180,
+      "discipline": "matematica",
+      "language": null,
+      "year": 2012,
+      "context": "A cerâmica possui a propriedade da contração, que consiste na evaporação da água existente em um conjunto ou bloco cerâmico submetido a uma determinada temperatura elevada: em seu lugar aparecendo “espaços vazios” que tendem a se aproximar. No lugar antes ocupado pela água vão ficando lacunas e, consequentemente, o conjunto tende a retrair-se. Considere que no processo de cozimento a cerâmica de argila sofra uma contração, em dimensões lineares, de 20%.\n\n_Disponível em: www.arq.ufsc.br. Acesso em: 30 mar. 2012 (adaptado)._",
+      "files": [],
+      "correctAlternative": "C",
+      "alternativesIntroduction": "Levando em consideração o processo de cozimento e a contração sofrida, o volume V de uma travessa de argila, de forma cúbica de aresta a, diminui para um valor que é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "20% menor que V, uma vez que o volume do cubo é diretamente proporcional ao comprimento de seu lado.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "36% menor que V, porque a área da base diminui de a2 para ((1 − 0,2)a)².",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "48,8% menor que V, porque o volume diminui de a3 para (0,8a)³.",
+          "file": null,
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "51,2% menor que V, porque cada lado diminui para 80% do comprimento original.",
+          "file": null,
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "60% menor que V, porque cada lado diminui 20%.",
+          "file": null,
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
