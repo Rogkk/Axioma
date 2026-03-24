@@ -365,38 +365,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "O diretor de uma escola convidou os 280 alunos de terceiro ano a participarem de uma brincadeira. Suponha que existem 5 objetos e 6 personagens numa casa de 9 cômodos; um dos personagens esconde um dos objetos em um dos cômodos da casa. O objetivo da brincadeira é adivinhar qual objeto foi escondido por qual personagem e em qual cômodo da casa o objeto foi escondido.\n\nTodos os alunos decidiram participar. A cada vez um aluno é sorteado e dá a sua resposta. As respostas devem ser sempre distintas das anteriores, e um mesmo aluno não pode ser sorteado mais de uma vez. Se a resposta do aluno estiver correta, ele é declarado vencedor e a brincadeira é encerrada.",
+      "context": "",
       "files": [],
       "correctAlternative": "A",
-      "alternativesIntroduction": "O diretor sabe que algum aluno acertará a resposta porque há",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "10 alunos a mais do que possíveis respostas distintas.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "B",
-          "text": "20 alunos a mais do que possíveis respostas distintas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "119 alunos a mais do que possíveis respostas distintas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "260 alunos a mais do que possíveis respostas distintas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "270 alunos a mais do que possíveis respostas distintas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -408,12 +408,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/145/6e2e626f-d7f8-4615-bd32-13151f6cc0be.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/145/6e2e626f-d7f8-4615-bd32-13151f6cc0be.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Qual é a árvore que apresenta a maior altura real?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -453,12 +453,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/146/f3712744-381c-4ed8-8f20-86b3e9a52be9.png)\n\nUma jogada consiste em:\n\n1º) o jogador apresenta um palpite sobre a cor da bola que será retirada por ele da urna 2;\n\n2º) ele retira, aleatoriamente, uma bola da urna 1 e a coloca na urna 2, misturando-a com as que lá estão;\n\n3º) em seguida ele retira, também aleatoriamente, uma bola da urna 2;\n\n4º) se a cor da última bola retirada for a mesma do palpite inicial, ele ganha o jogo.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/146/f3712744-381c-4ed8-8f20-86b3e9a52be9.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "Qual cor deve ser escolhida pelo jogador para que ele tenha a maior probabilidade de ganhar?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -498,40 +498,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/147/04304914-c660-44ee-a7a0-ee9be4ae9d9c.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/147/04304914-c660-44ee-a7a0-ee9be4ae9d9c.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Considerando as informações indicadas na figura, o consumo total de água registrado nesse hidrômetro, em litros, é igual a",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "3 534,85.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "3 544,20.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "3 534 850,00.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "3 534 859,35.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "3 534 850,39.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -902,36 +902,36 @@
       "context": null,
       "files": [],
       "correctAlternative": "E",
-      "alternativesIntroduction": "Com essas informações, o gráfico que melhor representa a relação entre salário e o número de produtos vendidos é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
           "text": null,
-          "file": "https://enem.dev/2012/questions/156/4e2c0e03-b523-4518-aaef-fb4734e8ad69.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "B",
           "text": null,
-          "file": "https://enem.dev/2012/questions/156/f19a221b-7715-49be-a78c-0554583108f7.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "C",
           "text": null,
-          "file": "https://enem.dev/2012/questions/156/35d71a7f-1928-470f-b151-e475785e7579.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "D",
           "text": null,
-          "file": "https://enem.dev/2012/questions/156/7ab9d513-032b-4753-81cc-95bcd632fb4d.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "E",
           "text": null,
-          "file": "https://enem.dev/2012/questions/156/0df218fe-bdcd-42f6-8188-5cc32405b48e.png",
+          "file": "",
           "isCorrect": true
         }
       ]
@@ -942,10 +942,10 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Um maquinista de trem ganha R$ 100,00 por viagem e só pode viajar a cada 4 dias. Ele ganha somente se fizer a viagem e sabe que estará de férias de 1º a 10 de junho, quando não poderá viajar. Sua primeira viagem ocorreu no dia primeiro de janeiro. Considere que o ano tem 365 dias.",
+      "context": "",
       "files": [],
       "correctAlternative": "C",
-      "alternativesIntroduction": "Se o maquinista quiser ganhar o máximo possível, quantas viagens precisará fazer?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1297,41 +1297,41 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/165/3fbde9b0-ee25-43f8-8514-0b3b42bd2adc.png)\n\nO deslocamento descrito por João foi: mova-se pela pirâmide, sempre em linha reta, do ponto A ao ponto E, a seguir do ponto E ao ponto M, e depois de M a C.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/165/3fbde9b0-ee25-43f8-8514-0b3b42bd2adc.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "O desenho que Bruno deve fazer é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
           "text": null,
-          "file": "https://enem.dev/2012/questions/165/8889758c-e418-4553-8e26-b602b0862a7e.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "B",
           "text": null,
-          "file": "https://enem.dev/2012/questions/165/38082c65-4727-4561-8ea3-0de04aa0346b.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "C",
           "text": null,
-          "file": "https://enem.dev/2012/questions/165/8b2481ca-b8ca-4958-8eec-be9f7ce78448.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "D",
           "text": null,
-          "file": "https://enem.dev/2012/questions/165/2adf001e-6960-46c9-91bc-fa1ca2b925f9.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "E",
           "text": null,
-          "file": "https://enem.dev/2012/questions/165/1332407d-5c97-49e1-b94a-2a46220809ac.png",
+          "file": "",
           "isCorrect": true
         }
       ]
@@ -1342,12 +1342,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/166/acff0d62-4e1d-4eb6-b58a-a91804ba997c.png)\n\nem que QO é quantidade de oferta, QD é a quantidade de demanda e P é o preço do produto.\n\nA partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando QO e QD se igualam.",
+      "context": "![](https://enem.dev/2012/questions/166/acff0d62-4e1d-4eb6-b58a-a91804ba997c.png)\n\n",
       "files": [
         "https://enem.dev/2012/questions/166/acff0d62-4e1d-4eb6-b58a-a91804ba997c.png"
       ],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Para a situação descrita, qual o valor do preço de equilíbrio?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1387,10 +1387,10 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Nos shopping centers costumam existir parques com vários brinquedos e jogos. Os usuários colocam créditos em um cartão, que são descontados por cada período de tempo de uso dos jogos. Dependendo da pontuação da criança no jogo, ela recebe um certo número de tíquetes para trocar por produtos nas lojas dos parques. Suponha que o período de uso de um brinquedo em certo shopping custa R$ 3,00 e que uma bicicleta custa 9 200 tíquetes.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Para uma criança que recebe 20 tíquetes por período de tempo que joga, o valor, em reais, gasto com créditos para obter a quantidade de tíquetes para trocar pela bicicleta é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",

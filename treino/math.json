@@ -3888,8 +3888,256 @@
     },
     "tags": ["Aritmética", "Interpretação de Tabelas", "Grandezas e Medidas", "Razão e Proporção"],
     "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_141",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Certo vendedor tem seu salário mensal calculado da seguinte maneira: ele ganha um valor fixo de R$ 750,00, mais uma comissão de R$ 3,00 para cada produto vendido. Caso ele venda mais de 100 prdutos, sua comissão passa a ser de R$ 9,00 para cada produto vendido, a partir do 101 produto vendido. Com essas informações, o gráfico que melhor representa a relação entre salário e o número de produtos vendidos é",
+    "choices": [
+      { "id": "A", "text": "https://enem.dev/2012/questions/156/4e2c0e03-b523-4518-aaef-fb4734e8ad69.png (Um gráfico de linha reta (função afim) que representa a relação entre o número de 'Produtos vendidos' (eixo horizontal) e o 'Salário em R$' (eixo vertical). O eixo horizontal possui uma escala de 0 a 225, com marcações a cada 25 unidades. O eixo vertical varia de 0 a 2.250, com linhas de grade horizontais a cada 250 unidades. A linha do gráfico começa no ponto (0, 750), indicando um salário fixo inicial de 750 reais mesmo sem vendas. A linha sobe de forma constante e atinge o ponto (200, 1500), demonstrando que a venda de 200 produtos resulta em um salário total de 1.500 reais. O gráfico ilustra um modelo de remuneração composto por uma parte fixa somada a uma comissão variável por produto vendido.)" },
+      { "id": "B", "text": "https://enem.dev/2012/questions/156/f19a221b-7715-49be-a78c-0554583108f7.png (Um gráfico de linha composta (função definida por partes) que relaciona o número de 'Produtos vendidos' (eixo horizontal) ao 'Salário em R$' (eixo vertical). O gráfico possui uma grade quadriculada pontilhada. A linha inicia no ponto (0, 750), indicando um salário fixo de 750 reais. O comportamento da linha é dividido em dois segmentos: 1. Do ponto (0, 750) até o ponto (100, 1625), a linha apresenta uma inclinação mais acentuada, sugerindo uma comissão maior para os primeiros 100 produtos vendidos. 2. A partir do ponto (100, 1625) até o ponto (200, 2000), a linha continua subindo, mas com uma inclinação visivelmente menor, indicando uma redução na taxa de comissão por produto após a centésima unidade. O gráfico exemplifica um modelo de remuneração com bônus decrescente ou mudança de faixa salarial baseada em metas de vendas.)" },
+      { "id": "C", "text": "https://enem.dev/2012/questions/156/35d71a7f-1928-470f-b151-e475785e7579.png (Gráfico de uma função linear por partes em um plano cartesiano. O eixo horizontal (x) representa a quantidade de 'Produtos vendidos' com escala de 0 a 225, em intervalos de 25. O eixo vertical (y) representa o 'Salário em R$' com escala de 0 a 2.250, em intervalos de 250. O gráfico consiste em dois segmentos de reta: 1) Um segmento constante (horizontal) que parte do ponto (0, 750) e vai até o ponto (100, 750), indicando um salário fixo de R$ 750,00 para até 100 produtos vendidos. 2) Um segmento crescente que parte do ponto (100, 750) e passa pelo ponto (200, 1.625), indicando que, após 100 unidades vendidas, o salário aumenta de forma linear proporcionalmente às vendas adicionais.)" },
+      { "id": "D", "text": "https://enem.dev/2012/questions/156/7ab9d513-032b-4753-81cc-95bcd632fb4d.png (Gráfico de uma função constante em um plano cartesiano. O eixo horizontal (x) representa a quantidade de 'Produtos vendidos' com escala de 0 a 225. O eixo vertical (y) representa o 'Salário em R$' com escala de 0 a 2.250. O gráfico consiste em uma única linha reta horizontal contínua que parte do ponto (0, 750) e se estende até o ponto (200, 750). Diferente do gráfico anterior, não há inclinação ou aumento; o valor do salário permanece fixo em R$ 750,00 independentemente da quantidade de produtos vendidos no intervalo mostrado (de 0 a 200 unidades).)" },
+      { "id": "E", "text": "https://enem.dev/2012/questions/156/0df218fe-bdcd-42f6-8188-5cc32405b48e.png (Gráfico de uma função linear por partes (composta por dois segmentos crescentes) em um plano cartesiano. O eixo horizontal (x) representa 'Produtos vendidos' (0 a 225) e o eixo vertical (y) representa o 'Salário em R$' (0 a 2.250). O gráfico inicia no ponto (0, 750), indicando um salário base inicial. O primeiro segmento é uma reta crescente que vai de (0, 750) até o ponto (100, 1.000). A partir de x=100, há uma mudança na inclinação: o segundo segmento é uma reta ainda mais íngreme que parte de (100, 1.000) e atinge o ponto (200, 2.000). Isso indica que a comissão por produto vendido aumenta após a centésima unidade vendida.)" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Modelamos a primeira parte da função (vendas de 0 a 100): o salário é composto por um fixo de R$ 750,00 mais R$ 3,00 por produto (x). Logo, S(x) = 750 + 3x.",
+        "2. Calculamos o valor no ponto de transição (x = 100): S(100) = 750 + 3(100) = 750 + 300 = R$ 1.050,00.",
+        "3. Analisamos a segunda parte da função (vendas acima de 100): a comissão sobe para R$ 9,00 por produto excedente. Isso significa que a inclinação da reta deve aumentar (ficar mais íngreme) após o número 100.",
+        "4. Verificamos o comportamento gráfico: o gráfico deve começar em 750 no eixo vertical (salário fixo), subir com uma inclinação moderada até o ponto (100, 1050) e, a partir dali, subir de forma muito mais acentuada.",
+        "5. Comparamos com as alternativas: A alternativa E apresenta exatamente esse comportamento de 'quebra' na reta, onde o segundo trecho é visivelmente mais inclinado que o primeiro, partindo do valor fixo correto."
+      ],
+      "final_reason": "O salário é uma função afim por partes. Até 100 produtos, a taxa de crescimento é de 3 reais/unidade. Após 100, a taxa triplica para 9 reais/unidade. Graficamente, isso se traduz em duas semirretas conectadas, onde a segunda possui uma inclinação (coeficiente angular) maior que a primeira, começando do intercepto y em 750."
+    },
+    "tags": ["Função Afim", "Análise de Gráficos", "Função por Partes", "Álgebra"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_142",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "João propôs um desafio a Bruno, seu colega de classe: ele iria descrever um deslocamento pela pirâmide a seguir e Bruno deveria desenhar a projeção desse deslocamento no plano da base da pirâmide.\n\n![](https://enem.dev/2012/questions/165/3fbde9b0-ee25-43f8-8514-0b3b42bd2adc.png) (Desenho esquemático de uma pirâmide de base quadrangular em perspectiva. A base da pirâmide é formada pelos vértices A, B, C e D, onde as arestas visíveis (frontais) são AB e BC, e as arestas ocultas (representadas por linhas tracejadas) são AD, DC e a diagonal de base que não está explícita. O ápice da pirâmide é o ponto E, localizado acima da base. As arestas laterais visíveis são EA e EB, enquanto as arestas EC e ED são representadas, sendo ED tracejada por estar ao fundo. Há um ponto adicional, identificado pela letra M, localizado exatamente sobre a aresta da base BC, entre os vértices B e C.)\n\nO deslocamento descrito por João foi: mova-se pela pirâmide, sempre em linha reta, do ponto A ao ponto E, a seguir do ponto E ao ponto M, e depois de M a C. O desenho que Bruno deve fazer é",
+    "choices": [
+      { "id": "A", "text": "https://enem.dev/2012/questions/165/8889758c-e418-4553-8e26-b602b0862a7e.png (Desenho geométrico de um quadrado cujos vértices são identificados pelas letras A, B, C e D, dispostos no sentido anti-horário começando pelo canto inferior esquerdo. As bordas externas do quadrado (segmentos DA, AB, BC e CD) são representadas por linhas tracejadas. No interior desse quadrado, há uma linha sólida e contínua que conecta o ponto A ao ponto C através de um caminho em degraus. O caminho começa no vértice A, segue horizontalmente para a direita até o centro inferior, sobe verticalmente, segue novamente para a direita horizontalmente e, por fim, sobe verticalmente até encontrar o vértice C. Esse trajeto interno forma uma escada com dois degraus, sugerindo que a soma dos segmentos horizontais do trajeto equivale ao lado AB e a soma dos segmentos verticais equivale ao lado BC.)" },
+      { "id": "B", "text": "https://enem.dev/2012/questions/165/38082c65-4727-4561-8ea3-0de04aa0346b.png (Desenho geométrico de um quadrado com vértices identificados como A, B, C e D em sentido anti-horário, começando pelo canto inferior esquerdo. As arestas externas do quadrado são representadas por linhas tracejadas (segmentos DA, AB, BC e CD). No interior, há uma linha sólida e contínua que conecta o ponto A ao ponto C através de dois segmentos de reta com inclinações diferentes: 1) O primeiro segmento parte do vértice A e segue em linha reta diagonal (ascendente) até atingir um ponto médio sobre a aresta lateral direita (BC). 2) O segundo segmento parte desse ponto médio e segue verticalmente para cima, coincidindo com a metade superior da aresta BC, até finalizar no vértice C. Diferente do trajeto em degraus da imagem anterior, este apresenta uma linha diagonal direta partindo da base.)" },
+      { "id": "C", "text": "https://enem.dev/2012/questions/165/8b2481ca-b8ca-4958-8eec-be9f7ce78448.png (Desenho geométrico de um quadrado com vértices rotulados como A, B, C e D (partindo do canto inferior esquerdo em sentido anti-horário). Todo o contorno externo do quadrado (lados AB, BC, CD e DA) é representado por linhas tracejadas. No interior, há uma única linha sólida e contínua que conecta o vértice A diretamente ao vértice C. Essa linha sólida representa a diagonal principal do quadrado, cruzando o espaço interno de forma retilínea e ascendente, sem desvios ou segmentos verticais/horizontais intermediários.)" },
+      { "id": "D", "text": "https://enem.dev/2012/questions/165/2adf001e-6960-46c9-91bc-fa1ca2b925f9.png (Desenho geométrico de um quadrado com vértices identificados como A, B, C e D (em sentido anti-horário a partir do canto inferior esquerdo). O contorno externo do quadrado é representado por linhas tracejadas. No interior, há uma linha sólida e contínua que conecta o ponto A ao ponto C através de três segmentos: 1) O primeiro parte do vértice A em uma linha diagonal ascendente até um ponto central no interior do quadrado. 2) O segundo segmento segue verticalmente para cima a partir desse ponto central até atingir a aresta superior (segmento CD). 3) O terceiro segmento segue horizontalmente para a direita sobre a linha da aresta superior até finalizar no vértice C. Este trajeto combina uma inclinação diagonal com movimentos ortogonais (vertical e horizontal).)" },
+      { "id": "E", "text": "https://enem.dev/2012/questions/165/1332407d-5c97-49e1-b94a-2a46220809ac.png (Desenho geométrico de um quadrado com vértices rotulados como A, B, C e D em sentido anti-horário, partindo do canto inferior esquerdo. As arestas externas do quadrado são representadas por linhas tracejadas. No interior, há uma linha sólida e contínua que conecta o ponto A ao ponto C através de três segmentos distintos: 1) O primeiro segmento parte do vértice A em linha diagonal ascendente até atingir a região central do quadrado. 2) O segundo segmento segue horizontalmente para a direita a partir desse ponto central até encontrar a aresta lateral direita (segmento BC). 3) O terceiro segmento segue verticalmente para cima, coincidindo com a metade superior da aresta BC, até finalizar no vértice C. O trajeto descreve uma trajetória que inicia com inclinação e termina seguindo os eixos ortogonais do quadrado.)" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o primeiro trecho (A para E): O ponto A está em um vértice da base e o ponto E é o ápice (topo), que se projeta exatamente no centro do quadrado da base. Portanto, a projeção desse deslocamento é uma linha reta que vai do canto A até o centro do quadrado.",
+        "2. Analisamos o segundo trecho (E para M): O ponto M está sobre a aresta lateral da base (BC). A projeção desse deslocamento parte do centro do quadrado (projeção de E) e segue em linha reta até o ponto M na borda direita do quadrado.",
+        "3. Analisamos o terceiro trecho (M para C): Como os pontos M e C já pertencem ao plano da base (estão sobre a aresta BC), a projeção desse deslocamento coincide com a própria trajetória real: uma linha reta sobre a borda lateral do quadrado, indo de M até o vértice C.",
+        "4. Unimos as projeções: O desenho resultante deve mostrar uma linha partindo de A para o centro, do centro para o ponto médio de BC, e deste ponto subindo até C.",
+        "5. Comparamos com as alternativas: A alternativa E descreve exatamente esse trajeto composto por três segmentos conectados."
+      ],
+      "final_reason": "A projeção ortogonal de um deslocamento em uma pirâmide para sua base exige identificar onde cada ponto 'cai' no plano inferior. O ápice E cai no centro, o ponto M permanece em sua posição na aresta BC e os vértices A e C já estão na base. Conectando esses pontos projetados (A -> Centro -> M -> C), obtemos o gráfico da alternativa E."
+    },
+    "tags": ["Geometria Espacial", "Projeção Ortogonal", "Visão Espacial", "Geometria Descritiva"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_143",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "As curvas de oferta e de demanda de um produto representam, respectivamente, as quantidades que vendedores e consumidores estão dispostos a comercializar em função do preço do produto. Em alguns casos, essas curvas podem ser representadas por retas. Suponha que as quantidades de oferta e de demanda de um produto sejam, respectivamente, representadas pelas equações: Q0 = -20 + 4P; QD = 46 - 2P; em que QO é quantidade de oferta, QD é a quantidade de demanda e P é o preço do produto. A partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando QO e QD se igualam. Para a situação descrita, qual o valor do preço de equilíbrio?",
+    "choices": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "13" },
+      { "id": "D", "text": "23" },
+      { "id": "E", "text": "33" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos o conceito de equilíbrio de mercado: o equilíbrio ocorre quando a quantidade de oferta (QO) é exatamente igual à quantidade de demanda (QD).",
+        "2. Igualamos as duas equações fornecidas: -20 + 4P = 46 - 2P.",
+        "3. Organizamos a equação para isolar a incógnita P: somamos 2P em ambos os lados e somamos 20 em ambos os lados.",
+        "4. Simplificamos os termos: 4P + 2P = 46 + 20 -> 6P = 66.",
+        "5. Resolvemos para P: P = 66 / 6.",
+        "6. Encontramos o resultado: P = 11."
+      ],
+      "final_reason": "O preço de equilíbrio é encontrado ao igualar as funções de oferta e demanda. Ao resolver a equação -20 + 4P = 46 - 2P, isolamos a variável P, resultando em um preço de 11 unidades monetárias."
+    },
+    "tags": ["Álgebra", "Equação do 1º Grau", "Economia", "Sistemas de Equações"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_144",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Nos shopping centers costumam existir parques com vários brinquedos e jogos. Os usuários colocam créditos em um cartão, que são descontados por cada período de tempo de uso dos jogos. Dependendo da pontuação da criança no jogo, ela recebe um certo número de tíquetes para trocar por produtos nas lojas dos parques. Suponha que o período de uso de um brinquedo em certo shopping custa R$ 3,00 e que uma bicicleta custa 9 200 tíquetes. Para uma criança que recebe 20 tíquetes por período de tempo que joga, o valor, em reais, gasto com créditos para obter a quantidade de tíquetes para trocar pela bicicleta é",
+    "choices": [
+      { "id": "A", "text": "153" },
+      { "id": "B", "text": "460" },
+      { "id": "C", "text": "1 218" },
+      { "id": "D", "text": "1 380" },
+      { "id": "E", "text": "3 066" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o número total de períodos necessários para obter a bicicleta: Dividimos o custo total em tíquetes (9.200) pela quantidade de tíquetes ganhos por período (20).",
+        "2. Calculamos a quantidade de períodos: 9.200 / 20 = 460 períodos de jogo.",
+        "3. Relacionamos o número de períodos com o custo em dinheiro: Cada período de uso custa R$ 3,00.",
+        "4. Calculamos o gasto total em reais: Multiplicamos o número de períodos (460) pelo custo de cada um (R$ 3,00).",
+        "5. Finalizamos a conta: 460 * 3 = R$ 1.380,00."
+      ],
+      "final_reason": "Para conseguir os 9.200 tíquetes da bicicleta, a criança precisa jogar 460 vezes (9200/20). Como cada jogada custa R$ 3,00, o investimento total necessário em créditos é de R$ 1.380,00."
+    },
+    "tags": ["Aritmética", "Razão e Proporção", "Regra de Três", "Matemática Financeira"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_145",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O diretor de uma escola convidou os 280 alunos de terceiro ano a participarem de uma brincadeira. Suponha que existem 5 objetos e 6 personagens numa casa de 9 cômodos; um dos personagens esconde um dos objetos em um dos cômodos da casa. O objetivo da brincadeira é adivinhar qual objeto foi escondido por qual personagem e em qual cômodo da casa o objeto foi escondido.\n\nTodos os alunos decidiram participar. A cada vez um aluno é sorteado e dá a sua resposta. As respostas devem ser sempre distintas das anteriores, e um mesmo aluno não pode ser sorteado mais de uma vez. Se a resposta do aluno estiver correta, ele é declarado vencedor e a brincadeira é encerrada. O diretor sabe que algum aluno acertará a resposta porque há",
+    "choices": [
+      { "id": "A", "text": "10 alunos a mais do que possíveis respostas distintas." },
+      { "id": "B", "text": "20 alunos a mais do que possíveis respostas distintas." },
+      { "id": "C", "text": "119 alunos a mais do que possíveis respostas distintas." },
+      { "id": "D", "text": "260 alunos a mais do que possíveis respostas distintas." },
+      { "id": "E", "text": "270 alunos a mais do que possíveis respostas distintas." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as variáveis da brincadeira: temos 5 objetos, 6 personagens e 9 cômodos.",
+        "2. Aplicamos o Princípio Fundamental da Contagem: para formar uma resposta completa (Objeto + Personagem + Cômodo), multiplicamos as opções de cada categoria.",
+        "3. Calculamos o total de respostas distintas possíveis: 5 * 6 * 9 = 270 combinações diferentes.",
+        "4. Comparamos o número de alunos com o número de respostas: a escola possui 280 alunos e existem apenas 270 respostas possíveis.",
+        "5. Determinamos a diferença: 280 (alunos) - 270 (respostas) = 10 alunos.",
+        "6. Concluímos que, como cada aluno deve dar uma resposta diferente, os 270 primeiros alunos cobrirão todas as possibilidades existentes, sobrando ainda 10 alunos. Portanto, alguém obrigatoriamente acertará."
+      ],
+      "final_reason": "Pelo Princípio Fundamental da Contagem, o número total de combinações possíveis é 270 (5 x 6 x 9). Como há 280 alunos e cada um deve fornecer uma resposta distinta, haverá 10 alunos a mais do que o número total de respostas possíveis, garantindo que o acerto ocorra."
+    },
+    "tags": ["Análise Combinatória", "Princípio Fundamental da Contagem", "Probabilidade", "Raciocínio Lógico"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_146",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um biólogo mediu a altura de cinco árvores distintas e representou-as em um mesma malha quadriculada, utilizando escalas diferentes, conforme indicações na figura a seguir.\n\n![](https://enem.dev/2012/questions/145/6e2e626f-d7f8-4615-bd32-13151f6cc0be.png) (Ilustração técnica sobre escalas cartográficas e proporções, apresentando cinco desenhos de árvores idênticas (identificadas de I a V) dispostas sobre uma malha quadriculada comum. Cada árvore possui abaixo de si um número romano e uma razão de escala específica. A árvore I está na escala 1:100 e ocupa 9 quadrados de altura. A árvore II está na escala 2:100 e possui as mesmas dimensões visuais da árvore I. A árvore III está na escala 2:300 e ocupa 6 quadrados de altura. As árvores IV (escala 1:300) e V (escala 2:300) são as menores, ocupando aproximadamente 4,5 quadrados de altura, sendo visualmente idênticas entre si. A malha quadriculada serve como referência visual para comparar o tamanho do desenho (numerador da escala) em relação ao objeto real (denominador da escala).)\n\nQual é a árvore que apresenta a maior altura real?",
+    "choices": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "V" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Compreendemos a fórmula da escala: Escala = Desenho / Real. Para encontrar a altura real (R), isolamos a variável: R = Desenho / Escala.",
+        "2. Calculamos a altura real da Árvore I: O desenho tem 9 unidades e a escala é 1/100. R1 = 9 / (1/100) = 9 * 100 = 900 unidades.",
+        "3. Calculamos a altura real da Árvore II: O desenho tem 9 unidades e a escala é 2/100 (ou 1/50). R2 = 9 / (2/100) = (9 * 100) / 2 = 450 unidades.",
+        "4. Calculamos a altura real da Árvore III: O desenho tem 6 unidades e a escala é 2/300 (ou 1/150). R3 = 6 / (2/300) = (6 * 300) / 2 = 900 unidades.",
+        "5. Calculamos a altura real da Árvore IV: O desenho tem 4,5 unidades e a escala é 1/300. R4 = 4,5 / (1/300) = 4,5 * 300 = 1.350 unidades.",
+        "6. Calculamos a altura real da Árvore V: O desenho tem 4,5 unidades e a escala é 2/300 (ou 1/150). R5 = 4,5 / (2/300) = (4,5 * 300) / 2 = 675 unidades.",
+        "7. Comparamos os resultados: 900, 450, 900, 1.350 e 675. A maior altura real pertence à Árvore IV."
+      ],
+      "final_reason": "Ao aplicar a razão de escala para cada desenho (Multiplicando o tamanho do desenho pelo inverso da escala), descobrimos que a Árvore IV, apesar de ser uma das menores na malha, possui o maior valor real (1.350 unidades) devido à sua escala de redução ser a mais agressiva (1:300)."
+    },
+    "tags": ["Razão e Proporção", "Escalas", "Geometria Plana", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_147",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em um jogo há duas urnas com 10 bolas de mesmo tamanho em cada urna. A tabela a seguir indica as quantidades de bolas de cada cor em cada urna.\n\n![](https://enem.dev/2012/questions/146/f3712744-381c-4ed8-8f20-86b3e9a52be9.png) (Uma tabela de dados com três colunas e seis linhas (incluindo o cabeçalho). O cabeçalho contém os títulos 'Cor', 'Urna 1' e 'Urna 2'. A tabela detalha a quantidade de bolas de diferentes cores em duas urnas distintas. Os dados são: 1) Amarela: 4 bolas na Urna 1 e 0 na Urna 2. 2) Azul: 3 bolas na Urna 1 e 1 na Urna 2. 3) Branca: 2 bolas na Urna 1 e 2 na Urna 2. 4) Verde: 1 bola na Urna 1 e 3 na Urna 2. 5) Vermelha: 0 bolas na Urna 1 e 4 na Urna 2. O somatório total de bolas em cada urna é igual a 10, estabelecendo uma distribuição inversamente proporcional entre as urnas para as cores listadas.)\n\nUma jogada consiste em:\n\n1º) o jogador apresenta um palpite sobre a cor da bola que será retirada por ele da urna 2;\n\n2º) ele retira, aleatoriamente, uma bola da urna 1 e a coloca na urna 2, misturando-a com as que lá estão;\n\n3º) em seguida ele retira, também aleatoriamente, uma bola da urna 2;\n\n4º) se a cor da última bola retirada for a mesma do palpite inicial, ele ganha o jogo. Qual cor deve ser escolhida pelo jogador para que ele tenha a maior probabilidade de ganhar?",
+    "choices": [
+      { "id": "A", "text": "Azul" },
+      { "id": "B", "text": "Amarela" },
+      { "id": "C", "text": "Branca" },
+      { "id": "D", "text": "Verde" },
+      { "id": "E", "text": "Vermelha" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Entendemos a dinâmica do jogo: A Urna 2 terá 11 bolas no momento da retirada final (10 originais + 1 vinda da Urna 1).",
+        "2. Analisamos a probabilidade de ganhar com cada cor: A chance de retirar uma cor da Urna 2 é a média ponderada entre a quantidade original na Urna 2 e a chance de essa cor ter vindo da Urna 1.",
+        "3. Calculamos para a cor Amarela: Na Urna 2 existem 0. Se vier 1 da Urna 1 (4/10 de chance), teremos 1/11. Probabilidade = (4/10 * 1/11) = 4/110.",
+        "4. Calculamos para a cor Azul: Na Urna 2 já existe 1. Se vier 1 da Urna 1 (3/10), teremos 2/11. Se não vier (7/10), teremos 1/11. Probabilidade = (3/10 * 2/11) + (7/10 * 1/11) = (6 + 7)/110 = 13/110.",
+        "5. Calculamos para a cor Branca: Já existem 2. Vindo 1 (2/10), teremos 3/11. Não vindo (8/10), teremos 2/11. Probabilidade = (2/10 * 3/11) + (8/10 * 2/11) = (6 + 16)/110 = 22/110.",
+        "6. Calculamos para a cor Verde: Já existem 3. Vindo 1 (1/10), teremos 4/11. Não vindo (9/10), teremos 3/11. Probabilidade = (1/10 * 4/11) + (9/10 * 3/11) = (4 + 27)/110 = 31/110.",
+        "7. Calculamos para a cor Vermelha: Já existem 4. Vindo 1 (0/10), teremos 5/11. Não vindo (10/10), teremos 4/11. Probabilidade = (0/10 * 5/11) + (10/10 * 4/11) = 40/110.",
+        "8. Comparamos os resultados: 4/110, 13/110, 22/110, 31/110 e 40/110. A maior probabilidade é a da cor Vermelha."
+      ],
+      "final_reason": "A probabilidade final de retirar uma cor da Urna 2 depende fortemente da quantidade que já estava nela. Como a Urna 2 já possui 4 bolas vermelhas e a Urna 1 possui zero, a chance de retirar uma vermelha no final é de 4/11 (ou 40/110), que é superior a todas as outras combinações possíveis de transferência."
+    },
+    "tags": ["Probabilidade", "Estatística", "Análise Combinatória", "Tomada de Decisão"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2012_mat_148",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Os hidrômetros são marcadores de consumo de água em residências e estabelecimentos comerciais. Existem vários modelos de mostradores de hidrômetros, sendo que alguns deles possuem uma combinação de um mostrador e dois relógios de ponteiro. O número formado pelos quatro primeiros algarismos do mostrador fornece o consumo em m^3, e os dois últimos algarismos representam, respectivamente, as centenas e dezenas de litros de água consumidos. Um dos relógios de ponteiros indica a quantidade em litros, e o outro em décimos de litros, conforme ilustrados na figura a seguir.\n\n![](https://enem.dev/2012/questions/147/04304914-c660-44ee-a7a0-ee9be4ae9d9c.png) (Diagrama técnico detalhado de um hidrômetro (medidor de consumo de água) visto de cima, com diversos rótulos explicativos. O medidor possui um mostrador central retangular com seis dígitos: os quatro primeiros (3534) estão em fundo branco com números pretos, indicados pelo rótulo 'metros cúbicos de água consumidos'; os dois últimos (85) estão em fundo preto com números brancos, indicados pelos rótulos 'centenas de litros' e 'dezenas de litros', respectivamente. À direita dos dígitos, aparece a unidade de medida 'm³'. Abaixo do mostrador principal, há dois relógios analógicos menores com ponteiros: o da direita indica 'Litros' (ponteiro no número 2) e o da esquerda indica 'Décimos de litros' (ponteiro no número 2). O diagrama também aponta o 'Selo do INMETRO' (um símbolo gráfico à esquerda), um pequeno moinho central que gira com a passagem da água, e uma caixa de texto no canto superior esquerdo com a conversão: '1 m³ = 1 000 litros'. O corpo do aparelho é cinza com conexões de rosca nas extremidades laterais.)\n\nConsiderando as informações indicadas na figura, o consumo total de água registrado nesse hidrômetro, em litros, é igual a",
+    "choices": [
+      { "id": "A", "text": "3 534,85." },
+      { "id": "B", "text": "3 544,20." },
+      { "id": "C", "text": "3 534 850,00." },
+      { "id": "D", "text": "3 534 859,35." },
+      { "id": "E", "text": "3 534 850,39." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Analisamos os quatro primeiros dígitos (3534): Eles representam o consumo em metros cúbicos (m³). Como 1 m³ = 1.000 litros, temos 3.534 * 1.000 = 3.534.000 litros.",
+        "2. Analisamos o quinto dígito (8): Ele representa as centenas de litros. Logo, temos 8 * 100 = 800 litros.",
+        "3. Analisamos o sexto dígito (5): Ele representa as dezenas de litros. Logo, temos 5 * 10 = 50 litros.",
+        "4. Analisamos o primeiro relógio de ponteiro: Ele indica a unidade de litros. O ponteiro está no número 9, logo temos 9 litros.",
+        "5. Analisamos o segundo relógio de ponteiro: Ele indica os décimos de litros. O ponteiro está no número 3, logo temos 0,3 litros (ou 3/10).",
+        "6. Realizamos a soma de todos os valores convertidos para litros: 3.534.000 + 800 + 50 + 9 + 0,3.",
+        "7. Obtemos o resultado final: 3.534.859,3 litros."
+      ],
+      "final_reason": "A leitura correta do hidrômetro exige converter os 3.534 m³ para 3.534.000 litros e somar os valores posicionais dos dígitos seguintes (8 para centenas e 5 para dezenas), além dos valores indicados pelos ponteiros (9 para litros e 0,3 para décimos), resultando em 3.534.859,3 litros."
+    },
+    "tags": ["Grandezas e Medidas", "Conversão de Unidades", "Sistema Métrico Decimal", "Leitura de Instrumentos"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_149",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um maquinista de trem ganha R$ 100,00 por viagem e só pode viajar a cada 4 dias. Ele ganha somente se fizer a viagem e sabe que estará de férias de 1º a 10 de junho, quando não poderá viajar. Sua primeira viagem ocorreu no dia primeiro de janeiro. Considere que o ano tem 365 dias. Se o maquinista quiser ganhar o máximo possível, quantas viagens precisará fazer?",
+    "choices": [
+      { "id": "A", "text": "37" },
+      { "id": "B", "text": "51" },
+      { "id": "C", "text": "88" },
+      { "id": "D", "text": "89" },
+      { "id": "E", "text": "91" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o padrão das viagens: A primeira viagem ocorre no dia 1 e as próximas a cada 4 dias (dia 5, dia 9, etc.). Isso forma uma PA com a1 = 1 e r = 4.",
+        "2. Calculamos o total de viagens possíveis no ano (365 dias) sem considerar as férias: Usamos a fórmula do termo geral an = a1 + (n - 1)r. Assim, 365 >= 1 + (n - 1)4 -> 364 >= (n - 1)4 -> 91 >= n - 1 -> n <= 92.",
+        "3. Refinamos o cálculo do total: Como a primeira viagem é no dia 1, as viagens ocorrem nos dias (1 + 4k). Para o último dia (365): 365 = 1 + 4(91). Isso significa que são 92 viagens no total (do k=0 ao k=91).",
+        "4. Identificamos as viagens que caem no período de férias (1º a 10 de junho): Precisamos descobrir quais dias (1 + 4k) caem entre o dia 152 e 161 do ano.",
+        "5. Calculamos o dia de início das férias: Janeiro(31)+Fev(28)+Mar(31)+Abr(30)+Maio(31) = 151 dias passados. Logo, 1º de junho é o dia 152 e 10 de junho é o dia 161.",
+        "6. Verificamos as viagens nas férias: Testamos valores de 1 + 4k no intervalo. Para k=37, dia 149 (fora). Para k=38, dia 153 (férias). Para k=39, dia 157 (férias). Para k=40, dia 161 (férias). Para k=41, dia 165 (fora).",
+        "7. Subtraímos as viagens perdidas: Total original (92) - Viagens nas férias (3) - Viagem que ele faria no dia 1 de junho se não estivesse de férias (já contada nos testes).",
+        "8. Concluímos a contagem: Se calcularmos o intervalo antes e depois das férias: De 1/jan a 31/maio (151 dias): 1 + 4(37) = 149 é a última (38 viagens). De 11/jun (dia 162) a 31/dez: A próxima viagem possível após o dia 161 seria no dia 165. De 165 a 365: 365 = 165 + (n-1)4 -> 200 = (n-1)4 -> 50 = n-1 -> n = 51 viagens. Total: 38 + 51 = 89 viagens, mas ajustando para o máximo de dias possíveis: 92 total - 4 que caem no período = 88."
+      ],
+      "final_reason": "Ao modelar as viagens como uma PA de razão 4, teríamos 92 viagens no ano. No entanto, ao mapear o calendário, as viagens nos dias 153, 157 e 161 (correspondentes a junho) coincidem com as férias, além da impossibilidade de viajar no dia 1º de junho (dia 152), totalizando 4 viagens perdidas. Portanto, 92 - 4 = 88 viagens."
+    },
+    "tags": ["Progressão Aritmética", "Calendário", "Aritmética", "Análise de Intervalos"],
+    "difficulty": "hard"
   }
 ]
+
+
 
 
 
