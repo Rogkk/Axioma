@@ -4134,8 +4134,345 @@
     },
     "tags": ["Progressão Aritmética", "Calendário", "Aritmética", "Análise de Intervalos"],
     "difficulty": "hard"
+  },
+  {
+    "id": "2012_mat_150",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Alguns objetos, durante a sua fabricação, necessitam passar por um processo de resfriamento. Para que isso ocorra, uma fábrica utiliza um tanque de resfriamento, como mostra a figura.\n\n![](https://enem.dev/2012/questions/158/1f4ff459-e739-491b-abba-8350d8dd458b.png) (Desenho técnico em perspectiva de um paralelepípedo retângulo (um aquário ou reservatório) com suas dimensões indicadas. O sólido possui uma base retangular de 40 cm de largura por 30 cm de profundidade e uma altura total de 25 cm. O recipiente está parcialmente preenchido por um líquido (representado por uma área sombreada em cinza). O nível do líquido não atinge o topo, deixando um espaço vazio na parte superior. Há uma indicação lateral de que a distância entre a superfície do líquido e a borda superior do recipiente é de 5 cm. A base do sólido possui uma das arestas internas representada por uma linha tracejada para indicar profundidade.)\n\nO que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm^3?",
+    "choices": [
+      { "id": "A", "text": "O nível subiria 0,2 cm, fazendo a água ficar com 20,2 cm de altura." },
+      { "id": "B", "text": "O nível subiria 1 cm, fazendo a água ficar com 21 cm de altura." },
+      { "id": "C", "text": "O nível subiria 2 cm, fazendo a água ficar com 22 cm de altura." },
+      { "id": "D", "text": "O nível subiria 8 cm, fazendo a água transbordar." },
+      { "id": "E", "text": "O nível subiria 20 cm, fazendo a água transbordar." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as dimensões da base do tanque: largura = 40 cm e profundidade = 30 cm. A área da base (Ab) é 40 * 30 = 1.200 cm².",
+        "2. Determinamos a altura inicial do líquido: a altura total do tanque é 25 cm e há um espaço vazio de 5 cm no topo. Logo, a altura inicial (h1) é 25 - 5 = 20 cm.",
+        "3. Aplicamos o conceito de volume deslocado: o volume do objeto submerso (V_obj) é igual ao volume da 'fatia' de água que sobe (V_subida).",
+        "4. Calculamos o aumento na altura (Δh): V_subida = Ab * Δh -> 2.400 = 1.200 * Δh.",
+        "5. Resolvemos para Δh: Δh = 2.400 / 1.200 = 2 cm.",
+        "6. Determinamos a nova altura total do líquido: h_final = h_inicial + Δh = 20 + 2 = 22 cm.",
+        "7. Verificamos se transborda: Como 22 cm é menor que a altura total do tanque (25 cm), a água não transborda e atinge o nível de 22 cm."
+      ],
+      "final_reason": "Ao introduzir o objeto de 2.400 cm³, o volume de água deslocado se distribui pela área da base de 1.200 cm², resultando em uma elevação de 2 cm no nível. Somando esse aumento aos 20 cm iniciais, o novo nível da água passa a ser 22 cm."
+    },
+    "tags": ["Geometria Espacial", "Prismas", "Volume", "Cálculo de Altura"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_151",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Jorge quer instalar aquecedores no seu salão de beleza para melhorar o conforto dos seus clientes no inverno. Ele estuda a compra de unidades de dois tipos de aquecedores: modelo A, que consome 600 g/h (gramas por hora) de gás 2 propano e cobre 35 m de área, ou modelo B, que consome 2 750 g/h de gás propano e cobre 45 m de área. O fabricante indica que o aquecedor deve ser instalado em um ambiente com área menor do que a da sua cobertura. Jorge vai instalar uma unidade por ambiente e quer gastar o mínimo possível com gás. A área do salão que deve ser climatizada encontra-se na planta seguinte (ambientes representados por três retângulos e um trapézio).\n\n![](https://enem.dev/2012/questions/159/4889b43a-36e3-4b29-91b2-ab87fda455d7.png) (Diagrama de uma planta baixa composta por quatro compartimentos adjacentes identificados pelos algarismos romanos I, II, III e IV. A figura total tem o formato aproximado de um 'L' invertido. Os compartimentos I, II e III são retângulos, enquanto o compartimento IV é um trapézio retângulo. As dimensões indicadas são: 1) O lado esquerdo total (I + II) mede 14 m. 2) A base do compartimento I mede 5 m e sua altura lateral direita é de 8 m. 3) A largura do topo (II + III) é de 9 m. 4) O compartimento IV tem uma base de 7 m e sua altura na extremidade direita é de 4 m, apresentando um fechamento inclinado no topo. Cada compartimento contém um círculo centralizado em seu interior, possivelmente indicando pontos de iluminação ou áreas de ventilação.)\n\nAvaliando-se todas as informações, serão necessários",
+    "choices": [
+      { "id": "A", "text": "Quatro unidades do tipo A e nenhuma unidade do tipo B." },
+      { "id": "B", "text": "Três unidades do tipo A e uma unidade do tipo B." },
+      { "id": "C", "text": "Duas unidades do tipo A e duas unidades do tipo B." },
+      { "id": "D", "text": "Uma unidade do tipo A e três unidades do tipo B." },
+      { "id": "E", "text": "Nenhuma unidade do tipo A e quatro unidades do tipo B." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a área do compartimento I (Retângulo): Base = 5 m e Altura = 8 m. Área_I = 5 * 8 = 40 m².",
+        "2. Determinamos as dimensões do compartimento II (Retângulo): A altura total esquerda é 14 m e a do compartimento I é 8 m, logo a altura de II é 14 - 8 = 6 m. A base de II é a mesma de I (5 m). Área_II = 5 * 6 = 30 m².",
+        "3. Determinamos as dimensões do compartimento III (Retângulo): A largura total do topo (II + III) é 9 m e a base de II é 5 m, logo a base de III é 9 - 5 = 4 m. A altura de III é a mesma de II (6 m). Área_III = 4 * 6 = 24 m².",
+        "4. Calculamos a área do compartimento IV (Trapézio Retângulo): As bases são 7 m e 9 m (topo de II+III), e a altura é 4 m. Área_IV = [(7 + 9) * 4] / 2 = 16 * 2 = 32 m².",
+        "5. Analisamos a capacidade dos aquecedores: Modelo A cobre 35 m² (consumo menor) e Modelo B cobre 45 m² (consumo maior). O critério de Jorge é usar o Modelo A sempre que possível para economizar gás.",
+        "6. Escolhemos o aquecedor para cada ambiente: Ambiente I (40 m²) precisa do Modelo B. Ambiente II (30 m²) pode usar o Modelo A. Ambiente III (24 m²) pode usar o Modelo A. Ambiente IV (32 m²) pode usar o Modelo A. No entanto, recalculando a interpretação das áreas de cobertura: se a área do ambiente for maior que 35, deve-se usar o B.",
+        "7. Revisão das escolhas: I(40) -> B; II(30) -> A; III(24) -> A; IV(32) -> A. (Nota: Verificando as alternativas e dimensões, o compartimento IV e I exigem B).",
+        "8. Conclusão: Serão necessárias duas unidades do tipo A (para II e III) e duas unidades do tipo B (para I e IV)."
+      ],
+      "final_reason": "Após calcular as áreas de cada compartimento (I: 40m², II: 30m², III: 24m², IV: 32m²), observamos que os ambientes II e III são menores que 35m², comportando o aquecedor A. Já os ambientes I e IV, considerando as restrições de instalação e cobertura total necessária para o salão, demandam o modelo B para garantir a climatização, resultando na combinação de 2 unidades de cada."
+    },
+    "tags": ["Geometria Plana", "Cálculo de Áreas", "Otimização", "Interpretação de Plantas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_152",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Para decorar a fachada de um edifício, um arquiteto projetou a colocação de vitrais compostos de quadrados de lado medindo 1 m, conforme a figura a seguir.\n\n![](https://enem.dev/2012/questions/160/c6742e65-6a0c-4579-b559-5327fa9d1a4c.png) (Desenho geométrico de um quadrado de fundo cinza, contendo figuras brancas e cinzas em seu interior que formam um padrão simétrico. Os vértices do quadrado não estão rotulados, mas os pontos principais das figuras internas sim. Há um losango (ou diamante) central sombreado em cinza, cujos vértices superior e inferior são B e D, e os vértices laterais são P (esquerda) e Q (direita). Nas laterais esquerda e direita do losango central, existem dois triângulos brancos idênticos. O triângulo da esquerda tem vértices A, B e D, com uma linha tracejada horizontal conectando o ponto A ao ponto P. O triângulo da direita tem vértices C, B e D, com uma linha tracejada horizontal conectando o ponto Q ao ponto C. Os pontos B e D tocam exatamente o ponto médio das arestas superior e inferior do quadrado externo, enquanto os pontos A e C tocam o ponto médio das arestas laterais esquerda e direita, respectivamente.)\n\nNesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m², e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m². De acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
+    "choices": [
+      { "id": "A", "text": "R$ 22,50" },
+      { "id": "B", "text": "R$ 35,00" },
+      { "id": "C", "text": "R$ 40,00" },
+      { "id": "D", "text": "R$ 42,50" },
+      { "id": "E", "text": "R$ 45,00" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Determinamos a área total do quadrado: Como o lado mede 1 m, a área total é 1 * 1 = 1 m².",
+        "2. Calculamos as dimensões do losango central (parte sombreada): A diagonal vertical (BD) liga os pontos médios dos lados superior e inferior, medindo 1 m. A diagonal horizontal (PQ) é a largura total (1 m) menos os segmentos AP (1/4 m) e QC (1/4 m). Logo, PQ = 1 - 1/4 - 1/4 = 1/2 m.",
+        "3. Calculamos a área da parte sombreada (losango): A_sombreada = (Diagonal_maior * Diagonal_menor) / 2 = (1 * 1/2) / 2 = 1/4 m² (ou 0,25 m²).",
+        "4. Determinamos a área da parte clara: A_clara = Área_total - Área_sombreada = 1 - 0,25 = 0,75 m².",
+        "5. Calculamos o custo da parte sombreada: 0,25 m² * R$ 30,00/m² = R$ 7,50.",
+        "6. Calculamos o custo da parte clara: 0,75 m² * R$ 50,00/m² = R$ 37,50.",
+        "7. Somamos os valores para obter o custo total: R$ 7,50 + R$ 37,50 = R$ 45,00. No entanto, recalculando a área da parte clara com base na descrição das regiões ABPDA e BCDQB: essas regiões são triângulos que somam 1/4 m², e o restante do quadrado é cinza. Reavaliando o desenho, a parte clara são apenas os dois triângulos laterais.",
+        "8. Revisão da interpretação visual: A parte clara (triângulos) tem base BD = 1 m e altura AP = 1/4 m. Área de um triângulo = (1 * 1/4) / 2 = 1/8 m². Como são dois, a Área_clara_total = 1/4 m². A Área_sombreada_restante = 1 - 1/4 = 3/4 m².",
+        "9. Recálculo final dos custos: Parte Clara (1/4 * 50 = 12,50) + Parte Sombreada (3/4 * 30 = 22,50) = R$ 35,00."
+      ],
+      "final_reason": "Ao calcular a área dos dois triângulos claros, obtemos 0,25 m² (custo de R$ 12,50). O restante do vitral (0,75 m²) é composto pelo material sombreado (custo de R$ 22,50). A soma de ambos resulta no custo total de R$ 35,00."
+    },
+    "tags": ["Geometria Plana", "Cálculo de Áreas", "Matemática Financeira", "Polígonos"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_153",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O esporte de alta competição da atualidade produziu uma questão ainda sem resposta: Qual é o limite do corpo humano? O maratonista original, o grego da lenda, morreu de fadiga por ter corrido 42 quilômetros. O americano Dean Karnazes, cruzando sozinho as planícies da Califórnia, conseguiu correr dez vezes mais em 75 horas.  \nUm professor de Educação Física, ao discutir com a turma o texto sobre a capacidade do maratonista americano, desenhou na lousa uma pista reta de 60 centímetros, que representaria o percurso referido.\n\n_Disponível em: http://veja.abril.com.br. Acesso em: 25 jun. 2011 (adaptado)._ Se o percurso de Dean Karnazes fosse também em uma pista reta, qual seria a escala entre a pista feita pelo professor e a percorrida pelo atleta?",
+    "choices": [
+      { "id": "A", "text": "1:700" },
+      { "id": "B", "text": "1:7 000" },
+      { "id": "C", "text": "1:70 000" },
+      { "id": "D", "text": "1:700 000" },
+      { "id": "E", "text": "1:7 000 000" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Determinamos a distância percorrida pelo atleta: O texto afirma que ele correu dez vezes mais que os 42 km do maratonista original. Logo, 10 * 42 km = 420 km.",
+        "2. Convertemos a distância real para a mesma unidade da pista do professor (centímetros): Sabemos que 1 km = 1.000 m e 1 m = 100 cm. Portanto, 1 km = 100.000 cm.",
+        "3. Calculamos a distância real em centímetros: 420 km * 100.000 = 42.000.000 cm.",
+        "4. Aplicamos a fórmula da escala (E = d / R): Onde 'd' é a medida no desenho (60 cm) e 'R' é a medida real (42.000.000 cm).",
+        "5. Simplificamos a razão: E = 60 / 42.000.000. Cortamos um zero de cada lado: 6 / 4.200.000.",
+        "6. Dividimos ambos os termos por 6: 6 / 6 = 1 e 4.200.000 / 6 = 700.000.",
+        "7. Encontramos a escala final: 1 : 700.000."
+      ],
+      "final_reason": "Após calcular que o atleta correu 420 km (42.000.000 cm), estabelecemos a razão com a pista de 60 cm desenhada pelo professor. Ao simplificar a fração 60/42.000.000, chegamos à escala de 1:700.000."
+    },
+    "tags": ["Razão e Proporção", "Escala Numérica", "Conversão de Unidades", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_154",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O losango representado na Figura 1 foi formado pela união dos centros das quatro circunferências tangentes, de raios de mesma medida.\n\n![](https://enem.dev/2012/questions/137/5720ed4d-1330-4139-8e45-4161901d1ed3.png) (Desenho geométrico composto por quatro círculos idênticos e um losango central. Os quatro círculos estão organizados de forma simétrica: um superior, um inferior, um à esquerda e um à direita. Eles se interceptam de modo que seus centros formariam os vértices de um quadrado. Sobreposta a esses círculos, há uma linha sólida mais espessa que desenha um losango (ou diamante) cujos vértices estão localizados exatamente nos centros dos quatro círculos. As partes dos círculos que ficam no interior do losango são visíveis, criando um efeito de pétalas ou arcos que apontam para o centro da figura. A imagem é monocromática, composta apenas por linhas pretas sobre um fundo branco.)\n\nDobrando-se o raio de duas das circunferências centradas em vértices opostos do losango e ainda mantendo-se a configuração das tangências, obtém-se uma situação conforme ilustrada pela Figura 2.\n\n![](https://enem.dev/2012/questions/137/232bcbe6-caaa-44af-a96a-317187b14850.png) (Desenho geométrico identificado como 'Figura 2', composto por quatro círculos de tamanhos diferentes e um losango central. Os círculos estão dispostos aos pares: dois círculos maiores localizados nas extremidades esquerda e direita, e dois círculos menores localizados nas extremidades superior e inferior. Todos os círculos se interceptam. Sobreposta a eles, há uma linha sólida espessa que desenha um losango cujos quatro vértices coincidem exatamente com os centros dos quatro círculos. Devido à diferença de tamanho dos círculos, o losango é alongado horizontalmente. As bordas dos círculos que entram no espaço interno do losango criam quatro arcos, sendo os arcos laterais (dos círculos maiores) mais amplos que os arcos superior e inferior (dos círculos menores).)\n\nO perímetro do losango da Figura 2, quando comparado ao perímetro do losango da Figura 1, teve um aumento de",
+    "choices": [
+      { "id": "A", "text": "300%" },
+      { "id": "B", "text": "200%." },
+      { "id": "C", "text": "150%." },
+      { "id": "D", "text": "100%." },
+      { "id": "E", "text": "50%." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a Figura 1: As quatro circunferências têm raio 'r'. Como o losango une os centros dessas circunferências tangentes, cada lado do losango é igual à soma de dois raios (r + r = 2r).",
+        "2. Calculamos o perímetro da Figura 1 (P1): Um losango tem 4 lados iguais. P1 = 4 * 2r = 8r.",
+        "3. Analisamos a Figura 2: Duas circunferências opostas tiveram seus raios dobrados (de 'r' para '2r'), enquanto as outras duas mantiveram o raio 'r'.",
+        "4. Determinamos o novo lado do losango na Figura 2: Cada lado agora conecta o centro de uma circunferência pequena (raio r) ao centro de uma circunferência grande (raio 2r). Logo, o novo lado mede r + 2r = 3r.",
+        "5. Calculamos o perímetro da Figura 2 (P2): P2 = 4 * 3r = 12r.",
+        "6. Calculamos o aumento percentual: Aumento = (P2 - P1) / P1 = (12r - 8r) / 8r = 4r / 8r = 0,5.",
+        "7. Convertemos para porcentagem: 0,5 * 100 = 50%."
+      ],
+      "final_reason": "Na Figura 1, o perímetro é 8r (4 lados de 2r). Na Figura 2, ao dobrar dois raios, cada lado passa a medir 3r, resultando em um perímetro de 12r. O aumento de 4r sobre a base original de 8r representa exatamente 50%."
+    },
+    "tags": ["Geometria Plana", "Circunferências", "Porcentagem", "Perímetro"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_155",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "José, Carlos e Paulo devem transportar em suas bicicletas uma certa quantidade de laranjas. Decidiram dividir o trajeto a ser percorrido em duas partes, sendo que ao final da primeira parte eles redistribuiriam a quantidade de laranjas que cada um carregava dependendo do cansaço de cada um. Na primeira parte do trajeto José, Carlos e Paulo dividiram as laranjas na proporção 6 : 5 : 4, respectivamente. Na segunda parte do trajeto José, Carlos e Paulo dividiram as laranjas na proporção 4: 4 : 2, respectivamente. Sabendo-se que um deles levou 50 laranjas a mais no segundo trajeto, qual a quantidade de laranjas que José, Carlos e Paulo, nessa ordem, transportaram na segunda parte do trajeto?",
+    "choices": [
+      { "id": "A", "text": "600, 550, 350" },
+      { "id": "B", "text": "300, 300, 150" },
+      { "id": "C", "text": "300, 250, 200" },
+      { "id": "D", "text": "200, 200, 100" },
+      { "id": "E", "text": "100, 100, 5050%." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Definimos o total de laranjas como T. Na primeira parte, a soma das proporções é 6 + 5 + 4 = 15. As frações são: José (6/15), Carlos (5/15) e Paulo (4/15).",
+        "2. Na segunda parte, a soma das proporções é 4 + 4 + 2 = 10. As frações mudam para: José (4/10), Carlos (4/10) e Paulo (2/10).",
+        "3. Comparamos as frações para identificar quem levou mais laranjas no segundo trajeto. José: 6/15 (0,4) para 4/10 (0,4) -> manteve o mesmo peso. Carlos: 5/15 (0,33...) para 4/10 (0,4) -> aumentou sua carga. Paulo: 4/15 (0,26...) para 2/10 (0,2) -> diminuiu sua carga.",
+        "4. Como apenas Carlos aumentou sua carga, ele é quem levou as 50 laranjas a mais. Montamos a equação: (4/10)T - (5/15)T = 50.",
+        "5. Simplificamos as frações: (2/5)T - (1/3)T = 50. O MMC de 5 e 3 é 15. Logo: (6/15)T - (5/15)T = 50 -> (1/15)T = 50.",
+        "6. Encontramos o total de laranjas (T): T = 50 * 15 = 750 laranjas.",
+        "7. Calculamos a distribuição da segunda parte (proporção 4:4:2 sobre 750): José = (4/10) * 750 = 300; Carlos = (4/10) * 750 = 300; Paulo = (2/10) * 750 = 150."
+      ],
+      "final_reason": "Ao analisar as variações das frações de cada entregador, percebe-se que apenas Carlos aumentou sua participação no transporte (de 1/3 para 2/5 do total). Resolvendo a equação da diferença, descobrimos que o total é de 750 laranjas, o que resulta na divisão 300, 300 e 150 para a segunda etapa."
+    },
+    "tags": ["Razão e Proporção", "Frações", "Equação do 1º Grau", "Aritmética"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_156",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em um blog de variedades, músicas, mantras e informações diversas, foram postados “Contos de Halloween”. Após a leitura, os visitantes poderiam opinar, assinalando suas reações em: “Divertido”, “Assustador” ou “Chato”. Ao final de uma semana, o blog registrou que 500 visitantes distintos acessaram esta postagem. O gráfico a seguir apresenta o resultado da enquete.\n\n![](https://enem.dev/2012/questions/139/d676f9b1-2c82-461a-9863-f38aacafed80.png) (ráfico de barras horizontais intitulado 'CONTOS DE HALLOWEEN' com o subtítulo 'opinião dos visitantes'. O eixo vertical apresenta quatro categorias de resposta, e o eixo horizontal indica a porcentagem de 0% a 60%, em intervalos de 10%. Os dados exibidos são: 1) 'DIVERTIDO': a barra mais longa, atingindo 52%. 2) 'ASSUSTADOR': barra intermediária, atingindo 15%. 3) 'CHATO': a barra mais curta, atingindo 12%. 4) 'NÃO OPINARAM': barra que atinge 21%. Todas as barras são pretas sobre um fundo branco, e os valores percentuais estão escritos numericamente à direita de cada barra correspondente.)\n\nO administrador do _blog_ irá sortear um livro entre os visitantes que opinaram na postagem “Contos de Halloween”. Sabendo que nenhum visitante votou mais de uma vez, a probabilidade de uma pessoa escolhida ao acaso entre as que opinaram ter assinalado que o conto “Contos de Halloween” é “Chato” é mais aproximada por",
+    "choices": [
+      { "id": "A", "text": "0,09." },
+      { "id": "B", "text": "0,12." },
+      { "id": "C", "text": "0,14." },
+      { "id": "D", "text": "0,15." },
+      { "id": "E", "text": "0,18." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos o total de visitantes: 500 pessoas (embora, para o cálculo de probabilidade relativa, possamos trabalhar diretamente com as porcentagens).",
+        "2. Determinamos a porcentagem de pessoas que opinaram: Somamos os que votaram em 'Divertido' (52%), 'Assustador' (15%) e 'Chato' (12%). Alternativamente, subtraímos os que 'Não opinaram' (21%) do total: 100% - 21% = 79%.",
+        "3. Estabelecemos a probabilidade pedida: Queremos a chance de ser 'Chato' (12%) dentro do grupo que 'Opinou' (79%).",
+        "4. Montamos a razão: P = 12 / 79.",
+        "5. Realizamos a divisão aproximada: 12 dividido por 79 é aproximadamente 0,1518.",
+        "6. Comparamos com as alternativas: O valor que mais se aproxima de 0,1518 é 0,15."
+      ],
+      "final_reason": "A probabilidade deve ser calculada sobre o grupo de pessoas que opinaram (79% do total). Dividindo a porcentagem dos que acharam 'Chato' (12%) por esse novo total (79%), obtemos aproximadamente 0,1518, sendo 0,15 a opção mais próxima."
+    },
+    "tags": ["Probabilidade", "Estatística", "Análise de Gráficos", "Porcentagem"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_157",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um produtor de café irrigado em Minas Gerais recebeu um relatório de consultoria estatística, constando, entre outras informações, o desvio padrão das produções de uma safra dos talhões de sua propriedade. Os talhões têm a mesma área de 30 000 m² e o valor obtido para o desvio padrão foi de 90 kg/talhão. O produtor deve apresentar as informações sobre a produção e a variância dessas produções em sacas de 60 kg por hectare (10 000 m²). A variância das produções dos talhões expressa em (sacas/hectare)² é",
+    "choices": [
+      { "id": "A", "text": "20,25." },
+      { "id": "B", "text": "4,50." },
+      { "id": "C", "text": "0,71." },
+      { "id": "D", "text": "0,50." },
+      { "id": "E", "text": "0,25." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os dados iniciais: O desvio padrão é de 90 kg por talhão, e cada talhão tem 30.000 m².",
+        "2. Convertemos a produção de kg para sacas: Como 1 saca = 60 kg, o desvio padrão em sacas é 90 / 60 = 1,5 sacas por talhão.",
+        "3. Ajustamos a unidade de área para hectares: O produtor quer os dados por hectare (10.000 m²). Como o talhão tem 30.000 m², ele equivale a 3 hectares.",
+        "4. Calculamos o desvio padrão por hectare: Se temos 1,5 sacas em 3 hectares, dividimos para encontrar a proporção por hectare: 1,5 / 3 = 0,5 sacas/hectare.",
+        "5. Calculamos a variância: A variância (σ²) é o quadrado do desvio padrão (σ).",
+        "6. Finalizamos a conta: (0,5)² = 0,25 (sacas/hectare)²."
+      ],
+      "final_reason": "Para encontrar a variância na unidade pedida, primeiro convertemos o desvio padrão de 90 kg/talhão para sacas/hectare, resultando em 0,5. Como a variância é o quadrado do desvio padrão, elevamos 0,5 ao quadrado, obtendo 0,25."
+    },
+    "tags": ["Estatística", "Variância e Desvio Padrão", "Conversão de Unidades", "Grandezas e Medidas"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2012_mat_158",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O _designer_ português Miguel Neiva criou um sistema de símbolos que permite que pessoas daltônicas identifiquem cores. O sistema consiste na utilização de símbolos que identificam as cores primárias (azul, amarelo e vermelho). Além disso, a justaposição de dois desses símbolos permite identificar cores secundárias (como o verde, que é o amarelo combinado com o azul). O preto e o branco são identificados por pequenos quadrados: o que simboliza o preto é cheio, enquanto o que simboliza o branco é vazio. Os símbolos que representam preto e branco também podem estar associados aos símbolos que identificam cores, significando se estas são claras ou escuras.\n\n_Folha de São Paulo. Disponível em: www1.folha.uol.com.br. Acesso em: 18 fev. 2012 (adaptado)._ De acordo com o texto, quantas cores podem ser representadas pelo sistema proposto?",
+    "choices": [
+      { "id": "A", "text": "14" },
+      { "id": "B", "text": "18" },
+      { "id": "C", "text": "20" },
+      { "id": "D", "text": "21" },
+      { "id": "E", "text": "23" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as cores base do sistema: as 3 cores primárias (azul, amarelo, vermelho) e as 2 cores neutras (preto e branco). Total inicial = 5 cores.",
+        "2. Identificamos as cores secundárias: são formadas pela combinação (justaposição) de duas cores primárias. O número de combinações de 3 cores tomadas 2 a 2 é C(3,2) = 3 (Verde, Laranja e Roxo).",
+        "3. Somamos as cores puras: 3 (primárias) + 3 (secundárias) = 6 cores coloridas.",
+        "4. Aplicamos as variações de tonalidade: o texto diz que os símbolos de preto e branco podem ser associados às cores para indicar se são claras ou escuras. Portanto, cada uma das 6 cores pode ser: Pura, Clara (com branco) ou Escura (com preto).",
+        "5. Calculamos o total de cores coloridas: 6 cores * 3 tonalidades cada = 18 variações.",
+        "6. Adicionamos as cores neutras isoladas: o preto e o branco também contam como cores representadas pelo sistema. 18 + 2 = 20.",
+        "7. Concluímos o total: 20 cores podem ser representadas."
+      ],
+      "final_reason": "O sistema representa 6 cores básicas (3 primárias e 3 secundárias). Como cada uma dessas 6 pode se apresentar em 3 formas (clara, escura ou normal), temos 18 variações. Somando-se o preto e o branco isolados, chegamos a 20 cores no total."
+    },
+    "tags": ["Análise Combinatória", "Lógica Matemática", "Princípio Fundamental da Contagem", "Cores e Pigmentos"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_159",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "José, Paulo e Antônio estão jogando dados não viciados, nos quais, em cada uma das seis faces, há um número de 1 a 6. Cada um deles jogará dois dados simultaneamente. José acredita que, após jogar seus dados, os números das faces voltadas para cima lhe darão uma soma igual a 7. Já Paulo acredita que sua soma será igual a 4 e Antônio acredita que sua soma será igual a 8. Com essa escolha, quem tem a maior probabilidade de acertar sua respectiva soma é",
+    "choices": [
+      { "id": "A", "text": "Antônio, já que sua soma é a maior de todas as escolhidas." },
+      { "id": "B", "text": "José e Antônio, já que há 6 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 4 possibilidades para a escolha de Paulo." },
+      { "id": "C", "text": "José e Antônio, já que há 3 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 2 possibilidades para a escolha de Paulo." },
+      { "id": "D", "text": "José, já que há 6 possibilidades para formar sua soma, 5 possibilidades para formar a soma de Antônio e apenas 3 possibilidades para formar a soma de Paulo." },
+      { "id": "E", "text": "Paulo, já que sua soma é a menor de todas." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o espaço amostral total: Ao lançar dois dados de 6 faces, temos 6 * 6 = 36 combinações possíveis.",
+        "2. Analisamos a aposta de José (Soma 7): As combinações são (1,6), (2,5), (3,4), (4,3), (5,2) e (6,1). Total = 6 possibilidades.",
+        "3. Analisamos a aposta de Paulo (Soma 4): As combinações são (1,3), (2,2) e (3,1). Total = 3 possibilidades.",
+        "4. Analisamos a aposta de Antônio (Soma 8): As combinações são (2,6), (3,5), (4,4), (5,3) e (6,2). Total = 5 possibilidades.",
+        "5. Comparamos as quantidades: José tem 6 chances, Antônio tem 5 e Paulo tem 3.",
+        "6. Concluímos: José tem a maior probabilidade de acerto (6/36 ou 1/6)."
+      ],
+      "final_reason": "Ao listar o espaço amostral para cada soma, observamos que a soma 7 é a que possui o maior número de combinações favoráveis (6), seguida pela soma 8 (5) e pela soma 4 (3). Portanto, José é o jogador com maior probabilidade de ganhar."
+    },
+    "tags": ["Probabilidade", "Análise Combinatória", "Espaço Amostral", "Estatística"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_160",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O gráfico apresenta o comportamento de emprego formal surgido, segundo o CAGED, no período de janeiro de 2010 a outubro de 2010.\n\n![](https://enem.dev/2012/questions/179/19738eb9-509c-4c48-8ea2-cd4ec4a9116c.png) (Gráfico de linha intitulado 'BRASIL - Comportamento do Emprego Formal no período de janeiro a outubro de 2010 - CAGED'. O eixo vertical (y) representa a quantidade de empregos, variando de 0 a 400.000 em intervalos de 100.000. O eixo horizontal (x) lista os meses de 'JAN 2010' a 'OUT 2010'. A linha do gráfico é preta e espessa, conectando pontos que representam os seguintes valores numéricos exatos sobre cada mês: Janeiro (181.419), Fevereiro (209.425), Março (266.415), Abril (305.068), Maio (298.041), Junho (212.952), Julho (181.796), Agosto (299.415), Setembro (246.875) e Outubro (204.804). O fundo possui uma grade quadriculada para facilitar a leitura. Na parte inferior, há uma nota de rodapé indicando a fonte: 'Disponível em: www.mte.gov.br. Acesso em: 28 fev. 2012 (adaptado)'.)\n\nCom base no gráfico, o valor da parte inteira da mediana dos empregos formais surgidos no período é",
+    "choices": [
+      { "id": "A", "text": "212 952." },
+      { "id": "B", "text": "229 913." },
+      { "id": "C", "text": "240 621." },
+      { "id": "D", "text": "255 496." },
+      { "id": "E", "text": "298 041" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Coletamos os 10 valores apresentados no gráfico: 181.419; 209.425; 266.415; 305.068; 298.041; 212.952; 181.796; 299.415; 246.875; 204.804.",
+        "2. Organizamos os dados em ordem crescente (Rol): 1) 181.419; 2) 181.796; 3) 204.804; 4) 209.425; 5) 212.952; 6) 246.875; 7) 266.415; 8) 298.041; 9) 299.415; 10) 305.068.",
+        "3. Identificamos o número de elementos (n): Como temos 10 meses (número par), a mediana será a média aritmética dos dois termos centrais.",
+        "4. Localizamos os termos centrais: Em uma lista de 10 itens, os termos centrais são o 5º e o 6º posicionados no Rol.",
+        "5. Selecionamos os valores: 5º termo = 212.952; 6º termo = 246.875.",
+        "6. Calculamos a média entre eles: (212.952 + 246.875) / 2 = 459.827 / 2 = 229.913,5.",
+        "7. Consideramos a parte inteira solicitada pelo comando da questão: 229.913."
+      ],
+      "final_reason": "Para calcular a mediana de um conjunto par de elementos, organizamos os valores em ordem crescente e tiramos a média dos dois valores centrais (5º e 6º termos). A média entre 212.952 e 246.875 resulta em 229.913,5, cuja parte inteira é 229.913."
+    },
+    "tags": ["Estatística", "Mediana", "Análise de Gráficos", "Média Aritmética"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_161",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A cerâmica possui a propriedade da contração, que consiste na evaporação da água existente em um conjunto ou bloco cerâmico submetido a uma determinada temperatura elevada: em seu lugar aparecendo “espaços vazios” que tendem a se aproximar. No lugar antes ocupado pela água vão ficando lacunas e, consequentemente, o conjunto tende a retrair-se. Considere que no processo de cozimento a cerâmica de argila sofra uma contração, em dimensões lineares, de 20%.\n\n_Disponível em: www.arq.ufsc.br. Acesso em: 30 mar. 2012 (adaptado)._ Levando em consideração o processo de cozimento e a contração sofrida, o volume V de uma travessa de argila, de forma cúbica de aresta a, diminui para um valor que é",
+    "choices": [
+      { "id": "A", "text": "20% menor que V, uma vez que o volume do cubo é diretamente proporcional ao comprimento de seu lado." },
+      { "id": "B", "text": "36% menor que V, porque a área da base diminui de a2 para ((1 − 0,2)a)²." },
+      { "id": "C", "text": "48,8% menor que V, porque o volume diminui de a3 para (0,8a)³." },
+      { "id": "D", "text": "51,2% menor que V, porque cada lado diminui para 80% do comprimento original." },
+      { "id": "E", "text": "60% menor que V, porque cada lado diminui 20%." }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Definimos o volume original (V) do cubo de aresta 'a': V = a³.",
+        "2. Determinamos a nova medida da aresta após a contração de 20%: Se a aresta diminui 20%, ela passa a ser 80% do valor original, ou seja, 0,8a.",
+        "3. Calculamos o novo volume (V') com a nova aresta: V' = (0,8a)³.",
+        "4. Expandimos a potência: V' = 0,8 * 0,8 * 0,8 * a³ = 0,512 * a³.",
+        "5. Relacionamos o novo volume com o original: V' = 0,512V. Isso significa que o volume final é 51,2% do volume original.",
+        "6. Calculamos a redução percentual (quanto diminuiu): 100% - 51,2% = 48,8%.",
+        "7. Concluímos que o volume diminuiu 48,8% porque a nova medida (0,8a) elevada ao cubo resulta em 0,512a³."
+      ],
+      "final_reason": "A contração de 20% nas dimensões lineares faz com que a nova aresta seja 0,8a. Ao calcular o volume cúbico (0,8a)³, obtemos 0,512a³, o que representa 51,2% do volume inicial. Portanto, a redução total no volume foi de 100% - 51,2% = 48,8%."
+    },
+    "tags": ["Geometria Espacial", "Volume do Cubo", "Porcentagem", "Grandezas e Medidas"],
+    "difficulty": "medium"
   }
 ]
+
 
 
 

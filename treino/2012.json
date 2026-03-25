@@ -12,38 +12,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "O esporte de alta competição da atualidade produziu uma questão ainda sem resposta: Qual é o limite do corpo humano? O maratonista original, o grego da lenda, morreu de fadiga por ter corrido 42 quilômetros. O americano Dean Karnazes, cruzando sozinho as planícies da Califórnia, conseguiu correr dez vezes mais em 75 horas.  \nUm professor de Educação Física, ao discutir com a turma o texto sobre a capacidade do maratonista americano, desenhou na lousa uma pista reta de 60 centímetros, que representaria o percurso referido.\n\n_Disponível em: http://veja.abril.com.br. Acesso em: 25 jun. 2011 (adaptado)._",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Se o percurso de Dean Karnazes fosse também em uma pista reta, qual seria a escala entre a pista feita pelo professor e a percorrida pelo atleta?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "1:700",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "1:7 000",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "1:70 000",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "1:700 000",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "1:7 000 000",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -55,13 +55,13 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/137/5720ed4d-1330-4139-8e45-4161901d1ed3.png)\n\nDobrando-se o raio de duas das circunferências centradas em vértices opostos do losango e ainda mantendo-se a configuração das tangências, obtém-se uma situação conforme ilustrada pela Figura 2.\n\n![](https://enem.dev/2012/questions/137/232bcbe6-caaa-44af-a96a-317187b14850.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/137/5720ed4d-1330-4139-8e45-4161901d1ed3.png",
         "https://enem.dev/2012/questions/137/232bcbe6-caaa-44af-a96a-317187b14850.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "O perímetro do losango da Figura 2, quando comparado ao perímetro do losango da Figura 1, teve um aumento de",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -104,35 +104,35 @@
       "context": null,
       "files": [],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Sabendo-se que um deles levou 50 laranjas a mais no segundo trajeto, qual a quantidade de laranjas que José, Carlos e Paulo, nessa ordem, transportaram na segunda parte do trajeto?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "600, 550, 350",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "300, 300, 150",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "300, 250, 200",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "200, 200, 100",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "100, 100, 50",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -144,40 +144,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "O gráfico a seguir apresenta o resultado da enquete.\n\n![](https://enem.dev/2012/questions/139/d676f9b1-2c82-461a-9863-f38aacafed80.png)\n\nO administrador do _blog_ irá sortear um livro entre os visitantes que opinaram na postagem “Contos de Halloween”.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/139/d676f9b1-2c82-461a-9863-f38aacafed80.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Sabendo que nenhum visitante votou mais de uma vez, a probabilidade de uma pessoa escolhida ao acaso entre as que opinaram ter assinalado que o conto “Contos de Halloween” é “Chato” é mais aproximada por",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "0,09.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "0,12.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "0,14.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "0,15.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "0,18.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -985,40 +985,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/158/1f4ff459-e739-491b-abba-8350d8dd458b.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/158/1f4ff459-e739-491b-abba-8350d8dd458b.png"
       ],
       "correctAlternative": "C",
-      "alternativesIntroduction": "O que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm³?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "O nível subiria 0,2 cm, fazendo a água ficar com 20,2 cm de altura.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "O nível subiria 1 cm, fazendo a água ficar com 21 cm de altura.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "O nível subiria 2 cm, fazendo a água ficar com 22 cm de altura.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "D",
-          "text": "O nível subiria 8 cm, fazendo a água transbordar.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "O nível subiria 20 cm, fazendo a água transbordar.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1030,40 +1030,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/159/4889b43a-36e3-4b29-91b2-ab87fda455d7.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/159/4889b43a-36e3-4b29-91b2-ab87fda455d7.png"
       ],
       "correctAlternative": "C",
-      "alternativesIntroduction": "Avaliando-se todas as informações, serão necessários",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "Quatro unidades do tipo A e nenhuma unidade do tipo B.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "Três unidades do tipo A e uma unidade do tipo B.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "Duas unidades do tipo A e duas unidades do tipo B.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "D",
-          "text": "Uma unidade do tipo A e três unidades do tipo B.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "Nenhuma unidade do tipo A e quatro unidades do tipo B.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1075,40 +1075,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/160/c6742e65-6a0c-4579-b559-5327fa9d1a4c.png)\n\nNesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m², e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m².",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/160/c6742e65-6a0c-4579-b559-5327fa9d1a4c.png"
       ],
       "correctAlternative": "B",
-      "alternativesIntroduction": "De acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "R$ 22,50",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "R$ 35,00",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "R$ 40,00",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "R$ 42,50",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "R$ 45,00",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1782,38 +1782,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Um produtor de café irrigado em Minas Gerais recebeu um relatório de consultoria estatística, constando, entre outras informações, o desvio padrão das produções de uma safra dos talhões de sua propriedade. Os talhões têm a mesma área de 30 000 m² e o valor obtido para o desvio padrão foi de 90 kg/talhão. O produtor deve apresentar as informações sobre a produção e a variância dessas produções em sacas de 60 kg por hectare (10 000 m²).",
+      "context": "",
       "files": [],
       "correctAlternative": "E",
-      "alternativesIntroduction": "A variância das produções dos talhões expressa em (sacas/hectare)² é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "20,25.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "4,50.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "0,71.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "0,50.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "0,25.",
+          "text": "",
           "file": null,
           "isCorrect": true
         }
@@ -1825,10 +1825,10 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "O _designer_ português Miguel Neiva criou um sistema de símbolos que permite que pessoas daltônicas identifiquem cores. O sistema consiste na utilização de símbolos que identificam as cores primárias (azul, amarelo e vermelho). Além disso, a justaposição de dois desses símbolos permite identificar cores secundárias (como o verde, que é o amarelo combinado com o azul). O preto e o branco são identificados por pequenos quadrados: o que simboliza o preto é cheio, enquanto o que simboliza o branco é vazio. Os símbolos que representam preto e branco também podem estar associados aos símbolos que identificam cores, significando se estas são claras ou escuras.\n\n_Folha de São Paulo. Disponível em: www1.folha.uol.com.br. Acesso em: 18 fev. 2012 (adaptado)._",
+      "context": "",
       "files": [],
       "correctAlternative": "C",
-      "alternativesIntroduction": "De acordo com o texto, quantas cores podem ser representadas pelo sistema proposto?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1868,38 +1868,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "José, Paulo e Antônio estão jogando dados não viciados, nos quais, em cada uma das seis faces, há um número de 1 a 6. Cada um deles jogará dois dados simultaneamente. José acredita que, após jogar seus dados, os números das faces voltadas para cima lhe darão uma soma igual a 7. Já Paulo acredita que sua soma será igual a 4 e Antônio acredita que sua soma será igual a 8.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Com essa escolha, quem tem a maior probabilidade de acertar sua respectiva soma é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "Antônio, já que sua soma é a maior de todas as escolhidas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "José e Antônio, já que há 6 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 4 possibilidades para a escolha de Paulo.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "José e Antônio, já que há 3 possibilidades tanto para a escolha de José quanto para a escolha de Antônio, e há apenas 2 possibilidades para a escolha de Paulo.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "José, já que há 6 possibilidades para formar sua soma, 5 possibilidades para formar a soma de Antônio e apenas 3 possibilidades para formar a soma de Paulo.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "Paulo, já que sua soma é a menor de todas.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1911,34 +1911,34 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/179/19738eb9-509c-4c48-8ea2-cd4ec4a9116c.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/179/19738eb9-509c-4c48-8ea2-cd4ec4a9116c.png"
       ],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Com base no gráfico, o valor da parte inteira da mediana dos empregos formais surgidos no período é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "212 952.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "229 913.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "240 621.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "255 496.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
@@ -1956,38 +1956,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "A cerâmica possui a propriedade da contração, que consiste na evaporação da água existente em um conjunto ou bloco cerâmico submetido a uma determinada temperatura elevada: em seu lugar aparecendo “espaços vazios” que tendem a se aproximar. No lugar antes ocupado pela água vão ficando lacunas e, consequentemente, o conjunto tende a retrair-se. Considere que no processo de cozimento a cerâmica de argila sofra uma contração, em dimensões lineares, de 20%.\n\n_Disponível em: www.arq.ufsc.br. Acesso em: 30 mar. 2012 (adaptado)._",
+      "context": "",
       "files": [],
       "correctAlternative": "C",
-      "alternativesIntroduction": "Levando em consideração o processo de cozimento e a contração sofrida, o volume V de uma travessa de argila, de forma cúbica de aresta a, diminui para um valor que é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "20% menor que V, uma vez que o volume do cubo é diretamente proporcional ao comprimento de seu lado.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "36% menor que V, porque a área da base diminui de a2 para ((1 − 0,2)a)².",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "48,8% menor que V, porque o volume diminui de a3 para (0,8a)³.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "D",
-          "text": "51,2% menor que V, porque cada lado diminui para 80% do comprimento original.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "60% menor que V, porque cada lado diminui 20%.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
