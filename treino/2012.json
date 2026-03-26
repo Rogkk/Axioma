@@ -189,10 +189,10 @@
       "discipline": "ciencias-humanas",
       "language": null,
       "year": 2012,
-      "context": "Arthur deseja comprar um terreno de Cléber, que lhe oferece as seguintes possibilidades de pagamento:\n\n• Opção 1: Pagar à vista, por R$ 55 000,00;\n\n• Opção 2: Pagar a prazo, dando uma entrada de R$ 30 000,00, e mais uma prestação de R$ 26 000,00 para dali a 6 meses.\n\n• Opção 3: Pagar a prazo, dando uma entrada de R$ 20 000,00, mais uma prestação de R$ 20 000,00, para dali a 6 meses e outra de R$ 18 000,00 para dali a 12 meses da data da compra.\n\n• Opção 4: Pagar a prazo dando uma entrada de R$ 15 000,00 e o restante em 1 ano da data da compra, pagando R$ 39 000,00.\n\n• Opção 5: pagar a prazo, dali a um ano, o valor de R$ 60 000,00.\n\nArthur tem o dinheiro para pagar à vista, mas avalia se não seria melhor aplicar o dinheiro do valor à vista (ou até um valor menor) em um investimento, com rentabilidade de 10% ao semestre, resgatando os valores à medida que as prestações da opção escolhida fossem vencendo.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Após avaliar a situação do ponto de vista financeiro e das condições apresentadas, Arthur concluiu que era mais vantajoso financeiramente escolher a opção:",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -721,15 +721,15 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Em exposições de artes plásticas, é usual que estátuas sejam expostas sobre plataformas giratórias. Uma medida de segurança é que a base da escultura esteja integralmente apoiada sobre a plataforma. Para que se providencie o equipamento adequado, no caso de uma base quadrada que será fixada sobre uma plataforma circular, o auxiliar técnico do evento deve estimar a medida _R_ do raio adequado para a plataforma em termos da medida _L_ do lado da base da estátua.",
+      "context": "",
       "files": [],
       "correctAlternative": "A",
-      "alternativesIntroduction": "Qual relação entre R e L o auxiliar técnico deverá apresentar de modo que a exigência de segurança seja cumprida?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
           "text": null,
-          "file": "https://enem.dev/2012/questions/152/1dc33ce8-535d-4502-917d-b1d1ca52d5ab.png",
+          "file": "",
           "isCorrect": true
         },
         {
@@ -764,41 +764,41 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/153/fa4fd7b5-9f57-4575-b0d7-efd5da168ad2.png)\n\nNa Figura 2, o ponto A está no plano do chão onde está colocado o globo da morte e o segmento AB passa pelo centro da esfera e é perpendicular ao plano do chão. Suponha que há um foco de luz direcionado para o chão colocado no ponto B e que um motoqueiro faça um trajeto dentro da esfera, percorrendo uma circunferência que passa pelos pontos A e B.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/153/fa4fd7b5-9f57-4575-b0d7-efd5da168ad2.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "A imagem do trajeto feito pelo motoqueiro no plano do chão é melhor representada por",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
           "text": null,
-          "file": "https://enem.dev/2012/questions/153/4407a6d1-8bea-4593-a271-4d67fae4f8ea.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "B",
           "text": null,
-          "file": "https://enem.dev/2012/questions/153/c5a84103-a02d-4576-9326-bb4cc62998e1.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "C",
           "text": null,
-          "file": "https://enem.dev/2012/questions/153/4442f0fa-2803-46d7-bf5c-6e73037f198e.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "D",
           "text": null,
-          "file": "https://enem.dev/2012/questions/153/568e9422-3b06-416a-9021-dbd0345427cc.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "E",
           "text": null,
-          "file": "https://enem.dev/2012/questions/153/6485f40e-a5f1-4426-9075-1bc63b0c4a87.png",
+          "file": "",
           "isCorrect": true
         }
       ]
@@ -809,40 +809,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/154/81fbfbc5-0f6b-40ed-a17e-9afc89d413fa.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/154/81fbfbc5-0f6b-40ed-a17e-9afc89d413fa.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "Uma proposta substitutiva, relativa às alturas de tomadas e interruptores, respectivamente, que atenderá àquele potencial comprador é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "0,20 m e 1,45 m.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "0,20 m e 1,40 m.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "0,25 m e 1,35 m.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "0,25 m e 1,30 m.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "0,45 m e 1,20 m.",
+          "text": "",
           "file": null,
           "isCorrect": true
         }
@@ -1430,32 +1430,32 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Dentre outros objetos de pesquisa, a Alometria estuda a relação entre medidas de diferentes partes do corpo humano. Por exemplo, segundo a Alometria, a área A da superfície corporal de uma pessoa relaciona-se com a sua massa m pela fórmula A = _k_⋅m2/3, em que _k_ é uma constante positiva.",
+      "context": "",
       "files": [],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Se no período que vai da infância até a maioridade de um indivíduo sua massa é multiplicada por 8, por quanto será multiplicada a área da superfície corporal?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "∛16",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "4",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "√24",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "8",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
@@ -1473,12 +1473,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/169/b957b116-b45b-4ac5-8ee8-3a2519ae6e1f.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/169/b957b116-b45b-4ac5-8ee8-3a2519ae6e1f.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "Para obter essas médias, ele multiplicou a matriz obtida a partir da tabela por",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1518,39 +1518,39 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Existem no mercado chuveiros elétricos de diferentes potências, que representam consumos e custos diversos. A potência (P) de um chuveiro elétrico é dada pelo produto entre sua resistência elétrica (R) e o quadrado da corrente elétrica (i) que por ele circula. O consumo de energia elétrica (E), por sua vez, é diretamente proporcional à potência do aparelho.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Considerando as características apresentadas, qual dos gráficos a seguir representa a relação entre a energia consumida (E) por um chuveiro elétrico e a corrente elétrica (i) que circula por ele?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
           "text": null,
-          "file": "https://enem.dev/2012/questions/170/715a4076-666c-46a9-ae05-2a83d355296e.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "B",
           "text": null,
-          "file": "https://enem.dev/2012/questions/170/4ac7fc20-5185-4cae-9a82-77ae7491d0ab.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "C",
           "text": null,
-          "file": "https://enem.dev/2012/questions/170/4c3ff5e4-57b9-480b-be2f-3753e095d212.png",
+          "file": "",
           "isCorrect": false
         },
         {
           "letter": "D",
           "text": null,
-          "file": "https://enem.dev/2012/questions/170/d73bdaba-0aea-49f9-89e1-74929848eba9.png",
+          "file": "",
           "isCorrect": true
         },
         {
           "letter": "E",
           "text": null,
-          "file": "https://enem.dev/2012/questions/170/4680b091-1ae6-4487-a721-e8fcc1265f13.png",
+          "file": "",
           "isCorrect": false
         }
       ]
@@ -1561,38 +1561,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Em 20 de fevereiro de 2011 ocorreu a grande erupção do vulcão Bulusan nas Filipinas. A sua localização geográfica no globo terrestre é dada pelo GPS (sigla em inglês para Sistema de Posicionamento Global) com longitude de 124° 3’ 0” a leste do Meridiano de Greenwich.\n\nDado: 1° equivale a 60’ e 1’ equivale a 60”.\n\nPAVARIN, G. Galileu, fev. 2012 (adaptado).",
+      "context": "",
       "files": [],
       "correctAlternative": "B",
-      "alternativesIntroduction": "A representação angular da localização do vulcão com relação a sua longitude na forma decimal é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "124,02°.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "124,05°.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "124,20°.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "124,30°.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "124,50°.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }

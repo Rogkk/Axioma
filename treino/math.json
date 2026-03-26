@@ -4470,9 +4470,231 @@
     },
     "tags": ["Geometria Espacial", "Volume do Cubo", "Porcentagem", "Grandezas e Medidas"],
     "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_162",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em exposições de artes plásticas, é usual que estátuas sejam expostas sobre plataformas giratórias. Uma medida de segurança é que a base da escultura esteja integralmente apoiada sobre a plataforma. Para que se providencie o equipamento adequado, no caso de uma base quadrada que será fixada sobre uma plataforma circular, o auxiliar técnico do evento deve estimar a medida _R_ do raio adequado para a plataforma em termos da medida _L_ do lado da base da estátua. Qual relação entre R e L o auxiliar técnico deverá apresentar de modo que a exigência de segurança seja cumprida?",
+    "choices": [
+      { "id": "A", "text": "R >= L / √2" },
+      { "id": "B", "text": "R >= 2L / PI" },
+      { "id": "C", "text": "R >= L / √PI" },
+      { "id": "D", "text": "R >= L / 2" },
+      { "id": "E", "text": "R >= L / (2√2)" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a condição de segurança: Para que a base quadrada de lado L esteja integralmente apoiada, a plataforma circular de raio R deve, no caso limite, estar inscrita no quadrado ou o quadrado estar inscrito nela. Para segurança total, o círculo deve conter o quadrado.",
+        "2. Identificamos a relação geométrica: O caso crítico ocorre quando os vértices do quadrado tocam a borda da circunferência. Nessa situação, a diagonal do quadrado (d) é igual ao diâmetro da plataforma (2R).",
+        "3. Aplicamos a fórmula da diagonal do quadrado: d = L√2.",
+        "4. Estabelecemos a igualdade para o caso limite: 2R = L√2.",
+        "5. Isolamos o raio R: R = (L√2) / 2.",
+        "6. Racionalizamos ou simplificamos a expressão: Sabemos que 2 é o mesmo que √2 * √2. Portanto, R = (L√2) / (√2 * √2), o que simplifica para R = L / √2.",
+        "7. Definimos a inequação de segurança: Para que a base esteja 'integralmente apoiada', o raio pode ser maior ou igual a esse valor mínimo. Logo, R >= L / √2."
+      ],
+      "final_reason": "A condição de segurança exige que a diagonal do quadrado (L√2) não seja maior que o diâmetro da plataforma (2R). Ao isolar R na inequação 2R >= L√2, obtemos R >= L√2 / 2, que é matematicamente equivalente a R >= L / √2."
+    },
+    "tags": ["Geometria Plana", "Quadrado Inscrito", "Circunferência", "Teorema de Pitágoras"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_163",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O globo da morte é uma atração muito usada em circos. Ele consiste em uma espécie de jaula em forma de uma superfície esférica feita de aço, onde motoqueiros andam com suas motos por dentro. A seguir, tem-se, na Figura 1, uma foto de um globo da morte e, na Figura 2, uma esfera que ilustra um globo da morte.\n\n![](https://enem.dev/2012/questions/153/fa4fd7b5-9f57-4575-b0d7-efd5da168ad2.png) (A imagem é composta por duas figuras numeradas que representam o 'Globo da Morte', uma atração circense. A 'Figura 1' é uma fotografia em preto e branco de um globo da morte real, consistindo em uma estrutura esférica de malha metálica reforçada, com uma pequena porta retangular na parte inferior e cabos de sustentação laterais. A 'Figura 2' é uma representação geométrica simplificada da mesma esfera. Nela, a esfera é desenhada com linhas sólidas e tracejadas para indicar profundidade (perspectiva tridimensional). Há um eixo vertical central conectando o ponto mais baixo da esfera, identificado pela letra 'A', ao ponto mais alto, identificado pela letra 'B'. Além disso, a figura destaca os grandes círculos da esfera: um plano equatorial horizontal e um plano meridiano vertical que passa pelos pontos A e B, dividindo a esfera em quadrantes.)\n\nNa Figura 2, o ponto A está no plano do chão onde está colocado o globo da morte e o segmento AB passa pelo centro da esfera e é perpendicular ao plano do chão. Suponha que há um foco de luz direcionado para o chão colocado no ponto B e que um motoqueiro faça um trajeto dentro da esfera, percorrendo uma circunferência que passa pelos pontos A e B. A imagem do trajeto feito pelo motoqueiro no plano do chão é melhor representada por",
+    "choices": [
+      { "id": "A", "text": "https://enem.dev/2012/questions/153/4407a6d1-8bea-4593-a271-4d67fae4f8ea.png (A imagem apresenta um desenho geométrico bidimensional de uma circunferência simples, traçada com uma linha preta fina e contínua sobre um fundo branco uniforme. Não há preenchimento, hachuras, pontos centrais, eixos ou indicações de medidas, representando apenas o contorno circular perfeito.)" },
+      { "id": "B", "text": "https://enem.dev/2012/questions/153/c5a84103-a02d-4576-9326-bb4cc62998e1.png (A imagem apresenta um arco de circunferência preto sobre um fundo branco. O arco corresponde a uma semicircunferência (metade de um círculo), posicionada de forma que a sua abertura esteja voltada para a direita, assemelhando-se à letra 'C' em uma perspectiva geométrica simplificada. A linha é fina, contínua e não possui marcações de pontos, extremidades ou centro.)" },
+      { "id": "C", "text": "https://enem.dev/2012/questions/153/4442f0fa-2803-46d7-bf5c-6e73037f198e.png (A imagem apresenta uma figura geométrica plana composta pela interseção de dois arcos de circunferência idênticos, assemelhando-se ao formato de uma pétala, de um olho ou de uma semente (forma conhecida tecnicamente como 'vesica piscis'). A figura está orientada verticalmente, com extremidades pontiagudas no topo e na base, e curvas simétricas expandindo-se para a esquerda e para a direita. O contorno é feito com uma linha preta fina e o interior é branco, sem preenchimento ou marcações adicionais.)" },
+      { "id": "D", "text": "https://enem.dev/2012/questions/153/568e9422-3b06-416a-9021-dbd0345427cc.png (A imagem apresenta um círculo sólido totalmente preenchido na cor preta, posicionado sobre um fundo branco uniforme. Trata-se de um disco circular plano, sem bordas externas, sombras, gradientes ou qualquer outra marcação interna, representando uma forma geométrica básica e opaca.)" },
+      { "id": "E", "text": "https://enem.dev/2012/questions/153/6485f40e-a5f1-4426-9075-1bc63b0c4a87.png (A imagem apresenta um segmento de reta vertical preto sobre um fundo branco uniforme. A linha é fina, perfeitamente reta e contínua, estendendo-se do topo em direção à base no lado esquerdo do quadro, sem apresentar setas, pontos nas extremidades, curvaturas ou inclinações.)" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a geometria do trajeto: O motoqueiro percorre uma circunferência que passa pelos pontos A (ponto de contato com o chão) e B (topo da esfera). Essa circunferência é um 'círculo máximo' vertical.",
+        "2. Identificamos a posição da fonte de luz: O foco de luz está localizado exatamente no ponto B, que também faz parte da trajetória do motoqueiro.",
+        "3. Compreendemos a projeção de um plano vertical: O trajeto do motoqueiro está contido em um plano vertical que contém o segmento AB. Como a luz (em B) e o trajeto estão no mesmo plano vertical, a projeção desse plano sobre o chão horizontal será uma reta.",
+        "4. Analisamos o comportamento dos raios de luz: Para qualquer ponto P da trajetória do motoqueiro, o raio de luz é a reta que passa por B e P. Como todos esses pontos pertencem ao mesmo plano vertical que passa por A e B, todos os raios de luz atingirão o chão sobre a reta que é a interseção desse plano vertical com o plano do chão.",
+        "5. Determinamos a forma da projeção: O trajeto começa em A, sobe até B e volta. A sombra de qualquer ponto da circunferência 'cairá' sobre a linha reta que passa por A no chão.",
+        "6. Concluímos a representação: A imagem projetada de uma circunferência vertical, com a luz em seu topo, sobre o plano da base é um segmento de reta."
+      ],
+      "final_reason": "Como o trajeto do motoqueiro e o foco de luz (ponto B) estão contidos no mesmo plano vertical perpendicular ao chão, a projeção de qualquer movimento realizado nesse plano sobre a superfície horizontal resultará em um segmento de reta, que representa a interseção entre o plano do trajeto e o plano do chão."
+    },
+    "tags": ["Geometria Espacial", "Projeção Central", "Visão Espacial", "Sólidos Geométricos"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2012_mat_164",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Num projeto da parte elétrica de um edifício residencial a ser construído, consta que as tomadas deverão ser colocadas a 0,20 m acima do piso, enquanto os interruptores de luz deverão ser colocados a 1,47 m acima do piso. Um cadeirante, potencial comprador de um apartamento desse edifício, ao ver tais medidas, alerta para o fato de que elas não contemplarão suas necessidades. Os referenciais de alturas (em metros) para atividades que não exigem o uso de força são mostrados na figura seguinte.\n\n![](https://enem.dev/2012/questions/154/81fbfbc5-0f6b-40ed-a17e-9afc89d413fa.png) (imagem apresenta um diagrama de ergonomia e acessibilidade mostrando o alcance vertical de uma pessoa sentada em uma cadeira de rodas. À esquerda, há a ilustração de um homem cadeirante de frente, com o braço esquerdo estendido lateralmente em diferentes ângulos. À direita, há uma régua vertical de medidas e indicações de altura em metros. O movimento do braço descreve um arco pontilhado que vai de baixo para cima. As marcações são: 1) '0,40 mínimo', indicando o alcance mais baixo próximo ao solo; 2) Uma faixa cinza sombreada entre '0,80' e '1,00' identificada com a chave 'confortável'; 3) Uma linha em '1,20'; 4) A linha superior em '1,35' identificada como 'máximo'. O braço do cadeirante é mostrado em três posições: totalmente elevado atingindo o ponto máximo, estendido horizontalmente na faixa confortável e levemente abaixado em direção ao ponto mínimo.)\n\nUma proposta substitutiva, relativa às alturas de tomadas e interruptores, respectivamente, que atenderá àquele potencial comprador é",
+    "choices": [
+      { "id": "A", "text": "0,20 m e 1,45 m." },
+      { "id": "B", "text": "0,20 m e 1,40 m." },
+      { "id": "C", "text": "0,25 m e 1,35 m." },
+      { "id": "D", "text": "0,25 m e 1,30 m." },
+      { "id": "E", "text": "0,45 m e 1,20 m." }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o diagrama de ergonomia para identificar os limites de alcance do cadeirante.",
+        "2. Identificamos a altura mínima permitida: O gráfico indica o valor de 0,40 m como o 'mínimo' para alcance vertical.",
+        "3. Identificamos a altura máxima permitida: O gráfico indica o valor de 1,35 m como o 'máximo' para alcance vertical.",
+        "4. Estabelecemos o intervalo de acessibilidade: Qualquer dispositivo (tomada ou interruptor) deve estar posicionado entre 0,40 m e 1,35 m de altura.",
+        "5. Avaliamos as alternativas para a altura das tomadas (primeiro valor): As opções A, B, C e D (0,20 m e 0,25 m) estão abaixo do mínimo de 0,40 m. Apenas a opção E (0,45 m) atende ao critério (0,45 > 0,40).",
+        "6. Avaliamos as alternativas para a altura dos interruptores (segundo valor): As opções A e B (1,45 m e 1,40 m) ultrapassam o máximo de 1,35 m. A opção E (1,20 m) está dentro do intervalo permitido (1,20 < 1,35).",
+        "7. Concluímos que a proposta substitutiva da alternativa E é a única que respeita ambos os limites técnicos."
+      ],
+      "final_reason": "De acordo com o referencial de acessibilidade, as alturas devem estar entre o mínimo de 0,40 m e o máximo de 1,35 m. A alternativa E é a única em que tanto a tomada (0,45 m) quanto o interruptor (1,20 m) encontram-se dentro desse intervalo de alcance do cadeirante."
+    },
+    "tags": ["Interpretação de Gráficos", "Acessibilidade", "Grandezas e Medidas", "Ergonomia"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_165",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Dentre outros objetos de pesquisa, a Alometria estuda a relação entre medidas de diferentes partes do corpo humano. Por exemplo, segundo a Alometria, a área A da superfície corporal de uma pessoa relaciona-se com a sua massa m pela fórmula A = _k_⋅m2/3, em que _k_ é uma constante positiva. Se no período que vai da infância até a maioridade de um indivíduo sua massa é multiplicada por 8, por quanto será multiplicada a área da superfície corporal?",
+    "choices": [
+      { "id": "A", "text": "∛16" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "√24" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "64" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Escrevemos a fórmula da área original: A1 = k * m^(2/3).",
+        "2. Determinamos a nova massa (m2): O enunciado afirma que a massa foi multiplicada por 8, logo m2 = 8m.",
+        "3. Substituímos a nova massa na fórmula para encontrar a nova área (A2): A2 = k * (8m)^(2/3).",
+        "4. Aplicamos a propriedade de potência de um produto (a*b)^n = a^n * b^n: A2 = k * 8^(2/3) * m^(2/3).",
+        "5. Resolvemos a potência com expoente fracionário 8^(2/3): Isso equivale a calcular a raiz cúbica de 8 elevada ao quadrado, ou seja, (∛8)².",
+        "6. Calculamos os valores: ∛8 = 2, e 2² = 4. Portanto, 8^(2/3) = 4.",
+        "7. Substituímos o resultado na equação: A2 = 4 * (k * m^(2/3)). Como o termo entre parênteses é a área original (A1), temos A2 = 4 * A1.",
+        "8. Concluímos que a área da superfície corporal será multiplicada por 4."
+      ],
+      "final_reason": "Ao substituir a massa 'm' por '8m' na fórmula A = k * m^(2/3), o fator 8 é elevado ao expoente 2/3. O cálculo de 8^(2/3) resulta em 4 (raiz cúbica de 8 ao quadrado), indicando que a área final é 4 vezes a área inicial."
+    },
+    "tags": ["Álgebra", "Potenciação", "Funções", "Grandezas e Medidas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_166",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um aluno registrou as notas bimestrais de algumas de suas disciplinas numa tabela. Ele observou que as entradas numéricas da tabela formavam uma matriz 4x4, e que poderia calcular as médias anuais dessas disciplinas usando produto de matrizes. Todas as provas possuíam o mesmo peso, e a tabela que ele conseguiu é mostrada a seguir.\n\n![](https://enem.dev/2012/questions/169/b957b116-b45b-4ac5-8ee8-3a2519ae6e1f.png) (imagem apresenta uma tabela de notas escolares organizada em cinco colunas e cinco linhas. A primeira linha (cabeçalho) identifica os períodos: '1º bimestre', '2º bimestre', '3º bimestre' e '4º bimestre'. A primeira coluna identifica as disciplinas: 'Matemática', 'Português', 'Geografia' e 'História'. Os dados contidos na tabela são: para Matemática (5,9; 6,2; 4,5; 5,5); para Português (6,6; 7,1; 6,5; 8,4); para Geografia (8,6; 6,8; 7,8; 9,0); e para História (6,2; 5,6; 5,9; 7,7). A tabela possui fundo branco, linhas divisórias pretas finas e o cabeçalho das colunas tem um preenchimento cinza claro.)\n\nPara obter essas médias, ele multiplicou a matriz obtida a partir da tabela por",
+    "choices": [
+      { "id": "A", "text": "[1/2 1/2 1/2 1/2]" },
+      { "id": "B", "text": "[1/4 1/4 1/4 1/4]" },
+      { "id": "C", "text": "[1; 1; 1; 1]" },
+      { "id": "D", "text": "[1/2; 1/2; 1/2; 1/2]" },
+      { "id": "E", "text": "[1/4; 1/4; 1/4; 1/4]" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a matriz das notas (Matriz A): Ela possui 4 linhas (disciplinas) e 4 colunas (bimestres), sendo, portanto, uma matriz 4x4.",
+        "2. Definimos o objetivo: Queremos obter a média anual de cada disciplina. A média de 4 notas de mesmo peso é dada pela soma das notas dividida por 4, o que equivale a multiplicar cada nota por 1/4 e somá-las.",
+        "3. Aplicamos a regra de multiplicação de matrizes: Para que o resultado seja uma matriz coluna 4x1 (contendo as 4 médias), devemos multiplicar a matriz A (4x4) por uma matriz B que possua 4 linhas (para que o número de colunas de A seja igual ao número de linhas de B).",
+        "4. Determinamos o formato da matriz B: Como o resultado final deve ser uma média para cada linha de A, a matriz B deve ser uma matriz coluna (4x1).",
+        "5. Definimos os elementos da matriz B: Para realizar a média aritmética simples, cada elemento da linha de A deve ser multiplicado por 1/4. Assim, a matriz coluna deve ser composta por quatro elementos iguais a 1/4.",
+        "6. Representamos a matriz coluna corretamente: Na notação matemática, uma matriz coluna é representada com os elementos separados por ponto e vírgula dentro de colchetes, ou seja, [1/4; 1/4; 1/4; 1/4]."
+      ],
+      "final_reason": "Para calcular a média aritmética simples de 4 notas através de matrizes, a matriz 4x4 das notas deve ser multiplicada por uma matriz coluna 4x1 onde todos os elementos são 1/4. Isso garante que cada nota seja multiplicada por 0,25 e somada, resultando na média final da disciplina."
+    },
+    "tags": ["Matrizes", "Multiplicação de Matrizes", "Média Aritmética", "Álgebra Linear"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_167",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Existem no mercado chuveiros elétricos de diferentes potências, que representam consumos e custos diversos. A potência (P) de um chuveiro elétrico é dada pelo produto entre sua resistência elétrica (R) e o quadrado da corrente elétrica (i) que por ele circula. O consumo de energia elétrica (E), por sua vez, é diretamente proporcional à potência do aparelho. Considerando as características apresentadas, qual dos gráficos a seguir representa a relação entre a energia consumida (E) por um chuveiro elétrico e a corrente elétrica (i) que circula por ele?",
+    "choices": [
+      { "id": "A", "text": "https://enem.dev/2012/questions/170/715a4076-666c-46a9-ae05-2a83d355296e.png (A imagem apresenta um gráfico de plano cartesiano no primeiro quadrante, mostrando uma relação linear de proporcionalidade direta. O eixo vertical (ordenada) está identificado com a letra maiúscula 'E', e o eixo horizontal (abscissa) está identificado com a letra minúscula 'i'. Ambos os eixos possuem setas nas extremidades indicando crescimento. A origem do sistema é marcada pelo número '0'. Uma reta sólida e preta parte exatamente da origem (0,0) e cresce com inclinação constante e positiva, estendendo-se em direção ao canto superior direito do gráfico.)" },
+      { "id": "B", "text": "https://enem.dev/2012/questions/170/4ac7fc20-5185-4cae-9a82-77ae7491d0ab.png (A imagem apresenta um gráfico cartesiano no primeiro quadrante com uma curva decrescente. O eixo vertical (ordenada) está rotulado com a letra 'E' e o eixo horizontal (abscissa) com a letra 'i', ambos com setas indicando o sentido positivo. A origem é marcada pelo número '0'. O gráfico mostra uma linha preta sólida que começa em um ponto alto no eixo 'E' e desce de forma curvilínea (convexa em relação à origem) até tocar o eixo 'i'. Esta representação sugere uma relação inversamente proporcional ou um decaimento não linear entre as variáveis E e i.)" },
+      { "id": "C", "text": "https://enem.dev/2012/questions/170/4c3ff5e4-57b9-480b-be2f-3753e095d212.png (A imagem apresenta um gráfico cartesiano no primeiro quadrante representando uma função constante. O eixo vertical (ordenada) está identificado com a letra 'E' e o eixo horizontal (abscissa) com a letra 'i', ambos com setas indicando o sentido positivo. A origem é marcada pelo número '0'. O gráfico exibe uma linha preta sólida, espessa e perfeitamente horizontal que parte do eixo 'E' e se estende para a direita, paralela ao eixo 'i'. Esta configuração indica que o valor de 'E' permanece invariável, independentemente de qualquer alteração no valor de 'i'.)" },
+      { "id": "D", "text": "https://enem.dev/2012/questions/170/d73bdaba-0aea-49f9-89e1-74929848eba9.png (A imagem apresenta um gráfico cartesiano no primeiro quadrante mostrando uma curva ascendente. O eixo vertical (ordenada) está identificado com a letra 'E' e o eixo horizontal (abscissa) com a letra 'i', ambos com setas indicando o sentido positivo. A origem é marcada pelo número '0'. Uma linha preta sólida e curva parte da origem (0,0) e cresce de forma exponencial ou parabólica (côncava para cima), tornando-se cada vez mais inclinada à medida que o valor de 'i' aumenta. Esta representação indica que o valor de 'E' cresce a uma taxa acelerada em relação a 'i'.)" },
+      { "id": "E", "text": "https://enem.dev/2012/questions/170/4680b091-1ae6-4487-a721-e8fcc1265f13.png (A imagem apresenta um gráfico cartesiano no primeiro quadrante com uma reta decrescente. O eixo vertical (ordenada) está identificado com a letra 'E' e o eixo horizontal (abscissa) com a letra 'i', ambos com setas indicando o sentido positivo. A origem é marcada pelo número '0'. O gráfico exibe uma linha reta sólida e preta que começa em um ponto positivo no eixo 'E' (o coeficiente linear) e desce com inclinação constante e negativa até interceptar o eixo 'i'. Esta representação indica uma relação linear decrescente entre as variáveis, típica de equações de geradores reais em circuitos elétricos.)" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Analisamos a fórmula da potência (P) fornecida no texto: P = R * i², onde R é a resistência e i é a corrente elétrica.",
+        "2. Analisamos a relação do consumo de energia (E): O texto afirma que E é diretamente proporcional à potência (P). Matematicamente, E = k * P, onde k representa o tempo de uso.",
+        "3. Combinamos as duas informações: Substituindo a fórmula da potência na fórmula da energia, temos E = k * (R * i²).",
+        "4. Simplificamos a expressão resultante: Como k e R são constantes para um mesmo chuveiro em um determinado intervalo de tempo, podemos dizer que E = C * i², onde C é uma constante consolidada (C = k * R).",
+        "5. Identificamos o tipo de função: A relação E = C * i² é uma função polinomial do 2º grau (quadrática) da forma y = ax².",
+        "6. Determinamos a representação gráfica: O gráfico de uma função quadrática com concavidade voltada para cima (pois C > 0) e que parte da origem (pois se i=0, E=0) é uma parábola.",
+        "7. Selecionamos a alternativa correspondente: O gráfico D mostra uma curva que cresce de forma acelerada (parabólica) em relação ao aumento da corrente i."
+      ],
+      "final_reason": "Ao combinar as relações dadas, percebemos que a energia consumida (E) é proporcional ao quadrado da corrente elétrica (i²). Essa dependência quadrática é representada graficamente por uma parábola que parte da origem, característica descrita na alternativa D."
+    },
+    "tags": ["Física", "Eletrodinâmica", "Função Quadrática", "Análise de Gráficos"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_168",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em 20 de fevereiro de 2011 ocorreu a grande erupção do vulcão Bulusan nas Filipinas. A sua localização geográfica no globo terrestre é dada pelo GPS (sigla em inglês para Sistema de Posicionamento Global) com longitude de 124° 3’ 0” a leste do Meridiano de Greenwich.\n\nDado: 1° equivale a 60’ e 1’ equivale a 60”.\n\nPAVARIN, G. Galileu, fev. 2012 (adaptado). A representação angular da localização do vulcão com relação a sua longitude na forma decimal é",
+    "choices": [
+      { "id": "A", "text": "124,02°." },
+      { "id": "B", "text": "124,05°." },
+      { "id": "C", "text": "124,20°." },
+      { "id": "D", "text": "124,30°." },
+      { "id": "E", "text": "124,50°." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a medida fornecida: 124° 3’ 0” (124 graus, 3 minutos e 0 segundos).",
+        "2. Analisamos a parte inteira e a parte fracionária: Os 124° representam a parte inteira antes da vírgula. Precisamos converter os 3’ (minutos) em uma fração decimal do grau.",
+        "3. Utilizamos a relação de conversão dada: Sabemos que 1° = 60’. Portanto, para transformar minutos em graus, dividimos o valor por 60.",
+        "4. Realizamos o cálculo da fração: 3 / 60. Podemos simplificar dividindo ambos por 3, resultando em 1 / 20.",
+        "5. Convertemos a fração para decimal: 1 dividido por 20 é igual a 0,05.",
+        "6. Somamos a parte inteira com a decimal: 124 + 0,05 = 124,05°.",
+        "7. Consideramos os segundos: Como o valor dos segundos era 0”, ele não altera o resultado final."
+      ],
+      "final_reason": "Para converter 3 minutos em graus decimais, dividimos 3 por 60, o que resulta em 0,05. Somando esse valor aos 124 graus inteiros, obtemos a representação decimal de 124,05°."
+    },
+    "tags": ["Sistemas de Medida", "Conversão de Unidades", "Ângulos", "Números Decimais"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_169",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Arthur deseja comprar um terreno de Cléber, que lhe oferece as seguintes possibilidades de pagamento:\n\n• Opção 1: Pagar à vista, por R$ 55 000,00;\n\n• Opção 2: Pagar a prazo, dando uma entrada de R$ 30 000,00, e mais uma prestação de R$ 26 000,00 para dali a 6 meses.\n\n• Opção 3: Pagar a prazo, dando uma entrada de R$ 20 000,00, mais uma prestação de R$ 20 000,00, para dali a 6 meses e outra de R$ 18 000,00 para dali a 12 meses da data da compra.\n\n• Opção 4: Pagar a prazo dando uma entrada de R$ 15 000,00 e o restante em 1 ano da data da compra, pagando R$ 39 000,00.\n\n• Opção 5: pagar a prazo, dali a um ano, o valor de R$ 60 000,00.\n\nArthur tem o dinheiro para pagar à vista, mas avalia se não seria melhor aplicar o dinheiro do valor à vista (ou até um valor menor) em um investimento, com rentabilidade de 10% ao semestre, resgatando os valores à medida que as prestações da opção escolhida fossem vencendo. Após avaliar a situação do ponto de vista financeiro e das condições apresentadas, Arthur concluiu que era mais vantajoso financeiramente escolher a opção:",
+    "choices": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "3" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Estabelecemos o critério de comparação: Calcularemos o Valor Presente (VP) de cada opção, ou seja, quanto Arthur precisa ter hoje para pagar as prestações futuras usando o rendimento de 10% ao semestre.",
+        "2. Analisamos a Opção 1: Pagamento à vista de R$ 55.000,00. Logo, VP1 = R$ 55.000,00.",
+        "3. Analisamos a Opção 2: Entrada de R$ 30.000,00 + R$ 26.000,00 após 6 meses. O valor da prestação hoje seria 26.000 / 1,1 = 23.636,36. VP2 = 30.000 + 23.636,36 = R$ 53.636,36.",
+        "4. Analisamos a Opção 3: Entrada de R$ 20.000,00 + R$ 20.000,00 (6 meses) + R$ 18.000,00 (12 meses). VP3 = 20.000 + (20.000 / 1,1) + (18.000 / 1,1²). VP3 = 20.000 + 18.181,81 + 14.876,03 = R$ 53.057,84.",
+        "5. Analisamos a Opção 4: Entrada de R$ 15.000,00 + R$ 39.000,00 após 12 meses (2 semestres). VP4 = 15.000 + (39.000 / 1,1²). VP4 = 15.000 + (39.000 / 1,21) = 15.000 + 32.231,40 = R$ 47.231,40.",
+        "6. Analisamos a Opção 5: Pagamento único de R$ 60.000,00 após 12 meses. VP5 = 60.000 / 1,1² = 60.000 / 1,21 = R$ 49.586,77.",
+        "7. Comparamos os resultados: O menor Valor Presente indica a opção mais barata hoje. VP4 (R$ 47.231,40) é o menor valor."
+      ],
+      "final_reason": "Ao calcular o valor que Arthur precisaria investir hoje para cobrir os pagamentos futuros em cada modalidade, a Opção 4 apresenta o menor custo real (R$ 47.231,40), sendo, portanto, a escolha financeiramente mais vantajosa."
+    },
+    "tags": ["Matemática Financeira", "Valor Presente", "Juros Compostos", "Porcentagem"],
+    "difficulty": "hard"
   }
 ]
-
 
 
 
