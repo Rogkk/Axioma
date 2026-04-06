@@ -4997,8 +4997,147 @@
     },
     "tags": ["Aritmética", "Razão e Proporção", "Regra de Três", "Grandezas Diretas"],
     "difficulty": "easy"
+  },
+  {
+    "id": "2013_mat_136",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A cidade de Guarulhos (SP) tem o 8º PIB municipal do Brasil, além do maior aeroporto da América do Sul. Em proporção, possui a economia que mais cresce em indústrias, conforme mostra o gráfico.\n\n![](https://enem.dev/2013/questions/144/f2d1f08e-1240-4175-ab48-38b49a301a01.png) (A imagem apresenta um gráfico de barras verticais intitulado 'Crescimento - Indústria'. O eixo vertical (ordenada) indica valores percentuais de 0% a 65%, com intervalos de 5%. O gráfico compara quatro regiões, listadas no eixo horizontal: 'Brasil', 'São Paulo (Estado)', 'São Paulo (Capital)' e 'Guarulhos'. As barras possuem um efeito tridimensional e os valores de crescimento são: Brasil (30,95%), São Paulo Estado (14,76%), São Paulo Capital (3,57%) e Guarulhos (60,52%). A barra referente a Guarulhos é significativamente maior que as demais, ocupando quase toda a altura do gráfico, com o valor impresso verticalmente em branco sobre o preenchimento escuro da barra. Na base, consta a fonte: 'IBGE, 2002-2008 (adaptado)'.)\n\nAnalisando os dados percentuais do gráfico, qual a diferença entre o maior e o menor centro em crescimento no polo das indústrias?",
+    "choices": [
+      { "id": "A", "text": "75,28" },
+      { "id": "B", "text": "64,09" },
+      { "id": "C", "text": "56,95" },
+      { "id": "D", "text": "45,76" },
+      { "id": "E", "text": "30,07" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o gráfico de barras para identificar os valores de crescimento de cada centro.",
+        "2. Identificamos o maior centro em crescimento: A barra de 'Guarulhos' possui o valor mais alto, totalizando 60,52%.",
+        "3. Identificamos o menor centro em crescimento: A barra de 'São Paulo (Capital)' possui o valor mais baixo, totalizando 3,57%.",
+        "4. Estabelecemos a operação de diferença: Para encontrar a diferença solicitada, devemos subtrair o menor valor do maior.",
+        "5. Realizamos o cálculo: 60,52 - 3,57 = 56,95.",
+        "6. Concluímos o resultado: A diferença entre o maior e o menor centro é de 56,95 pontos percentuais."
+      ],
+      "final_reason": "Ao observar os dados percentuais fornecidos pelo gráfico, o maior crescimento industrial pertence a Guarulhos (60,52%) e o menor à capital de São Paulo (3,57%). A subtração entre esses dois valores resulta em 56,95."
+    },
+    "tags": ["Estatística", "Análise de Gráficos", "Aritmética", "Tratamento de Dados"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2013_mat_137",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Em um certo teatro, as poltronas são divididas em setores. A figura apresenta a vista do setor 3 desse teatro, no qual as cadeiras escuras estão reservadas e as claras não foram vendidas.\n\n![](https://enem.dev/2013/questions/145/e171ead9-f89c-4f21-9cf2-198bc5f20f4f.png) (A imagem apresenta o mapa de assentos de um teatro ou cinema, especificamente identificado como 'SETOR 3', conforme o texto vertical à esquerda. O mapa é composto por uma grade de polígonos que representam poltronas vistas de cima ou em perspectiva simplificada, organizadas em 7 filas horizontais e 10 colunas verticais. Algumas poltronas estão preenchidas na cor preta, indicando que estão ocupadas ou reservadas, enquanto a maioria está em branco com contorno preto, indicando disponibilidade. No total, existem 17 poltronas ocupadas, distribuídas de forma irregular pelo setor, com uma concentração maior nas colunas centrais e na primeira coluna à esquerda. O fundo da imagem é totalmente branco e o desenho utiliza apenas traços pretos sólidos.)\n\nA razão que representa a quantidade de cadeiras reservadas do setor 3 em relação ao total de cadeiras desse mesmo setor é",
+    "choices": [
+      { "id": "A", "text": "17/10" },
+      { "id": "B", "text": "17/53" },
+      { "id": "C", "text": "53/70" },
+      { "id": "D", "text": "53/17" },
+      { "id": "E", "text": "70/17" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Determinamos o total de cadeiras no setor: O mapa é uma grade com 7 filas e 10 colunas. Multiplicamos as dimensões: 7 * 10 = 70 cadeiras no total.",
+        "2. Contamos as cadeiras reservadas (escuras): Analisando a imagem, identificamos 17 cadeiras preenchidas na cor preta.",
+        "3. Identificamos o que o comando pede: A questão solicita a razão entre a 'quantidade de cadeiras reservadas' e o 'total de cadeiras'.",
+        "4. Montamos a razão: O primeiro termo citado (antecedente) vai no numerador (17) e o segundo termo (consequente) vai no denominador (70).",
+        "5. Escrevemos a fração: A razão é 17/70."
+      ],
+      "final_reason": "A razão é estabelecida pela divisão do número de cadeiras reservadas (17) pelo número total de cadeiras do setor (70), resultando na fração 17/70."
+    },
+    "tags": ["Aritmética", "Razão e Proporção", "Análise de Imagem", "Contagem"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2013_mat_138",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma loja acompanhou o número de compradores de dois produtos, A e B, durante os meses de janeiro, fevereiro e março de 2012. Com isso, obteve este gráfico:\n\n![](https://enem.dev/2013/questions/146/573a432a-fdf5-4f17-8e42-d8337154d0aa.png) (Gráfico de colunas agrupadas comparando o 'Número de compradores' para duas categorias, A e B, durante os meses de janeiro, fevereiro e março. O eixo vertical (y) indica a quantidade de compradores e varia de 0 a 90, com marcações a cada 10 unidades. O eixo horizontal (x) lista os meses. Na legenda, a categoria A é representada por colunas pretas e a categoria B por colunas cinzas. Os dados apresentados são: em Janeiro, A teve 10 compradores e B teve 20; em Fevereiro, A subiu para 30 e B manteve-se em 20; em Março, houve um crescimento acentuado, com A atingindo 60 compradores e B chegando a 80. O gráfico possui uma grade de linhas horizontais e verticais para facilitar a leitura dos níveis.)\n\nA loja sorteará um brinde entre os compradores do produto A e outro brinde entre os compradores do produto B.\nQual a probabilidade de que os dois sorteados tenham feito suas compras em fevereiro de 2012?",
+    "choices": [
+      { "id": "A", "text": "1/20" },
+      { "id": "B", "text": "3/242" },
+      { "id": "C", "text": "5/22" },
+      { "id": "D", "text": "6/25" },
+      { "id": "E", "text": "7/15" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o gráfico para obter o total de compradores do Produto A: Janeiro (10) + Fevereiro (30) + Março (60) = 100 compradores.",
+        "2. Calculamos a probabilidade de o sorteado do Produto A ser de fevereiro: P(A_fev) = 30 / 100 = 3/10.",
+        "3. Analisamos o gráfico para obter o total de compradores do Produto B: Janeiro (20) + Fevereiro (20) + Março (80) = 120 compradores.",
+        "4. Calculamos a probabilidade de o sorteado do Produto B ser de fevereiro: P(B_fev) = 20 / 120 = 1/6.",
+        "5. Aplicamos a regra do conectivo 'E' para eventos independentes: Como são dois sorteios separados, multiplicamos as probabilidades individuais.",
+        "6. Realizamos o cálculo final: P(Total) = (3/10) * (1/6) = 3 / 60.",
+        "7. Simplificamos a fração: 3 / 60 = 1 / 20."
+      ],
+      "final_reason": "A probabilidade de sortear um comprador de fevereiro no grupo A é 30/100 (3/10) e no grupo B é 20/120 (1/6). Multiplicando ambas as probabilidades para que os dois eventos ocorram simultaneamente, obtemos 3/60, que simplificado é 1/20."
+    },
+    "tags": ["Probabilidade", "Estatística", "Análise de Gráficos", "Eventos Independentes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2013_mat_139",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Para o reflorestamento de um área, deve-se cercar totalmente, com tela, os lados de um terreno, exceto o lado margeado pelo rio, conforme a figura. Cada rolo de tela que será comprado para confecção da cerca contém 48 metros de comprimento.\n\n![](https://enem.dev/2013/questions/147/3167f5c3-7c37-42fc-9abf-e5b01abc1bea.png) (Desenho esquemático de uma área retangular sendo cercada em três de seus lados, com o quarto lado delimitado pela margem de um rio. A imagem mostra uma linha horizontal superior com a indicação de '190 m' e duas linhas verticais laterais, cada uma com a indicação de '81 m'. As linhas verticais descem e encontram uma linha ondulada na base que representa a margem da água, identificada abaixo com a palavra 'Rio'. O conjunto forma um retângulo aberto na base, onde as cercas laterais são perpendiculares à cerca superior e à margem do rio.)\n\nA quantidade mínima de rolos que deve ser comprada para cercar esse terreno é",
+    "choices": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "11" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os lados que serão cercados: De acordo com a figura, devemos cercar os dois lados laterais (81 m cada) e o lado superior (190 m).",
+        "2. Calculamos o comprimento total da cerca: Somamos as três medidas: 81 + 81 + 190 = 352 metros.",
+        "3. Consideramos a restrição do rio: O enunciado afirma que o lado margeado pelo rio não será cercado, por isso não incluímos a quarta medida no cálculo.",
+        "4. Determinamos a quantidade de rolos necessária: Dividimos o comprimento total pelo comprimento de cada rolo (48 m): 352 / 48.",
+        "5. Realizamos a divisão: 352 ÷ 48 ≈ 7,33.",
+        "6. Interpretamos o resultado: Como não é possível comprar 0,33 rolos e a cerca deve ser total, precisamos arredondar para o próximo número inteiro acima.",
+        "7. Concluímos a quantidade mínima: Serão necessários 8 rolos."
+      ],
+      "final_reason": "O comprimento total a ser cercado é de 352 metros. Dividindo esse valor pelos 48 metros de cada rolo, obtemos aproximadamente 7,33 rolos. Como a quantidade deve ser um número inteiro para cobrir toda a extensão, são necessários 8 rolos."
+    },
+    "tags": ["Geometria Plana", "Perímetro", "Aritmética", "Grandezas e Medidas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2013_mat_140",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Numa escola com 1 200 alunos foi realizada uma pesquisa sobre o conhecimento desses em duas línguas estrangeiras, inglês e espanhol.\n\nNessa pesquisa constatou-se que 600 alunos falam inglês, 500 falam espanhol e 300 não falam qualquer um desses idiomas. Escolhendo-se um aluno dessa escola ao acaso e sabendo-se que ele não fala inglês, qual a probabilidade de que esse aluno fale espanhol?",
+    "choices": [
+      { "id": "A", "text": "1/2" },
+      { "id": "B", "text": "5/8" },
+      { "id": "C", "text": "1/4" },
+      { "id": "D", "text": "5/6" },
+      { "id": "E", "text": "5/14" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os dados totais: Escola com 1.200 alunos. 300 não falam qualquer idioma. Logo, 1.200 - 300 = 900 alunos falam pelo menos um dos dois idiomas.",
+        "2. Calculamos a interseção (alunos que falam inglês E espanhol): Somamos os que falam inglês (600) e espanhol (500), resultando em 1.100. Como apenas 900 alunos falam idiomas, a interseção é 1.100 - 900 = 200 alunos.",
+        "3. Determinamos quem fala APENAS espanhol: Dos 500 que falam espanhol, subtraímos os 200 da interseção. Logo, 500 - 200 = 300 alunos falam exclusivamente espanhol.",
+        "4. Determinamos o novo espaço amostral (condição): O enunciado diz 'sabendo-se que ele NÃO fala inglês'. O total de alunos é 1.200 e 600 falam inglês, portanto, 1.200 - 600 = 600 alunos não falam inglês.",
+        "5. Identificamos os casos favoráveis dentro da condição: Entre os 600 que não falam inglês, estão os que falam apenas espanhol (300) e os que não falam nenhum idioma (300). Queremos a probabilidade de ele falar espanhol, ou seja, os 300 que falam apenas espanhol.",
+        "6. Calculamos a probabilidade final: P = 300 / 600 = 1/2."
+      ],
+      "final_reason": "Ao restringir o grupo apenas aos alunos que não falam inglês (600 pessoas), identificamos que metade desse grupo (300 pessoas) fala espanhol. Assim, a probabilidade condicional é de 1/2."
+    },
+    "tags": ["Probabilidade Condicional", "Teoria dos Conjuntos", "Diagrama de Venn", "Aritmética"],
+    "difficulty": "medium"
   }
 ]
+
+
+
 
 
 
