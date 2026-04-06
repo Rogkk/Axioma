@@ -548,38 +548,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2013,
-      "context": "Um dos grandes problemas enfrentados nas rodovias brasileiras é o excesso de carga transportada pelos caminhões. Dimensionado para o tráfego dentro dos limites legais de carga, o piso das estradas se deteriora com o peso excessivo dos caminhões. Além disso, o excesso de carga interfere na capacidade de frenagem  \ne no funcionamento da suspensão do veículo, causas frequentes de acidentes.\n\nCiente dessa responsabilidade e com base na experiência adquirida com pesagens, um caminhoneiro sabe que seu caminhão pode carregar, no máximo, 1 500 telhas ou 1 200 tijolos.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Considerando esse caminhão carregado com 900 telhas, quantos tijolos, no máximo, podem ser acrescentados à carga de modo a não ultrapassar a carga máxima do caminhão?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "300 tijolos",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "360 tijolos",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "400 tijolos",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "480 tijolos",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "600 tijolos",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -591,40 +591,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2013,
-      "context": "![](https://enem.dev/2013/questions/149/8fe1bcbf-df0c-4081-b00d-efa0564e5fd6.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2013/questions/149/8fe1bcbf-df0c-4081-b00d-efa0564e5fd6.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "A quantidade total de arroz, em toneladas, que deverá ser produzida no período de 2012 a 2021 será de",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "497,25.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "500,85.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "502,87.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "558,75.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "563,25.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }

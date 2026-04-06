@@ -5111,33 +5111,59 @@
     "id": "2013_mat_140",
     "type": "multiple_choice",
     "language": "pt-BR",
-    "statement": "Numa escola com 1 200 alunos foi realizada uma pesquisa sobre o conhecimento desses em duas línguas estrangeiras, inglês e espanhol.\n\nNessa pesquisa constatou-se que 600 alunos falam inglês, 500 falam espanhol e 300 não falam qualquer um desses idiomas. Escolhendo-se um aluno dessa escola ao acaso e sabendo-se que ele não fala inglês, qual a probabilidade de que esse aluno fale espanhol?",
+    "statement": "Um dos grandes problemas enfrentados nas rodovias brasileiras é o excesso de carga transportada pelos caminhões. Dimensionado para o tráfego dentro dos limites legais de carga, o piso das estradas se deteriora com o peso excessivo dos caminhões. Além disso, o excesso de carga interfere na capacidade de frenagem  \ne no funcionamento da suspensão do veículo, causas frequentes de acidentes.\n\nCiente dessa responsabilidade e com base na experiência adquirida com pesagens, um caminhoneiro sabe que seu caminhão pode carregar, no máximo, 1 500 telhas ou 1 200 tijolos. Considerando esse caminhão carregado com 900 telhas, quantos tijolos, no máximo, podem ser acrescentados à carga de modo a não ultrapassar a carga máxima do caminhão?",
     "choices": [
-      { "id": "A", "text": "1/2" },
-      { "id": "B", "text": "5/8" },
-      { "id": "C", "text": "1/4" },
-      { "id": "D", "text": "5/6" },
-      { "id": "E", "text": "5/14" }
+      { "id": "A", "text": "300 tijolos" },
+      { "id": "B", "text": "360 tijolos" },
+      { "id": "C", "text": "400 tijolos" },
+      { "id": "D", "text": "480 tijolos" },
+      { "id": "E", "text": "600 tijolos" }
     ],
-    "answer": { "correct_choice_id": "A" },
+    "answer": { "correct_choice_id": "D" },
     "solution": {
       "steps": [
-        "1. Identificamos os dados totais: Escola com 1.200 alunos. 300 não falam qualquer idioma. Logo, 1.200 - 300 = 900 alunos falam pelo menos um dos dois idiomas.",
-        "2. Calculamos a interseção (alunos que falam inglês E espanhol): Somamos os que falam inglês (600) e espanhol (500), resultando em 1.100. Como apenas 900 alunos falam idiomas, a interseção é 1.100 - 900 = 200 alunos.",
-        "3. Determinamos quem fala APENAS espanhol: Dos 500 que falam espanhol, subtraímos os 200 da interseção. Logo, 500 - 200 = 300 alunos falam exclusivamente espanhol.",
-        "4. Determinamos o novo espaço amostral (condição): O enunciado diz 'sabendo-se que ele NÃO fala inglês'. O total de alunos é 1.200 e 600 falam inglês, portanto, 1.200 - 600 = 600 alunos não falam inglês.",
-        "5. Identificamos os casos favoráveis dentro da condição: Entre os 600 que não falam inglês, estão os que falam apenas espanhol (300) e os que não falam nenhum idioma (300). Queremos a probabilidade de ele falar espanhol, ou seja, os 300 que falam apenas espanhol.",
-        "6. Calculamos a probabilidade final: P = 300 / 600 = 1/2."
+        "1. Estabelecemos a relação de equivalência: A carga máxima do caminhão é igual a 1.500 telhas ou 1.200 tijolos.",
+        "2. Calculamos a fração de carga ocupada pelas telhas: O caminhão já está com 900 telhas. A fração ocupada é 900 / 1.500.",
+        "3. Simplificamos a fração: 900 / 1.500 = 9 / 15 = 3 / 5. Ou seja, 60% da capacidade do caminhão já foi utilizada.",
+        "4. Determinamos a capacidade restante: Se 3/5 da carga está ocupada, restam 2/5 (ou 40%) da capacidade total para ser preenchida.",
+        "5. Convertemos a capacidade restante para tijolos: Sabemos que a capacidade total em tijolos é 1.200. Portanto, calculamos 2/5 de 1.200.",
+        "6. Realizamos o cálculo final: (2 * 1.200) / 5 = 2.400 / 5 = 480.",
+        "7. Concluímos o resultado: Podem ser acrescentados, no máximo, 480 tijolos."
       ],
-      "final_reason": "Ao restringir o grupo apenas aos alunos que não falam inglês (600 pessoas), identificamos que metade desse grupo (300 pessoas) fala espanhol. Assim, a probabilidade condicional é de 1/2."
+      "final_reason": "Ao carregar 900 telhas, o caminhoneiro utiliza 60% da capacidade do veículo. Os 40% restantes (2/5) podem ser preenchidos com tijolos. Como a capacidade total para tijolos é de 1.200, 2/5 desse valor corresponde a 480 unidades."
     },
-    "tags": ["Probabilidade Condicional", "Teoria dos Conjuntos", "Diagrama de Venn", "Aritmética"],
+    "tags": ["Razão e Proporção", "Grandezas Diretas", "Aritmética", "Equivalência"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2013_mat_141",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "As projeções para a produção de arroz no período de 2012 - 2021, em uma determinada região produtora, apontam para uma perspectiva de crescimento constante da produção anual. O quadro apresenta a quantidade de arroz, em toneladas, que será produzida nos primeiros anos desse período, de acordo com essa projeção.\n\n![](https://enem.dev/2013/questions/149/8fe1bcbf-df0c-4081-b00d-efa0564e5fd6.png) (Uma tabela simples com duas colunas e cinco linhas, incluindo o cabeçalho. A primeira coluna é intitulada 'Ano' e a segunda 'Projeção da produção (t)'. Os dados apresentados nas linhas seguintes são: 2012 com 50,25; 2013 com 51,50; 2014 com 52,75; e 2015 com 54,00. Os valores de produção aumentam de forma constante em 1,25 unidades a cada ano. O cabeçalho possui um fundo cinza claro e o texto está centralizado.)\n\nA quantidade total de arroz, em toneladas, que deverá ser produzida no período de 2012 a 2021 será de",
+    "choices": [
+      { "id": "A", "text": "497,25." },
+      { "id": "B", "text": "500,85." },
+      { "id": "C", "text": "502,87." },
+      { "id": "D", "text": "558,75." },
+      { "id": "E", "text": "563,25." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos os elementos da Progressão Aritmética (PA): O primeiro termo (a1) é 50,25 (referente a 2012).",
+        "2. Calculamos a razão (r): Subtraímos a produção de 2012 da de 2013: 51,50 - 50,25 = 1,25. Confirmamos que 52,75 - 51,50 também resulta em 1,25.",
+        "3. Determinamos o número de termos (n): O período de 2012 a 2021 compreende 10 anos (2021 - 2012 + 1 = 10).",
+        "4. Calculamos o último termo (a10) para o ano de 2021: Usamos a fórmula do termo geral: an = a1 + (n - 1) * r. Logo, a10 = 50,25 + (9 * 1,25) = 50,25 + 11,25 = 61,50.",
+        "5. Calculamos a soma total da produção (S10): Usamos a fórmula da soma da PA: Sn = [(a1 + an) * n] / 2.",
+        "6. Realizamos a operação final: S10 = [(50,25 + 61,50) * 10] / 2 = [111,75 * 10] / 2 = 1.117,50 / 2 = 558,75.",
+        "7. Concluímos o resultado: A produção total no período será de 558,75 toneladas."
+      ],
+      "final_reason": "Ao identificar que a produção cresce como uma PA de razão 1,25, calculamos o valor do último ano (61,50) e aplicamos a fórmula da soma de Gauss para os 10 anos do período, resultando em 558,75 toneladas."
+    },
+    "tags": ["Álgebra", "Progressão Aritmética", "Soma de PA", "Sequências Numéricas"],
     "difficulty": "medium"
   }
 ]
-
-
-
 
 
 
