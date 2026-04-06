@@ -4693,10 +4693,312 @@
     },
     "tags": ["Matemática Financeira", "Valor Presente", "Juros Compostos", "Porcentagem"],
     "difficulty": "hard"
+  },
+  {
+    "id": "2012_mat_170",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um forro retangular de tecido traz em sua etiqueta a informação de que encolherá após a primeira lavagem mantendo, entretanto, seu formato. A figura a seguir mostra as medidas originais do forro e o tamanho do encolhimento (x) no comprimento e (y) na largura. A expressão algébrica que representa a área do forro após ser lavado é (5 – x) (3 – y).\n\n![](https://enem.dev/2012/questions/141/e150aff4-41c0-4f6b-9a19-232d978fc497.png) (A imagem apresenta um retângulo principal subdividido em quatro retângulos menores por meio de duas linhas internas perpendiculares (uma horizontal e uma vertical). À direita e abaixo do retângulo, há marcações de dimensões. A altura total do retângulo é indicada pelo número '3'. Uma parte dessa altura, correspondente ao retângulo inferior direito, é identificada pela variável 'y'. O comprimento total da base é indicado pelo número '5'. Uma parte desse comprimento, correspondente à largura do retângulo inferior direito, é identificada pela variável 'x'. As linhas de cota utilizam barras verticais e horizontais para delimitar exatamente a quais segmentos as medidas e variáveis se referem, permitindo deduzir que os outros segmentos medem '3 - y' e '5 - x'.)\n\nNestas condições, a área perdida do forro, após a primeira lavagem, será expressa por",
+    "choices": [
+      { "id": "A", "text": "2xy" },
+      { "id": "B", "text": "15 - 3x" },
+      { "id": "C", "text": "15 - 5y" },
+      { "id": "D", "text": "-5y - 3x" },
+      { "id": "E", "text": "5y + 3x - xy" }
+    ],
+    "answer": { "correct_choice_id": "E" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a área original do forro: Como se trata de um retângulo de base 5 e altura 3, a área original (A_total) é 5 * 3 = 15.",
+        "2. Identificamos a expressão da área final após a lavagem: O enunciado fornece a expressão (5 - x)(3 - y).",
+        "3. Desenvolvemos a expressão da área final usando a propriedade distributiva (chuveirinho): (5 - x)(3 - y) = 15 - 5y - 3x + xy.",
+        "4. Definimos a área perdida (A_perda): A perda é igual à área original menos a área final. A_perda = 15 - (15 - 5y - 3x + xy).",
+        "5. Simplificamos a expressão: Distribuímos o sinal de menos para dentro dos parênteses: 15 - 15 + 5y + 3x - xy.",
+        "6. Obtemos o resultado final: Os termos '15' se cancelam, restando apenas 5y + 3x - xy."
+      ],
+      "final_reason": "A área perdida é a diferença entre a área total (15) e a área restante após o encolhimento. Ao subtrair a expressão expandida da área final (15 - 5y - 3x + xy) da área original, chegamos à expressão 5y + 3x - xy."
+    },
+    "tags": ["Álgebra", "Produtos Notáveis", "Geometria Plana", "Áreas de Polígonos"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_171",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A capacidade mínima, em BTU/h, de um aparelho de ar-condicionado, para ambientes sem exposição ao sol, pode ser determinada da seguinte forma:\n\n• 600 BTU/h por m2 , considerando-se até duas pessoas no ambiente;\n\n• para cada pessoa adicional nesse ambiente, acrescentar 600 BTU/h;\n\n• acrescentar mais 600 BTU/h para cada equipamento eletroeletrônico em funcionamento no ambiente.\n\nSerá instalado um aparelho de ar-condicionado em uma sala, sem exposição ao sol, de dimensões 4 m x 5 m, em que permaneçam quatro pessoas e possua um aparelho de televisão em funcionamento. A capacidade mínima, em BTU/h, desse aparelho de arcondicionado deve ser",
+    "choices": [
+      { "id": "A", "text": "12 000." },
+      { "id": "B", "text": "12 600." },
+      { "id": "C", "text": "13 200." },
+      { "id": "D", "text": "13 800." },
+      { "id": "E", "text": "15 000." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Calculamos a área da sala: O ambiente possui 4 m x 5 m, totalizando 20 m².",
+        "2. Determinamos a carga térmica baseada na área: O texto indica 600 BTU/h por m². Logo, 20 * 600 = 12.000 BTU/h (este valor já cobre até duas pessoas).",
+        "3. Analisamos o excedente de pessoas: A sala terá 4 pessoas. Como as 2 primeiras já estão incluídas no cálculo da área, temos 4 - 2 = 2 pessoas adicionais.",
+        "4. Calculamos o acréscimo pelas pessoas extras: 2 pessoas adicionais * 600 BTU/h = 1.200 BTU/h.",
+        "5. Calculamos o acréscimo pelo equipamento eletrônico: Há 1 aparelho de televisão em funcionamento. Logo, 1 * 600 BTU/h = 600 BTU/h.",
+        "6. Somamos todos os valores para obter a capacidade mínima: 12.000 + 1.200 + 600 = 13.800 BTU/h."
+      ],
+      "final_reason": "A capacidade total é a soma da carga pela área (12.000 BTU/h), que já contempla 2 pessoas, mais o acréscimo pelas outras 2 pessoas excedentes (1.200 BTU/h) e pela televisão (600 BTU/h), totalizando 13.800 BTU/h."
+    },
+    "tags": ["Aritmética", "Grandezas e Medidas", "Engenharia e Climatização", "Função Linear"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_172",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A resistência mecânica S de uma viga de madeira, em forma de um paralelepípedo retângulo, é diretamente proporcional à sua largura (b) e ao quadrado de sua altura (d) e inversamente proporcional ao quadrado da distância entre os suportes da viga, que coincide com o seu comprimento (x), conforme ilustra a figura. A constante de proporcionalidade k é chamada de resistência da viga.\n\n![](https://enem.dev/2012/questions/143/29dbd2b9-ef4e-4af8-8de5-2a651c4935c4.png) (A imagem apresenta o desenho técnico de um prisma retangular (ou viga) em perspectiva isométrica. As dimensões do objeto são indicadas por variáveis minúsculas e linhas de cota com setas: 1) A altura da face frontal esquerda é identificada pela letra 'd'; 2) A largura (espessura) do topo dessa mesma face é identificada pela letra 'b'; 3) O comprimento total da viga, estendendo-se para a direita, é identificado pela variável 'x'. A face frontal esquerda possui um preenchimento cinza claro, enquanto as demais faces são brancas com contorno preto. Abaixo da figura, consta a referência bibliográfica: 'BUSHAW, D. et al. Aplicações da matemática escolar. São Paulo: Atual, 1997.')\n\nA expressão que traduz a resistência S dessa viga de madeira é",
+    "choices": [
+      { "id": "A", "text": "S = (k * b * d^2) / x^2" },
+      { "id": "B", "text": "S = (k * b * d) / x^2" },
+      { "id": "C", "text": "S = (k * b * d^2) / x" },
+      { "id": "D", "text": "S = (k * b^2 * d) / x" },
+      { "id": "E", "text": "S = (k * b * 2d) / 2x" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as grandezas diretamente proporcionais: O enunciado afirma que a resistência S é diretamente proporcional à largura (b) e ao quadrado da altura (d²). Na fórmula, essas grandezas ficam no numerador (multiplicando).",
+        "2. Identificamos as grandezas inversamente proporcionais: O texto diz que S é inversamente proporcional ao quadrado da distância entre os suportes (x²). Na fórmula, essa grandeza fica no denominador (dividindo).",
+        "3. Incluímos a constante de proporcionalidade: O enunciado define 'k' como a constante de resistência da viga.",
+        "4. Montamos a expressão completa: Reunindo os termos, temos S = (k * b * d²) / x².",
+        "5. Comparamos com as alternativas: A expressão obtida corresponde exatamente à alternativa A."
+      ],
+      "final_reason": "Seguindo as regras de proporcionalidade, as grandezas diretas (b e d²) multiplicam a constante k no numerador, enquanto a grandeza inversa (x²) divide a expressão no denominador, resultando na fórmula S = (k * b * d²) / x²."
+    },
+    "tags": ["Álgebra", "Grandezas Proporcionais", "Física Aplicada", "Modelagem Matemática"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_173",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A Agência Espacial Norte Americana (NASA) informou que o asteroide YU 55 cruzou o espaço entre a Terra e a Lua no mês de novembro de 2011. A ilustração a seguir sugere que o asteroide percorreu sua trajetória no mesmo plano que contém a órbita descrita pela Lua em torno da Terra. Na figura, está indicada a proximidade do asteroide em relação à Terra, ou seja, a menor distância que ele passou da superfície terrestre.\n\n![](https://enem.dev/2012/questions/172/a1bd4967-d16c-4d09-b0c0-cd11524f5d94.png) (A imagem é um infográfico astronômico com fundo preto representando o espaço. No centro, está o planeta Terra e, ao seu redor, uma linha circular pontilhada indicando a órbita da Lua (que aparece no canto superior direito). Uma linha tracejada com setas atravessa o infográfico da direita para a esquerda, cruzando a órbita lunar e passando próxima à Terra, representando a trajetória do 'Asteroide YU 55'. Três caixas de texto contêm informações detalhadas: 1) À esquerda, uma imagem aproximada do asteroide com o texto: 'Asteroide YU 55. Tamanho: 400 m de diâmetro, equivalente ao tamanho de um porta-aviões'; 2) No centro, uma seta aponta da Terra para o asteroide com a etiqueta: 'Proximidade da Terra 325 mil km'; 3) À direita, informações sobre o evento: 'Passagem: 8 de novembro às 21h28min (horário de Brasília)'. No topo, lê-se: 'O asteroide se aproximará o suficiente para que cientistas possam observar detalhes de sua superfície'. Na base, constam as fontes: 'Fonte: NASA', 'AFP' e o endereço eletrônico do portal Terra.)\n\nCom base nessas informações, a menor distância que o asteroide YU 55 passou da superfície da Terra é igual a",
+    "choices": [
+      { "id": "A", "text": "3,25 * 102 km." },
+      { "id": "B", "text": "3,25 * 103 km." },
+      { "id": "C", "text": "3,25 * 104 km." },
+      { "id": "D", "text": "3,25 * 105 km." },
+      { "id": "E", "text": "3,25 * 106 km." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Extraímos o valor numérico do infográfico: A menor distância (proximidade) indicada é de '325 mil km'.",
+        "2. Escrevemos o número por extenso em sua forma decimal padrão: 325 mil é o mesmo que 325.000.",
+        "3. Aplicamos o conceito de Notação Científica: O objetivo é escrever o número na forma n * 10^x, onde 1 ≤ n < 10.",
+        "4. Posicionamos a vírgula: Para que o número fique entre 1 e 10, movemos a vírgula (que originalmente está após o último zero) para entre o 3 e o 2, resultando em 3,25.",
+        "5. Contamos o deslocamento das casas decimais: Da posição original (325000,) até a nova posição (3,25000), a vírgula 'andou' 5 casas para a esquerda.",
+        "6. Montamos a potência de base 10: O número de casas deslocadas (5) torna-se o expoente positivo da base 10.",
+        "7. Resultado final: 3,25 * 10^5 km."
+      ],
+      "final_reason": "Ao converter '325 mil' para a forma numérica (325.000) e aplicar a notação científica, deslocamos a vírgula cinco posições para a esquerda para obter um coeficiente entre 1 e 10, resultando em 3,25 * 10^5."
+    },
+    "tags": ["Aritmética", "Notação Científica", "Potenciação", "Leitura de Infográficos"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_174",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Há, em virtude da demanda crescente de economia de água, equipamentos e utensílios como, por exemplo, as bacias sanitárias ecológicas, que utilizam 6 litros de água por descarga em vez dos 15 litros utilizados por bacias sanitárias não ecológicas, conforme dados da Associação Brasileira de Normas Técnicas (ABNT). Qual será a economia diária de água obtida por meio da substituição de uma bacia sanitária não ecológica, que gasta cerca de 60 litros por dia com a descarga, por uma bacia sanitária ecológica?",
+    "choices": [
+      { "id": "A", "text": "24 litros" },
+      { "id": "B", "text": "36 litros" },
+      { "id": "C", "text": "40 litros" },
+      { "id": "D", "text": "42 litros" },
+      { "id": "E", "text": "50 litros" }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Determinamos a razão de consumo entre as duas bacias: A bacia ecológica gasta 6 litros, enquanto a não ecológica gasta 15 litros. A razão é 6/15, que simplificada (dividindo por 3) resulta em 2/5 (ou 0,4).",
+        "2. Calculamos o número de descargas diárias: Se a bacia antiga gasta 60 litros por dia e cada descarga consome 15 litros, são feitas 60 / 15 = 4 descargas diárias.",
+        "3. Calculamos o consumo da nova bacia: Mantendo as mesmas 4 descargas, a bacia ecológica gastará 4 * 6 litros = 24 litros por dia.",
+        "4. Calculamos a economia obtida: Subtraímos o consumo novo do consumo antigo: 60 litros - 24 litros = 36 litros.",
+        "5. Método alternativo pela proporção de economia: Cada descarga economiza 15 - 6 = 9 litros. Como são 4 descargas, a economia total é 4 * 9 = 36 litros."
+      ],
+      "final_reason": "Ao substituir a bacia, o consumo cai de 15 para 6 litros por descarga (uma economia de 60%). Aplicando essa mesma redução ao gasto diário de 60 litros, ou calculando a economia de 9 litros por cada uma das 4 descargas diárias, chegamos ao total de 36 litros poupados."
+    },
+    "tags": ["Aritmética", "Proporcionalidade", "Razão e Proporção", "Sustentabilidade"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_175",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A tabela a seguir mostra a evolução da receita bruta anual nos três últimos anos de cinco microempresas (ME) que se encontram à venda.\n\n![](https://enem.dev/2012/questions/174/c9dc1c65-f17e-44ce-85fc-f4a36584a37f.png) (A imagem apresenta uma tabela financeira organizada em quatro colunas e seis linhas. O cabeçalho das colunas identifica o tipo de empresa ('ME') e os anos de faturamento: '2009 (em milhares de reais)', '2010 (em milhares de reais)' e '2011 (em milhares de reais)'. A primeira coluna lista cinco empresas diferentes: 'Alfinetes V', 'Balas W', 'Chocolates X', 'Pizzaria Y' e 'Tecelagem Z'. Os dados de faturamento por ano são: Alfinetes V (200, 220, 240); Balas W (200, 230, 200); Chocolates X (250, 210, 215); Pizzaria Y (230, 230, 230); e Tecelagem Z (160, 210, 245). A tabela possui cabeçalhos em cinza claro, fundo branco nas demais células e bordas pretas finas.)\n\nUm investidor deseja comprar duas das empresas listadas na tabela. Para tal, ele calcula a média da receita bruta anual dos últimos três anos (de 2009 até 2011) e escolhe as duas empresas de maior média anual. As empresas que este investidor escolhe comprar são",
+    "choices": [
+      { "id": "A", "text": "Balas W e Pizzaria Y." },
+      { "id": "B", "text": "Chocolates X e Tecelagem Z. litros" },
+      { "id": "C", "text": "Pizzaria Y e Alfinetes V." },
+      { "id": "D", "text": "Pizzaria Y e Chocolates X." },
+      { "id": "E", "text": "Tecelagem Z e Alfinetes V." }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Somamos o faturamento dos três anos para a empresa Alfinetes V: 200 + 220 + 240 = 660. Média = 660 / 3 = 220.",
+        "2. Somamos o faturamento para Balas W: 200 + 230 + 200 = 630. Média = 630 / 3 = 210.",
+        "3. Somamos o faturamento para Chocolates X: 250 + 210 + 215 = 675. Média = 675 / 3 = 225.",
+        "4. Somamos o faturamento para Pizzaria Y: 230 + 230 + 230 = 690. Média = 690 / 3 = 230.",
+        "5. Somamos o faturamento para Tecelagem Z: 160 + 210 + 245 = 615. Média = 615 / 3 = 205.",
+        "6. Organizamos as médias em ordem decrescente: Pizzaria Y (230), Chocolates X (225), Alfinetes V (220), Balas W (210) e Tecelagem Z (205).",
+        "7. Identificamos as duas maiores médias: Pizzaria Y e Chocolates X."
+      ],
+      "final_reason": "Ao calcular a média aritmética do faturamento trienal de cada microempresa, verificamos que a Pizzaria Y possui a maior média (230 mil) e a Chocolates X possui a segunda maior (225 mil). Portanto, estas são as duas empresas escolhidas pelo investidor."
+    },
+    "tags": ["Estatística", "Média Aritmética", "Análise de Tabelas", "Matemática Financeira"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_176",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Um laboratório realiza exames em que é possível observar a taxa de glicose de uma pessoa. Os resultados são analisados de acordo com o quadro a seguir.\n\n![](https://enem.dev/2012/questions/175/8362025d-b302-483a-93b8-d628c12c46ae.png) (A imagem apresenta uma tabela de referência para níveis de glicose no sangue, dividida em duas colunas e cinco linhas. A coluna da esquerda lista as classificações e a da direita os critérios de taxa de glicose em mg/dL. Os dados são: 1) 'Hipoglicemia': taxa menor ou igual a 70 mg/dL; 2) 'Normal': taxa maior que 70 mg/dL e menor ou igual a 100 mg/dL; 3) 'Pré-diabetes': taxa maior que 100 mg/dL e menor ou igual a 125 mg/dL; 4) 'Diabetes Melito': taxa maior que 125 mg/dL e menor ou igual a 250 mg/dL; 5) 'Hiperglicemia': taxa maior que 250 mg/dL. A tabela possui bordas pretas finas e texto alinhado à esquerda.)\n\nUm paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%. Ao calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de",
+    "choices": [
+      { "id": "A", "text": "Hipoglicemia" },
+      { "id": "B", "text": "Normal" },
+      { "id": "C", "text": "Pré-diabetes" },
+      { "id": "D", "text": "Diabetes melito" },
+      { "id": "E", "text": "Hiperglicemia" }
+    ],
+    "answer": { "correct_choice_id": "D" },
+    "solution": {
+      "steps": [
+        "1. Identificamos a taxa inicial do paciente: 300 mg/dL.",
+        "2. Calculamos a primeira redução (30%): 30% de 300 = 0,30 * 300 = 90 mg/dL.",
+        "3. Determinamos a taxa após a primeira etapa: 300 - 90 = 210 mg/dL.",
+        "4. Calculamos a segunda redução (10%): Atenção, os 10% incidem sobre os 210 mg/dL atuais. 10% de 210 = 0,10 * 210 = 21 mg/dL.",
+        "5. Determinamos a taxa final após o tratamento: 210 - 21 = 189 mg/dL.",
+        "6. Comparamos o valor final com a tabela de referência: 189 mg/dL está no intervalo 'maior que 125 e menor ou igual a 250'.",
+        "7. Concluímos a classificação: A categoria correspondente é Diabetes Melito."
+      ],
+      "final_reason": "Após a primeira redução de 30%, a taxa caiu para 210 mg/dL. A segunda redução de 10% sobre esse novo valor resultou em uma taxa final de 189 mg/dL. Consultando a tabela, esse valor enquadra-se na categoria de Diabetes Melito."
+    },
+    "tags": ["Aritmética", "Porcentagem", "Porcentagens Sucessivas", "Análise de Tabelas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_177",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "João decidiu contratar os serviços de uma empresa por telefone através do SAC (Serviço de Atendimento ao Consumidor). O atendente ditou para João o número de protocolo de atendimento da ligação e pediu que ele anotasse. Entretanto, João não entendeu um dos algarismos ditados pelo atendente e anotou o número 1 3 \\_ 9 8 2 0 7, sendo que o espaço vazio é o do algarismo que João não entendeu. De acordo com essas informações, a posição ocupada pelo algarismo que falta no número de protocolo é a de",
+    "choices": [
+      { "id": "A", "text": "Centena" },
+      { "id": "B", "text": "Dezena de milhar" },
+      { "id": "C", "text": "Centena de milhar" },
+      { "id": "D", "text": "Milhão" },
+      { "id": "E", "text": "Centena de milhão" }
+    ],
+    "answer": { "correct_choice_id": "C" },
+    "solution": {
+      "steps": [
+        "1. Escrevemos o número completo identificando a posição do espaço vazio: 1 3 _ 9 8 2 0 7.",
+        "2. Identificamos as ordens da direita para a esquerda: o último algarismo (7) representa as Unidades, o penúltimo (0) as Dezenas e o antepenúltimo (2) as Centenas.",
+        "3. Entramos na classe dos milhares: o algarismo 8 representa as Unidades de Milhar e o 9 representa as Dezenas de Milhar.",
+        "4. Localizamos o espaço vazio: Ele ocupa a posição imediatamente após as Dezenas de Milhar.",
+        "5. Nomeamos a posição: Seguindo a ordem do sistema decimal, após a dezena de milhar vem a Centena de Milhar.",
+        "6. Validamos as posições seguintes: O algarismo 3 ocupa a Unidade de Milhão e o 1 ocupa a Dezena de Milhão."
+      ],
+      "final_reason": "Ao analisar a estrutura do número 13.X98.207 da direita para a esquerda, observamos que o espaço vazio (X) está na 6ª ordem, que corresponde à Centena de Milhar."
+    },
+    "tags": ["Aritmética", "Sistema de Numeração Decimal", "Ordens e Classes"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_178",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "O gráfico fornece os valores das ações da empresa XPN, no período das 10 às 17 horas, num dia em que elas oscilaram acentuadamente em curtos intervalos de tempo.\n\n![](https://enem.dev/2012/questions/162/bd217549-d00a-441a-8605-f2ae4d33bd87.png) (A imagem apresenta um esquema ergonômico de um trabalhador sentado à frente de uma mesa com um computador. O desenho é um diagrama de linhas pretas sobre fundo branco, focado em ângulos e distâncias ideais. Há indicações numéricas e textuais de ergonomia: 1) Uma linha tracejada indica o 'nível dos olhos' alinhado ao topo da tela; 2) O ângulo do cotovelo é marcado como '90° a 100°'; 3) A altura do assento em relação ao solo é indicada entre '45 cm - 55 cm'; 4) O ângulo dos joelhos também é representado em '90°'. O trabalhador é ilustrado com as costas retas apoiadas no encosto da cadeira, braços paralelos à mesa e pés totalmente apoiados no chão. Linhas de cota com setas delimitam as alturas e distâncias mencionadas.)\n\nNeste dia, cinco investidores compraram e venderam o mesmo volume de ações, porém em horários diferentes, de acordo com a seguinte tabela.\n\n![](https://enem.dev/2012/questions/162/669dd1ca-6db2-4e87-a39c-808c517fc32e.png) (A imagem apresenta o desenho técnico de um cilindro reto em perspectiva, representado por linhas de contorno pretas sobre um fundo branco. O cilindro é composto por duas bases circulares idênticas (superior e inferior) conectadas por duas linhas verticais paralelas que definem sua lateral. Há três indicações de medidas por meio de setas e letras minúsculas: 1) A letra 'h' posicionada verticalmente ao lado do cilindro, indicando a sua altura; 2) A letra 'r' posicionada horizontalmente sobre o raio da base superior; 3) A letra 'g' posicionada verticalmente sobre uma das geratrizes laterais. As bases são desenhadas como elipses para simular a inclinação da perspectiva.)\n\nCom relação ao capital adquirido na compra e venda das ações, qual investidor fez o melhor negócio?",
+    "choices": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "3" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Analisamos o gráfico de preços das ações (dados originais do ENEM 2012): 10h (R$ 150), 11h (R$ 360), 12h (R$ 440), 13h (R$ 200), 14h (R$ 460), 15h (R$ 100), 16h (R$ 200), 17h (R$ 400).",
+        "2. Calculamos o lucro do Investidor 1: Compra às 10h (150) e Venda às 17h (400). Lucro = 400 - 150 = R$ 250.",
+        "3. Calculamos o lucro do Investidor 2: Compra às 10h (150) e Venda às 15h (100). Lucro = 100 - 150 = - R$ 50 (Prejuízo).",
+        "4. Calculamos o lucro do Investidor 3: Compra às 13h (200) e Venda às 17h (400). Lucro = 400 - 200 = R$ 200.",
+        "5. Calculamos o lucro do Investidor 4: Compra às 15h (100) e Venda às 16h (200). Lucro = 200 - 100 = R$ 100.",
+        "6. Calculamos o lucro do Investidor 5: Compra às 16h (200) e Venda às 17h (400). Lucro = 400 - 200 = R$ 200.",
+        "7. Comparamos os resultados: O Investidor 1 obteve o maior lucro absoluto (R$ 250)."
+      ],
+      "final_reason": "O melhor negócio é definido pelo maior saldo positivo entre o valor de venda e o de compra. Ao analisar os horários da tabela confrontando com os valores do gráfico de ações, o Investidor 1 obteve um lucro de 250 unidades monetárias, superando todos os outros investidores."
+    },
+    "tags": ["Análise de Gráficos", "Aritmética", "Matemática Financeira", "Interpretação de Dados"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2012_mat_179",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "A figura a seguir apresenta dois gráficos com informações sobre as reclamações diárias recebidas e resolvidas pelo Setor de Atendimento ao Cliente (SAC) de uma empresa, em uma dada semana. O gráfico de linha tracejada informa o número de reclamações recebidas no dia, o de linha contínua é o número de reclamações resolvidas no dia. As reclamações podem ser resolvidas no mesmo dia ou demorarem mais de um dia para serem resolvidas.\n\n![](https://enem.dev/2012/questions/163/75b75570-0067-4c97-98b4-9742aaccb113.png) (A imagem apresenta um gráfico de linhas comparativo sobre um plano cartesiano. O eixo vertical indica valores numéricos de 0 a 30, com marcações de 10 em 10. O eixo horizontal identifica os dias da semana de forma abreviada: 'Qui', 'Sex', 'Sáb', 'Dom', 'Seg', 'Ter' e 'Qua'. O gráfico contém duas séries de dados: 1) Uma linha sólida preta com pontos pretos; 2) Uma linha tracejada cinza com pontos cinzas. Ambas as linhas mostram uma queda acentuada até atingirem o valor zero no 'Sáb' e 'Dom'. A partir da 'Seg', as linhas voltam a subir, com a linha sólida preta atingindo o pico de aproximadamente 26 na 'Ter', enquanto a linha tracejada cinza atinge um pico menor de 20 no mesmo dia. Na 'Qua', ambas as linhas voltam a cair.)\n\nO gerente de atendimento deseja identificar os dias da semana em que o nível de eficiência pode ser considerado muito bom, ou seja, os dias em que o número de reclamações resolvidas excede o número de reclamações recebidas.\n\n_Disponível em: http://blog.bibliotecaunix.org. Acesso em: 21 jan. 2012 (adaptado)._ O gerente de atendimento pôde concluir, baseado no conceito de eficiência utilizado na empresa e nas informações do gráfico, que o nível de eficiência foi muito bom na",
+    "choices": [
+      { "id": "A", "text": "Segunda e na terça-feira." },
+      { "id": "B", "text": "Terça e na quarta-feira." },
+      { "id": "C", "text": "Terça e na quinta-feira." },
+      { "id": "D", "text": "Quinta-feira, no sábado e no domingo." },
+      { "id": "E", "text": "Segunda, na quinta e na sexta-feira." }
+    ],
+    "answer": { "correct_choice_id": "B" },
+    "solution": {
+      "steps": [
+        "1. Definimos o critério de sucesso: De acordo com o enunciado, a eficiência é 'muito boa' quando o número de reclamações resolvidas é maior que o número de reclamações recebidas.",
+        "2. Traduzimos para a leitura do gráfico: Precisamos encontrar os pontos onde a linha contínua (resolvidas) está acima da linha tracejada (recebidas).",
+        "3. Analisamos cada dia da semana no gráfico:",
+        "   - Quinta (Qui): Linha tracejada está acima da contínua (Recebidas > Resolvidas).",
+        "   - Sexta (Sex): Linha tracejada está acima da contínua (Recebidas > Resolvidas).",
+        "   - Sábado (Sáb) e Domingo (Dom): Ambas estão no zero (Igualdade).",
+        "   - Segunda (Seg): Linha tracejada está acima da contínua (Recebidas > Resolvidas).",
+        "   - Terça (Ter): A linha contínua atinge seu pico (~26) e está claramente acima da tracejada (~20). Eficiência Muito Boa.",
+        "   - Quarta (Qua): A linha contínua (~21) permanece acima da tracejada (~17). Eficiência Muito Boa.",
+        "4. Concluímos os dias: Os únicos dias que atendem ao critério são terça-feira e quarta-feira."
+      ],
+      "final_reason": "Ao confrontar as duas séries de dados no gráfico, observa-se que apenas na terça e na quarta-feira a linha de reclamações resolvidas (linha contínua) sobrepõe a linha de reclamações recebidas (linha tracejada), atendendo ao critério de eficiência definido pelo gerente."
+    },
+    "tags": ["Análise de Gráficos", "Estatística Descritiva", "Interpretação de Dados", "Gráfico de Linhas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2012_mat_180",
+    "type": "multiple_choice",
+    "language": "pt-BR",
+    "statement": "Uma mãe recorreu à bula para verificar a dosagem de um remédio que precisava dar a seu filho. Na bula, recomendava-se a seguinte dosagem: 5 gotas para cada 2 kg de massa corporal a cada 8 horas. Se a mãe ministrou corretamente 30 gotas do remédio a seu filho a cada 8 horas, então a massa corporal dele é de",
+    "choices": [
+      { "id": "A", "text": "12 kg." },
+      { "id": "B", "text": "16 kg." },
+      { "id": "C", "text": "24 kg." },
+      { "id": "D", "text": "36 kg." },
+      { "id": "E", "text": "75 kg." }
+    ],
+    "answer": { "correct_choice_id": "A" },
+    "solution": {
+      "steps": [
+        "1. Identificamos as grandezas envolvidas e a relação inicial: 5 gotas estão para 2 kg de massa corporal.",
+        "2. Montamos a proporção com o valor conhecido: Se 5 gotas atendem a 2 kg, então 30 gotas atenderão a 'x' kg.",
+        "3. Estabelecemos a equação da Regra de Três: 5 / 2 = 30 / x.",
+        "4. Resolvemos a equação multiplicando em cruz: 5 * x = 30 * 2.",
+        "5. Calculamos o valor de x: 5x = 60 -> x = 60 / 5.",
+        "6. Obtemos o resultado final: x = 12 kg.",
+        "7. Método alternativo por fator de escala: Observamos que 30 gotas é igual a 6 vezes a dose unitária (5 * 6 = 30). Logo, a massa corporal também deve ser 6 vezes a unidade de referência (2 kg * 6 = 12 kg)."
+      ],
+      "final_reason": "A relação entre gotas e massa é constante. Como a mãe administrou 30 gotas, o que representa seis vezes a dose base de 5 gotas, a massa corporal do filho deve ser seis vezes a massa de referência (2 kg), resultando em 12 kg."
+    },
+    "tags": ["Aritmética", "Razão e Proporção", "Regra de Três", "Grandezas Diretas"],
+    "difficulty": "easy"
   }
 ]
-
-
 
 
 

@@ -232,40 +232,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/141/e150aff4-41c0-4f6b-9a19-232d978fc497.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/141/e150aff4-41c0-4f6b-9a19-232d978fc497.png"
       ],
       "correctAlternative": "E",
-      "alternativesIntroduction": "Nestas condições, a área perdida do forro, após a primeira lavagem, será expressa por",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "2xy",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "15 − 3x",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "15 − 5y",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "−5y − 3x",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "5y + 3x − xy",
+          "text": "",
           "file": null,
           "isCorrect": true
         }
@@ -277,38 +277,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "A capacidade mínima, em BTU/h, de um aparelho de ar-condicionado, para ambientes sem exposição ao sol, pode ser determinada da seguinte forma:\n\n• 600 BTU/h por m2 , considerando-se até duas pessoas no ambiente;\n\n• para cada pessoa adicional nesse ambiente, acrescentar 600 BTU/h;\n\n• acrescentar mais 600 BTU/h para cada equipamento eletroeletrônico em funcionamento no ambiente.\n\nSerá instalado um aparelho de ar-condicionado em uma sala, sem exposição ao sol, de dimensões 4 m x 5 m, em que permaneçam quatro pessoas e possua um aparelho de televisão em funcionamento.",
+      "context": "",
       "files": [],
       "correctAlternative": "D",
-      "alternativesIntroduction": "A capacidade mínima, em BTU/h, desse aparelho de arcondicionado deve ser",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "12 000.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "12 600.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "13 200.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "13 800.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "15 000.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -320,12 +320,12 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/143/29dbd2b9-ef4e-4af8-8de5-2a651c4935c4.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/143/29dbd2b9-ef4e-4af8-8de5-2a651c4935c4.png"
       ],
       "correctAlternative": "A",
-      "alternativesIntroduction": "A expressão que traduz a resistência S dessa viga de madeira é",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1120,10 +1120,10 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "João decidiu contratar os serviços de uma empresa por telefone através do SAC (Serviço de Atendimento ao Consumidor). O atendente ditou para João o número de protocolo de atendimento da ligação e pediu que ele anotasse. Entretanto, João não entendeu um dos algarismos ditados pelo atendente e anotou o número 1 3 \\_ 9 8 2 0 7, sendo que o espaço vazio é o do algarismo que João não entendeu.",
+      "context": "",
       "files": [],
       "correctAlternative": "C",
-      "alternativesIntroduction": "De acordo com essas informações, a posição ocupada pelo algarismo que falta no número de protocolo é a de",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1133,13 +1133,13 @@
         },
         {
           "letter": "B",
-          "text": "Dezena de milhar.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "Centena de milhar.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
@@ -1151,7 +1151,7 @@
         },
         {
           "letter": "E",
-          "text": "Centena de milhão.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1163,13 +1163,13 @@
       "discipline": "ciencias-humanas",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/162/bd217549-d00a-441a-8605-f2ae4d33bd87.png)\n\nNeste dia, cinco investidores compraram e venderam o mesmo volume de ações, porém em horários diferentes, de acordo com a seguinte tabela.\n\n![](https://enem.dev/2012/questions/162/669dd1ca-6db2-4e87-a39c-808c517fc32e.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/162/bd217549-d00a-441a-8605-f2ae4d33bd87.png",
         "https://enem.dev/2012/questions/162/669dd1ca-6db2-4e87-a39c-808c517fc32e.png"
       ],
       "correctAlternative": "A",
-      "alternativesIntroduction": "Com relação ao capital adquirido na compra e venda das ações, qual investidor fez o melhor negócio?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
@@ -1209,40 +1209,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/163/75b75570-0067-4c97-98b4-9742aaccb113.png)\n\nO gerente de atendimento deseja identificar os dias da semana em que o nível de eficiência pode ser considerado muito bom, ou seja, os dias em que o número de reclamações resolvidas excede o número de reclamações recebidas.\n\n_Disponível em: http://blog.bibliotecaunix.org. Acesso em: 21 jan. 2012 (adaptado)._",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/163/75b75570-0067-4c97-98b4-9742aaccb113.png"
       ],
       "correctAlternative": "B",
-      "alternativesIntroduction": "O gerente de atendimento pôde concluir, baseado no conceito de eficiência utilizado na empresa e nas informações do gráfico, que o nível de eficiência foi muito bom na",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "Segunda e na terça-feira.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "Terça e na quarta-feira.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "Terça e na quinta-feira.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "Quinta-feira, no sábado e no domingo.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "Segunda, na quinta e na sexta-feira.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1254,38 +1254,38 @@
       "discipline": "ciencias-humanas",
       "language": null,
       "year": 2012,
-      "context": "Uma mãe recorreu à bula para verificar a dosagem de um remédio que precisava dar a seu filho. Na bula, recomendava-se a seguinte dosagem: 5 gotas para cada 2 kg de massa corporal a cada 8 horas.",
+      "context": "",
       "files": [],
       "correctAlternative": "A",
-      "alternativesIntroduction": "Se a mãe ministrou corretamente 30 gotas do remédio a seu filho a cada 8 horas, então a massa corporal dele é de",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "12 kg.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "B",
-          "text": "16 kg.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "24 kg.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "36 kg.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "75 kg.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1604,40 +1604,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/172/a1bd4967-d16c-4d09-b0c0-cd11524f5d94.png)",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/172/a1bd4967-d16c-4d09-b0c0-cd11524f5d94.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Com base nessas informações, a menor distância que o asteroide YU 55 passou da superfície da Terra é igual a",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "3,25 × 102 km.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "3,25 × 103 km.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "3,25 × 104 km.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "3,25 × 105 km.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "3,25 × 106 km.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1649,38 +1649,38 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "Há, em virtude da demanda crescente de economia de água, equipamentos e utensílios como, por exemplo, as bacias sanitárias ecológicas, que utilizam 6 litros de água por descarga em vez dos 15 litros utilizados por bacias sanitárias não ecológicas, conforme dados da Associação Brasileira de Normas Técnicas (ABNT).",
+      "context": "",
       "files": [],
       "correctAlternative": "B",
-      "alternativesIntroduction": "Qual será a economia diária de água obtida por meio da substituição de uma bacia sanitária não ecológica, que gasta cerca de 60 litros por dia com a descarga, por uma bacia sanitária ecológica?",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "24 litros",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "36 litros",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "C",
-          "text": "40 litros",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "42 litros",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "E",
-          "text": "50 litros",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1692,40 +1692,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/174/c9dc1c65-f17e-44ce-85fc-f4a36584a37f.png)\n\nUm investidor deseja comprar duas das empresas listadas na tabela. Para tal, ele calcula a média da receita bruta anual dos últimos três anos (de 2009 até 2011) e escolhe as duas empresas de maior média anual.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/174/c9dc1c65-f17e-44ce-85fc-f4a36584a37f.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "As empresas que este investidor escolhe comprar são",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "Balas W e Pizzaria Y.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "Chocolates X e Tecelagem Z.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "Pizzaria Y e Alfinetes V.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "Pizzaria Y e Chocolates X.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "Tecelagem Z e Alfinetes V.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
@@ -1737,40 +1737,40 @@
       "discipline": "matematica",
       "language": null,
       "year": 2012,
-      "context": "![](https://enem.dev/2012/questions/175/8362025d-b302-483a-93b8-d628c12c46ae.png)\n\nUm paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%.",
+      "context": "",
       "files": [
         "https://enem.dev/2012/questions/175/8362025d-b302-483a-93b8-d628c12c46ae.png"
       ],
       "correctAlternative": "D",
-      "alternativesIntroduction": "Ao calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de",
+      "alternativesIntroduction": "",
       "alternatives": [
         {
           "letter": "A",
-          "text": "Hipoglicemia.",
+          "text": ".",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "Normal.",
+          "text": ".",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "Pré-diabetes.",
+          "text": "",
           "file": null,
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "Diabetes melito.",
+          "text": "",
           "file": null,
           "isCorrect": true
         },
         {
           "letter": "E",
-          "text": "Hiperglicemia.",
+          "text": "",
           "file": null,
           "isCorrect": false
         }
